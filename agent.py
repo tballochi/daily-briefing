@@ -4,6 +4,7 @@ import os
 import json
 import logging
 from datetime import datetime
+from urllib.parse import urlparse
 
 from groq import Groq
 from tavily import TavilyClient
@@ -58,7 +59,7 @@ def fetch_news(topic: str, max_results: int = 3) -> list[dict]:
         client = _tavily_client()
         response = client.search(
             query=topic,
-            search_depth="basic",
+            search_depth="advanced",
             topic="news",
             days=7,
             max_results=max_results,
@@ -72,7 +73,7 @@ def fetch_news(topic: str, max_results: int = 3) -> list[dict]:
         results.append(
             {
                 "title": item.get("title", "Untitled"),
-                "summary": item.get("content", "")[:500],
+                "summary": item.get("content", "")[:800],
                 "source": item.get("url", ""),
                 "date": item.get("published_date", ""),
             }
@@ -101,24 +102,26 @@ Below are raw web search results grouped by section (JSON):
 
 {news_blob}
 
-From these results, produce a daily tech briefing. Select the most important and
-relevant stories. Return ONLY a valid JSON object (no markdown, no commentary)
-with this exact schema:
+From these results, produce a sharp, professional daily tech briefing written like
+a quality newspaper. Select only the most important, relevant and recent stories —
+prioritise concrete announcements, product launches, funding, partnerships and
+real-world deployments over vague opinion pieces. Return ONLY a valid JSON object
+(no markdown, no commentary) with this exact schema:
 
 {{
   "sections": [
     {{
-      "title": "🤖 AI & LLMs",
+      "title": "Artificial Intelligence & LLMs",
       "news": [
-        {{"title": "...", "url": "...", "summary": "2-3 sentence summary in English"}}
+        {{"title": "...", "url": "...", "summary": "concise, insightful summary in English"}}
       ]
     }},
     {{
-      "title": "🚢 Shipping & Logistics Tech",
+      "title": "Shipping & Logistics",
       "news": [ ... ]
     }},
     {{
-      "title": "⚙️ Automation & Product",
+      "title": "Automation & Product",
       "news": [ ... ]
     }}
   ],
@@ -134,13 +137,22 @@ with this exact schema:
 }}
 
 Rules:
-- Section 1 (AI & LLMs): exactly 3 news.
-- Section 2 (Shipping & Logistics Tech): exactly 2 news.
+- Section 1 (Artificial Intelligence & LLMs): exactly 3 news.
+- Section 2 (Shipping & Logistics): exactly 2 news.
 - Section 3 (Automation & Product): exactly 2 news.
-- Keep each summary to 2-3 sentences, professional but accessible.
+- Each summary is 2 to 4 sharp sentences. Lead with the concrete facts (names,
+  numbers, what actually happened from the source). If — and only if — there is a
+  genuinely useful angle for an AI Product Owner in shipping/logistics, add ONE
+  short, specific sentence about it. Never force it, never use a template.
+- Quality over length. ABSOLUTELY NO filler, no generic phrases such as "can
+  improve efficiency and accuracy", no repetition of the same idea across items.
+  Every sentence must carry real information from the search results.
+- Vary your sentence structure across items — they must not all read the same.
 - Always keep the real source URL from the search results for each news item.
-- Total content should be roughly 400-600 words.
-- The "word of the day" must be a genuine tech term.
+- The WHOLE briefing must stay UNDER 1000 words. A tight 400-700 word briefing that
+  is genuinely informative is far better than a padded one. Do not inflate.
+- The "word of the day" must be a genuine tech term, with a 1-2 sentence definition
+  and a realistic example sentence.
 - The quote must be a real, verifiable quote from a known tech leader.
 """
 
@@ -155,81 +167,107 @@ def _generate_structured_briefing(all_news: dict[str, list[dict]], today: str) -
             {"role": "user", "content": _build_user_prompt(all_news, today)},
         ],
         temperature=0.6,
+        max_tokens=4000,
         response_format={"type": "json_object"},
     )
     content = completion.choices[0].message.content
     return json.loads(content)
 
 
+def _domain(url: str) -> str:
+    """Extract a clean domain label from a URL for the source line."""
+    try:
+        netloc = urlparse(url).netloc
+        return netloc[4:] if netloc.startswith("www.") else netloc
+    except Exception:  # noqa: BLE001
+        return ""
+
+
 def _news_item_html(item: dict) -> str:
     title = item.get("title", "Untitled")
     url = item.get("url", "#")
     summary = item.get("summary", "")
+    source = _domain(url)
     return f"""
-        <div style="margin-bottom:18px;">
-          <a href="{url}" style="color:#0B2C4D;font-weight:bold;font-size:16px;text-decoration:none;">
-            {title}
+        <div style="margin:0 0 26px;">
+          <a href="{url}" style="color:#111111;text-decoration:none;">
+            <h3 style="margin:0 0 8px;font-family:Georgia,'Times New Roman',serif;
+                       font-size:20px;font-weight:700;line-height:1.3;color:#111111;">{title}</h3>
           </a>
-          <p style="margin:6px 0 0;color:#333;font-size:14px;line-height:1.5;">{summary}</p>
+          <p style="margin:0 0 8px;font-family:Georgia,'Times New Roman',serif;font-size:15px;
+                    line-height:1.65;color:#2b2b2b;text-align:justify;">{summary}</p>
+          <a href="{url}" style="font-family:Arial,Helvetica,sans-serif;font-size:11px;
+                    letter-spacing:1px;text-transform:uppercase;color:#0B2C4D;
+                    text-decoration:none;font-weight:bold;">Source — {source} &rsaquo;</a>
+        </div>"""
+
+
+def _section_html(section: dict) -> str:
+    title = section.get("title", "")
+    items_html = "".join(_news_item_html(n) for n in section.get("news", []))
+    return f"""
+        <div style="margin-top:34px;">
+          <div style="border-top:2px solid #111111;border-bottom:1px solid #111111;
+                      padding:6px 0;margin-bottom:20px;">
+            <span style="font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;
+                         letter-spacing:2px;text-transform:uppercase;color:#111111;">{title}</span>
+          </div>
+          {items_html}
         </div>"""
 
 
 def _render_html(briefing: dict, today: str) -> str:
-    """Render the briefing dict into the final HTML email."""
-    sections_html = ""
-    for section in briefing.get("sections", []):
-        items_html = "".join(_news_item_html(n) for n in section.get("news", []))
-        sections_html += f"""
-        <h2 style="color:#0B2C4D;font-size:20px;border-bottom:2px solid #0B2C4D;
-                   padding-bottom:6px;margin-top:32px;">{section.get('title', '')}</h2>
-        {items_html}"""
+    """Render the briefing dict into a newspaper-style HTML email."""
+    sections_html = "".join(_section_html(s) for s in briefing.get("sections", []))
 
     word = briefing.get("word_of_the_day", {})
     quote = briefing.get("quote_of_the_day", {})
 
     word_html = f"""
-        <h2 style="color:#0B2C4D;font-size:20px;margin-top:32px;">📖 Word of the Day</h2>
-        <div style="background-color:#E6F0FA;border-left:4px solid #0B2C4D;
-                    padding:16px;border-radius:6px;">
-          <p style="margin:0;font-size:16px;color:#0B2C4D;">
-            <strong>{word.get('word', '')}</strong>
-          </p>
-          <p style="margin:8px 0 0;font-size:14px;color:#333;">{word.get('definition', '')}</p>
-          <p style="margin:8px 0 0;font-size:14px;color:#555;font-style:italic;">
-            "{word.get('example', '')}"
-          </p>
+        <div style="margin-top:34px;border:1px solid #c9c2b4;background-color:#f6f3ec;padding:20px;">
+          <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;
+                      letter-spacing:2px;text-transform:uppercase;color:#0B2C4D;margin-bottom:10px;">
+            Word of the Day
+          </div>
+          <div style="font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:700;
+                      color:#111111;margin-bottom:6px;">{word.get('word', '')}</div>
+          <p style="margin:0 0 8px;font-family:Georgia,'Times New Roman',serif;font-size:15px;
+                    line-height:1.6;color:#2b2b2b;">{word.get('definition', '')}</p>
+          <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:14px;
+                    line-height:1.6;color:#555555;font-style:italic;">&ldquo;{word.get('example', '')}&rdquo;</p>
         </div>"""
 
     quote_html = f"""
-        <h2 style="color:#0B2C4D;font-size:20px;margin-top:32px;">💬 Quote of the Day</h2>
-        <div style="background-color:#F0F0F0;border-left:4px solid #999;
-                    padding:16px;border-radius:6px;">
-          <p style="margin:0;font-size:15px;color:#333;font-style:italic;">
-            "{quote.get('text', '')}"
-          </p>
-          <p style="margin:8px 0 0;font-size:14px;color:#666;text-align:right;">
-            — {quote.get('author', '')}
-          </p>
+        <div style="margin-top:28px;border-top:1px solid #ddd;border-bottom:1px solid #ddd;
+                    padding:24px 16px;text-align:center;">
+          <p style="margin:0 0 10px;font-family:Georgia,'Times New Roman',serif;font-size:19px;
+                    line-height:1.5;color:#111111;font-style:italic;">&ldquo;{quote.get('text', '')}&rdquo;</p>
+          <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;
+                    letter-spacing:1px;text-transform:uppercase;color:#777777;">— {quote.get('author', '')}</p>
         </div>"""
 
     return f"""<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8"></head>
-<body style="margin:0;padding:0;background-color:#f4f4f4;font-family:Arial,Helvetica,sans-serif;">
-  <div style="max-width:640px;margin:0 auto;background-color:#ffffff;">
-    <div style="background-color:#0B2C4D;padding:28px;text-align:center;">
-      <h1 style="color:#ffffff;margin:0;font-size:26px;">🚀 Daily Tech Briefing</h1>
-      <p style="color:#cfe0f0;margin:8px 0 0;font-size:15px;">{today}</p>
+<body style="margin:0;padding:0;background-color:#e9e6df;">
+  <div style="max-width:640px;margin:0 auto;background-color:#ffffff;
+              border-left:1px solid #ddd;border-right:1px solid #ddd;">
+    <div style="padding:30px 36px 18px;text-align:center;border-bottom:4px double #111111;">
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;
+                  text-transform:uppercase;color:#0B2C4D;margin-bottom:8px;">Curated by your AI Agent</div>
+      <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:38px;
+                 font-weight:700;letter-spacing:1px;color:#111111;line-height:1.1;">Daily Tech Briefing</h1>
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:2px;
+                  text-transform:uppercase;color:#555555;margin-top:10px;">{today}</div>
     </div>
-    <div style="padding:28px;">
+    <div style="padding:6px 36px 30px;">
       {sections_html}
       {word_html}
       {quote_html}
     </div>
-    <div style="background-color:#0B2C4D;padding:18px;text-align:center;">
-      <p style="color:#cfe0f0;margin:0;font-size:13px;">
-        Curated by your AI Agent | tballochi99@gmail.com | Stay ahead of the curve 🚀
-      </p>
+    <div style="padding:20px 36px;border-top:2px solid #111111;text-align:center;">
+      <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:1px;
+                color:#888888;">Curated by your AI Agent &nbsp;|&nbsp; tballochi99@gmail.com &nbsp;|&nbsp; Stay ahead of the curve</p>
     </div>
   </div>
 </body>
@@ -242,7 +280,7 @@ def generate_briefing(all_news: dict[str, list[dict]]) -> tuple[str, str]:
     Returns (subject, html_body).
     """
     today = datetime.now().strftime("%B %d, %Y")
-    subject = f"🚀 Daily Tech Briefing — {today}"
+    subject = f"Daily Tech Briefing — {today}"
 
     try:
         briefing = _generate_structured_briefing(all_news, today)
