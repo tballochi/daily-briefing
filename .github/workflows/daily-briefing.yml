@@ -1,0 +1,70 @@
+name: Daily Tech Briefing
+
+# Runs every morning at 09:00 Europe/Paris and emails the briefing.
+# GitHub cron is UTC and has no timezone support, so we trigger at both 07:00 and
+# 08:00 UTC and let a guard step keep only the run that lands on 09:00 Paris time
+# (07:00 UTC in summer / CEST, 08:00 UTC in winter / CET).
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+    - cron: "0 8 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Decide whether to run (09:00 Paris guard)
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run -> proceed."
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            HOUR=$(TZ=Europe/Paris date +%H)
+            echo "Current Paris hour: $HOUR"
+            if [ "$HOUR" = "09" ]; then
+              echo "run=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "Not 09:00 in Paris -> skipping this trigger."
+              echo "run=false" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Send briefing
+        if: steps.gate.outputs.run == 'true'
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+        run: python main.py --now
+
+      - name: Commit updated article history
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/history.json
+          if git diff --quiet --cached; then
+            echo "No history change to commit."
+          else
+            git commit -m "chore: update article history [skip ci]"
+            git push
+          fi
