@@ -1,3 +1,53 @@
 {
-  "seen": []
+  "seen": [
+    {
+      "url_key": "opentools.ai/news/claude-opus-4-8-dynamic-workflows-benchmarks-2026",
+      "title_key": "claude opus 4.8 tops gpt-5.5 with dynamic workflows and 4x better honesty",
+      "url": "https://opentools.ai/news/claude-opus-4-8-dynamic-workflows-benchmarks-2026",
+      "title": "Claude Opus 4.8 Tops GPT-5.5 With Dynamic Workflows and 4x Better Honesty",
+      "date": "2026-05-31T14:55:31.155992"
+    },
+    {
+      "url_key": "infosecurity-magazine.com/news/all-major-llms-exposed-to-multi",
+      "title_key": "all major llms exposed to multi-turn manipulation, warn researchers",
+      "url": "https://www.infosecurity-magazine.com/news/all-major-llms-exposed-to-multi/",
+      "title": "All Major LLMs Exposed to Multi-Turn Manipulation, Warn Researchers",
+      "date": "2026-05-31T14:55:31.155992"
+    },
+    {
+      "url_key": "forbes.com/sites/rashishrivastava/2026/05/28/this-ai-startups-army-of-15000-hackers-pressure-test-claude-gpt-5-and-gemini",
+      "title_key": "this ai startup’s army of 15,000 hackers pressure test claude, gpt-5 and gemini",
+      "url": "https://www.forbes.com/sites/rashishrivastava/2026/05/28/this-ai-startups-army-of-15000-hackers-pressure-test-claude-gpt-5-and-gemini/",
+      "title": "This AI Startup’s Army Of 15,000 Hackers Pressure Test Claude, GPT-5 And Gemini",
+      "date": "2026-05-31T14:55:31.155992"
+    },
+    {
+      "url_key": "marinelink.com/news/cma-cgm-takes-delivery-worlds-largest-539624",
+      "title_key": "cma cgm takes delivery of world’s largest lng-powered container ship",
+      "url": "https://www.marinelink.com/news/cma-cgm-takes-delivery-worlds-largest-539624",
+      "title": "CMA CGM Takes Delivery of World’s Largest LNG-Powered Container Ship",
+      "date": "2026-05-31T14:55:31.155992"
+    },
+    {
+      "url_key": "dhl.com/global-en/delivered/innovation/autonomous-vehicles-logistics-hub-to-hub.html",
+      "title_key": "how autonomous vehicles are strengthening the invisible middle of logistics",
+      "url": "https://www.dhl.com/global-en/delivered/innovation/autonomous-vehicles-logistics-hub-to-hub.html",
+      "title": "How Autonomous Vehicles Are Strengthening The Invisible Middle Of Logistics",
+      "date": "2026-05-31T14:55:31.155992"
+    },
+    {
+      "url_key": "cyberscoop.com/zapier-bug-chain-account-takeover-patched",
+      "title_key": "zapier fixes bug chain that researchers say risked widespread account takeover",
+      "url": "https://cyberscoop.com/zapier-bug-chain-account-takeover-patched/",
+      "title": "Zapier Fixes Bug Chain That Researchers Say Risked Widespread Account Takeover",
+      "date": "2026-05-31T14:55:31.155992"
+    },
+    {
+      "url_key": "practicalecommerce.com/new-ecommerce-tools-may-27-2026",
+      "title_key": "new ecommerce tools: may 27, 2026",
+      "url": "https://www.practicalecommerce.com/new-ecommerce-tools-may-27-2026",
+      "title": "New Ecommerce Tools: May 27, 2026",
+      "date": "2026-05-31T14:55:31.155992"
+    }
+  ]
 }
