@@ -1,8 +1,9 @@
 """Entry point for the Daily Tech Briefing agent.
 
 Usage:
-    python main.py          # start the scheduler (daily at 09:00 Europe/Paris)
-    python main.py --now    # build and send a briefing immediately (for testing)
+    python main.py            # start the scheduler (daily at 09:00 Europe/Paris)
+    python main.py --now      # send today's briefing now (skips if already sent today)
+    python main.py --now --force   # send now even if one was already sent today
 """
 
 import sys
@@ -17,8 +18,7 @@ def main() -> None:
     setup_logging()
 
     if "--now" in sys.argv:
-        # One-off run, useful for local testing and manual triggers.
-        run_briefing()
+        run_briefing(force="--force" in sys.argv)
         return
 
     start_scheduler()

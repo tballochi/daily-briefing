@@ -1,8 +1,13 @@
-"""Persistent de-duplication: remember which articles were already sent.
+"""Persistent memory for de-duplication.
 
-An article is considered "already seen" if its normalised URL OR its normalised
-title was sent in a previous briefing. Seen entries older than RETENTION_DAYS are
-pruned so the file does not grow forever.
+Stores, in data/history.json:
+- "seen": articles already sent (dedup by normalised URL or title)
+- "words": words of the day already used (avoid repeats)
+- "quotes": quotes already used (avoid repeats)
+- "last_sent_date": the last Paris date a briefing was actually sent (idempotency)
+
+Everything here is free: it is just a JSON file committed back to the repo by the
+daily GitHub Action.
 """
 
 import os
@@ -15,7 +20,8 @@ from urllib.parse import urlparse
 logger = logging.getLogger("briefing.history")
 
 HISTORY_FILE = os.path.join("data", "history.json")
-RETENTION_DAYS = 60
+SEEN_RETENTION_DAYS = 60
+EXTRAS_RETENTION_DAYS = 45
 
 
 def _normalize_url(url: str) -> str:
@@ -23,8 +29,7 @@ def _normalize_url(url: str) -> str:
         parts = urlparse(url)
         host = parts.netloc.lower()
         host = host[4:] if host.startswith("www.") else host
-        path = parts.path.rstrip("/").lower()
-        return f"{host}{path}"
+        return f"{host}{parts.path.rstrip('/').lower()}"
     except Exception:  # noqa: BLE001
         return (url or "").strip().lower()
 
@@ -33,35 +38,39 @@ def _normalize_title(title: str) -> str:
     return re.sub(r"\s+", " ", (title or "").strip().lower())
 
 
-def _load() -> list[dict]:
+def _load_doc() -> dict:
+    doc = {"seen": [], "words": [], "quotes": [], "last_sent_date": ""}
     if not os.path.exists(HISTORY_FILE):
-        return []
+        return doc
     try:
         with open(HISTORY_FILE, "r", encoding="utf-8") as fh:
-            return json.load(fh).get("seen", [])
+            data = json.load(fh)
+        doc.update({k: data.get(k, doc[k]) for k in doc})
     except Exception as exc:  # noqa: BLE001
         logger.warning("Could not read history file: %s", exc)
-        return []
+    return doc
 
 
-def _prune(entries: list[dict]) -> list[dict]:
-    cutoff = datetime.now() - timedelta(days=RETENTION_DAYS)
+def _within(entries: list[dict], days: int) -> list[dict]:
+    cutoff = datetime.now() - timedelta(days=days)
     kept = []
     for e in entries:
         try:
             if datetime.fromisoformat(e.get("date", "")) >= cutoff:
                 kept.append(e)
-        except Exception:  # noqa: BLE001 - keep entries with bad dates
+        except Exception:  # noqa: BLE001 - keep entries with unparseable dates
             kept.append(e)
     return kept
 
 
+# --- De-duplication lookups (exact, for the search annotations) ------------
+
 def _seen_keys() -> tuple[set[str], set[str]]:
-    """Return (set of seen normalised urls, set of seen normalised titles)."""
-    entries = _load()
-    urls = {e.get("url_key", "") for e in entries}
-    titles = {e.get("title_key", "") for e in entries}
-    return urls, titles
+    entries = _load_doc()["seen"]
+    return (
+        {e.get("url_key", "") for e in entries},
+        {e.get("title_key", "") for e in entries},
+    )
 
 
 def is_seen(url: str, title: str) -> bool:
@@ -71,35 +80,55 @@ def is_seen(url: str, title: str) -> bool:
 
 
 def filter_unseen(all_news: dict[str, list[dict]]) -> dict[str, list[dict]]:
-    """Drop articles that were already sent in a previous briefing."""
+    """Drop articles already sent (kept for completeness / non-agent callers)."""
     seen_urls, seen_titles = _seen_keys()
     filtered: dict[str, list[dict]] = {}
-    dropped = 0
     for section, items in all_news.items():
-        kept = []
-        for item in items:
-            url_key = _normalize_url(item.get("source", ""))
-            title_key = _normalize_title(item.get("title", ""))
-            if url_key in seen_urls or title_key in seen_titles:
-                dropped += 1
-                continue
-            kept.append(item)
-        filtered[section] = kept
-    if dropped:
-        logger.info("Filtered out %d already-seen article(s)", dropped)
+        filtered[section] = [
+            it
+            for it in items
+            if _normalize_url(it.get("source", "")) not in seen_urls
+            and _normalize_title(it.get("title", "")) not in seen_titles
+        ]
     return filtered
 
 
-def record_seen(chosen: list[dict]) -> None:
-    """Persist the articles that were actually included in the sent briefing.
+# --- Recall for the LLM (semantic-dedup hints) -----------------------------
 
-    `chosen` is a list of {"url": ..., "title": ...} dicts.
+def recent_titles(days: int = 14) -> list[str]:
+    """Titles sent in the last `days` days, so the agent can avoid same stories."""
+    return [e.get("title", "") for e in _within(_load_doc()["seen"], days) if e.get("title")]
+
+
+def recent_words(days: int = EXTRAS_RETENTION_DAYS) -> list[str]:
+    return [e.get("word", "") for e in _within(_load_doc()["words"], days) if e.get("word")]
+
+
+def recent_quotes(days: int = EXTRAS_RETENTION_DAYS) -> list[str]:
+    return [e.get("text", "") for e in _within(_load_doc()["quotes"], days) if e.get("text")]
+
+
+# --- Idempotency -----------------------------------------------------------
+
+def last_sent_date() -> str:
+    return _load_doc().get("last_sent_date", "")
+
+
+# --- Persist after a successful send ---------------------------------------
+
+def record_sent(articles: list[dict], word: dict, quote: dict, sent_date: str) -> None:
+    """Persist everything a successful briefing should remember.
+
+    `articles` is a list of {"url", "title"}; `word`/`quote` are the day's extras;
+    `sent_date` is the Paris date string used for once-a-day idempotency.
     """
     os.makedirs(os.path.dirname(HISTORY_FILE), exist_ok=True)
-    entries = _prune(_load())
+    doc = _load_doc()
     now_iso = datetime.now().isoformat()
-    for item in chosen:
-        entries.append(
+
+    seen = _within(doc["seen"], SEEN_RETENTION_DAYS)
+    for item in articles:
+        seen.append(
             {
                 "url_key": _normalize_url(item.get("url", "")),
                 "title_key": _normalize_title(item.get("title", "")),
@@ -108,9 +137,19 @@ def record_seen(chosen: list[dict]) -> None:
                 "date": now_iso,
             }
         )
+
+    words = _within(doc["words"], EXTRAS_RETENTION_DAYS)
+    if word.get("word"):
+        words.append({"word": word.get("word", ""), "date": now_iso})
+
+    quotes = _within(doc["quotes"], EXTRAS_RETENTION_DAYS)
+    if quote.get("text"):
+        quotes.append({"text": quote.get("text", ""), "author": quote.get("author", ""), "date": now_iso})
+
+    doc = {"seen": seen, "words": words, "quotes": quotes, "last_sent_date": sent_date}
     try:
         with open(HISTORY_FILE, "w", encoding="utf-8") as fh:
-            json.dump({"seen": entries}, fh, ensure_ascii=False, indent=2)
-        logger.info("Recorded %d article(s) in history", len(chosen))
+            json.dump(doc, fh, ensure_ascii=False, indent=2)
+        logger.info("Recorded %d article(s), word=%r, quote saved", len(articles), word.get("word", ""))
     except Exception as exc:  # noqa: BLE001
         logger.error("Could not write history file: %s", exc)

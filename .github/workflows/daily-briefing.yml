@@ -1,14 +1,15 @@
 name: Daily Tech Briefing
 
-# Runs every morning at 09:00 Europe/Paris and emails the briefing.
-# GitHub cron is UTC and has no timezone support, so we trigger at both 07:00 and
-# 08:00 UTC and let a guard step keep only the run that lands on 09:00 Paris time
-# (07:00 UTC in summer / CEST, 08:00 UTC in winter / CET).
+# Sends the briefing every morning around 09:00 Europe/Paris.
+# GitHub cron is UTC with no timezone support and can be delayed, so we fire several
+# times across the morning and let a guard keep only the 9-11 Paris window. The job
+# is idempotent (one send per Paris day), so extra triggers never double-send.
 
 on:
   schedule:
-    - cron: "0 7 * * *"
-    - cron: "0 8 * * *"
+    - cron: "0 7 * * *"   # 09:00 Paris (summer) / 08:00 Paris (winter)
+    - cron: "0 8 * * *"   # 10:00 Paris (summer) / 09:00 Paris (winter)
+    - cron: "0 9 * * *"   # 11:00 Paris (summer) / 10:00 Paris (winter)
   workflow_dispatch: {}
 
 permissions:
@@ -29,21 +30,21 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Decide whether to run (09:00 Paris guard)
+      - name: Gate (manual = force; scheduled = only in the 09-11 Paris window)
         id: gate
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Manual run -> proceed."
+            echo "Manual run -> force."
             echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "force=--force" >> "$GITHUB_OUTPUT"
           else
-            HOUR=$(TZ=Europe/Paris date +%H)
-            echo "Current Paris hour: $HOUR"
-            if [ "$HOUR" = "09" ]; then
-              echo "run=true" >> "$GITHUB_OUTPUT"
-            else
-              echo "Not 09:00 in Paris -> skipping this trigger."
-              echo "run=false" >> "$GITHUB_OUTPUT"
-            fi
+            H=$(TZ=Europe/Paris date +%H)
+            echo "Current Paris hour: $H"
+            case "$H" in
+              09|10|11) echo "run=true" >> "$GITHUB_OUTPUT" ;;
+              *) echo "run=false" >> "$GITHUB_OUTPUT" ;;
+            esac
+            echo "force=" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Send briefing
@@ -54,9 +55,9 @@ jobs:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
-        run: python main.py --now
+        run: python main.py --now ${{ steps.gate.outputs.force }}
 
-      - name: Commit updated article history
+      - name: Commit updated history
         if: steps.gate.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"

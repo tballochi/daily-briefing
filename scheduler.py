@@ -1,20 +1,29 @@
-"""Daily scheduling at 9:00 Europe/Paris, with one retry on failure."""
+"""Daily scheduling at 09:00 Europe/Paris.
+
+`run_briefing` is idempotent per Paris day: it sends at most one briefing per day,
+no matter how many times it is triggered. This lets the GitHub workflow fire several
+times in the morning window (robust to GitHub cron delays) without ever double-sending.
+On failure it retries once after a short delay, then emails a failure alert.
+"""
 
 import os
+import time
 import logging
 import logging.handlers
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 from apscheduler.schedulers.blocking import BlockingScheduler
 from apscheduler.triggers.cron import CronTrigger
 
 import history
 from agent import build_briefing
-from email_sender import send_email
+from email_sender import send_email, send_failure_alert
 
 TIMEZONE = "Europe/Paris"
 LOG_DIR = "logs"
 LOG_FILE = os.path.join(LOG_DIR, "briefing.log")
+RETRY_DELAY_SECONDS = 120
 
 logger = logging.getLogger("briefing")
 
@@ -22,9 +31,7 @@ logger = logging.getLogger("briefing")
 def setup_logging() -> None:
     """Configure logging to both stdout and logs/briefing.log."""
     os.makedirs(LOG_DIR, exist_ok=True)
-    formatter = logging.Formatter(
-        "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
-    )
+    formatter = logging.Formatter("%(asctime)s | %(levelname)s | %(name)s | %(message)s")
 
     file_handler = logging.handlers.RotatingFileHandler(
         LOG_FILE, maxBytes=1_000_000, backupCount=5, encoding="utf-8"
@@ -40,40 +47,43 @@ def setup_logging() -> None:
     root.addHandler(stream_handler)
 
 
-def run_briefing() -> None:
-    """Build and send the briefing. Retries once after 5 minutes on failure."""
-    logger.info("=== Starting daily briefing job ===")
+def _paris_today() -> str:
+    return datetime.now(ZoneInfo(TIMEZONE)).strftime("%Y-%m-%d")
+
+
+def _build_and_send() -> None:
+    subject, html_body, payload = build_briefing()
+    send_email(subject, html_body)
+    history.record_sent(
+        payload["articles"], payload.get("word", {}), payload.get("quote", {}), _paris_today()
+    )
+
+
+def run_briefing(force: bool = False) -> None:
+    """Send today's briefing unless it was already sent (idempotent per Paris day).
+
+    `force` bypasses the once-a-day guard (used for manual test runs).
+    """
+    today = _paris_today()
+    if not force and history.last_sent_date() == today:
+        logger.info("Briefing already sent today (%s) — skipping.", today)
+        return
+
+    logger.info("=== Starting daily briefing job (%s) ===", today)
     try:
-        subject, html_body, chosen = build_briefing()
-        send_email(subject, html_body)
-        history.record_seen(chosen)
+        _build_and_send()
         logger.info("=== Briefing sent successfully ===")
+        return
     except Exception as exc:  # noqa: BLE001
-        logger.error("Briefing job failed: %s. Scheduling one retry in 5 min.", exc)
-        _schedule_retry()
+        logger.error("Briefing failed: %s. Retrying once in %ds.", exc, RETRY_DELAY_SECONDS)
 
-
-def _schedule_retry() -> None:
-    """Schedule a single one-off retry 5 minutes from now."""
-    from apscheduler.schedulers.background import BackgroundScheduler
-    from datetime import timedelta
-
-    retry_scheduler = BackgroundScheduler(timezone=TIMEZONE)
-    run_time = datetime.now() + timedelta(minutes=5)
-    retry_scheduler.add_job(_retry_once, "date", run_date=run_time)
-    retry_scheduler.start()
-    logger.info("Retry scheduled at %s", run_time.isoformat())
-
-
-def _retry_once() -> None:
-    logger.info("=== Retrying daily briefing job ===")
+    time.sleep(RETRY_DELAY_SECONDS)
     try:
-        subject, html_body, chosen = build_briefing()
-        send_email(subject, html_body)
-        history.record_seen(chosen)
+        _build_and_send()
         logger.info("=== Briefing sent successfully on retry ===")
     except Exception as exc:  # noqa: BLE001
-        logger.error("Retry also failed: %s. Giving up until next schedule.", exc)
+        logger.error("Retry also failed: %s. Sending failure alert.", exc)
+        send_failure_alert(str(exc))
 
 
 def start_scheduler() -> None:

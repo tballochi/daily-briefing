@@ -17,6 +17,8 @@ import os
 import json
 import time
 import logging
+import urllib.error
+import urllib.request
 from datetime import datetime
 from urllib.parse import urlparse
 
@@ -186,6 +188,29 @@ def _norm_url(url: str) -> str:
         return (url or "").strip().lower()
 
 
+_UA = {"User-Agent": "Mozilla/5.0 (compatible; daily-tech-briefing/1.0)"}
+
+
+def _url_alive(url: str, timeout: int = 6) -> bool:
+    """Best-effort liveness check. Only a clear 404/410 counts as dead.
+
+    Transient errors and bot-blocking statuses (403/405/429) are treated as alive
+    so we never drop a good, fresh article over a flaky check.
+    """
+    if not url:
+        return False
+    for method in ("HEAD", "GET"):
+        try:
+            req = urllib.request.Request(url, method=method, headers=_UA)
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return getattr(resp, "status", 200) not in (404, 410)
+        except urllib.error.HTTPError as exc:
+            return exc.code not in (404, 410)
+        except Exception:  # noqa: BLE001 - HEAD refused or transient; try GET, then assume alive
+            continue
+    return True
+
+
 def _create_completion(client, messages: list, tool_choice, max_retries: int = 4):
     """Call Groq tool-use, retrying the flaky 'tool_use_failed' parse error.
 
@@ -241,11 +266,16 @@ def _resolve_selection(urls: list[str], collected: list[dict]) -> list[dict]:
     for url in urls:
         key = _norm_url(url)
         article = by_url.get(key)
-        if article and key not in used and not article.get("already_sent"):
-            chosen.append(article)
-            used.add(key)
-        elif not article:
+        if not article:
             logger.warning("Dropped fabricated/unknown URL from selection: %s", url)
+            continue
+        if key in used or article.get("already_sent"):
+            continue
+        if not _url_alive(article.get("url", "")):
+            logger.warning("Dropped dead link from selection: %s", article.get("url", ""))
+            continue
+        chosen.append(article)
+        used.add(key)
 
     if len(chosen) < TARGET_ARTICLES:
         for article in collected:
@@ -253,6 +283,8 @@ def _resolve_selection(urls: list[str], collected: list[dict]) -> list[dict]:
             if key in used or article.get("already_sent"):
                 continue
             if len(article.get("title", "")) < 15:  # skip nav/index-like entries
+                continue
+            if not _url_alive(article.get("url", "")):
                 continue
             chosen.append(article)
             used.add(key)
@@ -288,6 +320,7 @@ def _ensure_shipping_news(selected: list[dict], collected: list[dict]) -> list[d
             and not a.get("already_sent")
             and len(a.get("title", "")) >= 15
             and _shipping_score(a) >= 1
+            and _url_alive(a.get("url", ""))
         )
 
     candidates = [a for a in collected if _eligible(a)]
@@ -319,6 +352,18 @@ def run_agent_selection(today: str) -> tuple[list[dict], list[dict]]:
     across all searches (used to guarantee shipping coverage afterwards).
     """
     client = _groq_client()
+
+    avoid = history.recent_titles(days=14)
+    avoid_block = ""
+    if avoid:
+        listed = "\n".join(f"- {t}" for t in avoid[-40:])
+        avoid_block = (
+            "\n\nThese stories were already covered in recent briefings. Do NOT pick "
+            "them again, and also avoid any article that tells essentially the SAME "
+            "story (same event, even from a different outlet or with a different "
+            f"headline):\n{listed}"
+        )
+
     messages = [
         {"role": "system", "content": SYSTEM_PROMPT},
         {
@@ -326,7 +371,7 @@ def run_agent_selection(today: str) -> tuple[list[dict], list[dict]]:
             "content": (
                 f"Today is {today}. Find the 3 most important recent tech stories, "
                 "one of which must be about shipping/maritime/logistics (search CMA CGM "
-                "first). Start searching now."
+                f"first). Start searching now.{avoid_block}"
             ),
         },
     ]
@@ -396,6 +441,14 @@ def synthesize_briefing(selected: list[dict], today: str) -> dict:
         f"[{i}] TITLE: {a.get('title', '')}\nSNIPPET: {a.get('snippet', '')}"
         for i, a in enumerate(selected, start=1)
     )
+
+    used_words = history.recent_words()
+    used_quotes = history.recent_quotes()
+    avoid_words = f" Do NOT reuse any of these recent words: {', '.join(used_words)}." if used_words else ""
+    avoid_quotes = (
+        f" Do NOT reuse any of these recent quotes: {' | '.join(used_quotes)}." if used_quotes else ""
+    )
+
     user = f"""Today is {today}. Here are {len(selected)} selected articles:
 
 {numbered}
@@ -411,9 +464,9 @@ Then add:
 - "word_of_the_day": a genuine, specific tech term (NOT something as generic as
   "AI"; pick e.g. inference, embedding, idempotency, vector database, fine-tuning,
   webhook, latency, quantization...) with a one-sentence definition and a natural
-  example sentence.
+  example sentence.{avoid_words}
 - "quote_of_the_day": a real, verifiable quote from a well-known tech leader, with
-  the author's name.
+  the author's name.{avoid_quotes}
 
 Return ONLY JSON with this schema:
 {{
@@ -573,11 +626,11 @@ def _render_html(briefing: dict, today: str) -> str:
 
 # --- Public pipeline -------------------------------------------------------
 
-def build_briefing() -> tuple[str, str, list[dict]]:
+def build_briefing() -> tuple[str, str, dict]:
     """Run the agent, write the briefing, render the email.
 
-    Returns (subject, html, chosen). The caller must call
-    history.record_seen(chosen) only AFTER the email was sent successfully.
+    Returns (subject, html, payload). `payload` holds everything to persist after a
+    successful send: {"articles": [...], "word": {...}, "quote": {...}}.
     """
     today = datetime.now().strftime("%B %d, %Y")
     subject = f"Daily Tech Briefing — {today}"
@@ -589,5 +642,9 @@ def build_briefing() -> tuple[str, str, list[dict]]:
 
     briefing = synthesize_briefing(selected, today)
     html_body = _render_html(briefing, today)
-    chosen = [{"url": a.get("url", ""), "title": a.get("title", "")} for a in selected]
-    return subject, html_body, chosen
+    payload = {
+        "articles": [{"url": a.get("url", ""), "title": a.get("title", "")} for a in selected],
+        "word": briefing.get("word_of_the_day", {}),
+        "quote": briefing.get("quote_of_the_day", {}),
+    }
+    return subject, html_body, payload
