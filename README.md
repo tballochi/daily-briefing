@@ -1,4 +1,4 @@
-# Daily Tech Briefing Agent 🚀
+# Daily Tech Briefing Agent
 
 > AI-powered daily tech briefing delivered to your inbox every morning at 9am.
 > Built with Groq LLM + Tavily Search API.
@@ -95,9 +95,7 @@ daily-tech-briefing/
 
 ## Author
 
-Timoté Ballochi — Master Data & AI @ Epitech
-Currently: AI Product Owner Apprentice @ CMA CGM
-Portfolio: https://tbal.vercel.app
+Timoté Ballochi
 GitHub: https://github.com/tballochi99
 
 ---
