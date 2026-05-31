@@ -1,107 +1,113 @@
-# Daily Tech Briefing Agent
+# Daily Tech Briefing
 
-> AI-powered daily tech briefing delivered to your inbox every morning at 9am.
-> Built with Groq LLM + Tavily Search API.
+An AI agent that emails you the **3 most important tech stories of the day**, every
+morning at 9am (Europe/Paris). Free to run, no server to maintain.
 
-It is a real **tool-using agent**: the LLM drives the flow — it decides which
-searches to run, judges the results, runs follow-up searches, skips articles
-already sent on previous days, and finalises the briefing when it has enough.
-The agent loop is paced to stay within the Groq free tier.
+Built with **Groq (Llama 3.3 70B)** for the AI and **Tavily** for live web search.
+
+---
 
 ## What you get every morning
 
-- Latest AI & LLMs news
-- Shipping & Logistics tech updates
-- Automation & Product news
-- Word of the day to improve your English
-- Inspirational tech quote
+A clean, newspaper-style email with:
 
-## Installation
+- **3 top tech stories** — across AI & LLMs, shipping/logistics, and automation.
+  One story is always about **shipping** (CMA CGM when there's relevant news).
+- For each story: a short factual summary, the **publication date**, and a link to
+  the source.
+- **Word of the day** — a real tech term with a definition and example.
+- **Quote of the day** — from a well-known tech leader.
 
-```bash
-git clone https://github.com/tballochi99/daily-tech-briefing
-cd daily-tech-briefing
-pip install -r requirements.txt
-cp .env.example .env
-# Fill in your API keys in .env
-```
+No repeats: an article that was sent once never comes back.
 
-## Free API Keys needed
+---
 
-* Groq (LLM) : https://console.groq.com — free
-* Tavily (Search) : https://tavily.com — 1000 searches/month free
-* Gmail App Password : https://myaccount.google.com/apppasswords
+## How it works
 
-## Run locally
+It's a real **AI agent**, not a fixed script. In two phases:
 
-```bash
-python main.py          # starts the scheduler (daily at 09:00 Europe/Paris)
-python main.py --now    # build and send one briefing immediately (for testing)
-```
+1. **Research** — the agent decides what to search, runs several web searches,
+   judges the results, skips articles already sent on previous days, and picks the
+   3 best stories.
+2. **Writing** — a second step writes the summaries from the real source text, so
+   nothing is invented.
 
-## Deploy for free with GitHub Actions (recommended)
+The whole run stays within the **Groq free tier** (calls are paced automatically).
 
-The repo ships with a workflow (`.github/workflows/daily-briefing.yml`) that sends
-the briefing every morning at **09:00 Europe/Paris** — no server to keep running.
+---
 
-1. Push this repo to GitHub.
-2. In your repo, go to **Settings → Secrets and variables → Actions → New repository secret**
-   and add these 5 secrets:
+## Setup
 
-   | Secret name | Value |
-   |-------------|-------|
+### 1. Get 3 free API keys
+
+| Key | Where | Free |
+|-----|-------|------|
+| Groq | https://console.groq.com/keys | yes |
+| Tavily | https://app.tavily.com | yes (1000 searches/month) |
+| Gmail App Password | https://myaccount.google.com/apppasswords | needs 2FA enabled |
+
+> The Gmail App Password is a 16-character code — **not** your normal password.
+
+### 2. Run it daily for free with GitHub Actions (recommended)
+
+No computer needs to stay on. GitHub runs it every morning at 9am Paris.
+
+1. Push this repo to your GitHub account.
+2. Go to **Settings → Secrets and variables → Actions** and add these 5 secrets:
+
+   | Secret | Value |
+   |--------|-------|
    | `GROQ_API_KEY` | your Groq key |
    | `TAVILY_API_KEY` | your Tavily key |
-   | `GMAIL_ADDRESS` | the sending Gmail address |
+   | `GMAIL_ADDRESS` | the Gmail address that sends the email |
    | `GMAIL_APP_PASSWORD` | your 16-char Gmail App Password |
    | `RECIPIENT_EMAIL` | where the briefing is delivered |
 
-3. That's it. The workflow runs daily and **commits `data/history.json` back to the
-   repo** after each send, so already-sent articles never come back.
+3. Done. It sends every day at ~9am Paris and remembers past articles automatically
+   (it commits `data/history.json` back to the repo after each send).
 
-To test it immediately: **Actions → Daily Tech Briefing → Run workflow**.
+**Test it now:** Actions → *Daily Tech Briefing* → **Run workflow**.
 
-> Note: GitHub cron is UTC, so the workflow triggers at 07:00 and 08:00 UTC and a
-> guard step keeps only the run that matches 09:00 Paris time (handles summer/winter).
+---
 
-## Deploy on Railway (alternative)
+## Run locally (optional)
 
 ```bash
-railway up
+pip install -r requirements.txt
+cp .env.example .env      # then fill in your keys
+python main.py --now      # build and send one briefing right now
+python main.py            # start the local scheduler (sends daily at 9am Paris)
 ```
 
-On Railway, attach a persistent **Volume** mounted where `data/history.json` lives
-so the de-duplication history survives restarts.
+---
 
-## Tech Stack
+## Tech stack
 
-| Tool | Purpose |
-|------|---------|
+| Tool | Role |
+|------|------|
 | Python 3.11+ | Core language |
-| Groq API (Llama 3.3 70B) | LLM content generation |
-| Tavily API | Real-time web search |
-| APScheduler | Daily 9am scheduling |
-| smtplib | Gmail email sending |
-| python-dotenv | Environment management |
+| Groq — Llama 3.3 70B | The agent's brain (decides, summarises) |
+| Tavily | Real-time news search |
+| GitHub Actions | Free daily scheduling at 9am Paris |
+| smtplib | Sends the email via Gmail |
 
 ## Project structure
 
 ```
 daily-tech-briefing/
-├── main.py              # Entry point
-├── agent.py             # AI agent logic (Tavily search + Groq generation)
-├── email_sender.py      # Gmail SMTP delivery
-├── scheduler.py         # Daily 9am scheduling + logging
+├── main.py                         # Entry point (--now to send once)
+├── agent.py                        # The AI agent (research + writing + HTML)
+├── email_sender.py                 # Gmail delivery
+├── scheduler.py                    # Local daily scheduler + logging
+├── history.py                      # Remembers sent articles (no repeats)
+├── data/history.json               # The de-duplication memory
+├── .github/workflows/daily-briefing.yml   # Daily run at 9am Paris
 ├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
+└── .env.example
 ```
+
+---
 
 ## Author
 
-Timoté Ballochi
-GitHub: https://github.com/tballochi99
-
----
-*Staying ahead of the curve, one briefing at a time.*
+Timoté Ballochi — https://github.com/tballochi99
