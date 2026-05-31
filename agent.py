@@ -204,6 +204,50 @@ def _pace(total_tokens: int) -> None:
 
 # --- The agent loop --------------------------------------------------------
 
+def _norm_url(url: str) -> str:
+    try:
+        p = urlparse(url or "")
+        host = p.netloc.lower()
+        host = host[4:] if host.startswith("www.") else host
+        return f"{host}{p.path.rstrip('/').lower()}"
+    except Exception:  # noqa: BLE001
+        return (url or "").strip().lower()
+
+
+def _norm_title(title: str) -> str:
+    return " ".join((title or "").strip().lower().split())
+
+
+def _validate_briefing(briefing: dict, collected: list[dict]) -> dict:
+    """Ensure every submitted article maps to a real search result.
+
+    The agent composes the final JSON itself, so it can occasionally attach a URL
+    that was never returned by a search. We verify each URL against the real
+    results: keep verified ones, repair by title match when possible, drop the
+    rest so no fabricated link is ever sent.
+    """
+    by_url = {_norm_url(a["url"]): a for a in collected if a.get("url")}
+    by_title = {_norm_title(a["title"]): a for a in collected if a.get("title")}
+
+    for section in briefing.get("sections", []):
+        valid = []
+        for item in section.get("news", []):
+            url = item.get("url", "")
+            if _norm_url(url) in by_url:
+                valid.append(item)
+                continue
+            match = by_title.get(_norm_title(item.get("title", "")))
+            if match:
+                logger.warning("Repaired URL for '%s' -> %s", item.get("title", ""), match["url"])
+                item["url"] = match["url"]
+                item["title"] = match["title"]
+                valid.append(item)
+            else:
+                logger.warning("Dropped article with unverifiable URL: %r (%s)", item.get("title", ""), url)
+        section["news"] = valid
+    return briefing
+
+
 def _assistant_message_to_dict(msg) -> dict:
     out = {"role": "assistant", "content": msg.content or ""}
     if msg.tool_calls:
@@ -233,6 +277,7 @@ def run_agent(today: str) -> dict:
     ]
 
     searches_used = 0
+    collected: list[dict] = []  # every real article the searches returned
 
     for step in range(MAX_STEPS):
         # On the last allowed step, force the agent to submit what it has.
@@ -268,7 +313,7 @@ def run_agent(today: str) -> dict:
         for tc in msg.tool_calls:
             if tc.function.name == "submit_briefing":
                 logger.info("Agent submitted briefing after %d search(es)", searches_used)
-                return json.loads(tc.function.arguments)
+                return _validate_briefing(json.loads(tc.function.arguments), collected)
 
         # Otherwise run the searches the agent asked for.
         for tc in msg.tool_calls:
@@ -284,6 +329,7 @@ def run_agent(today: str) -> dict:
             else:
                 searches_used += 1
                 results = search_news(query)
+                collected.extend(results)
                 logger.info("Search %d/%d: '%s' -> %d results", searches_used, MAX_SEARCHES, query, len(results))
                 content = json.dumps(results, ensure_ascii=False)
 
