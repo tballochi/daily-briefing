@@ -1,7 +1,14 @@
-"""AI agent logic: web research via Tavily + briefing generation via Groq/Llama."""
+"""AI agent for the daily tech briefing.
+
+This is a real tool-using agent: the LLM (Llama 3.3 70B on Groq) drives the flow.
+It decides which searches to run, judges the results, skips articles already sent
+on previous days, and calls `submit_briefing` when it has gathered enough. The
+agent loop is paced to respect the Groq free-tier limit of 12,000 tokens/minute.
+"""
 
 import os
 import json
+import time
 import logging
 from datetime import datetime
 from urllib.parse import urlparse
@@ -13,31 +20,125 @@ import history
 
 logger = logging.getLogger("briefing.agent")
 
-# Topics to research every morning. Each entry maps a section to its queries.
-TOPICS = {
-    "AI & LLMs": [
-        "latest AI agents LLM news GPT Claude Gemini",
-        "LangChain LangGraph MCP Model Context Protocol news",
-    ],
-    "Shipping & Logistics Tech": [
-        "CMA CGM maritime shipping technology AI news",
-        "supply chain logistics automation AI news",
-    ],
-    "Automation & Product": [
-        "n8n Zapier Make no-code automation news",
-        "AI product management tools news",
-    ],
-}
-
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
-SYSTEM_PROMPT = (
-    "You are a technology journalist writing a concise daily tech briefing for a "
-    "general professional audience. Write in clear, professional English. Stick to "
-    "the facts, be concise and insightful. Do NOT address or tailor the content to "
-    "any specific person or company, and do not give personal advice."
-)
+# Free-tier guardrails ------------------------------------------------------
+TPM_LIMIT = 12000          # Groq free-tier tokens-per-minute ceiling
+TPM_SAFETY = 0.85          # only use 85% of the budget to stay clear of 429s
+MAX_STEPS = 12             # hard cap on agent loop iterations
+MAX_SEARCHES = 8           # hard cap on Tavily searches per run (quota friendly)
 
+SYSTEM_PROMPT = """You are an autonomous tech-news research agent. Your goal is to \
+assemble one high-quality daily tech briefing for a general professional audience.
+
+You work by calling tools:
+- Call `search_news` to search the web for recent news. Run several searches to \
+cover all the required topics. Read the results, judge their quality, and run \
+follow-up searches if the results are weak or off-topic.
+- Each search result is tagged `already_sent: true` if it was sent in a previous \
+briefing. NEVER include an already_sent article — pick a different, fresher story.
+- When (and only when) you have gathered enough strong, non-duplicate stories for \
+every section, call `submit_briefing` with the final content.
+
+Required coverage:
+- Section "Artificial Intelligence & LLMs": exactly 3 news (GPT, Claude, Gemini, \
+agents, LangChain/LangGraph, MCP, etc.).
+- Section "Shipping & Logistics": exactly 2 news (maritime, supply chain, logistics tech).
+- Section "Automation & Product": exactly 2 news (n8n, Zapier, Make, no-code, \
+AI product tools).
+
+Editorial rules for the summaries you submit:
+- 2 to 4 sharp sentences per article, pure factual news brief: what was announced \
+or happened, with names, numbers and concrete details from the source.
+- Do NOT add commentary about who should care, "why it matters for X", personal \
+advice, or any angle tailored to a specific reader or company. Just the facts.
+- No filler, no generic phrases, no repetition. Vary sentence structure.
+- Keep every real source URL.
+- The whole briefing must stay under 1000 words. Quality over length.
+- Also provide a genuine "word of the day" (tech term + definition + example) and a \
+real, verifiable "quote of the day" from a known tech leader.
+
+Be efficient: you have a limited search budget. Do not loop forever."""
+
+
+TOOLS = [
+    {
+        "type": "function",
+        "function": {
+            "name": "search_news",
+            "description": (
+                "Search the web for recent news (last 7 days) on a query. Returns a "
+                "list of articles with title, url, snippet, date and an already_sent "
+                "flag."
+            ),
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "query": {
+                        "type": "string",
+                        "description": "The news search query, e.g. 'Claude Gemini new model release'.",
+                    }
+                },
+                "required": ["query"],
+            },
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "submit_briefing",
+            "description": "Submit the final briefing once enough non-duplicate news is gathered.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "sections": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "title": {"type": "string"},
+                                "news": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "title": {"type": "string"},
+                                            "url": {"type": "string"},
+                                            "summary": {"type": "string"},
+                                        },
+                                        "required": ["title", "url", "summary"],
+                                    },
+                                },
+                            },
+                            "required": ["title", "news"],
+                        },
+                    },
+                    "word_of_the_day": {
+                        "type": "object",
+                        "properties": {
+                            "word": {"type": "string"},
+                            "definition": {"type": "string"},
+                            "example": {"type": "string"},
+                        },
+                        "required": ["word", "definition", "example"],
+                    },
+                    "quote_of_the_day": {
+                        "type": "object",
+                        "properties": {
+                            "text": {"type": "string"},
+                            "author": {"type": "string"},
+                        },
+                        "required": ["text", "author"],
+                    },
+                },
+                "required": ["sections", "word_of_the_day", "quote_of_the_day"],
+            },
+        },
+    },
+]
+
+
+# --- API clients -----------------------------------------------------------
 
 def _tavily_client() -> TavilyClient:
     api_key = os.getenv("TAVILY_API_KEY")
@@ -53,130 +154,154 @@ def _groq_client() -> Groq:
     return Groq(api_key=api_key)
 
 
-def fetch_news(topic: str, max_results: int = 3) -> list[dict]:
-    """Search the 3 latest news for a topic using Tavily.
+# --- Tool implementation ---------------------------------------------------
 
-    Returns a list of dicts: {title, summary, source, date}.
-    """
+def search_news(query: str, max_results: int = 4) -> list[dict]:
+    """Tavily search returning compact, dedup-annotated results for the agent."""
     try:
         client = _tavily_client()
         response = client.search(
-            query=topic,
+            query=query,
             search_depth="advanced",
             topic="news",
             days=7,
             max_results=max_results,
         )
-    except Exception as exc:  # noqa: BLE001 - we want to keep going on failure
-        logger.error("Tavily search failed for '%s': %s", topic, exc)
+    except Exception as exc:  # noqa: BLE001
+        logger.error("Tavily search failed for '%s': %s", query, exc)
         return []
 
     results = []
     for item in response.get("results", []):
+        url = item.get("url", "")
+        title = item.get("title", "Untitled")
         results.append(
             {
-                "title": item.get("title", "Untitled"),
-                "summary": item.get("content", "")[:800],
-                "source": item.get("url", ""),
+                "title": title,
+                "url": url,
+                "snippet": (item.get("content", "") or "")[:400],
                 "date": item.get("published_date", ""),
+                "already_sent": history.is_seen(url, title),
             }
         )
     return results
 
 
-def fetch_all_news() -> dict[str, list[dict]]:
-    """Fetch news for every configured section."""
-    all_news: dict[str, list[dict]] = {}
-    for section, queries in TOPICS.items():
-        section_news: list[dict] = []
-        for query in queries:
-            section_news.extend(fetch_news(query, max_results=3))
-        all_news[section] = section_news
-        logger.info("Fetched %d items for section '%s'", len(section_news), section)
-    return all_news
+# --- Adaptive pacing (respect Groq free-tier TPM) --------------------------
+
+def _pace(total_tokens: int) -> None:
+    """Sleep just enough so token usage stays under the per-minute ceiling.
+
+    If a call consumed `total_tokens`, waiting (total_tokens / budget) * 60 seconds
+    before the next call keeps the rolling one-minute sum under the budget.
+    """
+    budget = TPM_LIMIT * TPM_SAFETY
+    sleep_s = min(55.0, (total_tokens / budget) * 60.0)
+    if sleep_s > 0:
+        logger.info("Pacing: sleeping %.1fs (last call used %d tokens)", sleep_s, total_tokens)
+        time.sleep(sleep_s)
 
 
-def _build_user_prompt(all_news: dict[str, list[dict]], today: str) -> str:
-    """Build the prompt that asks the model to emit structured JSON."""
-    news_blob = json.dumps(all_news, ensure_ascii=False, indent=2)
-    return f"""Today is {today}.
+# --- The agent loop --------------------------------------------------------
 
-Below are raw web search results grouped by section (JSON):
-
-{news_blob}
-
-From these results, produce a sharp, professional daily tech briefing written like
-a quality newspaper. Select only the most important, relevant and recent stories —
-prioritise concrete announcements, product launches, funding, partnerships and
-real-world deployments over vague opinion pieces. Return ONLY a valid JSON object
-(no markdown, no commentary) with this exact schema:
-
-{{
-  "sections": [
-    {{
-      "title": "Artificial Intelligence & LLMs",
-      "news": [
-        {{"title": "...", "url": "...", "summary": "concise, insightful summary in English"}}
-      ]
-    }},
-    {{
-      "title": "Shipping & Logistics",
-      "news": [ ... ]
-    }},
-    {{
-      "title": "Automation & Product",
-      "news": [ ... ]
-    }}
-  ],
-  "word_of_the_day": {{
-    "word": "...",
-    "definition": "clear English definition",
-    "example": "an example sentence using the word"
-  }},
-  "quote_of_the_day": {{
-    "text": "an inspirational quote from a tech leader",
-    "author": "the leader's name"
-  }}
-}}
-
-Rules:
-- Section 1 (Artificial Intelligence & LLMs): exactly 3 news.
-- Section 2 (Shipping & Logistics): exactly 2 news.
-- Section 3 (Automation & Product): exactly 2 news.
-- Each summary is 2 to 4 sharp sentences that simply report the facts: what was
-  announced or happened, with the names, numbers and concrete details from the
-  source. Write it like a neutral news brief.
-- Do NOT add commentary about who should care, "why it matters for X", personal
-  advice, or any angle tailored to a specific reader or company. Just the facts.
-- Quality over length. ABSOLUTELY NO filler, no generic phrases such as "can
-  improve efficiency and accuracy", no repetition of the same idea across items.
-  Every sentence must carry real information from the search results.
-- Vary your sentence structure across items — they must not all read the same.
-- Always keep the real source URL from the search results for each news item.
-- The WHOLE briefing must stay UNDER 1000 words. A tight 400-700 word briefing that
-  is genuinely informative is far better than a padded one. Do not inflate.
-- The "word of the day" must be a genuine tech term, with a 1-2 sentence definition
-  and a realistic example sentence.
-- The quote must be a real, verifiable quote from a known tech leader.
-"""
+def _assistant_message_to_dict(msg) -> dict:
+    out = {"role": "assistant", "content": msg.content or ""}
+    if msg.tool_calls:
+        out["tool_calls"] = [
+            {
+                "id": tc.id,
+                "type": "function",
+                "function": {"name": tc.function.name, "arguments": tc.function.arguments},
+            }
+            for tc in msg.tool_calls
+        ]
+    return out
 
 
-def _generate_structured_briefing(all_news: dict[str, list[dict]], today: str) -> dict:
-    """Call Groq/Llama and parse the structured briefing JSON."""
+def run_agent(today: str) -> dict:
+    """Run the tool-using agent loop and return the final briefing dict."""
     client = _groq_client()
-    completion = client.chat.completions.create(
-        model=GROQ_MODEL,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": _build_user_prompt(all_news, today)},
-        ],
-        temperature=0.6,
-        max_tokens=4000,
-        response_format={"type": "json_object"},
-    )
-    content = completion.choices[0].message.content
-    return json.loads(content)
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {
+            "role": "user",
+            "content": (
+                f"Today is {today}. Research and assemble today's tech briefing. "
+                "Start by searching for the most important recent news in each topic."
+            ),
+        },
+    ]
 
+    searches_used = 0
+
+    for step in range(MAX_STEPS):
+        # On the last allowed step, force the agent to submit what it has.
+        force_submit = step == MAX_STEPS - 1 or searches_used >= MAX_SEARCHES
+        tool_choice = (
+            {"type": "function", "function": {"name": "submit_briefing"}}
+            if force_submit
+            else "auto"
+        )
+
+        response = client.chat.completions.create(
+            model=GROQ_MODEL,
+            messages=messages,
+            tools=TOOLS,
+            tool_choice=tool_choice,
+            temperature=0.6,
+            max_tokens=2000,
+        )
+        msg = response.choices[0].message
+        messages.append(_assistant_message_to_dict(msg))
+
+        if not msg.tool_calls:
+            messages.append(
+                {
+                    "role": "user",
+                    "content": "Continue: run another search_news, or call submit_briefing now.",
+                }
+            )
+            _pace(getattr(response.usage, "total_tokens", 4000))
+            continue
+
+        # Handle a submit first if present.
+        for tc in msg.tool_calls:
+            if tc.function.name == "submit_briefing":
+                logger.info("Agent submitted briefing after %d search(es)", searches_used)
+                return json.loads(tc.function.arguments)
+
+        # Otherwise run the searches the agent asked for.
+        for tc in msg.tool_calls:
+            if tc.function.name != "search_news":
+                continue
+            try:
+                query = json.loads(tc.function.arguments).get("query", "")
+            except Exception:  # noqa: BLE001
+                query = ""
+
+            if searches_used >= MAX_SEARCHES:
+                content = "Search budget exhausted. Call submit_briefing now."
+            else:
+                searches_used += 1
+                results = search_news(query)
+                logger.info("Search %d/%d: '%s' -> %d results", searches_used, MAX_SEARCHES, query, len(results))
+                content = json.dumps(results, ensure_ascii=False)
+
+            messages.append(
+                {
+                    "role": "tool",
+                    "tool_call_id": tc.id,
+                    "name": "search_news",
+                    "content": content,
+                }
+            )
+
+        _pace(getattr(response.usage, "total_tokens", 4000))
+
+    raise RuntimeError("Agent finished without submitting a briefing")
+
+
+# --- HTML rendering --------------------------------------------------------
 
 def _domain(url: str) -> str:
     """Extract a clean domain label from a URL for the source line."""
@@ -278,21 +403,18 @@ def _render_html(briefing: dict, today: str) -> str:
 </html>"""
 
 
-def generate_briefing(all_news: dict[str, list[dict]]) -> tuple[str, str, list[dict]]:
-    """Generate the email from raw news.
+# --- Public pipeline -------------------------------------------------------
 
-    Returns (subject, html_body, chosen) where `chosen` is the list of
-    {"url", "title"} dicts actually included, for de-duplication bookkeeping.
+def build_briefing() -> tuple[str, str, list[dict]]:
+    """Run the agent and render the email.
+
+    Returns (subject, html, chosen). The caller must call
+    history.record_seen(chosen) only AFTER the email was sent successfully.
     """
     today = datetime.now().strftime("%B %d, %Y")
     subject = f"Daily Tech Briefing — {today}"
 
-    try:
-        briefing = _generate_structured_briefing(all_news, today)
-    except Exception as exc:  # noqa: BLE001
-        logger.error("Groq generation failed: %s", exc)
-        raise
-
+    briefing = run_agent(today)
     html_body = _render_html(briefing, today)
     chosen = [
         {"url": n.get("url", ""), "title": n.get("title", "")}
@@ -300,14 +422,3 @@ def generate_briefing(all_news: dict[str, list[dict]]) -> tuple[str, str, list[d
         for n in section.get("news", [])
     ]
     return subject, html_body, chosen
-
-
-def build_briefing() -> tuple[str, str, list[dict]]:
-    """Full pipeline: fetch news -> drop already-seen articles -> generate.
-
-    Returns (subject, html, chosen). The caller should call
-    history.record_seen(chosen) only AFTER the email was sent successfully.
-    """
-    all_news = fetch_all_news()
-    all_news = history.filter_unseen(all_news)
-    return generate_briefing(all_news)

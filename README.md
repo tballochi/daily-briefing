@@ -3,6 +3,11 @@
 > AI-powered daily tech briefing delivered to your inbox every morning at 9am.
 > Built with Groq LLM + Tavily Search API.
 
+It is a real **tool-using agent**: the LLM drives the flow — it decides which
+searches to run, judges the results, runs follow-up searches, skips articles
+already sent on previous days, and finalises the briefing when it has enough.
+The agent loop is paced to stay within the Groq free tier.
+
 ## What you get every morning
 
 - Latest AI & LLMs news

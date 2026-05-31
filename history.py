@@ -64,6 +64,12 @@ def _seen_keys() -> tuple[set[str], set[str]]:
     return urls, titles
 
 
+def is_seen(url: str, title: str) -> bool:
+    """True if this article (by URL or title) was already sent before."""
+    seen_urls, seen_titles = _seen_keys()
+    return _normalize_url(url) in seen_urls or _normalize_title(title) in seen_titles
+
+
 def filter_unseen(all_news: dict[str, list[dict]]) -> dict[str, list[dict]]:
     """Drop articles that were already sent in a previous briefing."""
     seen_urls, seen_titles = _seen_keys()
