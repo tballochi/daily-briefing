@@ -9,6 +9,8 @@ from urllib.parse import urlparse
 from groq import Groq
 from tavily import TavilyClient
 
+import history
+
 logger = logging.getLogger("briefing.agent")
 
 # Topics to research every morning. Each entry maps a section to its queries.
@@ -30,9 +32,10 @@ TOPICS = {
 GROQ_MODEL = "llama-3.3-70b-versatile"
 
 SYSTEM_PROMPT = (
-    "You are a tech journalist writing a daily briefing for an AI Product Owner "
-    "at CMA CGM, a global shipping leader. Write in clear, professional English. "
-    "Be concise and insightful."
+    "You are a technology journalist writing a concise daily tech briefing for a "
+    "general professional audience. Write in clear, professional English. Stick to "
+    "the facts, be concise and insightful. Do NOT address or tailor the content to "
+    "any specific person or company, and do not give personal advice."
 )
 
 
@@ -140,10 +143,11 @@ Rules:
 - Section 1 (Artificial Intelligence & LLMs): exactly 3 news.
 - Section 2 (Shipping & Logistics): exactly 2 news.
 - Section 3 (Automation & Product): exactly 2 news.
-- Each summary is 2 to 4 sharp sentences. Lead with the concrete facts (names,
-  numbers, what actually happened from the source). If — and only if — there is a
-  genuinely useful angle for an AI Product Owner in shipping/logistics, add ONE
-  short, specific sentence about it. Never force it, never use a template.
+- Each summary is 2 to 4 sharp sentences that simply report the facts: what was
+  announced or happened, with the names, numbers and concrete details from the
+  source. Write it like a neutral news brief.
+- Do NOT add commentary about who should care, "why it matters for X", personal
+  advice, or any angle tailored to a specific reader or company. Just the facts.
 - Quality over length. ABSOLUTELY NO filler, no generic phrases such as "can
   improve efficiency and accuracy", no repetition of the same idea across items.
   Every sentence must carry real information from the search results.
@@ -274,10 +278,11 @@ def _render_html(briefing: dict, today: str) -> str:
 </html>"""
 
 
-def generate_briefing(all_news: dict[str, list[dict]]) -> tuple[str, str]:
-    """Generate the email subject and HTML body from raw news.
+def generate_briefing(all_news: dict[str, list[dict]]) -> tuple[str, str, list[dict]]:
+    """Generate the email from raw news.
 
-    Returns (subject, html_body).
+    Returns (subject, html_body, chosen) where `chosen` is the list of
+    {"url", "title"} dicts actually included, for de-duplication bookkeeping.
     """
     today = datetime.now().strftime("%B %d, %Y")
     subject = f"Daily Tech Briefing — {today}"
@@ -289,10 +294,20 @@ def generate_briefing(all_news: dict[str, list[dict]]) -> tuple[str, str]:
         raise
 
     html_body = _render_html(briefing, today)
-    return subject, html_body
+    chosen = [
+        {"url": n.get("url", ""), "title": n.get("title", "")}
+        for section in briefing.get("sections", [])
+        for n in section.get("news", [])
+    ]
+    return subject, html_body, chosen
 
 
-def build_briefing() -> tuple[str, str]:
-    """Full pipeline: fetch news -> generate briefing. Returns (subject, html)."""
+def build_briefing() -> tuple[str, str, list[dict]]:
+    """Full pipeline: fetch news -> drop already-seen articles -> generate.
+
+    Returns (subject, html, chosen). The caller should call
+    history.record_seen(chosen) only AFTER the email was sent successfully.
+    """
     all_news = fetch_all_news()
+    all_news = history.filter_unseen(all_news)
     return generate_briefing(all_news)

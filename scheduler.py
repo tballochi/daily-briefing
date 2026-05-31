@@ -8,6 +8,7 @@ from datetime import datetime
 from apscheduler.schedulers.blocking import BlockingScheduler
 from apscheduler.triggers.cron import CronTrigger
 
+import history
 from agent import build_briefing
 from email_sender import send_email
 
@@ -43,8 +44,9 @@ def run_briefing() -> None:
     """Build and send the briefing. Retries once after 5 minutes on failure."""
     logger.info("=== Starting daily briefing job ===")
     try:
-        subject, html_body = build_briefing()
+        subject, html_body, chosen = build_briefing()
         send_email(subject, html_body)
+        history.record_seen(chosen)
         logger.info("=== Briefing sent successfully ===")
     except Exception as exc:  # noqa: BLE001
         logger.error("Briefing job failed: %s. Scheduling one retry in 5 min.", exc)
@@ -66,8 +68,9 @@ def _schedule_retry() -> None:
 def _retry_once() -> None:
     logger.info("=== Retrying daily briefing job ===")
     try:
-        subject, html_body = build_briefing()
+        subject, html_body, chosen = build_briefing()
         send_email(subject, html_body)
+        history.record_seen(chosen)
         logger.info("=== Briefing sent successfully on retry ===")
     except Exception as exc:  # noqa: BLE001
         logger.error("Retry also failed: %s. Giving up until next schedule.", exc)

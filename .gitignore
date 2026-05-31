@@ -2,4 +2,5 @@
 __pycache__/
 *.pyc
 logs/
+data/
 .DS_Store
