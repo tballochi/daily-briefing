@@ -1,15 +1,18 @@
 name: Daily Tech Briefing
 
-# Sends the briefing every morning around 09:00 Europe/Paris.
-# GitHub cron is UTC with no timezone support and is unreliable on the hour (the shared
-# scheduler is overloaded at :00 and often delays or drops those runs). So we fire on an
-# off-peak minute, several times across the morning, and a guard keeps only the 9-11
-# Paris window. The job is idempotent (one send per Paris day), so extra triggers never
-# double-send and a missed first trigger is caught by a later one.
+# Sends the briefing every morning in the 07:00-09:59 Europe/Paris window (target ~9am,
+# earlier is fine — the goal is that it goes out every single morning before 10:00).
+#
+# GitHub cron is UTC, has no timezone support, and is unreliable on the hour (the shared
+# scheduler is overloaded at :00 and frequently delays or drops those runs). So we fire
+# MANY times on off-peak minutes across the window; the first trigger that GitHub
+# actually runs sends the briefing, and the once-a-day idempotency guard makes every
+# later trigger a no-op. A missed/dropped trigger is always caught by the next one.
 
 on:
   schedule:
-    - cron: "17 6,7,8,9 * * *"   # :17 past 06-09 UTC -> covers 09/10/11 Paris in both DST seasons
+    # :11, :33, :55 past UTC 05-08 -> lands inside Paris 07:00-09:59 in both DST seasons.
+    - cron: "11,33,55 5,6,7,8 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -24,15 +27,7 @@ jobs:
         with:
           fetch-depth: 0   # full history so we can rebase before pushing the updated state
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Gate (manual = force; scheduled = only in the 09-11 Paris window)
+      - name: Gate (manual = force; scheduled = only in the 07-09 Paris window)
         id: gate
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -43,11 +38,21 @@ jobs:
             H=$(TZ=Europe/Paris date +%H)
             echo "Current Paris hour: $H"
             case "$H" in
-              09|10|11) echo "run=true" >> "$GITHUB_OUTPUT" ;;
+              07|08|09) echo "run=true" >> "$GITHUB_OUTPUT" ;;
               *) echo "run=false" >> "$GITHUB_OUTPUT" ;;
             esac
             echo "force=" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Set up Python
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        if: steps.gate.outputs.run == 'true'
+        run: pip install -r requirements.txt
 
       - name: Send briefing
         if: steps.gate.outputs.run == 'true'
