@@ -1,6 +1,39 @@
 {
-  "seen": [],
-  "words": [],
-  "quotes": [],
-  "last_sent_date": "2026-06-01"
+  "seen": [
+    {
+      "url_key": "marinelink.com/news/cma-cgm-takes-delivery-worlds-largest-539624",
+      "title_key": "cma cgm takes delivery of world’s largest lng-powered container ship - marine news magazine",
+      "url": "https://www.marinelink.com/news/cma-cgm-takes-delivery-worlds-largest-539624",
+      "title": "CMA CGM Takes Delivery of World’s Largest LNG-Powered Container Ship - Marine News Magazine",
+      "date": "2026-06-02T17:36:10.197140"
+    },
+    {
+      "url_key": "law.com/legaltechnews/2026/05/27/legal-professionals-increasingly-see-ai-as-a-job-generator",
+      "title_key": "legal professionals increasingly see ai as a job generator - law.com",
+      "url": "https://www.law.com/legaltechnews/2026/05/27/legal-professionals-increasingly-see-ai-as-a-job-generator/",
+      "title": "Legal Professionals Increasingly See AI as a Job Generator - Law.com",
+      "date": "2026-06-02T17:36:10.197140"
+    },
+    {
+      "url_key": "mmsonline.com/articles/exploring-automation-at-imts-2026",
+      "title_key": "exploring automation at imts 2026 - modern machine shop",
+      "url": "https://www.mmsonline.com/articles/exploring-automation-at-imts-2026",
+      "title": "Exploring Automation at IMTS 2026 - Modern Machine Shop",
+      "date": "2026-06-02T17:36:10.197140"
+    }
+  ],
+  "words": [
+    {
+      "word": "idempotency",
+      "date": "2026-06-02T17:36:10.197140"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Software is eating the world.",
+      "author": "Marc Andreessen",
+      "date": "2026-06-02T17:36:10.197140"
+    }
+  ],
+  "last_sent_date": "2026-06-02"
 }
