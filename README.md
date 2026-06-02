@@ -1,7 +1,7 @@
 # Daily Tech Briefing
 
 An AI agent that emails you the **3 most important tech stories of the day**, every
-morning at 9am (Europe/Paris). Free to run, no server to maintain.
+morning (around 8am, Europe/Paris). Free to run, no server to maintain.
 
 Built with **Groq (Llama 3.3 70B)** for the AI and **Tavily** for live web search.
 
@@ -48,9 +48,9 @@ The whole run stays within the **Groq free tier** (calls are paced automatically
 
 > The Gmail App Password is a 16-character code — **not** your normal password.
 
-### 2. Run it daily for free with GitHub Actions (recommended)
+### 2. Run it daily for free with GitHub Actions
 
-No computer needs to stay on. GitHub runs it every morning at 9am Paris.
+No computer needs to stay on. GitHub Actions does the work; the secrets below let it run.
 
 1. Push this repo to your GitHub account.
 2. Go to **Settings → Secrets and variables → Actions** and add these 5 secrets:
@@ -63,10 +63,37 @@ No computer needs to stay on. GitHub runs it every morning at 9am Paris.
    | `GMAIL_APP_PASSWORD` | your 16-char Gmail App Password |
    | `RECIPIENT_EMAIL` | where the briefing is delivered |
 
-3. Done. It sends every day at ~9am Paris and remembers past articles automatically
-   (it commits `data/history.json` back to the repo after each send).
+The workflow remembers past articles automatically (it commits `data/history.json` back
+to the repo after each send) and is **idempotent**: it sends at most one briefing per
+day, so multiple triggers never double-send.
 
-**Test it now:** Actions → *Daily Tech Briefing* → **Run workflow**.
+**Test it now:** Actions → *Daily Tech Briefing* → **Run workflow** (tick `force` to send
+even if today's was already sent).
+
+### 3. Trigger it on time with a free external pinger
+
+GitHub's own `schedule:` cron is unreliable on low-activity repos — it drops most
+triggers and can fire hours late, so a fixed "before 10am" delivery isn't guaranteed by
+it alone. The fix (still 100% free) is a tiny external cron that calls GitHub at a fixed
+time. GitHub's cron stays enabled as a **best-effort backup**.
+
+**a) Create a GitHub token** — https://github.com/settings/personal-access-tokens/new
+   - Repository access: *Only select repositories* → this repo
+   - Permissions → **Actions: Read and write**
+   - Generate and copy the `github_pat_...` value.
+
+**b) Create a free job on [cron-job.org](https://cron-job.org)** that runs daily at
+   **08:00 Europe/Paris** with:
+   - **Method**: `POST`
+   - **URL**: `https://api.github.com/repos/<you>/daily-tech-briefing/actions/workflows/daily-briefing.yml/dispatches`
+   - **Body**: `{"ref":"main"}`
+   - **Headers**:
+     - `Accept: application/vnd.github+json`
+     - `Authorization: Bearer <your github_pat_...>`
+     - `X-GitHub-Api-Version: 2022-11-28`
+
+A successful call returns **HTTP 204**. The pinger fires *without* forcing, so it still
+passes the morning-window + once-a-day guard and can never double-send.
 
 ---
 
@@ -88,7 +115,8 @@ python main.py            # start the local scheduler (sends daily at 9am Paris)
 | Python 3.11+ | Core language |
 | Groq — Llama 3.3 70B | The agent's brain (decides, summarises) |
 | Tavily | Real-time news search |
-| GitHub Actions | Free daily scheduling at 9am Paris |
+| GitHub Actions | Free runtime for the daily job |
+| cron-job.org | Free external pinger that triggers it on time (~8am Paris) |
 | smtplib | Sends the email via Gmail |
 
 ## Project structure
@@ -101,7 +129,7 @@ daily-tech-briefing/
 ├── scheduler.py                    # Local daily scheduler + logging
 ├── history.py                      # Remembers sent articles (no repeats)
 ├── data/history.json               # The de-duplication memory
-├── .github/workflows/daily-briefing.yml   # Daily run at 9am Paris
+├── .github/workflows/daily-briefing.yml   # Morning run: window guard + idempotency
 ├── requirements.txt
 └── .env.example
 ```
