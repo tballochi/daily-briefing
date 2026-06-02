@@ -10,10 +10,20 @@ name: Daily Tech Briefing
 # later trigger a no-op. A missed/dropped trigger is always caught by the next one.
 
 on:
+  # Primary trigger: an external free cron (cron-job.org) calls workflow_dispatch at a
+  # fixed time (~08:00 Paris) -> punctual, because GitHub's own scheduler is unreliable.
+  # It calls WITHOUT the `force` input, so it still goes through the window + once-a-day
+  # idempotency guard and can never double-send.
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Force send even if one was already sent today (manual test only)"
+        type: boolean
+        default: false
+  # Backup trigger: GitHub's own cron. Best-effort only (often delayed/dropped on low
+  # activity repos); idempotency means it just confirms the day if the pinger already sent.
   schedule:
-    # :11, :33, :55 past UTC 05-08 -> lands inside Paris 07:00-09:59 in both DST seasons.
     - cron: "11,33,55 5,6,7,8 * * *"
-  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -27,18 +37,20 @@ jobs:
         with:
           fetch-depth: 0   # full history so we can rebase before pushing the updated state
 
-      - name: Gate (manual = force; scheduled = only in the 07-09 Paris window)
+      - name: Gate (force only on a manual human run; otherwise 06-11 Paris + idempotency)
         id: gate
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Manual run -> force."
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.force }}" = "true" ]; then
+            echo "Manual forced run -> send unconditionally."
             echo "run=true" >> "$GITHUB_OUTPUT"
             echo "force=--force" >> "$GITHUB_OUTPUT"
           else
+            # Pinger dispatch or GitHub schedule: only inside the morning window, and the
+            # once-a-day idempotency guard (in Python) decides whether to actually send.
             H=$(TZ=Europe/Paris date +%H)
             echo "Current Paris hour: $H"
             case "$H" in
-              07|08|09) echo "run=true" >> "$GITHUB_OUTPUT" ;;
+              06|07|08|09|10|11) echo "run=true" >> "$GITHUB_OUTPUT" ;;
               *) echo "run=false" >> "$GITHUB_OUTPUT" ;;
             esac
             echo "force=" >> "$GITHUB_OUTPUT"
