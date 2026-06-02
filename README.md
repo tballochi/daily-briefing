@@ -1,4 +1,4 @@
-# Daily Tech Briefing
+# Daily Tech Briefing Agent
 
 An AI agent that emails you the **3 most important tech stories of the day**, every
 morning (around 8am, Europe/Paris). Free to run, no server to maintain.
