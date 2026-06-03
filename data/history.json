@@ -20,12 +20,37 @@
       "url": "https://www.mmsonline.com/articles/exploring-automation-at-imts-2026",
       "title": "Exploring Automation at IMTS 2026 - Modern Machine Shop",
       "date": "2026-06-02T17:36:10.197140"
+    },
+    {
+      "url_key": "marinelink.com/news/cma-cgm-notre-dame-makes-maiden-call-539884",
+      "title_key": "cma cgm notre dame makes maiden call in singapore - marine news magazine",
+      "url": "https://www.marinelink.com/news/cma-cgm-notre-dame-makes-maiden-call-539884",
+      "title": "CMA CGM Notre Dame Makes Maiden Call In Singapore - Marine News Magazine",
+      "date": "2026-06-03T06:01:02.120836"
+    },
+    {
+      "url_key": "opentools.ai/news/claude-opus-4-8-dynamic-workflows-benchmarks-2026",
+      "title_key": "claude opus 4.8 tops gpt-5.5 with dynamic workflows and 4x better honesty - opentools",
+      "url": "https://opentools.ai/news/claude-opus-4-8-dynamic-workflows-benchmarks-2026",
+      "title": "Claude Opus 4.8 Tops GPT-5.5 With Dynamic Workflows and 4x Better Honesty - OpenTools",
+      "date": "2026-06-03T06:01:02.120836"
+    },
+    {
+      "url_key": "seatrade-maritime.com/containers/maersk-launches-new-service-linking-china-and-india",
+      "title_key": "maersk launches new service linking china and india - seatrade maritime news",
+      "url": "https://www.seatrade-maritime.com/containers/maersk-launches-new-service-linking-china-and-india",
+      "title": "Maersk launches new service linking China and India - Seatrade Maritime News",
+      "date": "2026-06-03T06:01:02.120836"
     }
   ],
   "words": [
     {
       "word": "idempotency",
       "date": "2026-06-02T17:36:10.197140"
+    },
+    {
+      "word": "inference",
+      "date": "2026-06-03T06:01:02.120836"
     }
   ],
   "quotes": [
@@ -33,7 +58,12 @@
       "text": "Software is eating the world.",
       "author": "Marc Andreessen",
       "date": "2026-06-02T17:36:10.197140"
+    },
+    {
+      "text": "The best way to predict the future is to invent it",
+      "author": "Alan Kay",
+      "date": "2026-06-03T06:01:02.120836"
     }
   ],
-  "last_sent_date": "2026-06-02"
+  "last_sent_date": "2026-06-03"
 }
