@@ -134,19 +134,53 @@ def _groq_client() -> Groq:
 
 # --- Tool implementation ---------------------------------------------------
 
+# Tavily free-tier is touchy about bursts: firing several searches in the same
+# second can trip its rate limit (which surfaces as an empty-message error). We keep
+# a minimum spacing between calls and retry transient failures with backoff, because a
+# single failed search can sink the whole briefing — with no real results the LLM has
+# no URLs to pick and hallucinates them, so everything gets dropped as "fabricated".
+_MIN_SEARCH_INTERVAL = 1.2   # seconds between consecutive Tavily calls
+_SEARCH_ATTEMPTS = 3         # attempts per search before giving up
+_last_search_ts = 0.0
+
+
+def _throttle_search() -> None:
+    """Space Tavily calls at least _MIN_SEARCH_INTERVAL apart (free-tier friendly)."""
+    global _last_search_ts
+    wait = _MIN_SEARCH_INTERVAL - (time.time() - _last_search_ts)
+    if wait > 0:
+        time.sleep(wait)
+    _last_search_ts = time.time()
+
+
 def search_news(query: str, max_results: int = 5) -> list[dict]:
-    """Tavily search returning compact, dedup-annotated results for the agent."""
-    try:
-        client = _tavily_client()
-        response = client.search(
-            query=query,
-            search_depth="advanced",
-            topic="news",
-            days=7,
-            max_results=max_results,
-        )
-    except Exception as exc:  # noqa: BLE001
-        logger.error("Tavily search failed for '%s': %s", query, exc)
+    """Tavily search returning compact, dedup-annotated results for the agent.
+
+    Throttled and retried with backoff: a transient Tavily blip or a free-tier
+    rate-limit must not silently zero out a search (and through it the whole day).
+    """
+    response = None
+    for attempt in range(1, _SEARCH_ATTEMPTS + 1):
+        _throttle_search()
+        try:
+            client = _tavily_client()
+            response = client.search(
+                query=query,
+                search_depth="advanced",
+                topic="news",
+                days=7,
+                max_results=max_results,
+            )
+            break
+        except Exception as exc:  # noqa: BLE001
+            # str(exc) is often empty for Tavily rate-limit errors, so log the type too.
+            logger.error(
+                "Tavily search failed for '%s' (attempt %d/%d): %s: %s",
+                query, attempt, _SEARCH_ATTEMPTS, type(exc).__name__, exc or "<no message>",
+            )
+            if attempt < _SEARCH_ATTEMPTS:
+                time.sleep(2 * attempt)  # 2s then 4s — clears brief blips / rate limits
+    if response is None:
         return []
 
     results = []
