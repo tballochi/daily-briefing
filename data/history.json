@@ -41,6 +41,27 @@
       "url": "https://www.seatrade-maritime.com/containers/maersk-launches-new-service-linking-china-and-india",
       "title": "Maersk launches new service linking China and India - Seatrade Maritime News",
       "date": "2026-06-03T06:01:02.120836"
+    },
+    {
+      "url_key": "itnews.com.au/news/researchers-build-self-replicating-ai-worm-with-byo-llm-626409",
+      "title_key": "researchers build self-replicating ai worm with byo llm - itnews",
+      "url": "https://www.itnews.com.au/news/researchers-build-self-replicating-ai-worm-with-byo-llm-626409?utm_source=feed&utm_medium=rss&utm_campaign=editors_picks",
+      "title": "Researchers build self-replicating AI worm with BYO LLM - iTnews",
+      "date": "2026-06-04T07:57:50.422768"
+    },
+    {
+      "url_key": "marinelink.com/news/maritime/ventofoil",
+      "title_key": "ventofoil news - marine news magazine",
+      "url": "https://www.marinelink.com/news/maritime/ventofoil",
+      "title": "Ventofoil News - Marine News Magazine",
+      "date": "2026-06-04T07:57:50.422768"
+    },
+    {
+      "url_key": "marinelink.com/news/abf-seizes-cocaine-concealed-roro-cargo-539769",
+      "title_key": "abf seizes cocaine concealed in roro cargo - marine news magazine",
+      "url": "https://www.marinelink.com/news/abf-seizes-cocaine-concealed-roro-cargo-539769",
+      "title": "ABF Seizes Cocaine Concealed in RoRo Cargo - Marine News Magazine",
+      "date": "2026-06-04T07:57:50.422768"
     }
   ],
   "words": [
@@ -51,6 +72,10 @@
     {
       "word": "inference",
       "date": "2026-06-03T06:01:02.120836"
+    },
+    {
+      "word": "embedding",
+      "date": "2026-06-04T07:57:50.422768"
     }
   ],
   "quotes": [
@@ -63,7 +88,12 @@
       "text": "The best way to predict the future is to invent it",
       "author": "Alan Kay",
       "date": "2026-06-03T06:01:02.120836"
+    },
+    {
+      "text": "Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
+      "author": "Steve Jobs",
+      "date": "2026-06-04T07:57:50.422768"
     }
   ],
-  "last_sent_date": "2026-06-03"
+  "last_sent_date": "2026-06-04"
 }
