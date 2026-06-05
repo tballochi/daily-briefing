@@ -1,0 +1,45 @@
+# =============================================================================
+#  Daily Tech Briefing — your preferences
+# =============================================================================
+#  This is the ONE file to edit to make the briefing your own. It does NOT
+#  contain any secrets (API keys stay in .env / GitHub Secrets).
+#  Edit it, commit, and the next run uses your choices.
+# =============================================================================
+
+# How many stories the briefing contains each morning.
+num_articles: 3
+
+# The topics the agent researches. Free text — write them the way you'd describe
+# your interests. The agent turns these into web searches and picks the best,
+# most recent, substantive stories across them. Add, remove, reword freely.
+topics:
+  - AI & LLMs (GPT, Claude, Gemini, agents, LangChain/LangGraph, MCP)
+  - shipping & logistics tech
+  - automation & no-code (n8n, Zapier, Make)
+  - dev tools & open source
+
+# OPTIONAL — a story that must ALWAYS be in the briefing, on top of your topics.
+# Useful for a niche you never want to miss. Delete this whole `focus:` block
+# if you don't want a guaranteed story.
+focus:
+  # Human label for the theme (used in the prompt and to recognise matches).
+  label: shipping / maritime / logistics
+  # Searched FIRST every run; if there's a fresh story about it, it's preferred.
+  # Leave empty ("") to just guarantee the theme without a priority subject.
+  priority_query: CMA CGM
+  # Lowercase words/phrases that mark an article as belonging to this theme.
+  keywords:
+    - cma cgm
+    - shipping
+    - maritime
+    - port
+    - container
+    - freight
+    - vessel
+    - supply chain
+    - logistics
+    - cargo
+    - maersk
+    - msc
+    - hapag
+    - terminal

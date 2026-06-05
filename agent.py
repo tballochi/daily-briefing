@@ -25,6 +25,7 @@ from urllib.parse import urlparse
 from groq import Groq
 from tavily import TavilyClient
 
+import config as briefing_config
 import history
 
 logger = logging.getLogger("briefing.agent")
@@ -36,36 +37,53 @@ TPM_LIMIT = 12000          # Groq free-tier tokens-per-minute ceiling
 TPM_SAFETY = 0.85          # only use 85% of the budget to stay clear of 429s
 MAX_STEPS = 10             # hard cap on agent loop iterations
 MAX_SEARCHES = 6           # hard cap on Tavily searches per run (quota friendly)
-TARGET_ARTICLES = 3        # how many stories the briefing contains
 
-# Keywords used to guarantee at least one shipping/maritime/logistics story.
-SHIPPING_KEYWORDS = (
-    "cma cgm", "shipping", "maritime", "port", "container", "freight", "vessel",
-    "supply chain", "logistics", "cargo", "ocean carrier", "seafreight", "msc",
-    "maersk", "hapag", "boxship", "terminal", "harbor", "harbour",
-)
+# User preferences (topics, focus theme, article count) live in config.yaml so the
+# briefing is personalisable without touching the code. See config.py.
+CFG = briefing_config.load()
+TARGET_ARTICLES = CFG.num_articles   # how many stories the briefing contains
+FOCUS = CFG.focus                    # optional always-include theme, or None
+FOCUS_KEYWORDS = FOCUS["keywords"] if FOCUS else ()
 
-SYSTEM_PROMPT = """You are an autonomous tech-news research agent. Your job is to \
-find the 3 most important and recent technology stories of the day for a general \
-professional audience, then hand them off for writing.
+
+def _build_system_prompt() -> str:
+    """Assemble the research agent's system prompt from the user's config.yaml."""
+    topics = "\n".join(f"- {t}" for t in CFG.topics)
+    prompt = f"""You are an autonomous tech-news research agent. Your job is to find \
+the {TARGET_ARTICLES} most important and recent technology stories of the day for the \
+user, then hand them off for writing.
 
 How you work:
-- Call `search_news` to search the web. Run a few searches to cover the tech \
-landscape: AI & LLMs (GPT, Claude, Gemini, agents, LangChain/LangGraph, MCP), \
-shipping & logistics tech, and automation & product (n8n, Zapier, Make, no-code). \
+- Call `search_news` to search the web. Run a few searches to cover the user's \
+interests:
+{topics}
 Read the results, judge their quality, and run follow-up searches if needed.
 - Pick SUBSTANTIVE individual articles only. Reject index pages, news round-ups, \
 homepages or vague titles like "New Ship News" — they are not real stories.
 - Each result is tagged `already_sent: true` if it was sent in a previous briefing. \
-NEVER pick an already_sent article.
-- MANDATORY: exactly ONE of the 3 stories must be about shipping / maritime / \
-logistics. Search specifically for "CMA CGM" first — if there is a relevant, recent \
-CMA CGM story, pick it. If not, pick another strong maritime/shipping/logistics \
-story instead. Always run a CMA CGM search and a general maritime/shipping search.
-- When you have found the 3 strongest, distinct, non-duplicate stories (one of them \
-shipping), call `finalize_selection` with their exact URLs copied from the results.
+NEVER pick an already_sent article."""
+
+    if FOCUS:
+        prompt += f"""
+- MANDATORY: exactly ONE of the {TARGET_ARTICLES} stories must be about \
+{FOCUS['label']}."""
+        if FOCUS["priority_query"]:
+            prompt += f""" Search specifically for "{FOCUS['priority_query']}" first — \
+if there is a relevant, recent story about it, pick it. If not, pick another strong \
+{FOCUS['label']} story instead. Always run a "{FOCUS['priority_query']}" search and a \
+general {FOCUS['label']} search."""
+
+    closing_focus = f" (one of them about {FOCUS['label']})" if FOCUS else ""
+    prompt += f"""
+- When you have found the {TARGET_ARTICLES} strongest, distinct, non-duplicate \
+stories{closing_focus}, call `finalize_selection` with their exact URLs copied from \
+the results.
 
 You only research and select. You do NOT write summaries — that happens later."""
+    return prompt
+
+
+SYSTEM_PROMPT = _build_system_prompt()
 
 
 TOOLS = [
@@ -328,22 +346,31 @@ def _resolve_selection(urls: list[str], collected: list[dict]) -> list[dict]:
     return chosen[:TARGET_ARTICLES]
 
 
-def _shipping_score(article: dict) -> int:
-    """2 if the article is about CMA CGM, 1 if shipping/maritime/logistics, else 0."""
-    text = f"{article.get('title', '')} {article.get('snippet', '')}".lower()
-    if "cma cgm" in text:
-        return 2
-    return 1 if any(kw in text for kw in SHIPPING_KEYWORDS) else 0
+def _focus_score(article: dict) -> int:
+    """Rank an article against the configured focus theme.
 
-
-def _ensure_shipping_news(selected: list[dict], collected: list[dict]) -> list[dict]:
-    """Guarantee exactly one shipping story among the selection (prefer CMA CGM).
-
-    If the agent's pick already contains a shipping story, leave it. Otherwise find
-    the best shipping candidate (CMA CGM first) from the gathered results, or run a
-    dedicated search, and substitute it for the least-prioritised article.
+    2 if it matches the focus priority subject, 1 if it matches any focus keyword,
+    else 0. Always 0 when no focus theme is configured.
     """
-    if any(_shipping_score(a) >= 1 for a in selected):
+    if not FOCUS:
+        return 0
+    text = f"{article.get('title', '')} {article.get('snippet', '')}".lower()
+    pq = FOCUS["priority_query"].lower()
+    if pq and pq in text:
+        return 2
+    return 1 if any(kw in text for kw in FOCUS_KEYWORDS) else 0
+
+
+def _ensure_focus_news(selected: list[dict], collected: list[dict]) -> list[dict]:
+    """Guarantee one story about the configured focus theme (prefer its priority subject).
+
+    No-op when no focus is configured. If the agent's pick already contains a focus
+    story, leave it. Otherwise find the best focus candidate from the gathered results,
+    or run a dedicated search, and substitute it for the least-prioritised article.
+    """
+    if not FOCUS:
+        return selected
+    if any(_focus_score(a) >= 1 for a in selected):
         return selected
 
     used = {_norm_url(a.get("url", "")) for a in selected}
@@ -353,13 +380,17 @@ def _ensure_shipping_news(selected: list[dict], collected: list[dict]) -> list[d
             _norm_url(a.get("url", "")) not in used
             and not a.get("already_sent")
             and len(a.get("title", "")) >= 15
-            and _shipping_score(a) >= 1
+            and _focus_score(a) >= 1
             and _url_alive(a.get("url", ""))
         )
 
     candidates = [a for a in collected if _eligible(a)]
     if not candidates:
-        for query in ("CMA CGM news", "maritime shipping logistics supply chain news"):
+        queries = []
+        if FOCUS["priority_query"]:
+            queries.append(f"{FOCUS['priority_query']} news")
+        queries.append(f"{FOCUS['label']} news")
+        for query in queries:
             for a in search_news(query):
                 if _eligible(a):
                     candidates.append(a)
@@ -367,12 +398,12 @@ def _ensure_shipping_news(selected: list[dict], collected: list[dict]) -> list[d
                 break
 
     if not candidates:
-        logger.warning("Could not find a shipping story to guarantee coverage")
+        logger.warning("Could not find a focus story (%s) to guarantee coverage", FOCUS["label"])
         return selected
 
-    candidates.sort(key=_shipping_score, reverse=True)  # CMA CGM (2) before generic (1)
+    candidates.sort(key=_focus_score, reverse=True)  # priority subject (2) before generic (1)
     best = candidates[0]
-    logger.info("Injecting shipping story for guaranteed coverage: %s", best.get("title", ""))
+    logger.info("Injecting focus story for guaranteed coverage: %s", best.get("title", ""))
     selected[-1] = best
     return selected
 
@@ -398,14 +429,19 @@ def run_agent_selection(today: str) -> tuple[list[dict], list[dict]]:
             f"headline):\n{listed}"
         )
 
+    focus_clause = ""
+    if FOCUS:
+        focus_clause = f", one of which must be about {FOCUS['label']}"
+        if FOCUS["priority_query"]:
+            focus_clause += f" (search {FOCUS['priority_query']} first)"
+
     messages = [
         {"role": "system", "content": SYSTEM_PROMPT},
         {
             "role": "user",
             "content": (
-                f"Today is {today}. Find the 3 most important recent tech stories, "
-                "one of which must be about shipping/maritime/logistics (search CMA CGM "
-                f"first). Start searching now.{avoid_block}"
+                f"Today is {today}. Find the {TARGET_ARTICLES} most important recent "
+                f"tech stories{focus_clause}. Start searching now.{avoid_block}"
             ),
         },
     ]
@@ -670,7 +706,7 @@ def build_briefing() -> tuple[str, str, dict]:
     subject = f"Daily Tech Briefing — {today}"
 
     selected, collected = run_agent_selection(today)
-    selected = _ensure_shipping_news(selected, collected)
+    selected = _ensure_focus_news(selected, collected)
     if not selected:
         raise RuntimeError("Agent selected no valid articles")
 

@@ -11,8 +11,9 @@ Built with **Groq (Llama 3.3 70B)** for the AI and **Tavily** for live web searc
 
 A clean, newspaper-style email with:
 
-- **3 top tech stories** — across AI & LLMs, shipping/logistics, and automation.
-  One story is always about **shipping** (CMA CGM when there's relevant news).
+- **3 top tech stories** — across the topics *you* choose in `config.yaml` (defaults:
+  AI & LLMs, shipping/logistics, automation). You can also pin a theme that's always
+  included (e.g. **shipping**, with CMA CGM preferred when there's relevant news).
 - For each story: a short factual summary, the **publication date**, and a link to
   the source.
 - **Word of the day** — a real tech term with a definition and example.
@@ -33,6 +34,29 @@ It's a real **AI agent**, not a fixed script. In two phases:
    nothing is invented.
 
 The whole run stays within the **Groq free tier** (calls are paced automatically).
+
+---
+
+## Make it your own
+
+All personalisation lives in **`config.yaml`** — no code to touch:
+
+```yaml
+num_articles: 3
+topics:
+  - AI & LLMs (GPT, Claude, agents, MCP)
+  - automation & no-code (n8n, Zapier, Make)
+  - dev tools & open source
+focus:                       # optional: a story that's ALWAYS included
+  label: shipping / maritime / logistics
+  priority_query: CMA CGM    # searched first; preferred when there's fresh news
+  keywords: [cma cgm, shipping, maritime, container, freight]
+```
+
+Reword the `topics` to your interests, change `num_articles`, and either set your own
+`focus` theme or delete the whole `focus:` block if you don't want a guaranteed story.
+Edit, commit, and the next run uses it. (No `config.yaml`? It falls back to sensible
+defaults so it always runs.)
 
 ---
 
