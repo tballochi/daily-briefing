@@ -46,6 +46,7 @@ class BriefingConfig:
     """Validated, normalised view of the user's preferences.
 
     Attributes:
+        title: name shown in the email subject and header (topic-agnostic default).
         num_articles: how many stories the briefing contains.
         topics: list of free-text interest areas that steer the agent's searches.
         focus: optional dict {label, priority_query, keywords} for a story that must
@@ -53,6 +54,8 @@ class BriefingConfig:
     """
 
     def __init__(self, data: dict):
+        self.title = str(data.get("title") or "").strip() or "Daily Briefing"
+
         try:
             self.num_articles = max(1, int(data.get("num_articles") or 3))
         except (TypeError, ValueError):

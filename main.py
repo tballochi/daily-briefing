@@ -1,4 +1,4 @@
-"""Entry point for the Daily Tech Briefing agent.
+"""Entry point for the Daily Briefing agent.
 
 Usage:
     python main.py            # start the scheduler (daily at 09:00 Europe/Paris)

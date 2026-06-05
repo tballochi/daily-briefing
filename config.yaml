@@ -6,6 +6,10 @@
 #  Edit it, commit, and the next run uses your choices.
 # =============================================================================
 
+# Name shown in the email subject line and header. Make it topic-agnostic if your
+# topics aren't all "tech" — e.g. "Daily Briefing", "Morning Digest", "Tom's Brief".
+title: Daily Briefing
+
 # How many stories the briefing contains each morning.
 num_articles: 3
 

@@ -1,4 +1,4 @@
-name: Daily Tech Briefing
+name: Daily Briefing
 
 # Sends the briefing every morning in the 07:00-09:59 Europe/Paris window (target ~9am,
 # earlier is fine — the goal is that it goes out every single morning before 10:00).

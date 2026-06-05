@@ -93,7 +93,7 @@ def start_scheduler() -> None:
         run_briefing,
         CronTrigger(hour=9, minute=0, timezone=TIMEZONE),
         id="daily_briefing",
-        name="Daily Tech Briefing at 09:00 Europe/Paris",
+        name="Daily Briefing at 09:00 Europe/Paris",
         misfire_grace_time=3600,
     )
     logger.info("Scheduler started. Next briefing every day at 09:00 %s.", TIMEZONE)

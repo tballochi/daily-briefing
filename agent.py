@@ -676,7 +676,7 @@ def _render_html(briefing: dict, today: str) -> str:
       <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:3px;
                   text-transform:uppercase;color:#0B2C4D;margin-bottom:8px;">Curated by your AI Agent</div>
       <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:38px;
-                 font-weight:700;letter-spacing:1px;color:#111111;line-height:1.1;">Daily Tech Briefing</h1>
+                 font-weight:700;letter-spacing:1px;color:#111111;line-height:1.1;">{CFG.title}</h1>
       <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:2px;
                   text-transform:uppercase;color:#555555;margin-top:10px;">{today}</div>
     </div>
@@ -703,7 +703,7 @@ def build_briefing() -> tuple[str, str, dict]:
     successful send: {"articles": [...], "word": {...}, "quote": {...}}.
     """
     today = datetime.now().strftime("%B %d, %Y")
-    subject = f"Daily Tech Briefing — {today}"
+    subject = f"{CFG.title} — {today}"
 
     selected, collected = run_agent_selection(today)
     selected = _ensure_focus_news(selected, collected)

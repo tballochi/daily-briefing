@@ -52,9 +52,10 @@ def send_failure_alert(error: str) -> None:
     Best-effort: never raises, so a failed alert can't crash the job further.
     """
     from datetime import datetime
+    import config
 
     today = datetime.now().strftime("%B %d, %Y")
-    subject = f"[Daily Tech Briefing] Failed — {today}"
+    subject = f"[{config.load().title}] Failed — {today}"
     html = f"""<div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;">
       <p>Today's briefing could not be sent.</p>
       <p style="color:#b00020;"><strong>Reason:</strong> {error}</p>

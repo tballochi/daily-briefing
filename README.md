@@ -1,4 +1,4 @@
-# Daily Tech Briefing Agent
+# Daily Briefing Agent
 
 An AI agent that emails you the **3 most important tech stories of the day**, every
 morning (around 8am, Europe/Paris). Free to run, no server to maintain.
@@ -91,7 +91,7 @@ The workflow remembers past articles automatically (it commits `data/history.jso
 to the repo after each send) and is **idempotent**: it sends at most one briefing per
 day, so multiple triggers never double-send.
 
-**Test it now:** Actions → *Daily Tech Briefing* → **Run workflow** (tick `force` to send
+**Test it now:** Actions → *Daily Briefing* → **Run workflow** (tick `force` to send
 even if today's was already sent).
 
 ### 3. Trigger it on time with a free external pinger
