@@ -109,7 +109,7 @@ time. GitHub's cron stays enabled as a **best-effort backup**.
 **b) Create a free job on [cron-job.org](https://cron-job.org)** that runs daily at
    **08:00 Europe/Paris** with:
    - **Method**: `POST`
-   - **URL**: `https://api.github.com/repos/<you>/daily-tech-briefing/actions/workflows/daily-briefing.yml/dispatches`
+   - **URL**: `https://api.github.com/repos/<you>/daily-briefing/actions/workflows/daily-briefing.yml/dispatches`
    - **Body**: `{"ref":"main"}`
    - **Headers**:
      - `Accept: application/vnd.github+json`
@@ -146,7 +146,9 @@ python main.py            # start the local scheduler (sends daily at 9am Paris)
 ## Project structure
 
 ```
-daily-tech-briefing/
+daily-briefing/
+├── config.yaml                     # Your preferences: title, topics, focus
+├── config.py                       # Loads/validates config.yaml (with defaults)
 ├── main.py                         # Entry point (--now to send once)
 ├── agent.py                        # The AI agent (research + writing + HTML)
 ├── email_sender.py                 # Gmail delivery
