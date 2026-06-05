@@ -62,6 +62,27 @@
       "url": "https://www.marinelink.com/news/abf-seizes-cocaine-concealed-roro-cargo-539769",
       "title": "ABF Seizes Cocaine Concealed in RoRo Cargo - Marine News Magazine",
       "date": "2026-06-04T07:57:50.422768"
+    },
+    {
+      "url_key": "marinelink.com/news/mrs-managing-maritime-risk-a-dynamic-539918",
+      "title_key": "mrs '26: managing maritime risk in a dynamic geopolitical environment - marine news magazine",
+      "url": "https://www.marinelink.com/news/mrs-managing-maritime-risk-a-dynamic-539918",
+      "title": "MRS '26: Managing Maritime Risk in a Dynamic Geopolitical Environment - Marine News Magazine",
+      "date": "2026-06-05T08:52:00.119158"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/modern_logistics_labor_ai_investments_succeed_when_talent_leads",
+      "title_key": "modern logistics labor: ai investments succeed when talent leads - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/modern_logistics_labor_ai_investments_succeed_when_talent_leads",
+      "title": "Modern Logistics Labor: AI investments succeed when talent leads - Logistics Management",
+      "date": "2026-06-05T08:52:00.119158"
+    },
+    {
+      "url_key": "therobotreport.com/top-10-robotics-stories-of-may-2026",
+      "title_key": "top 10 robotics stories of may 2026 - the robot report",
+      "url": "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/",
+      "title": "Top 10 robotics stories of May 2026 - The Robot Report",
+      "date": "2026-06-05T08:52:00.119158"
     }
   ],
   "words": [
@@ -76,6 +97,10 @@
     {
       "word": "embedding",
       "date": "2026-06-04T07:57:50.422768"
+    },
+    {
+      "word": "fine-tuning",
+      "date": "2026-06-05T08:52:00.119158"
     }
   ],
   "quotes": [
@@ -93,7 +118,12 @@
       "text": "Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
       "author": "Steve Jobs",
       "date": "2026-06-04T07:57:50.422768"
+    },
+    {
+      "text": "Computing is not about computers anymore. It is about living.",
+      "author": "Nicholas Negroponte",
+      "date": "2026-06-05T08:52:00.119158"
     }
   ],
-  "last_sent_date": "2026-06-04"
+  "last_sent_date": "2026-06-05"
 }
