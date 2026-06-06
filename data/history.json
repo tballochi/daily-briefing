@@ -83,6 +83,27 @@
       "url": "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/",
       "title": "Top 10 robotics stories of May 2026 - The Robot Report",
       "date": "2026-06-05T08:52:00.119158"
+    },
+    {
+      "url_key": "inboundlogistics.com/articles/in-brief-supply-chain-freight-tech-updates-0426",
+      "title_key": "in brief: the latest supply chain, freight tech updates - inbound logistics",
+      "url": "https://www.inboundlogistics.com/articles/in-brief-supply-chain-freight-tech-updates-0426/",
+      "title": "IN BRIEF: The Latest Supply Chain, Freight Tech Updates - Inbound Logistics",
+      "date": "2026-06-06T08:01:54.776727"
+    },
+    {
+      "url_key": "artificiallawyer.com/2026/06/02/mcp-the-standard-that-decides-legal-ais-future",
+      "title_key": "mcp: the standard that decides legal ai’s future - artificial lawyer",
+      "url": "https://www.artificiallawyer.com/2026/06/02/mcp-the-standard-that-decides-legal-ais-future/",
+      "title": "MCP: The Standard that Decides Legal AI’s Future - Artificial Lawyer",
+      "date": "2026-06-06T08:01:54.776727"
+    },
+    {
+      "url_key": "techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months",
+      "title_key": "supabase doubles valuation to $10b in 8 months - techcrunch",
+      "url": "https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/",
+      "title": "Supabase doubles valuation to $10B in 8 months - TechCrunch",
+      "date": "2026-06-06T08:01:54.776727"
     }
   ],
   "words": [
@@ -101,6 +122,10 @@
     {
       "word": "fine-tuning",
       "date": "2026-06-05T08:52:00.119158"
+    },
+    {
+      "word": "quantization",
+      "date": "2026-06-06T08:01:54.776727"
     }
   ],
   "quotes": [
@@ -123,7 +148,12 @@
       "text": "Computing is not about computers anymore. It is about living.",
       "author": "Nicholas Negroponte",
       "date": "2026-06-05T08:52:00.119158"
+    },
+    {
+      "text": "The biggest risk is not taking any risk.",
+      "author": "Mark Zuckerberg",
+      "date": "2026-06-06T08:01:54.776727"
     }
   ],
-  "last_sent_date": "2026-06-05"
+  "last_sent_date": "2026-06-06"
 }
