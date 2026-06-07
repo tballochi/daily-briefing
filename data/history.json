@@ -104,6 +104,27 @@
       "url": "https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/",
       "title": "Supabase doubles valuation to $10B in 8 months - TechCrunch",
       "date": "2026-06-06T08:01:54.776727"
+    },
+    {
+      "url_key": "marinelink.com/news/gtt-gets-hanwha-oceans-lng-carrier-tank-539953",
+      "title_key": "gtt gets hanwha ocean’s lng carrier tank design order - marine news magazine",
+      "url": "https://www.marinelink.com/news/gtt-gets-hanwha-oceans-lng-carrier-tank-539953",
+      "title": "GTT Gets Hanwha Ocean’S LNG Carrier Tank Design Order - Marine News Magazine",
+      "date": "2026-06-07T06:01:09.085012"
+    },
+    {
+      "url_key": "itnews.com.au/news/researchers-build-self-replicating-worm-with-byo-small-ai-model-626409",
+      "title_key": "researchers build self-replicating worm with byo small ai model - itnews",
+      "url": "https://www.itnews.com.au/news/researchers-build-self-replicating-worm-with-byo-small-ai-model-626409",
+      "title": "Researchers build self-replicating worm with BYO small AI model - iTnews",
+      "date": "2026-06-07T06:01:09.085012"
+    },
+    {
+      "url_key": "reuters.com/business/openai-plans-chatgpt-superapp-overhaul-ahead-listing-ft-reports-2026-06-07",
+      "title_key": "openai plans chatgpt 'superapp' overhaul ahead of listing, ft reports - reuters",
+      "url": "https://www.reuters.com/business/openai-plans-chatgpt-superapp-overhaul-ahead-listing-ft-reports-2026-06-07/",
+      "title": "OpenAI plans ChatGPT 'superapp' overhaul ahead of listing, FT reports - Reuters",
+      "date": "2026-06-07T06:01:09.085012"
     }
   ],
   "words": [
@@ -126,6 +147,10 @@
     {
       "word": "quantization",
       "date": "2026-06-06T08:01:54.776727"
+    },
+    {
+      "word": "webhook",
+      "date": "2026-06-07T06:01:09.085012"
     }
   ],
   "quotes": [
@@ -153,7 +178,12 @@
       "text": "The biggest risk is not taking any risk.",
       "author": "Mark Zuckerberg",
       "date": "2026-06-06T08:01:54.776727"
+    },
+    {
+      "text": "The future belongs to those who see possibilities before they become obvious.",
+      "author": "John Sculley",
+      "date": "2026-06-07T06:01:09.085012"
     }
   ],
-  "last_sent_date": "2026-06-06"
+  "last_sent_date": "2026-06-07"
 }
