@@ -125,6 +125,27 @@
       "url": "https://www.reuters.com/business/openai-plans-chatgpt-superapp-overhaul-ahead-listing-ft-reports-2026-06-07/",
       "title": "OpenAI plans ChatGPT 'superapp' overhaul ahead of listing, FT reports - Reuters",
       "date": "2026-06-07T06:01:09.085012"
+    },
+    {
+      "url_key": "marinelink.com/news/container-ship-sinks-off-batam-540024",
+      "title_key": "container ship sinks off batam - marine news magazine",
+      "url": "https://www.marinelink.com/news/container-ship-sinks-off-batam-540024",
+      "title": "Container Ship Sinks Off Batam - Marine News Magazine",
+      "date": "2026-06-08T06:01:16.226584"
+    },
+    {
+      "url_key": "onrec.com/news/top-25-hr-tech-domains-cited-by-llms",
+      "title_key": "top 25 hr tech domains cited by llms",
+      "url": "https://www.onrec.com/news/top-25-hr-tech-domains-cited-by-llms",
+      "title": "Top 25 HR Tech Domains Cited by LLMs",
+      "date": "2026-06-08T06:01:16.226584"
+    },
+    {
+      "url_key": "eurekalert.org/news-releases/1129812",
+      "title_key": "ai fails classic attention test",
+      "url": "https://www.eurekalert.org/news-releases/1129812",
+      "title": "AI fails classic attention test",
+      "date": "2026-06-08T06:01:16.226584"
     }
   ],
   "words": [
@@ -151,6 +172,10 @@
     {
       "word": "webhook",
       "date": "2026-06-07T06:01:09.085012"
+    },
+    {
+      "word": "latency",
+      "date": "2026-06-08T06:01:16.226584"
     }
   ],
   "quotes": [
@@ -183,7 +208,12 @@
       "text": "The future belongs to those who see possibilities before they become obvious.",
       "author": "John Sculley",
       "date": "2026-06-07T06:01:09.085012"
+    },
+    {
+      "text": "Code is the language in which we describe the world around us.",
+      "author": "Lawrence Lessig",
+      "date": "2026-06-08T06:01:16.226584"
     }
   ],
-  "last_sent_date": "2026-06-07"
+  "last_sent_date": "2026-06-08"
 }
