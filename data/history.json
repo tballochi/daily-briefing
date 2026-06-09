@@ -146,6 +146,27 @@
       "url": "https://www.eurekalert.org/news-releases/1129812",
       "title": "AI fails classic attention test",
       "date": "2026-06-08T06:01:16.226584"
+    },
+    {
+      "url_key": "seatrade-maritime.com/tankers/marinakis-calls-for-dark-fleet-destruction",
+      "title_key": "marinakis calls for dark fleet destruction - seatrade maritime news",
+      "url": "https://www.seatrade-maritime.com/tankers/marinakis-calls-for-dark-fleet-destruction",
+      "title": "Marinakis calls for dark fleet destruction - Seatrade Maritime News",
+      "date": "2026-06-09T06:01:51.318124"
+    },
+    {
+      "url_key": "itnews.com.au/news/anthropic-opens-claude-mythos-preview-ai-program-to-australia-626399",
+      "title_key": "anthropic opens claude mythos preview ai program to australia - itnews",
+      "url": "https://www.itnews.com.au/news/anthropic-opens-claude-mythos-preview-ai-program-to-australia-626399",
+      "title": "Anthropic opens Claude Mythos Preview AI program to Australia - iTnews",
+      "date": "2026-06-09T06:01:51.318124"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/the_pairing_of_tariffs_and_geopolitics_is_reshaping_pharma_supply_chains",
+      "title_key": "the pairing of tariffs and geopolitics is reshaping pharma supply chains - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/the_pairing_of_tariffs_and_geopolitics_is_reshaping_pharma_supply_chains/",
+      "title": "The pairing of tariffs and geopolitics is reshaping pharma supply chains - Logistics Management",
+      "date": "2026-06-09T06:01:51.318124"
     }
   ],
   "words": [
@@ -176,6 +197,10 @@
     {
       "word": "latency",
       "date": "2026-06-08T06:01:16.226584"
+    },
+    {
+      "word": "vector database",
+      "date": "2026-06-09T06:01:51.318124"
     }
   ],
   "quotes": [
@@ -213,7 +238,12 @@
       "text": "Code is the language in which we describe the world around us.",
       "author": "Lawrence Lessig",
       "date": "2026-06-08T06:01:16.226584"
+    },
+    {
+      "text": "Innovation distinguishes between a leader and a follower.",
+      "author": "Steve Jobs",
+      "date": "2026-06-09T06:01:51.318124"
     }
   ],
-  "last_sent_date": "2026-06-08"
+  "last_sent_date": "2026-06-09"
 }
