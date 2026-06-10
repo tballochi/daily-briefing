@@ -167,6 +167,27 @@
       "url": "https://www.logisticsmgmt.com/article/the_pairing_of_tariffs_and_geopolitics_is_reshaping_pharma_supply_chains/",
       "title": "The pairing of tariffs and geopolitics is reshaping pharma supply chains - Logistics Management",
       "date": "2026-06-09T06:01:51.318124"
+    },
+    {
+      "url_key": "maritime-executive.com/article/suez-canal-will-raise-surcharge-fees-as-it-still-looks-to-increase-transits",
+      "title_key": "suez canal will raise surcharge fees as it still looks to increase transits - the maritime executive",
+      "url": "https://maritime-executive.com/article/suez-canal-will-raise-surcharge-fees-as-it-still-looks-to-increase-transits",
+      "title": "Suez Canal Will Raise Surcharge Fees as It Still Looks to Increase Transits - The Maritime Executive",
+      "date": "2026-06-10T06:01:19.468456"
+    },
+    {
+      "url_key": "techcrunch.com/press-release/minimus-launches-supply-chain-protection-and-minicli-to-automate-open-source-and-container-security-as-code",
+      "title_key": "minimus launches supply chain protection and minicli to automate open-source and container security as code - techcrunch",
+      "url": "https://techcrunch.com/press-release/minimus-launches-supply-chain-protection-and-minicli-to-automate-open-source-and-container-security-as-code/",
+      "title": "Minimus launches supply chain protection and minicli to automate open-source and container security as code - TechCrunch",
+      "date": "2026-06-10T06:01:19.468456"
+    },
+    {
+      "url_key": "markets.businessinsider.com/news/stocks/xpo-provides-north-american-ltl-operating-data-for-may-2026-1036223055",
+      "title_key": "xpo provides north american ltl operating data for may 2026 - markets.businessinsider.com",
+      "url": "https://markets.businessinsider.com/news/stocks/xpo-provides-north-american-ltl-operating-data-for-may-2026-1036223055",
+      "title": "XPO Provides North American LTL Operating Data for May 2026 - markets.businessinsider.com",
+      "date": "2026-06-10T06:01:19.468456"
     }
   ],
   "words": [
@@ -201,6 +222,10 @@
     {
       "word": "vector database",
       "date": "2026-06-09T06:01:51.318124"
+    },
+    {
+      "word": "hypervisor",
+      "date": "2026-06-10T06:01:19.468456"
     }
   ],
   "quotes": [
@@ -243,7 +268,12 @@
       "text": "Innovation distinguishes between a leader and a follower.",
       "author": "Steve Jobs",
       "date": "2026-06-09T06:01:51.318124"
+    },
+    {
+      "text": "The most important thing about a technology is how it changes people.",
+      "author": "Jaron Lanier",
+      "date": "2026-06-10T06:01:19.468456"
     }
   ],
-  "last_sent_date": "2026-06-09"
+  "last_sent_date": "2026-06-10"
 }
