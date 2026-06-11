@@ -188,6 +188,27 @@
       "url": "https://markets.businessinsider.com/news/stocks/xpo-provides-north-american-ltl-operating-data-for-may-2026-1036223055",
       "title": "XPO Provides North American LTL Operating Data for May 2026 - markets.businessinsider.com",
       "date": "2026-06-10T06:01:19.468456"
+    },
+    {
+      "url_key": "marinelink.com/news/cma-cgm-chief-unwise-assume-hormuz-return-540118",
+      "title_key": "cma cgm chief: “unwise” to assume hormuz will return to pre-war situation - marine news magazine",
+      "url": "https://www.marinelink.com/news/cma-cgm-chief-unwise-assume-hormuz-return-540118",
+      "title": "CMA CGM Chief: “Unwise” to Assume Hormuz Will Return to Pre-War Situation - Marine News Magazine",
+      "date": "2026-06-11T06:01:48.959521"
+    },
+    {
+      "url_key": "globaltrademag.com/peak-season-readiness-comes-from-supporting-the-workforce-behind-it",
+      "title_key": "peak season readiness comes from supporting the workforce behind it - global trade magazine",
+      "url": "https://www.globaltrademag.com/peak-season-readiness-comes-from-supporting-the-workforce-behind-it/",
+      "title": "Peak Season Readiness Comes From Supporting the Workforce Behind It - Global Trade Magazine",
+      "date": "2026-06-11T06:01:48.959521"
+    },
+    {
+      "url_key": "forbes.com/sites/catherinebrock/2026/06/09/where-are-they-now-5-ai-ipos-since-2023",
+      "title_key": "where are they now: 5 ai ipos since 2023 - forbes",
+      "url": "https://www.forbes.com/sites/catherinebrock/2026/06/09/where-are-they-now-5-ai-ipos-since-2023/",
+      "title": "Where Are They Now: 5 AI IPOs Since 2023 - Forbes",
+      "date": "2026-06-11T06:01:48.959521"
     }
   ],
   "words": [
@@ -226,6 +247,10 @@
     {
       "word": "hypervisor",
       "date": "2026-06-10T06:01:19.468456"
+    },
+    {
+      "word": "microservice",
+      "date": "2026-06-11T06:01:48.959521"
     }
   ],
   "quotes": [
@@ -273,7 +298,12 @@
       "text": "The most important thing about a technology is how it changes people.",
       "author": "Jaron Lanier",
       "date": "2026-06-10T06:01:19.468456"
+    },
+    {
+      "text": "The best way to get good ideas is to get a lot of ideas.",
+      "author": "Linus Pauling",
+      "date": "2026-06-11T06:01:48.959521"
     }
   ],
-  "last_sent_date": "2026-06-10"
+  "last_sent_date": "2026-06-11"
 }
