@@ -230,6 +230,27 @@
       "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
       "title": "A Record-Breaking Patch Tuesday for June 2026 - Krebs on Security",
       "date": "2026-06-12T06:01:11.387165"
+    },
+    {
+      "url_key": "marinelink.com/news/usmma-honors-top-graduates-class-540209",
+      "title_key": "usmma honors top graduates of class of 2026 - marine news magazine",
+      "url": "https://www.marinelink.com/news/usmma-honors-top-graduates-class-540209",
+      "title": "USMMA Honors Top Graduates Of Class Of 2026 - Marine News Magazine",
+      "date": "2026-06-13T06:01:21.075351"
+    },
+    {
+      "url_key": "letsdatascience.com/news/ltm-launches-ai-1000-workforce-training-programme-6c91c841",
+      "title_key": "ltm launches ai 1000 workforce training programme - let's data science",
+      "url": "https://letsdatascience.com/news/ltm-launches-ai-1000-workforce-training-programme-6c91c841",
+      "title": "LTM launches AI 1000 workforce training programme - Let's Data Science",
+      "date": "2026-06-13T06:01:21.075351"
+    },
+    {
+      "url_key": "globenewswire.com/news-release/2026/06/12/3311228/0/en/csl-delivers-world-s-first-battery-powered-self-unloading-bulk-carrier-to-support-adbri-operations.html",
+      "title_key": "csl delivers world’s first battery-powered self-unloading bulk carrier to support adbri operations - globenewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/06/12/3311228/0/en/csl-delivers-world-s-first-battery-powered-self-unloading-bulk-carrier-to-support-adbri-operations.html",
+      "title": "CSL Delivers World’s First Battery-Powered Self-Unloading Bulk Carrier to Support Adbri Operations - GlobeNewswire",
+      "date": "2026-06-13T06:01:21.075351"
     }
   ],
   "words": [
@@ -276,6 +297,10 @@
     {
       "word": "orchestration",
       "date": "2026-06-12T06:01:11.387165"
+    },
+    {
+      "word": "transcoding",
+      "date": "2026-06-13T06:01:21.075351"
     }
   ],
   "quotes": [
@@ -333,7 +358,12 @@
       "text": "Technology is nothing, it's what you do with it that matters",
       "author": "Tim Berners-Lee",
       "date": "2026-06-12T06:01:11.387165"
+    },
+    {
+      "text": "The computer is mightily embarrassed by its inability to draw a straight line.",
+      "author": "Alan Kay",
+      "date": "2026-06-13T06:01:21.075351"
     }
   ],
-  "last_sent_date": "2026-06-12"
+  "last_sent_date": "2026-06-13"
 }
