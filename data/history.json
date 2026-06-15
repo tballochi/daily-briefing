@@ -272,6 +272,27 @@
       "url": "https://natlawreview.com/press-releases/logistics-plus-named-2026-g75-green-supply-chain-partner-inbound-logistics",
       "title": "Logistics Plus is Named a 2026 G75 Green Supply Chain Partner by Inbound Logistics - The National Law Review",
       "date": "2026-06-14T06:01:28.889405"
+    },
+    {
+      "url_key": "law360.com/articles/2487875/standard-setter-floats-responsible-ai-adoption-rules",
+      "title_key": "standard setter floats responsible ai adoption rules - law360",
+      "url": "https://www.law360.com/articles/2487875/standard-setter-floats-responsible-ai-adoption-rules",
+      "title": "Standard Setter Floats Responsible AI Adoption Rules - Law360",
+      "date": "2026-06-15T06:01:26.251580"
+    },
+    {
+      "url_key": "indexbox.io/blog/cma-cgm-group-deploys-ai-at-scale-across-shipping-logistics-and-media-operations",
+      "title_key": "cma cgm group deploys ai at scale across shipping, logistics, and media operations",
+      "url": "https://www.indexbox.io/blog/cma-cgm-group-deploys-ai-at-scale-across-shipping-logistics-and-media-operations/",
+      "title": "CMA CGM Group Deploys AI at Scale Across Shipping, Logistics, and Media Operations",
+      "date": "2026-06-15T06:01:26.251580"
+    },
+    {
+      "url_key": "itnews.com.au/resource/2026-identity-security-landscape-626433",
+      "title_key": "2026 identity security landscape - itnews",
+      "url": "https://www.itnews.com.au/resource/2026-identity-security-landscape-626433",
+      "title": "2026 Identity Security Landscape - iTnews",
+      "date": "2026-06-15T06:01:26.251580"
     }
   ],
   "words": [
@@ -326,6 +347,10 @@
     {
       "word": "transcoding",
       "date": "2026-06-14T06:01:28.889405"
+    },
+    {
+      "word": "normalization",
+      "date": "2026-06-15T06:01:26.251580"
     }
   ],
   "quotes": [
@@ -393,7 +418,12 @@
       "text": "The information highway is really a quotation from the bible, it's in the book of Numbers, and it says 'the highways will be filled with the knowledge of the lord'.",
       "author": "Al Gore",
       "date": "2026-06-14T06:01:28.889405"
+    },
+    {
+      "text": "The value of a network is proportional to the square of the number of nodes on the network.",
+      "author": "Bob Metcalfe",
+      "date": "2026-06-15T06:01:26.251580"
     }
   ],
-  "last_sent_date": "2026-06-14"
+  "last_sent_date": "2026-06-15"
 }
