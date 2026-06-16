@@ -293,6 +293,27 @@
       "url": "https://www.itnews.com.au/resource/2026-identity-security-landscape-626433",
       "title": "2026 Identity Security Landscape - iTnews",
       "date": "2026-06-15T06:01:26.251580"
+    },
+    {
+      "url_key": "thenewstack.io/agent-loops-cloud-native-verification",
+      "title_key": "loops are replacing prompts. verification is about to be your biggest problem. - the new stack",
+      "url": "https://thenewstack.io/agent-loops-cloud-native-verification/",
+      "title": "Loops are replacing prompts. Verification is about to be your biggest problem. - The New Stack",
+      "date": "2026-06-16T06:01:25.688680"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/usdot_rolls_out_american_supply_chain_sovereignty_initiative",
+      "title_key": "usdot rolls out american supply chain sovereignty initiative - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/usdot_rolls_out_american_supply_chain_sovereignty_initiative",
+      "title": "USDOT rolls out American Supply Chain Sovereignty Initiative - Logistics Management",
+      "date": "2026-06-16T06:01:25.688680"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/u.s_bound_imports_see_annual_gains_in_may_for_first_time_in_13_months_reports_sp_global_market_intelligence",
+      "title_key": "u.s.-bound imports see annual gains in may, for first time in 13 months, reports s&p global market intelligence - logistics management",
+      "url": "http://www.logisticsmgmt.com/article/u.s_bound_imports_see_annual_gains_in_may_for_first_time_in_13_months_reports_sp_global_market_intelligence",
+      "title": "U.S.-bound imports see annual gains in May, for first time in 13 months, reports S&P Global Market Intelligence - Logistics Management",
+      "date": "2026-06-16T06:01:25.688680"
     }
   ],
   "words": [
@@ -351,6 +372,10 @@
     {
       "word": "normalization",
       "date": "2026-06-15T06:01:26.251580"
+    },
+    {
+      "word": "cache",
+      "date": "2026-06-16T06:01:25.688680"
     }
   ],
   "quotes": [
@@ -423,7 +448,12 @@
       "text": "The value of a network is proportional to the square of the number of nodes on the network.",
       "author": "Bob Metcalfe",
       "date": "2026-06-15T06:01:26.251580"
+    },
+    {
+      "text": "The most important thing about a technology is how it changes people.",
+      "author": "Steve Jobs",
+      "date": "2026-06-16T06:01:25.688680"
     }
   ],
-  "last_sent_date": "2026-06-15"
+  "last_sent_date": "2026-06-16"
 }
