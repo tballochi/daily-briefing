@@ -314,6 +314,27 @@
       "url": "http://www.logisticsmgmt.com/article/u.s_bound_imports_see_annual_gains_in_may_for_first_time_in_13_months_reports_sp_global_market_intelligence",
       "title": "U.S.-bound imports see annual gains in May, for first time in 13 months, reports S&P Global Market Intelligence - Logistics Management",
       "date": "2026-06-16T06:01:25.688680"
+    },
+    {
+      "url_key": "marinelink.com/news/sallaum-lines-orders-two-ceu-dualfuel-540303",
+      "title_key": "sallaum lines orders two 8,600-ceu dual-fuel pctcs - marine news magazine",
+      "url": "https://www.marinelink.com/news/sallaum-lines-orders-two-ceu-dualfuel-540303",
+      "title": "Sallaum Lines Orders Two 8,600-CEU Dual-Fuel PCTCs - Marine News Magazine",
+      "date": "2026-06-17T06:01:32.277320"
+    },
+    {
+      "url_key": "thurrott.com/mobile/android/google-pixel/337467/google-releases-the-june-2026-pixel-drop",
+      "title_key": "google releases the june 2026 pixel drop - thurrott.com",
+      "url": "https://www.thurrott.com/mobile/android/google-pixel/337467/google-releases-the-june-2026-pixel-drop",
+      "title": "Google Releases the June 2026 Pixel Drop - Thurrott.com",
+      "date": "2026-06-17T06:01:32.277320"
+    },
+    {
+      "url_key": "stocktitan.net/news/cosm/cosmos-health-signs-3-year-contract-manufacturing-agreement-with-8lcjbiitlr2e.html",
+      "title_key": "cosmos health signs 3-year contract manufacturing agreement with verisfield for 3.9 million units of vasclor gest progesterone pessaries - stock titan",
+      "url": "https://www.stocktitan.net/news/COSM/cosmos-health-signs-3-year-contract-manufacturing-agreement-with-8lcjbiitlr2e.html",
+      "title": "Cosmos Health Signs 3-Year Contract Manufacturing Agreement with Verisfield for 3.9 Million Units of VASCLOR GEST Progesterone Pessaries - Stock Titan",
+      "date": "2026-06-17T06:01:32.277320"
     }
   ],
   "words": [
@@ -376,6 +397,10 @@
     {
       "word": "cache",
       "date": "2026-06-16T06:01:25.688680"
+    },
+    {
+      "word": "tokenization",
+      "date": "2026-06-17T06:01:32.277320"
     }
   ],
   "quotes": [
@@ -453,7 +478,12 @@
       "text": "The most important thing about a technology is how it changes people.",
       "author": "Steve Jobs",
       "date": "2026-06-16T06:01:25.688680"
+    },
+    {
+      "text": "The biggest risk is not taking any risk...",
+      "author": "Mark Zuckerberg",
+      "date": "2026-06-17T06:01:32.277320"
     }
   ],
-  "last_sent_date": "2026-06-16"
+  "last_sent_date": "2026-06-17"
 }
