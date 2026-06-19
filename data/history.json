@@ -335,6 +335,27 @@
       "url": "https://www.stocktitan.net/news/COSM/cosmos-health-signs-3-year-contract-manufacturing-agreement-with-8lcjbiitlr2e.html",
       "title": "Cosmos Health Signs 3-Year Contract Manufacturing Agreement with Verisfield for 3.9 Million Units of VASCLOR GEST Progesterone Pessaries - Stock Titan",
       "date": "2026-06-17T06:01:32.277320"
+    },
+    {
+      "url_key": "maritime-executive.com/article/cma-cgm-and-capital-clean-energy-carriers-form-jv-for-lng-bunker-vessel",
+      "title_key": "cma cgm and capital clean energy carriers form jv for lng bunker vessel - the maritime executive",
+      "url": "https://maritime-executive.com/article/cma-cgm-and-capital-clean-energy-carriers-form-jv-for-lng-bunker-vessel",
+      "title": "CMA CGM and Capital Clean Energy Carriers Form JV for LNG Bunker Vessel - The Maritime Executive",
+      "date": "2026-06-19T06:02:29.101425"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/ups_rolls_out_new_ai_tools_for_tracking_returns_and_customer_services",
+      "title_key": "ups rolls out new ai tools for tracking, returns and customer services - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/ups_rolls_out_new_ai_tools_for_tracking_returns_and_customer_services/",
+      "title": "UPS rolls out new AI tools for tracking, returns and customer services - Logistics Management",
+      "date": "2026-06-19T06:02:29.101425"
+    },
+    {
+      "url_key": "maritime-executive.com/corporate/update-on-the-situation-in-the-gcc",
+      "title_key": "update on the situation in the gcc - the maritime executive",
+      "url": "https://maritime-executive.com/corporate/update-on-the-situation-in-the-gcc",
+      "title": "Update on the Situation in the GCC - The Maritime Executive",
+      "date": "2026-06-19T06:02:29.101425"
     }
   ],
   "words": [
@@ -401,6 +422,10 @@
     {
       "word": "tokenization",
       "date": "2026-06-17T06:01:32.277320"
+    },
+    {
+      "word": "demultiplexing",
+      "date": "2026-06-19T06:02:29.101425"
     }
   ],
   "quotes": [
@@ -483,7 +508,12 @@
       "text": "The biggest risk is not taking any risk...",
       "author": "Mark Zuckerberg",
       "date": "2026-06-17T06:01:32.277320"
+    },
+    {
+      "text": "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.",
+      "author": "Michelangelo",
+      "date": "2026-06-19T06:02:29.101425"
     }
   ],
-  "last_sent_date": "2026-06-17"
+  "last_sent_date": "2026-06-19"
 }
