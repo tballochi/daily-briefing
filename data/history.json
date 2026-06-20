@@ -356,6 +356,27 @@
       "url": "https://maritime-executive.com/corporate/update-on-the-situation-in-the-gcc",
       "title": "Update on the Situation in the GCC - The Maritime Executive",
       "date": "2026-06-19T06:02:29.101425"
+    },
+    {
+      "url_key": "aviationweek.com/mro/aircraft-propulsion/cma-cgm-air-cargo-looks-buy-maintenance-provider-crystal",
+      "title_key": "cma cgm air cargo looks to buy maintenance provider crystal - aviation week",
+      "url": "https://aviationweek.com/mro/aircraft-propulsion/cma-cgm-air-cargo-looks-buy-maintenance-provider-crystal",
+      "title": "CMA CGM Air Cargo Looks To Buy Maintenance Provider Crystal - Aviation Week",
+      "date": "2026-06-20T06:01:21.567992"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/gartner_announces_its_2026_top_25_supply_chain_rankings",
+      "title_key": "gartner announces its 2026 top 25 supply chain rankings - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/gartner_announces_its_2026_top_25_supply_chain_rankings",
+      "title": "Gartner announces its 2026 Top 25 Supply Chain Rankings - Logistics Management",
+      "date": "2026-06-20T06:01:21.567992"
+    },
+    {
+      "url_key": "tradingview.com/news/reuters.com,2026:newsml_fwn42k0ny:0-cmes-robotics-inc-wins-2-3-billion-won-order",
+      "title_key": "cmes robotics inc wins 2.3 billion won order - tradingview",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN42K0NY:0-cmes-robotics-inc-wins-2-3-billion-won-order/",
+      "title": "Cmes Robotics Inc Wins 2.3 Billion Won Order - TradingView",
+      "date": "2026-06-20T06:01:21.567992"
     }
   ],
   "words": [
@@ -426,6 +447,10 @@
     {
       "word": "demultiplexing",
       "date": "2026-06-19T06:02:29.101425"
+    },
+    {
+      "word": "debouncing",
+      "date": "2026-06-20T06:01:21.567992"
     }
   ],
   "quotes": [
@@ -513,7 +538,12 @@
       "text": "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.",
       "author": "Michelangelo",
       "date": "2026-06-19T06:02:29.101425"
+    },
+    {
+      "text": "The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.",
+      "author": "Bill Gates",
+      "date": "2026-06-20T06:01:21.567992"
     }
   ],
-  "last_sent_date": "2026-06-19"
+  "last_sent_date": "2026-06-20"
 }
