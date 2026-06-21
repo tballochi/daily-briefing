@@ -377,6 +377,27 @@
       "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN42K0NY:0-cmes-robotics-inc-wins-2-3-billion-won-order/",
       "title": "Cmes Robotics Inc Wins 2.3 Billion Won Order - TradingView",
       "date": "2026-06-20T06:01:21.567992"
+    },
+    {
+      "url_key": "manilatimes.net/2026/06/17/tmt-newswire/pr-newswire/techman-robot-targets-southeast-asian-smart-manufacturing-markets-at-thailand-automation-show/2367193",
+      "title_key": "techman robot targets southeast asian smart manufacturing markets at thailand automation show - the manila times",
+      "url": "https://www.manilatimes.net/2026/06/17/tmt-newswire/pr-newswire/techman-robot-targets-southeast-asian-smart-manufacturing-markets-at-thailand-automation-show/2367193",
+      "title": "Techman Robot Targets Southeast Asian Smart Manufacturing Markets at Thailand Automation Show - The Manila Times",
+      "date": "2026-06-21T06:02:30.503302"
+    },
+    {
+      "url_key": "wsj.com/finance/investing/the-ai-booms-hunt-for-cash-hits-a-new-corner-of-the-bond-market-0ea6f36b",
+      "title_key": "the ai boom’s hunt for cash hits a new corner of the bond market - wsj",
+      "url": "https://www.wsj.com/finance/investing/the-ai-booms-hunt-for-cash-hits-a-new-corner-of-the-bond-market-0ea6f36b",
+      "title": "The AI Boom’s Hunt for Cash Hits a New Corner of the Bond Market - WSJ",
+      "date": "2026-06-21T06:02:30.503302"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/u.s_3pl_revenues_see_strong_annual_gains_reports_armstrong_associates",
+      "title_key": "u.s. 3pl revenues see strong annual gains, reports armstrong & associates - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/u.s_3pl_revenues_see_strong_annual_gains_reports_armstrong_associates/",
+      "title": "U.S. 3PL revenues see strong annual gains, reports Armstrong & Associates - Logistics Management",
+      "date": "2026-06-21T06:02:30.503302"
     }
   ],
   "words": [
@@ -451,6 +472,10 @@
     {
       "word": "debouncing",
       "date": "2026-06-20T06:01:21.567992"
+    },
+    {
+      "word": "debiasing",
+      "date": "2026-06-21T06:02:30.503302"
     }
   ],
   "quotes": [
@@ -543,7 +568,12 @@
       "text": "The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.",
       "author": "Bill Gates",
       "date": "2026-06-20T06:01:21.567992"
+    },
+    {
+      "text": "The best way to predict the future is to invent the tools that make it possible.",
+      "author": "Alan Kay",
+      "date": "2026-06-21T06:02:30.503302"
     }
   ],
-  "last_sent_date": "2026-06-20"
+  "last_sent_date": "2026-06-21"
 }
