@@ -398,6 +398,27 @@
       "url": "https://www.logisticsmgmt.com/article/u.s_3pl_revenues_see_strong_annual_gains_reports_armstrong_associates/",
       "title": "U.S. 3PL revenues see strong annual gains, reports Armstrong & Associates - Logistics Management",
       "date": "2026-06-21T06:02:30.503302"
+    },
+    {
+      "url_key": "themanufacturer.com/articles/daily-manufacturing-news-digest-the-industry-stories-you-should-be-aware-of-today-220626",
+      "title_key": "daily manufacturing news digest – the industry stories you should be aware of today - the manufacturer",
+      "url": "https://www.themanufacturer.com/articles/daily-manufacturing-news-digest-the-industry-stories-you-should-be-aware-of-today-220626/",
+      "title": "Daily Manufacturing News Digest – the industry stories you should be aware of today - The Manufacturer",
+      "date": "2026-06-22T06:01:27.287384"
+    },
+    {
+      "url_key": "artificiallawyer.com/2026/06/19/legal-innovators-paris-crosby-lawvu",
+      "title_key": "legal innovators paris, crosby, lawvu + - artificial lawyer",
+      "url": "https://www.artificiallawyer.com/2026/06/19/legal-innovators-paris-crosby-lawvu/",
+      "title": "Legal Innovators Paris, Crosby, LawVu + - Artificial Lawyer",
+      "date": "2026-06-22T06:01:27.287384"
+    },
+    {
+      "url_key": "logisticsmgmt.com/download/turn_volatility_into_predictability",
+      "title_key": "turn volatility into predictability - logistics management",
+      "url": "https://www.logisticsmgmt.com/download/turn_volatility_into_predictability",
+      "title": "Turn Volatility into Predictability - Logistics Management",
+      "date": "2026-06-22T06:01:27.287384"
     }
   ],
   "words": [
@@ -476,6 +497,10 @@
     {
       "word": "debiasing",
       "date": "2026-06-21T06:02:30.503302"
+    },
+    {
+      "word": "proximity",
+      "date": "2026-06-22T06:01:27.287384"
     }
   ],
   "quotes": [
@@ -573,7 +598,12 @@
       "text": "The best way to predict the future is to invent the tools that make it possible.",
       "author": "Alan Kay",
       "date": "2026-06-21T06:02:30.503302"
+    },
+    {
+      "text": "The computer should be a tool, not a tyrant.",
+      "author": "Steve Jobs",
+      "date": "2026-06-22T06:01:27.287384"
     }
   ],
-  "last_sent_date": "2026-06-21"
+  "last_sent_date": "2026-06-22"
 }
