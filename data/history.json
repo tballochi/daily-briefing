@@ -419,6 +419,27 @@
       "url": "https://www.logisticsmgmt.com/download/turn_volatility_into_predictability",
       "title": "Turn Volatility into Predictability - Logistics Management",
       "date": "2026-06-22T06:01:27.287384"
+    },
+    {
+      "url_key": "natlawreview.com/press-releases/shipandstoragecom-reports-growing-demand-ai-enabled-storage-relocation-and",
+      "title_key": "shipandstorage.com reports growing demand for ai-enabled storage, relocation, and technology solutions - the national law review",
+      "url": "https://natlawreview.com/press-releases/shipandstoragecom-reports-growing-demand-ai-enabled-storage-relocation-and",
+      "title": "ShipAndStorage.com Reports Growing Demand for AI-Enabled Storage, Relocation, and Technology Solutions - The National Law Review",
+      "date": "2026-06-23T06:01:25.638561"
+    },
+    {
+      "url_key": "openai.com/index/patch-the-planet",
+      "title_key": "patch the planet: a daybreak initiative to support open source maintainers - openai",
+      "url": "https://openai.com/index/patch-the-planet/",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers - OpenAI",
+      "date": "2026-06-23T06:01:25.638561"
+    },
+    {
+      "url_key": "techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs",
+      "title_key": "openai launches new initiative to help find and patch open-source bugs - techcrunch",
+      "url": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+      "title": "OpenAI launches new initiative to help find and patch open-source bugs - TechCrunch",
+      "date": "2026-06-23T06:01:25.638561"
     }
   ],
   "words": [
@@ -501,6 +522,10 @@
     {
       "word": "proximity",
       "date": "2026-06-22T06:01:27.287384"
+    },
+    {
+      "word": "idempotence",
+      "date": "2026-06-23T06:01:25.638561"
     }
   ],
   "quotes": [
@@ -603,7 +628,12 @@
       "text": "The computer should be a tool, not a tyrant.",
       "author": "Steve Jobs",
       "date": "2026-06-22T06:01:27.287384"
+    },
+    {
+      "text": "The art of doing mathematics consists in finding that special case which contains all the germs of generality.",
+      "author": "David Hilbert",
+      "date": "2026-06-23T06:01:25.638561"
     }
   ],
-  "last_sent_date": "2026-06-22"
+  "last_sent_date": "2026-06-23"
 }
