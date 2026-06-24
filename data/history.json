@@ -440,6 +440,27 @@
       "url": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
       "title": "OpenAI launches new initiative to help find and patch open-source bugs - TechCrunch",
       "date": "2026-06-23T06:01:25.638561"
+    },
+    {
+      "url_key": "seatrade-maritime.com/tankers/iranian-tankers-loaded-with-oil-cross-us-blockade",
+      "title_key": "iranian tankers loaded with oil cross us blockade - seatrade maritime news",
+      "url": "https://www.seatrade-maritime.com/tankers/iranian-tankers-loaded-with-oil-cross-us-blockade",
+      "title": "Iranian tankers loaded with oil cross US blockade - Seatrade Maritime News",
+      "date": "2026-06-24T06:01:35.005460"
+    },
+    {
+      "url_key": "wsj.com/pro/sustainable-business/dhl-set-to-transport-goods-on-new-wind-powered-cargo-ships-eca5d5a0",
+      "title_key": "exclusive | dhl set to transport goods on new wind-powered cargo ships - wsj",
+      "url": "https://www.wsj.com/pro/sustainable-business/dhl-set-to-transport-goods-on-new-wind-powered-cargo-ships-eca5d5a0",
+      "title": "Exclusive | DHL Set to Transport Goods on New Wind-Powered Cargo Ships - WSJ",
+      "date": "2026-06-24T06:01:35.005460"
+    },
+    {
+      "url_key": "marketscreener.com/news/pure-new-zealand-chases-gold-as-record-prices-burnish-allure-ce7f5fdad889f02d",
+      "title_key": "'pure' new zealand chases gold as record prices burnish allure - marketscreener.com",
+      "url": "https://www.marketscreener.com/news/pure-new-zealand-chases-gold-as-record-prices-burnish-allure-ce7f5fdad889f02d",
+      "title": "'Pure' New Zealand chases gold as record prices burnish allure - marketscreener.com",
+      "date": "2026-06-24T06:01:35.005460"
     }
   ],
   "words": [
@@ -526,6 +547,10 @@
     {
       "word": "idempotence",
       "date": "2026-06-23T06:01:25.638561"
+    },
+    {
+      "word": "jitter",
+      "date": "2026-06-24T06:01:35.005460"
     }
   ],
   "quotes": [
@@ -633,7 +658,12 @@
       "text": "The art of doing mathematics consists in finding that special case which contains all the germs of generality.",
       "author": "David Hilbert",
       "date": "2026-06-23T06:01:25.638561"
+    },
+    {
+      "text": "The computer is a moron.",
+      "author": "Peter Drucker",
+      "date": "2026-06-24T06:01:35.005460"
     }
   ],
-  "last_sent_date": "2026-06-23"
+  "last_sent_date": "2026-06-24"
 }
