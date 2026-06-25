@@ -461,6 +461,27 @@
       "url": "https://www.marketscreener.com/news/pure-new-zealand-chases-gold-as-record-prices-burnish-allure-ce7f5fdad889f02d",
       "title": "'Pure' New Zealand chases gold as record prices burnish allure - marketscreener.com",
       "date": "2026-06-24T06:01:35.005460"
+    },
+    {
+      "url_key": "marinelink.com/news/numbers-maritime-safety-fewer-losses-540599",
+      "title_key": "by the numbers: maritime safety in 2026 — fewer losses, bigger risks - marine news magazine",
+      "url": "https://www.marinelink.com/news/numbers-maritime-safety-fewer-losses-540599",
+      "title": "By the Numbers: Maritime Safety in 2026 — Fewer Losses, Bigger Risks - Marine News Magazine",
+      "date": "2026-06-25T06:01:33.123739"
+    },
+    {
+      "url_key": "thomsonreuters.com/en/press-releases/2026/june/ai-is-ready-but-firms-are-not-how-falling-behind-on-ai-implementation-is-costing-clients-and-talent",
+      "title_key": "ai is ready but firms are not: how falling behind on ai implementation is costing clients and talent - thomson reuters",
+      "url": "https://www.thomsonreuters.com/en/press-releases/2026/june/ai-is-ready-but-firms-are-not-how-falling-behind-on-ai-implementation-is-costing-clients-and-talent",
+      "title": "AI is Ready but Firms are Not: How Falling Behind on AI Implementation is Costing Clients and Talent - Thomson Reuters",
+      "date": "2026-06-25T06:01:33.123739"
+    },
+    {
+      "url_key": "autonews.com/nissan/an-nissan-software-defined-vehicle-sdv-applied-intuition-artificial-intelligence-0624",
+      "title_key": "nissan will slash software development time from months to hours to catch china sdvs - automotive news",
+      "url": "https://www.autonews.com/nissan/an-nissan-software-defined-vehicle-sdv-applied-intuition-artificial-intelligence-0624/",
+      "title": "Nissan will slash software development time from months to hours to catch China SDVs - Automotive News",
+      "date": "2026-06-25T06:01:33.123739"
     }
   ],
   "words": [
@@ -551,6 +572,10 @@
     {
       "word": "jitter",
       "date": "2026-06-24T06:01:35.005460"
+    },
+    {
+      "word": "cybernetics",
+      "date": "2026-06-25T06:01:33.123739"
     }
   ],
   "quotes": [
@@ -663,7 +688,12 @@
       "text": "The computer is a moron.",
       "author": "Peter Drucker",
       "date": "2026-06-24T06:01:35.005460"
+    },
+    {
+      "text": "The internet is becoming the town square for the global village of tomorrow",
+      "author": "Bill Gates",
+      "date": "2026-06-25T06:01:33.123739"
     }
   ],
-  "last_sent_date": "2026-06-24"
+  "last_sent_date": "2026-06-25"
 }
