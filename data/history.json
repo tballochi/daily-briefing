@@ -482,6 +482,27 @@
       "url": "https://www.autonews.com/nissan/an-nissan-software-defined-vehicle-sdv-applied-intuition-artificial-intelligence-0624/",
       "title": "Nissan will slash software development time from months to hours to catch China SDVs - Automotive News",
       "date": "2026-06-25T06:01:33.123739"
+    },
+    {
+      "url_key": "seatrade-maritime.com/insurance/-125bn-trapped-by-hormuz-overshadows-improving-ship-safety-record",
+      "title_key": "$125bn trapped by hormuz overshadows improving ship safety record - seatrade maritime news",
+      "url": "https://www.seatrade-maritime.com/insurance/-125bn-trapped-by-hormuz-overshadows-improving-ship-safety-record",
+      "title": "$125bn trapped by Hormuz overshadows improving ship safety record - Seatrade Maritime News",
+      "date": "2026-06-26T06:01:50.547324"
+    },
+    {
+      "url_key": "techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update",
+      "title_key": "figma adds code layers, support for animations, more ai features in new update - techcrunch",
+      "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+      "title": "Figma adds code layers, support for animations, more AI features in new update - TechCrunch",
+      "date": "2026-06-26T06:01:50.547324"
+    },
+    {
+      "url_key": "seatrade-maritime.com/shipyards/jinjiang-shipping-ramps-up-intra-asia-container-ship-fleet",
+      "title_key": "jinjiang shipping ramps up intra-asia container ship fleet - seatrade maritime news",
+      "url": "https://www.seatrade-maritime.com/shipyards/jinjiang-shipping-ramps-up-intra-asia-container-ship-fleet",
+      "title": "Jinjiang Shipping ramps up intra-Asia container ship fleet - Seatrade Maritime News",
+      "date": "2026-06-26T06:01:50.547324"
     }
   ],
   "words": [
@@ -576,6 +597,10 @@
     {
       "word": "cybernetics",
       "date": "2026-06-25T06:01:33.123739"
+    },
+    {
+      "word": "provenance",
+      "date": "2026-06-26T06:01:50.547324"
     }
   ],
   "quotes": [
@@ -693,7 +718,12 @@
       "text": "The internet is becoming the town square for the global village of tomorrow",
       "author": "Bill Gates",
       "date": "2026-06-25T06:01:33.123739"
+    },
+    {
+      "text": "The computer is a bicycle for our minds.",
+      "author": "Steve Jobs",
+      "date": "2026-06-26T06:01:50.547324"
     }
   ],
-  "last_sent_date": "2026-06-25"
+  "last_sent_date": "2026-06-26"
 }
