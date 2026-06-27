@@ -503,6 +503,27 @@
       "url": "https://www.seatrade-maritime.com/shipyards/jinjiang-shipping-ramps-up-intra-asia-container-ship-fleet",
       "title": "Jinjiang Shipping ramps up intra-Asia container ship fleet - Seatrade Maritime News",
       "date": "2026-06-26T06:01:50.547324"
+    },
+    {
+      "url_key": "avinteractive.com/territories-news/us-canada/avi-spl-begins-self-driving-lorry-deliveries-on-texas-route-22-06-2026",
+      "title_key": "avi-spl begins self-driving lorry deliveries on texas route - avinteractive.com",
+      "url": "https://www.avinteractive.com/territories-news/us-canada/avi-spl-begins-self-driving-lorry-deliveries-on-texas-route-22-06-2026/",
+      "title": "AVI-SPL begins self-driving lorry deliveries on Texas route - avinteractive.com",
+      "date": "2026-06-27T06:02:03.437177"
+    },
+    {
+      "url_key": "darkreading.com/cybersecurity-operations/ai-decline-confidence-autonomous-penetration-testing",
+      "title_key": "ai decline? confidence falls in autonomous penetration testing - dark reading",
+      "url": "https://www.darkreading.com/cybersecurity-operations/ai-decline-confidence-autonomous-penetration-testing",
+      "title": "AI Decline? Confidence Falls in Autonomous Penetration Testing - Dark Reading",
+      "date": "2026-06-27T06:02:03.437177"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/intermodal_sees_may_volume_gains_reports_iana",
+      "title_key": "intermodal sees may volume gains, reports iana - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/intermodal_sees_may_volume_gains_reports_iana/",
+      "title": "Intermodal sees May volume gains, reports IANA - Logistics Management",
+      "date": "2026-06-27T06:02:03.437177"
     }
   ],
   "words": [
@@ -601,6 +622,10 @@
     {
       "word": "provenance",
       "date": "2026-06-26T06:01:50.547324"
+    },
+    {
+      "word": "chroot",
+      "date": "2026-06-27T06:02:03.437177"
     }
   ],
   "quotes": [
@@ -723,7 +748,12 @@
       "text": "The computer is a bicycle for our minds.",
       "author": "Steve Jobs",
       "date": "2026-06-26T06:01:50.547324"
+    },
+    {
+      "text": "The best way to predict the future is to invent it, but the best way to invent the future is to understand the present",
+      "author": "Alan Kay",
+      "date": "2026-06-27T06:02:03.437177"
     }
   ],
-  "last_sent_date": "2026-06-26"
+  "last_sent_date": "2026-06-27"
 }
