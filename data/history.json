@@ -524,6 +524,27 @@
       "url": "https://www.logisticsmgmt.com/article/intermodal_sees_may_volume_gains_reports_iana/",
       "title": "Intermodal sees May volume gains, reports IANA - Logistics Management",
       "date": "2026-06-27T06:02:03.437177"
+    },
+    {
+      "url_key": "openai.com/index/daybreak-securing-the-world",
+      "title_key": "daybreak: tools for securing every organization in the world - openai",
+      "url": "https://openai.com/index/daybreak-securing-the-world/",
+      "title": "Daybreak: Tools for securing every organization in the world - OpenAI",
+      "date": "2026-06-28T06:01:23.125543"
+    },
+    {
+      "url_key": "seatrade-maritime.com/containers/orderbook-analysis-signals-change-in-container-carrier-strategy",
+      "title_key": "orderbook analysis signals change in container carrier strategy - seatrade maritime news",
+      "url": "https://www.seatrade-maritime.com/containers/orderbook-analysis-signals-change-in-container-carrier-strategy",
+      "title": "Orderbook analysis signals change in container carrier strategy - Seatrade Maritime News",
+      "date": "2026-06-28T06:01:23.125543"
+    },
+    {
+      "url_key": "marinelink.com/news/port-houston-records-best-monthly-540682",
+      "title_key": "port houston records best monthly container volume since summer 2025 - marine news magazine",
+      "url": "https://www.marinelink.com/news/port-houston-records-best-monthly-540682",
+      "title": "Port Houston Records Best Monthly Container Volume Since Summer 2025 - Marine News Magazine",
+      "date": "2026-06-28T06:01:23.125543"
     }
   ],
   "words": [
@@ -626,6 +647,10 @@
     {
       "word": "chroot",
       "date": "2026-06-27T06:02:03.437177"
+    },
+    {
+      "word": "deduplication",
+      "date": "2026-06-28T06:01:23.125543"
     }
   ],
   "quotes": [
@@ -753,7 +778,12 @@
       "text": "The best way to predict the future is to invent it, but the best way to invent the future is to understand the present",
       "author": "Alan Kay",
       "date": "2026-06-27T06:02:03.437177"
+    },
+    {
+      "text": "The most important thing about a technology is how it changes people.",
+      "author": "Steve Jobs",
+      "date": "2026-06-28T06:01:23.125543"
     }
   ],
-  "last_sent_date": "2026-06-27"
+  "last_sent_date": "2026-06-28"
 }
