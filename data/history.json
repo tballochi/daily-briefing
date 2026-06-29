@@ -545,6 +545,27 @@
       "url": "https://www.marinelink.com/news/port-houston-records-best-monthly-540682",
       "title": "Port Houston Records Best Monthly Container Volume Since Summer 2025 - Marine News Magazine",
       "date": "2026-06-28T06:01:23.125543"
+    },
+    {
+      "url_key": "marinelink.com/blogs/blog/cma-cgms-galapagos-container-vessel-leaves-strait-of-hormuz-104991",
+      "title_key": "cma cgm's galapagos container vessel leaves strait of hormuz - marine news magazine",
+      "url": "https://www.marinelink.com/blogs/blog/cma-cgms-galapagos-container-vessel-leaves-strait-of-hormuz-104991",
+      "title": "CMA CGM's Galapagos container vessel leaves Strait of Hormuz - Marine News Magazine",
+      "date": "2026-06-29T06:01:59.826691"
+    },
+    {
+      "url_key": "markets.businessinsider.com/news/stocks/quantum-ai-microcities-project-launch-first-global-agi-communities-clinical-trial-network-veterans-first-for-america-1036277742",
+      "title_key": "quantum ai microcities project launch first global agi communities clinical trial network (veterans first for america) - markets.businessinsider.com",
+      "url": "https://markets.businessinsider.com/news/stocks/quantum-ai-microcities-project-launch-first-global-agi-communities-clinical-trial-network-veterans-first-for-america-1036277742",
+      "title": "Quantum AI Microcities Project Launch First Global AGI Communities Clinical Trial Network (Veterans First for America) - markets.businessinsider.com",
+      "date": "2026-06-29T06:01:59.826691"
+    },
+    {
+      "url_key": "marinelink.com/videos/video/rigid-sails-flexible-fuel-savings-solutions-104985",
+      "title_key": "rigid sails, flexible fuel savings solutions - marine news magazine",
+      "url": "https://www.marinelink.com/videos/video/rigid-sails-flexible-fuel-savings-solutions-104985",
+      "title": "Rigid Sails, Flexible Fuel Savings Solutions - Marine News Magazine",
+      "date": "2026-06-29T06:01:59.826691"
     }
   ],
   "words": [
@@ -651,6 +672,10 @@
     {
       "word": "deduplication",
       "date": "2026-06-28T06:01:23.125543"
+    },
+    {
+      "word": "neural mesh",
+      "date": "2026-06-29T06:01:59.826691"
     }
   ],
   "quotes": [
@@ -783,7 +808,12 @@
       "text": "The most important thing about a technology is how it changes people.",
       "author": "Steve Jobs",
       "date": "2026-06-28T06:01:23.125543"
+    },
+    {
+      "text": "The future of computing is not about the technology itself, but about the social and economic structures it enables.",
+      "author": "Tim Berners-Lee",
+      "date": "2026-06-29T06:01:59.826691"
     }
   ],
-  "last_sent_date": "2026-06-28"
+  "last_sent_date": "2026-06-29"
 }
