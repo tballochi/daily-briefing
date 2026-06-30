@@ -566,6 +566,27 @@
       "url": "https://www.marinelink.com/videos/video/rigid-sails-flexible-fuel-savings-solutions-104985",
       "title": "Rigid Sails, Flexible Fuel Savings Solutions - Marine News Magazine",
       "date": "2026-06-29T06:01:59.826691"
+    },
+    {
+      "url_key": "newser.com/story/391854/china-makes-a-big-advance-in-global-ai-race.html",
+      "title_key": "china may have just 'reset' the ai race - newser",
+      "url": "https://www.newser.com/story/391854/china-makes-a-big-advance-in-global-ai-race.html",
+      "title": "China May Have Just 'Reset' the AI Race - Newser",
+      "date": "2026-06-30T06:01:25.711285"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/only_13_of_freight_forwarders_and_customs_brokers_rate_their_decision_making_as_excellent",
+      "title_key": "only 13% of freight forwarders and customs brokers rate their decision-making as excellent - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/only_13_of_freight_forwarders_and_customs_brokers_rate_their_decision_making_as_excellent/",
+      "title": "Only 13% of freight forwarders and customs brokers rate their decision-making as excellent - Logistics Management",
+      "date": "2026-06-30T06:01:25.711285"
+    },
+    {
+      "url_key": "maritime-executive.com/article/french-forces-detain-tanker-in-continuing-crackdown-on-shadow-fleet",
+      "title_key": "french forces detain tanker in continuing crackdown on shadow fleet - the maritime executive",
+      "url": "https://maritime-executive.com/article/french-forces-detain-tanker-in-continuing-crackdown-on-shadow-fleet",
+      "title": "French Forces Detain Tanker in Continuing Crackdown on Shadow Fleet - The Maritime Executive",
+      "date": "2026-06-30T06:01:25.711285"
     }
   ],
   "words": [
@@ -676,6 +697,10 @@
     {
       "word": "neural mesh",
       "date": "2026-06-29T06:01:59.826691"
+    },
+    {
+      "word": "homomorphism",
+      "date": "2026-06-30T06:01:25.711285"
     }
   ],
   "quotes": [
@@ -813,7 +838,12 @@
       "text": "The future of computing is not about the technology itself, but about the social and economic structures it enables.",
       "author": "Tim Berners-Lee",
       "date": "2026-06-29T06:01:59.826691"
+    },
+    {
+      "text": "The art of programming is the art of doing something with a machine that you would not normally think of as a machine.",
+      "author": "Donald Knuth",
+      "date": "2026-06-30T06:01:25.711285"
     }
   ],
-  "last_sent_date": "2026-06-29"
+  "last_sent_date": "2026-06-30"
 }
