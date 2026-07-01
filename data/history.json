@@ -587,6 +587,27 @@
       "url": "https://maritime-executive.com/article/french-forces-detain-tanker-in-continuing-crackdown-on-shadow-fleet",
       "title": "French Forces Detain Tanker in Continuing Crackdown on Shadow Fleet - The Maritime Executive",
       "date": "2026-06-30T06:01:25.711285"
+    },
+    {
+      "url_key": "seatrade-maritime.com/containers/maersk-sharply-ups-full-year-profit-forecast",
+      "title_key": "maersk sharply ups full year profit forecast - seatrade maritime news",
+      "url": "https://www.seatrade-maritime.com/containers/maersk-sharply-ups-full-year-profit-forecast",
+      "title": "Maersk sharply ups full year profit forecast - Seatrade Maritime News",
+      "date": "2026-07-01T06:01:29.576822"
+    },
+    {
+      "url_key": "theneurondaily.com/p/openai-launched-sol-terra-and-luna-kiiinda",
+      "title_key": "😺 openai launched sol, terra, and luna... kiiinda. - the neuron",
+      "url": "https://www.theneurondaily.com/p/openai-launched-sol-terra-and-luna-kiiinda",
+      "title": "😺 OpenAI launched Sol, Terra, and Luna... kiiinda. - The Neuron",
+      "date": "2026-07-01T06:01:29.576822"
+    },
+    {
+      "url_key": "thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+      "title_key": "⚡ weekly recap: linux kernel flaws, ai malware tricks, turla backdoor, infostealers and more - the hacker news",
+      "url": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+      "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More - The Hacker News",
+      "date": "2026-07-01T06:01:29.576822"
     }
   ],
   "words": [
@@ -701,6 +722,10 @@
     {
       "word": "homomorphism",
       "date": "2026-06-30T06:01:25.711285"
+    },
+    {
+      "word": "homography",
+      "date": "2026-07-01T06:01:29.576822"
     }
   ],
   "quotes": [
@@ -843,7 +868,12 @@
       "text": "The art of programming is the art of doing something with a machine that you would not normally think of as a machine.",
       "author": "Donald Knuth",
       "date": "2026-06-30T06:01:25.711285"
+    },
+    {
+      "text": "The Internet is a great way to get on the net.",
+      "author": "Robert Metcalfe",
+      "date": "2026-07-01T06:01:29.576822"
     }
   ],
-  "last_sent_date": "2026-06-30"
+  "last_sent_date": "2026-07-01"
 }
