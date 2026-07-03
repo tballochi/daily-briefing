@@ -629,6 +629,27 @@
       "url": "https://www.therobotreport.com/top-10-robotic-stories-june-2026/",
       "title": "Top 10 robotics developments of June 2026 - The Robot Report",
       "date": "2026-07-02T06:02:31.909101"
+    },
+    {
+      "url_key": "reuters.com/legal/transactional/cma-cgm-buy-fedex-third-party-logistics-arm-14-billion-deal-2026-07-01",
+      "title_key": "cma cgm to buy fedex third-party logistics arm for $1.4 billion - reuters",
+      "url": "https://www.reuters.com/legal/transactional/cma-cgm-buy-fedex-third-party-logistics-arm-14-billion-deal-2026-07-01/",
+      "title": "CMA CGM to buy FedEx third-party logistics arm for $1.4 billion - Reuters",
+      "date": "2026-07-03T06:01:37.964521"
+    },
+    {
+      "url_key": "marinelink.com/news/fleetwork-posidonia-signals-turning-point-540885",
+      "title_key": "fleetwork: posidonia 2026 signals turning point for al, cloud adoption in shipping - marine link",
+      "url": "https://www.marinelink.com/news/fleetwork-posidonia-signals-turning-point-540885",
+      "title": "Fleetwork: Posidonia 2026 Signals Turning Point for Al, Cloud Adoption in Shipping - Marine Link",
+      "date": "2026-07-03T06:01:37.964521"
+    },
+    {
+      "url_key": "law.com/corpcounsel/2026/06/29/legal-ai-is-only-as-smart-as-the-system-behind-it",
+      "title_key": "legal ai is only as smart as the system behind it - law.com",
+      "url": "https://www.law.com/corpcounsel/2026/06/29/legal-ai-is-only-as-smart-as-the-system-behind-it/",
+      "title": "Legal AI Is Only as Smart as the System Behind It - Law.com",
+      "date": "2026-07-03T06:01:37.964521"
     }
   ],
   "words": [
@@ -751,6 +772,10 @@
     {
       "word": "proximity sensor",
       "date": "2026-07-02T06:02:31.909101"
+    },
+    {
+      "word": "granularity",
+      "date": "2026-07-03T06:01:37.964521"
     }
   ],
   "quotes": [
@@ -903,7 +928,12 @@
       "text": "The computer is mightier than the sword.",
       "author": "Alan Kay",
       "date": "2026-07-02T06:02:31.909101"
+    },
+    {
+      "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "date": "2026-07-03T06:01:37.964521"
     }
   ],
-  "last_sent_date": "2026-07-02"
+  "last_sent_date": "2026-07-03"
 }
