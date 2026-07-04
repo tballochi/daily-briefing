@@ -650,6 +650,27 @@
       "url": "https://www.law.com/corpcounsel/2026/06/29/legal-ai-is-only-as-smart-as-the-system-behind-it/",
       "title": "Legal AI Is Only as Smart as the System Behind It - Law.com",
       "date": "2026-07-03T06:01:37.964521"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/cma_cgm_is_set_to_acquire_fedex_supply_chain_in_1.4_billion_deal_significantly_expanding_north_american_logistics_footprint",
+      "title_key": "cma cgm is set to acquire fedex supply chain in $1.4 billion deal, significantly expanding north american logistics footprint - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/cma_cgm_is_set_to_acquire_fedex_supply_chain_in_1.4_billion_deal_significantly_expanding_north_american_logistics_footprint",
+      "title": "CMA CGM is set to acquire FedEx Supply Chain in $1.4 billion deal, significantly expanding North American logistics footprint - Logistics Management",
+      "date": "2026-07-04T06:01:31.048884"
+    },
+    {
+      "url_key": "nature.com/articles/s44333-026-00115-2",
+      "title_key": "llm-assisted screening method for large-scale transportation model calibration - nature",
+      "url": "https://www.nature.com/articles/s44333-026-00115-2",
+      "title": "LLM-assisted screening method for large-scale transportation model calibration - Nature",
+      "date": "2026-07-04T06:01:31.048884"
+    },
+    {
+      "url_key": "securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting",
+      "title_key": "in other news: canadian hacker jailed, open source zero-days, two sentenced for atm jackpotting - securityweek",
+      "url": "https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/",
+      "title": "In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting - SecurityWeek",
+      "date": "2026-07-04T06:01:31.048884"
     }
   ],
   "words": [
@@ -776,6 +797,10 @@
     {
       "word": "granularity",
       "date": "2026-07-03T06:01:37.964521"
+    },
+    {
+      "word": "polyfill",
+      "date": "2026-07-04T06:01:31.048884"
     }
   ],
   "quotes": [
@@ -933,7 +958,12 @@
       "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
       "author": "Nelson Mandela",
       "date": "2026-07-03T06:01:37.964521"
+    },
+    {
+      "text": "The Internet is becoming the town square for the global village of tomorrow.",
+      "author": "Bill Gates",
+      "date": "2026-07-04T06:01:31.048884"
     }
   ],
-  "last_sent_date": "2026-07-03"
+  "last_sent_date": "2026-07-04"
 }
