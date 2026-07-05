@@ -671,6 +671,27 @@
       "url": "https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/",
       "title": "In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting - SecurityWeek",
       "date": "2026-07-04T06:01:31.048884"
+    },
+    {
+      "url_key": "maritime-executive.com/article/cma-cgm-one-and-oocl-introduce-next-generation-containerships",
+      "title_key": "cma cgm, oocl, and one introduce next-generation containerships - the maritime executive",
+      "url": "https://maritime-executive.com/article/cma-cgm-one-and-oocl-introduce-next-generation-containerships",
+      "title": "CMA CGM, OOCL, and ONE Introduce Next-Generation Containerships - The Maritime Executive",
+      "date": "2026-07-05T06:01:30.430283"
+    },
+    {
+      "url_key": "hackernoon.com/the-month-ai-governance-became-operational",
+      "title_key": "the month ai governance became operational - hackernoon",
+      "url": "https://hackernoon.com/the-month-ai-governance-became-operational",
+      "title": "The Month AI Governance Became Operational - HackerNoon",
+      "date": "2026-07-05T06:01:30.430283"
+    },
+    {
+      "url_key": "phoronix.com/news/cachyos-june-2026-released",
+      "title_key": "cachyos june 2026 os released with more performance optimizations - phoronix",
+      "url": "https://www.phoronix.com/news/CachyOS-June-2026-Released",
+      "title": "CachyOS June 2026 OS Released With More Performance Optimizations - Phoronix",
+      "date": "2026-07-05T06:01:30.430283"
     }
   ],
   "words": [
@@ -801,6 +822,10 @@
     {
       "word": "polyfill",
       "date": "2026-07-04T06:01:31.048884"
+    },
+    {
+      "word": "polymerization",
+      "date": "2026-07-05T06:01:30.430283"
     }
   ],
   "quotes": [
@@ -963,7 +988,12 @@
       "text": "The Internet is becoming the town square for the global village of tomorrow.",
       "author": "Bill Gates",
       "date": "2026-07-04T06:01:31.048884"
+    },
+    {
+      "text": "The biggest risk is not taking any risk, but the biggest risk is also not being prepared to take any risk",
+      "author": "Tim Berners-Lee",
+      "date": "2026-07-05T06:01:30.430283"
     }
   ],
-  "last_sent_date": "2026-07-04"
+  "last_sent_date": "2026-07-05"
 }
