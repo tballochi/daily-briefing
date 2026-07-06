@@ -692,6 +692,27 @@
       "url": "https://www.phoronix.com/news/CachyOS-June-2026-Released",
       "title": "CachyOS June 2026 OS Released With More Performance Optimizations - Phoronix",
       "date": "2026-07-05T06:01:30.430283"
+    },
+    {
+      "url_key": "marinelink.com/news/cma-cgm-celebrates-naming-notre-dame-540903",
+      "title_key": "cma cgm celebrates naming notre dame, the largest french-flagged containership - marine link",
+      "url": "https://www.marinelink.com/news/cma-cgm-celebrates-naming-notre-dame-540903",
+      "title": "CMA CGM Celebrates Naming NOTRE DAME, the Largest French-Flagged Containership - Marine Link",
+      "date": "2026-07-06T06:01:45.588990"
+    },
+    {
+      "url_key": "darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders",
+      "title_key": "chinese llms broaden the gap between attackers & defenders - dark reading",
+      "url": "https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders",
+      "title": "Chinese LLMs Broaden the Gap Between Attackers & Defenders - Dark Reading",
+      "date": "2026-07-06T06:01:45.588990"
+    },
+    {
+      "url_key": "pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it",
+      "title_key": "open source game engine godot will no longer accept ai-authored code contributions: 'we can’t trust heavy users of ai to understand their code enough to fix it' - pc gamer",
+      "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
+      "title": "Open source game engine Godot will no longer accept AI-authored code contributions: 'We can’t trust heavy users of AI to understand their code enough to fix it' - PC Gamer",
+      "date": "2026-07-06T06:01:45.588990"
     }
   ],
   "words": [
@@ -826,6 +847,10 @@
     {
       "word": "polymerization",
       "date": "2026-07-05T06:01:30.430283"
+    },
+    {
+      "word": "polymerization",
+      "date": "2026-07-06T06:01:45.588990"
     }
   ],
   "quotes": [
@@ -993,7 +1018,12 @@
       "text": "The biggest risk is not taking any risk, but the biggest risk is also not being prepared to take any risk",
       "author": "Tim Berners-Lee",
       "date": "2026-07-05T06:01:30.430283"
+    },
+    {
+      "text": "The best way to get started is to quit talking and begin doing.",
+      "author": "Walt Disney",
+      "date": "2026-07-06T06:01:45.588990"
     }
   ],
-  "last_sent_date": "2026-07-05"
+  "last_sent_date": "2026-07-06"
 }
