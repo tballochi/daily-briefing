@@ -713,6 +713,27 @@
       "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
       "title": "Open source game engine Godot will no longer accept AI-authored code contributions: 'We can’t trust heavy users of AI to understand their code enough to fix it' - PC Gamer",
       "date": "2026-07-06T06:01:45.588990"
+    },
+    {
+      "url_key": "inboundlogistics.com/articles/six-technologies-reshaping-logistics-execution",
+      "title_key": "6 technologies reshaping logistics execution - inbound logistics",
+      "url": "https://www.inboundlogistics.com/articles/six-technologies-reshaping-logistics-execution/",
+      "title": "6 Technologies Reshaping Logistics Execution - Inbound Logistics",
+      "date": "2026-07-07T06:01:42.192054"
+    },
+    {
+      "url_key": "forbes.com/sites/lanceeliot/2026/07/05/the-secret-of-why-these-eleven-words-are-prominently-included-when-you-ask-ai-to-write-a-creative-story",
+      "title_key": "the secret of why these eleven words are prominently included when you ask ai to write a creative story - forbes",
+      "url": "https://www.forbes.com/sites/lanceeliot/2026/07/05/the-secret-of-why-these-eleven-words-are-prominently-included-when-you-ask-ai-to-write-a-creative-story/",
+      "title": "The Secret Of Why These Eleven Words Are Prominently Included When You Ask AI To Write A Creative Story - Forbes",
+      "date": "2026-07-07T06:01:42.192054"
+    },
+    {
+      "url_key": "techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created",
+      "title_key": "reddit is using llms to solve a problem llms largely created - techcrunch",
+      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+      "title": "Reddit is using LLMs to solve a problem LLMs largely created - TechCrunch",
+      "date": "2026-07-07T06:01:42.192054"
     }
   ],
   "words": [
@@ -851,6 +872,10 @@
     {
       "word": "polymerization",
       "date": "2026-07-06T06:01:45.588990"
+    },
+    {
+      "word": "polymerization",
+      "date": "2026-07-07T06:01:42.192054"
     }
   ],
   "quotes": [
@@ -1023,7 +1048,12 @@
       "text": "The best way to get started is to quit talking and begin doing.",
       "author": "Walt Disney",
       "date": "2026-07-06T06:01:45.588990"
+    },
+    {
+      "text": "The best way to get good ideas is to get a lot of ideas",
+      "author": "Linus Pauling",
+      "date": "2026-07-07T06:01:42.192054"
     }
   ],
-  "last_sent_date": "2026-07-06"
+  "last_sent_date": "2026-07-07"
 }
