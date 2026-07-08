@@ -734,6 +734,27 @@
       "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
       "title": "Reddit is using LLMs to solve a problem LLMs largely created - TechCrunch",
       "date": "2026-07-07T06:01:42.192054"
+    },
+    {
+      "url_key": "marinelink.com/blogs/blog/french-shipping-group-cma-cgm-signs-agreement-with-syria-105023",
+      "title_key": "french shipping group cma cgm signs agreement with syria - marine link",
+      "url": "https://www.marinelink.com/blogs/blog/french-shipping-group-cma-cgm-signs-agreement-with-syria-105023",
+      "title": "French shipping group CMA CGM signs agreement with Syria - Marine Link",
+      "date": "2026-07-08T06:01:48.244443"
+    },
+    {
+      "url_key": "securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks",
+      "title_key": "north korean hackers target open source developers in supply chain attacks - securityweek",
+      "url": "https://www.securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks/",
+      "title": "North Korean Hackers Target Open Source Developers in Supply Chain Attacks - SecurityWeek",
+      "date": "2026-07-08T06:01:48.244443"
+    },
+    {
+      "url_key": "androidauthority.com/july-2026-pixel-update-3684978",
+      "title_key": "google's july 2026 update is here for your pixel phone - android authority",
+      "url": "https://www.androidauthority.com/july-2026-pixel-update-3684978/",
+      "title": "Google's July 2026 update is here for your Pixel phone - Android Authority",
+      "date": "2026-07-08T06:01:48.244443"
     }
   ],
   "words": [
@@ -876,6 +897,10 @@
     {
       "word": "polymerization",
       "date": "2026-07-07T06:01:42.192054"
+    },
+    {
+      "word": "diffusion",
+      "date": "2026-07-08T06:01:48.244443"
     }
   ],
   "quotes": [
@@ -1053,7 +1078,12 @@
       "text": "The best way to get good ideas is to get a lot of ideas",
       "author": "Linus Pauling",
       "date": "2026-07-07T06:01:42.192054"
+    },
+    {
+      "text": "The Internet is a telephone system that's gotten uppity.",
+      "author": "Clifford Stoll",
+      "date": "2026-07-08T06:01:48.244443"
     }
   ],
-  "last_sent_date": "2026-07-07"
+  "last_sent_date": "2026-07-08"
 }
