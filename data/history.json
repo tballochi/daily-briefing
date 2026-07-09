@@ -755,6 +755,27 @@
       "url": "https://www.androidauthority.com/july-2026-pixel-update-3684978/",
       "title": "Google's July 2026 update is here for your Pixel phone - Android Authority",
       "date": "2026-07-08T06:01:48.244443"
+    },
+    {
+      "url_key": "seatrade-maritime.com/containers/gemini-suez-return-signals-cautious-step-towards-liner-normalisation",
+      "title_key": "gemini suez return signals cautious step towards liner normalisation - seatrade maritime news",
+      "url": "https://www.seatrade-maritime.com/containers/gemini-suez-return-signals-cautious-step-towards-liner-normalisation",
+      "title": "Gemini Suez return signals cautious step towards liner normalisation - Seatrade Maritime News",
+      "date": "2026-07-09T06:01:48.128868"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/july_u.s_import_volumes_are_pooised_to_hit_record_high_as_shippers_race_ahead_of_expected_tariff_hikes",
+      "title_key": "july u.s. import volumes are pooised to hit record high as shippers race ahead of expected tariff hikes - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/july_u.s_import_volumes_are_pooised_to_hit_record_high_as_shippers_race_ahead_of_expected_tariff_hikes",
+      "title": "July U.S. import volumes are pooised to hit record high as shippers race ahead of expected tariff hikes - Logistics Management",
+      "date": "2026-07-09T06:01:48.128868"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/july_u.s_import_volumes_are_poised_to_hit_record_high_as_shippers_race_ahead_of_expected_tariff_hikes",
+      "title_key": "july u.s. import volumes are poised to hit record high as shippers race ahead of expected tariff hikes - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/july_u.s_import_volumes_are_poised_to_hit_record_high_as_shippers_race_ahead_of_expected_tariff_hikes",
+      "title": "July U.S. import volumes are poised to hit record high as shippers race ahead of expected tariff hikes - Logistics Management",
+      "date": "2026-07-09T06:01:48.128868"
     }
   ],
   "words": [
@@ -901,6 +922,10 @@
     {
       "word": "diffusion",
       "date": "2026-07-08T06:01:48.244443"
+    },
+    {
+      "word": "polymerization",
+      "date": "2026-07-09T06:01:48.128868"
     }
   ],
   "quotes": [
@@ -1083,7 +1108,12 @@
       "text": "The Internet is a telephone system that's gotten uppity.",
       "author": "Clifford Stoll",
       "date": "2026-07-08T06:01:48.244443"
+    },
+    {
+      "text": "The computer is a prosthetic device for the mind.",
+      "author": "Steve Mann",
+      "date": "2026-07-09T06:01:48.128868"
     }
   ],
-  "last_sent_date": "2026-07-08"
+  "last_sent_date": "2026-07-09"
 }
