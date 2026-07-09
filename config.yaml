@@ -30,10 +30,11 @@ focus:
   label: shipping / maritime / logistics
   # Searched FIRST every run; if there's a fresh story about it, it's preferred.
   # Leave empty ("") to just guarantee the theme without a priority subject.
-  priority_query: CMA CGM
+  priority_query: CMA CGM, Mistral AI
   # Lowercase words/phrases that mark an article as belonging to this theme.
   keywords:
     - cma cgm
+    - mistral ai
     - shipping
     - maritime
     - port
