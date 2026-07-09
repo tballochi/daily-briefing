@@ -45,6 +45,9 @@ TARGET_ARTICLES = CFG.num_articles   # how many stories the briefing contains
 FOCUS = CFG.focus                    # optional always-include theme, or None
 FOCUS_KEYWORDS = FOCUS["keywords"] if FOCUS else ()
 
+# Minimum number of focus articles to guarantee in the briefing
+MIN_FOCUS_ARTICLES = 2 if FOCUS else 0
+
 
 def _build_system_prompt() -> str:
     """Assemble the research agent's system prompt from the user's config.yaml."""
@@ -361,19 +364,65 @@ def _focus_score(article: dict) -> int:
     return 1 if any(kw in text for kw in FOCUS_KEYWORDS) else 0
 
 
-def _ensure_focus_news(selected: list[dict], collected: list[dict]) -> list[dict]:
-    """Guarantee one story about the configured focus theme (prefer its priority subject).
 
-    No-op when no focus is configured. If the agent's pick already contains a focus
-    story, leave it. Otherwise find the best focus candidate from the gathered results,
-    or run a dedicated search, and substitute it for the least-prioritised article.
+def _ensure_focus_news(selected: list[dict], collected: list[dict]) -> list[dict]:
+    """Guarantee MIN_FOCUS_ARTICLES stories about the configured focus theme (prefer its priority subject).
+
+    No-op when no focus is configured. If the agent's pick already contains enough focus
+    stories, leave it. Otherwise find the best focus candidates from the gathered results,
+    or run a dedicated search, and substitute them for the least-prioritised articles.
     """
-    if not FOCUS:
+    if not FOCUS or MIN_FOCUS_ARTICLES == 0:
         return selected
-    if any(_focus_score(a) >= 1 for a in selected):
+
+    # Count how many focus articles are already in the selection
+    focus_count = sum(1 for a in selected if _focus_score(a) >= 1)
+    needed = MIN_FOCUS_ARTICLES - focus_count
+
+    if needed <= 0:
         return selected
 
     used = {_norm_url(a.get("url", "")) for a in selected}
+
+    def _eligible(a: dict) -> bool:
+        return (
+            _norm_url(a.get("url", "")) not in used
+            and not a.get("already_sent")
+            and len(a.get("title", "")) >= 15
+            and _focus_score(a) >= 1
+            and _url_alive(a.get("url", ""))
+        )
+
+    candidates = [a for a in collected if _eligible(a)]
+    if not candidates:
+        queries = []
+        if FOCUS["priority_query"]:
+            queries.append(f"{FOCUS['priority_query']} news")
+        queries.append(f"{FOCUS['label']} news")
+        for query in queries:
+            for a in search_news(query):
+                if _eligible(a):
+                    candidates.append(a)
+            if candidates:
+                break
+
+    if not candidates:
+        logger.warning("Could not find enough focus stories (%s) to guarantee coverage", FOCUS["label"])
+        return selected
+
+    # Sort candidates by focus score (priority subject first) and then by recency/quality
+    candidates.sort(key=_focus_score, reverse=True)
+
+    # Replace the least-prioritised articles in selected with the best focus candidates
+    non_focus_indices = [i for i, a in enumerate(selected) if _focus_score(a) == 0]
+    for i, idx in enumerate(non_focus_indices[:needed]):
+        if i < len(candidates):
+            best = candidates[i]
+            logger.info("Injecting focus story for guaranteed coverage: %s", best.get("title", ""))
+            selected[idx] = best
+
+    return selected
+
 
     def _eligible(a: dict) -> bool:
         return (
