@@ -776,6 +776,27 @@
       "url": "https://www.logisticsmgmt.com/article/july_u.s_import_volumes_are_poised_to_hit_record_high_as_shippers_race_ahead_of_expected_tariff_hikes",
       "title": "July U.S. import volumes are poised to hit record high as shippers race ahead of expected tariff hikes - Logistics Management",
       "date": "2026-07-09T06:01:48.128868"
+    },
+    {
+      "url_key": "techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
+      "title_key": "what is mistral ai? everything to know about the openai competitor - techcrunch",
+      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor - TechCrunch",
+      "date": "2026-07-10T06:02:49.823021"
+    },
+    {
+      "url_key": "inboundlogistics.com/articles/2026-top-100-3pls",
+      "title_key": "2026 top 100 3pls - inbound logistics",
+      "url": "https://www.inboundlogistics.com/articles/2026-top-100-3pls/",
+      "title": "2026 Top 100 3PLs - Inbound Logistics",
+      "date": "2026-07-10T06:02:49.823021"
+    },
+    {
+      "url_key": "roboticsandautomationnews.com/2026/07/07/autonomous-trucking-and-liability-whos-responsible-when-a-self-driving-truck-crashes/103112",
+      "title_key": "autonomous trucking and liability: who’s responsible when a self-driving truck crashes? - robotics & automation news",
+      "url": "https://roboticsandautomationnews.com/2026/07/07/autonomous-trucking-and-liability-whos-responsible-when-a-self-driving-truck-crashes/103112/",
+      "title": "Autonomous Trucking and Liability: Who’s Responsible When a Self-Driving Truck Crashes? - Robotics & Automation News",
+      "date": "2026-07-10T06:02:49.823021"
     }
   ],
   "words": [
@@ -926,6 +947,10 @@
     {
       "word": "polymerization",
       "date": "2026-07-09T06:01:48.128868"
+    },
+    {
+      "word": "polymerization",
+      "date": "2026-07-10T06:02:49.823021"
     }
   ],
   "quotes": [
@@ -1113,7 +1138,12 @@
       "text": "The computer is a prosthetic device for the mind.",
       "author": "Steve Mann",
       "date": "2026-07-09T06:01:48.128868"
+    },
+    {
+      "text": "The computer is a very personal machine, and it's only going to become more personal",
+      "author": "Steve Jobs",
+      "date": "2026-07-10T06:02:49.823021"
     }
   ],
-  "last_sent_date": "2026-07-09"
+  "last_sent_date": "2026-07-10"
 }
