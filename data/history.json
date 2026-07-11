@@ -797,6 +797,27 @@
       "url": "https://roboticsandautomationnews.com/2026/07/07/autonomous-trucking-and-liability-whos-responsible-when-a-self-driving-truck-crashes/103112/",
       "title": "Autonomous Trucking and Liability: Who’s Responsible When a Self-Driving Truck Crashes? - Robotics & Automation News",
       "date": "2026-07-10T06:02:49.823021"
+    },
+    {
+      "url_key": "seatrade-maritime.com/containers/cma-cgm-notre-dame-takes-on-first-european-bio-lng-in-rotterdam",
+      "title_key": "cma cgm notre dame takes on first european bio-lng in rotterdam - seatrade maritime news",
+      "url": "https://www.seatrade-maritime.com/containers/cma-cgm-notre-dame-takes-on-first-european-bio-lng-in-rotterdam",
+      "title": "CMA CGM Notre Dame takes on first European bio-LNG in Rotterdam - Seatrade Maritime News",
+      "date": "2026-07-11T06:03:06.467273"
+    },
+    {
+      "url_key": "zamin.uz/en/technology/210655-europe-s-openai-rival-how-mistral-ai-became-a-symbol-of-technological-independence.html",
+      "title_key": "europe's openai rival: how mistral ai became a symbol of technological independence - zamin.uz",
+      "url": "https://zamin.uz/en/technology/210655-europe-s-openai-rival-how-mistral-ai-became-a-symbol-of-technological-independence.html",
+      "title": "Europe's OpenAI Rival: How Mistral AI Became a Symbol of Technological Independence - Zamin.uz",
+      "date": "2026-07-11T06:03:06.467273"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/maersk_and_hapag_lloyd_resume_one_suez_canal_service",
+      "title_key": "maersk and hapag-lloyd resume one suez canal service - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/maersk_and_hapag_lloyd_resume_one_suez_canal_service",
+      "title": "Maersk and Hapag-Lloyd resume One Suez canal service - Logistics Management",
+      "date": "2026-07-11T06:03:06.467273"
     }
   ],
   "words": [
@@ -951,6 +972,10 @@
     {
       "word": "polymerization",
       "date": "2026-07-10T06:02:49.823021"
+    },
+    {
+      "word": "polymerization",
+      "date": "2026-07-11T06:03:06.467273"
     }
   ],
   "quotes": [
@@ -1143,7 +1168,12 @@
       "text": "The computer is a very personal machine, and it's only going to become more personal",
       "author": "Steve Jobs",
       "date": "2026-07-10T06:02:49.823021"
+    },
+    {
+      "text": "The interface between technology and humanity is where the most interesting problems are.",
+      "author": "Jaron Lanier",
+      "date": "2026-07-11T06:03:06.467273"
     }
   ],
-  "last_sent_date": "2026-07-10"
+  "last_sent_date": "2026-07-11"
 }
