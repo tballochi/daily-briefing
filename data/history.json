@@ -818,6 +818,27 @@
       "url": "https://www.logisticsmgmt.com/article/maersk_and_hapag_lloyd_resume_one_suez_canal_service",
       "title": "Maersk and Hapag-Lloyd resume One Suez canal service - Logistics Management",
       "date": "2026-07-11T06:03:06.467273"
+    },
+    {
+      "url_key": "roboticsandautomationnews.com/2026/07/07/can-ai-predict-car-accidents-before-they-occur/103108",
+      "title_key": "can ai predict car accidents before they occur? - robotics & automation news",
+      "url": "https://roboticsandautomationnews.com/2026/07/07/can-ai-predict-car-accidents-before-they-occur/103108/",
+      "title": "Can AI Predict Car Accidents Before They Occur? - Robotics & Automation News",
+      "date": "2026-07-12T06:01:52.967025"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/orchestrating_the_modern_warehouse_flexible_automation_ai_and_the_rise_of_connected_systems",
+      "title_key": "orchestrating the modern warehouse: flexible automation, ai and the rise of connected systems - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/orchestrating_the_modern_warehouse_flexible_automation_ai_and_the_rise_of_connected_systems",
+      "title": "Orchestrating the Modern Warehouse: Flexible automation, AI and the rise of connected systems - Logistics Management",
+      "date": "2026-07-12T06:01:52.967025"
+    },
+    {
+      "url_key": "marinelink.com/news/hapaglloyd-deploy-nexuswave-fleetwide-540987",
+      "title_key": "hapag-lloyd to deploy nexuswave fleetwide - marine link",
+      "url": "https://www.marinelink.com/news/hapaglloyd-deploy-nexuswave-fleetwide-540987",
+      "title": "Hapag-Lloyd To Deploy Nexuswave Fleetwide - Marine Link",
+      "date": "2026-07-12T06:01:52.967025"
     }
   ],
   "words": [
@@ -976,6 +997,10 @@
     {
       "word": "polymerization",
       "date": "2026-07-11T06:03:06.467273"
+    },
+    {
+      "word": "polymerization",
+      "date": "2026-07-12T06:01:52.967025"
     }
   ],
   "quotes": [
@@ -1173,7 +1198,12 @@
       "text": "The interface between technology and humanity is where the most interesting problems are.",
       "author": "Jaron Lanier",
       "date": "2026-07-11T06:03:06.467273"
+    },
+    {
+      "text": "The computer is a medium, and the message is the change that the medium brings to the user, not the content that the medium carries.",
+      "author": "Marshall McLuhan",
+      "date": "2026-07-12T06:01:52.967025"
     }
   ],
-  "last_sent_date": "2026-07-11"
+  "last_sent_date": "2026-07-12"
 }
