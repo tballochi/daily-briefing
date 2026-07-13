@@ -839,6 +839,27 @@
       "url": "https://www.marinelink.com/news/hapaglloyd-deploy-nexuswave-fleetwide-540987",
       "title": "Hapag-Lloyd To Deploy Nexuswave Fleetwide - Marine Link",
       "date": "2026-07-12T06:01:52.967025"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/descartes_acquisition_of_drivin_will_expand_its_last_mile_reach_in_latin_america",
+      "title_key": "descartes’ acquisition of drivin will expand its last mile reach in latin america - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/descartes_acquisition_of_drivin_will_expand_its_last_mile_reach_in_latin_america/",
+      "title": "Descartes’ acquisition of Drivin will expand its last mile reach in Latin America - Logistics Management",
+      "date": "2026-07-13T06:01:58.629935"
+    },
+    {
+      "url_key": "nature.com/articles/s41586-026-10742-x",
+      "title_key": "large language models can predict the results of social science experiments - nature",
+      "url": "https://www.nature.com/articles/s41586-026-10742-x",
+      "title": "Large language models can predict the results of social science experiments - Nature",
+      "date": "2026-07-13T06:01:58.629935"
+    },
+    {
+      "url_key": "maritime-executive.com/corporate/cma-cgm-notre-dame-completes-its-first-bio-lng-bunkering-operation-in-rotterdam",
+      "title_key": "cma cgm notre dame completes its first bio-lng bunkering operation in rotterdam - the maritime executive",
+      "url": "https://maritime-executive.com/corporate/cma-cgm-notre-dame-completes-its-first-bio-lng-bunkering-operation-in-rotterdam",
+      "title": "CMA CGM NOTRE DAME Completes Its First Bio-LNG Bunkering Operation in Rotterdam - The Maritime Executive",
+      "date": "2026-07-13T06:01:58.629935"
     }
   ],
   "words": [
@@ -1001,6 +1022,10 @@
     {
       "word": "polymerization",
       "date": "2026-07-12T06:01:52.967025"
+    },
+    {
+      "word": "polymerization",
+      "date": "2026-07-13T06:01:58.629935"
     }
   ],
   "quotes": [
@@ -1203,7 +1228,12 @@
       "text": "The computer is a medium, and the message is the change that the medium brings to the user, not the content that the medium carries.",
       "author": "Marshall McLuhan",
       "date": "2026-07-12T06:01:52.967025"
+    },
+    {
+      "text": "The information you have is not the information you want, the information you want is not the information you need, the information you need is not the information you can obtain.",
+      "author": "Claude Shannon",
+      "date": "2026-07-13T06:01:58.629935"
     }
   ],
-  "last_sent_date": "2026-07-12"
+  "last_sent_date": "2026-07-13"
 }
