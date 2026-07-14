@@ -860,6 +860,27 @@
       "url": "https://maritime-executive.com/corporate/cma-cgm-notre-dame-completes-its-first-bio-lng-bunkering-operation-in-rotterdam",
       "title": "CMA CGM NOTRE DAME Completes Its First Bio-LNG Bunkering Operation in Rotterdam - The Maritime Executive",
       "date": "2026-07-13T06:01:58.629935"
+    },
+    {
+      "url_key": "fleetowner.com/technology/news/55389217/fleet-technology-updates-from-pcs-software-beyondtrucks-and-carrier-logistics",
+      "title_key": "trucking tech today: new tms tools support smarter freight and fleet management - fleetowner",
+      "url": "https://www.fleetowner.com/technology/news/55389217/fleet-technology-updates-from-pcs-software-beyondtrucks-and-carrier-logistics",
+      "title": "Trucking Tech Today: New TMS tools support smarter freight and fleet management - FleetOwner",
+      "date": "2026-07-14T06:02:57.329731"
+    },
+    {
+      "url_key": "linuxiac.com/chatto-chat-app-is-now-open-source-and-available-to-self-host",
+      "title_key": "chatto chat app is now open source and available to self-host - linuxiac",
+      "url": "https://linuxiac.com/chatto-chat-app-is-now-open-source-and-available-to-self-host/",
+      "title": "Chatto Chat App Is Now Open Source and Available to Self-Host - Linuxiac",
+      "date": "2026-07-14T06:02:57.329731"
+    },
+    {
+      "url_key": "businessinsider.com/sundays-furniture-delivery-cartage-ai-2026-7",
+      "title_key": "missed the delivery window for your new couch? ai could fix that. - business insider",
+      "url": "https://www.businessinsider.com/sundays-furniture-delivery-cartage-ai-2026-7",
+      "title": "Missed the delivery window for your new couch? AI could fix that. - Business Insider",
+      "date": "2026-07-14T06:02:57.329731"
     }
   ],
   "words": [
@@ -1026,6 +1047,10 @@
     {
       "word": "polymerization",
       "date": "2026-07-13T06:01:58.629935"
+    },
+    {
+      "word": "polymerization",
+      "date": "2026-07-14T06:02:57.329731"
     }
   ],
   "quotes": [
@@ -1233,7 +1258,12 @@
       "text": "The information you have is not the information you want, the information you want is not the information you need, the information you need is not the information you can obtain.",
       "author": "Claude Shannon",
       "date": "2026-07-13T06:01:58.629935"
+    },
+    {
+      "text": "The interface between technology and humanity is where the most interesting problems are.",
+      "author": "Jaron Lanier",
+      "date": "2026-07-14T06:02:57.329731"
     }
   ],
-  "last_sent_date": "2026-07-13"
+  "last_sent_date": "2026-07-14"
 }
