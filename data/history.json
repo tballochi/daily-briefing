@@ -902,6 +902,27 @@
       "url": "https://www.darkreading.com/application-security/ai-coding-security-risks-productivity-gains",
       "title": "AI Coding: Do Security Risks Outweigh Productivity Gains? - Dark Reading",
       "date": "2026-07-15T06:02:07.697860"
+    },
+    {
+      "url_key": "observer.com/list/2026-ai-power-index",
+      "title_key": "observer's 2026 a.i. power index: who controls the capital ...",
+      "url": "https://observer.com/list/2026-ai-power-index",
+      "title": "Observer's 2026 A.I. Power Index: Who Controls the Capital ...",
+      "date": "2026-07-16T06:02:49.734407"
+    },
+    {
+      "url_key": "inboundlogistics.com/articles/takeaways-shaping-the-future-of-the-global-supply-chain-0526",
+      "title_key": "supply chain trends: rfid, ai robots & reverse logistics - inbound logistics",
+      "url": "https://www.inboundlogistics.com/articles/takeaways-shaping-the-future-of-the-global-supply-chain-0526/",
+      "title": "Supply Chain Trends: RFID, AI Robots & Reverse Logistics - Inbound Logistics",
+      "date": "2026-07-16T06:02:49.734407"
+    },
+    {
+      "url_key": "arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models",
+      "title_key": "simulating everything, sort of: the promise and limits of world models - ars technica",
+      "url": "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/",
+      "title": "Simulating everything, sort of: The promise and limits of world models - Ars Technica",
+      "date": "2026-07-16T06:02:49.734407"
     }
   ],
   "words": [
@@ -1076,6 +1097,10 @@
     {
       "word": "polymerization",
       "date": "2026-07-15T06:02:07.697860"
+    },
+    {
+      "word": "polymerization",
+      "date": "2026-07-16T06:02:49.734407"
     }
   ],
   "quotes": [
@@ -1293,7 +1318,12 @@
       "text": "The best way to get started is to quit talking and begin doing.",
       "author": "Walt Disney",
       "date": "2026-07-15T06:02:07.697860"
+    },
+    {
+      "text": "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.",
+      "author": "Michelangelo",
+      "date": "2026-07-16T06:02:49.734407"
     }
   ],
-  "last_sent_date": "2026-07-15"
+  "last_sent_date": "2026-07-16"
 }
