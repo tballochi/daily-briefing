@@ -923,6 +923,27 @@
       "url": "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/",
       "title": "Simulating everything, sort of: The promise and limits of world models - Ars Technica",
       "date": "2026-07-16T06:02:49.734407"
+    },
+    {
+      "url_key": "forbes.com/sites/serenitygibbons/2026/07/16/the-future-of-business-automation-is-adaptability",
+      "title_key": "the future of business automation is adaptability - forbes",
+      "url": "https://www.forbes.com/sites/serenitygibbons/2026/07/16/the-future-of-business-automation-is-adaptability/",
+      "title": "The Future Of Business Automation Is Adaptability - Forbes",
+      "date": "2026-07-17T06:04:23.013153"
+    },
+    {
+      "url_key": "nature.com/articles/s44271-026-00508-6",
+      "title_key": "understanding large language models demands distinguishing human projection from machine cognition - nature",
+      "url": "https://www.nature.com/articles/s44271-026-00508-6",
+      "title": "Understanding large language models demands distinguishing human projection from machine cognition - Nature",
+      "date": "2026-07-17T06:04:23.013153"
+    },
+    {
+      "url_key": "wealthmanagement.com/artificial-intelligence/mariner-partners-with-humanity-labs-for-ai-workforce",
+      "title_key": "mariner partners with humanity labs for ai workforce - wealth management",
+      "url": "https://www.wealthmanagement.com/artificial-intelligence/mariner-partners-with-humanity-labs-for-ai-workforce",
+      "title": "Mariner Partners With Humanity Labs for AI Workforce - Wealth Management",
+      "date": "2026-07-17T06:04:23.013153"
     }
   ],
   "words": [
@@ -1101,6 +1122,10 @@
     {
       "word": "polymerization",
       "date": "2026-07-16T06:02:49.734407"
+    },
+    {
+      "word": "experientialism",
+      "date": "2026-07-17T06:04:23.013153"
     }
   ],
   "quotes": [
@@ -1323,7 +1348,12 @@
       "text": "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.",
       "author": "Michelangelo",
       "date": "2026-07-16T06:02:49.734407"
+    },
+    {
+      "text": "The best way to predict the future is to invent it, but the best way to invent the future is to understand the present.",
+      "author": "Alan Kay",
+      "date": "2026-07-17T06:04:23.013153"
     }
   ],
-  "last_sent_date": "2026-07-16"
+  "last_sent_date": "2026-07-17"
 }
