@@ -944,17 +944,30 @@
       "url": "https://www.wealthmanagement.com/artificial-intelligence/mariner-partners-with-humanity-labs-for-ai-workforce",
       "title": "Mariner Partners With Humanity Labs for AI Workforce - Wealth Management",
       "date": "2026-07-17T06:04:23.013153"
+    },
+    {
+      "url_key": "csoonline.com/article/4197499/npm-ecosystem-hit-with-two-new-supply-chain-compromises.html",
+      "title_key": "npm ecosystem hit with two new supply chain compromises - csoonline.com",
+      "url": "https://www.csoonline.com/article/4197499/npm-ecosystem-hit-with-two-new-supply-chain-compromises.html",
+      "title": "NPM ecosystem hit with two new supply chain compromises - csoonline.com",
+      "date": "2026-07-18T06:01:26.654035"
+    },
+    {
+      "url_key": "venturebeat.com/technology/canva-launches-code-2-0-offering-ai-website-building-to-every-user-including-free-accounts",
+      "title_key": "canva launches code 2.0, offering ai website building to every user — including free accounts - venturebeat",
+      "url": "https://venturebeat.com/technology/canva-launches-code-2-0-offering-ai-website-building-to-every-user-including-free-accounts",
+      "title": "Canva launches Code 2.0, offering AI website building to every user — including free accounts - VentureBeat",
+      "date": "2026-07-18T06:01:26.654035"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/june_u.s_bound_imports_post_annual_gains_reports_descartes",
+      "title_key": "june u.s.-bound imports post annual gains, reports descartes - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/june_u.s_bound_imports_post_annual_gains_reports_descartes/",
+      "title": "June U.S.-bound imports post annual gains, reports Descartes - Logistics Management",
+      "date": "2026-07-18T06:01:26.654035"
     }
   ],
   "words": [
-    {
-      "word": "idempotency",
-      "date": "2026-06-02T17:36:10.197140"
-    },
-    {
-      "word": "inference",
-      "date": "2026-06-03T06:01:02.120836"
-    },
     {
       "word": "embedding",
       "date": "2026-06-04T07:57:50.422768"
@@ -1126,19 +1139,13 @@
     {
       "word": "experientialism",
       "date": "2026-07-17T06:04:23.013153"
+    },
+    {
+      "word": "inference",
+      "date": "2026-07-18T06:01:26.654035"
     }
   ],
   "quotes": [
-    {
-      "text": "Software is eating the world.",
-      "author": "Marc Andreessen",
-      "date": "2026-06-02T17:36:10.197140"
-    },
-    {
-      "text": "The best way to predict the future is to invent it",
-      "author": "Alan Kay",
-      "date": "2026-06-03T06:01:02.120836"
-    },
     {
       "text": "Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
       "author": "Steve Jobs",
@@ -1353,7 +1360,12 @@
       "text": "The best way to predict the future is to invent it, but the best way to invent the future is to understand the present.",
       "author": "Alan Kay",
       "date": "2026-07-17T06:04:23.013153"
+    },
+    {
+      "text": "Software is a great combination of artistry and engineering.",
+      "author": "Bill Gates",
+      "date": "2026-07-18T06:01:26.654035"
     }
   ],
-  "last_sent_date": "2026-07-17"
+  "last_sent_date": "2026-07-18"
 }
