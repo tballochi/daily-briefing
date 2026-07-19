@@ -965,6 +965,27 @@
       "url": "https://www.logisticsmgmt.com/article/june_u.s_bound_imports_post_annual_gains_reports_descartes/",
       "title": "June U.S.-bound imports post annual gains, reports Descartes - Logistics Management",
       "date": "2026-07-18T06:01:26.654035"
+    },
+    {
+      "url_key": "roboticsandautomationnews.com/2026/07/17/opinion-exotec-managing-director-highlights-key-warehouse-automation-trends-for-2026/103366",
+      "title_key": "opinion: exotec managing director highlights key warehouse automation trends for 2026 - robotics & automation news",
+      "url": "https://roboticsandautomationnews.com/2026/07/17/opinion-exotec-managing-director-highlights-key-warehouse-automation-trends-for-2026/103366/",
+      "title": "Opinion: Exotec managing director highlights key warehouse automation trends for 2026 - Robotics & Automation News",
+      "date": "2026-07-19T06:01:21.004916"
+    },
+    {
+      "url_key": "maritime-executive.com/corporate/data-driven-voyage-optimization-shortens-atlantic-transit-by-2-5-days",
+      "title_key": "data-driven voyage optimization shortens atlantic transit by 2.5 days - the maritime executive",
+      "url": "https://maritime-executive.com/corporate/data-driven-voyage-optimization-shortens-atlantic-transit-by-2-5-days",
+      "title": "Data-Driven Voyage Optimization Shortens Atlantic Transit by 2.5 Days - The Maritime Executive",
+      "date": "2026-07-19T06:01:21.004916"
+    },
+    {
+      "url_key": "mining-technology.com/news/cemi-marks-clerk-partner-canadian-mining-innovation",
+      "title_key": "cemi and marks & clerk partner on canadian mining innovation - mining technology",
+      "url": "https://www.mining-technology.com/news/cemi-marks-clerk-partner-canadian-mining-innovation/",
+      "title": "CEMI and Marks & Clerk partner on Canadian mining innovation - Mining Technology",
+      "date": "2026-07-19T06:01:21.004916"
     }
   ],
   "words": [
@@ -1143,6 +1164,10 @@
     {
       "word": "inference",
       "date": "2026-07-18T06:01:26.654035"
+    },
+    {
+      "word": "idempotency",
+      "date": "2026-07-19T06:01:21.004916"
     }
   ],
   "quotes": [
@@ -1365,7 +1390,12 @@
       "text": "Software is a great combination of artistry and engineering.",
       "author": "Bill Gates",
       "date": "2026-07-18T06:01:26.654035"
+    },
+    {
+      "text": "The best way to predict the future is to invent it.",
+      "author": "Alan Kay",
+      "date": "2026-07-19T06:01:21.004916"
     }
   ],
-  "last_sent_date": "2026-07-18"
+  "last_sent_date": "2026-07-19"
 }
