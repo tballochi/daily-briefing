@@ -986,13 +986,30 @@
       "url": "https://www.mining-technology.com/news/cemi-marks-clerk-partner-canadian-mining-innovation/",
       "title": "CEMI and Marks & Clerk partner on Canadian mining innovation - Mining Technology",
       "date": "2026-07-19T06:01:21.004916"
+    },
+    {
+      "url_key": "seatrade-maritime.com/security/piracy-and-yemen-escalation-threaten-red-sea-shipping-return",
+      "title_key": "piracy and yemen escalation threaten red sea shipping return - seatrade maritime news",
+      "url": "https://www.seatrade-maritime.com/security/piracy-and-yemen-escalation-threaten-red-sea-shipping-return",
+      "title": "Piracy and Yemen escalation threaten Red Sea shipping return - Seatrade Maritime News",
+      "date": "2026-07-20T06:01:22.199817"
+    },
+    {
+      "url_key": "reuters.com/business/over-200-experts-call-urgent-action-tackle-ais-economic-impact-2026-07-13",
+      "title_key": "over 200 experts call for urgent action to tackle ai's economic impact - reuters",
+      "url": "https://www.reuters.com/business/over-200-experts-call-urgent-action-tackle-ais-economic-impact-2026-07-13/",
+      "title": "Over 200 experts call for urgent action to tackle AI's economic impact - Reuters",
+      "date": "2026-07-20T06:01:22.199817"
+    },
+    {
+      "url_key": "darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover",
+      "title_key": "2-click cursor exploit enables dev environment takeover - dark reading",
+      "url": "https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover",
+      "title": "2-Click Cursor Exploit Enables Dev Environment Takeover - Dark Reading",
+      "date": "2026-07-20T06:01:22.199817"
     }
   ],
   "words": [
-    {
-      "word": "embedding",
-      "date": "2026-06-04T07:57:50.422768"
-    },
     {
       "word": "fine-tuning",
       "date": "2026-06-05T08:52:00.119158"
@@ -1168,14 +1185,13 @@
     {
       "word": "idempotency",
       "date": "2026-07-19T06:01:21.004916"
+    },
+    {
+      "word": "embedding",
+      "date": "2026-07-20T06:01:22.199817"
     }
   ],
   "quotes": [
-    {
-      "text": "Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
-      "author": "Steve Jobs",
-      "date": "2026-06-04T07:57:50.422768"
-    },
     {
       "text": "Computing is not about computers anymore. It is about living.",
       "author": "Nicholas Negroponte",
@@ -1395,7 +1411,12 @@
       "text": "The best way to predict the future is to invent it.",
       "author": "Alan Kay",
       "date": "2026-07-19T06:01:21.004916"
+    },
+    {
+      "text": "The best way to predict the future is to invent it.",
+      "author": "Alan Kay",
+      "date": "2026-07-20T06:01:22.199817"
     }
   ],
-  "last_sent_date": "2026-07-19"
+  "last_sent_date": "2026-07-20"
 }
