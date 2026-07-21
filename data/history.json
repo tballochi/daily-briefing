@@ -1007,13 +1007,30 @@
       "url": "https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover",
       "title": "2-Click Cursor Exploit Enables Dev Environment Takeover - Dark Reading",
       "date": "2026-07-20T06:01:22.199817"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/project44_splits_into_two_businesses_launches_ai_focused_lsp44_for_logistics_providers",
+      "title_key": "project44 splits into two businesses, launches ai-focused lsp44 for logistics providers - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/project44_splits_into_two_businesses_launches_ai_focused_lsp44_for_logistics_providers/",
+      "title": "project44 splits into two businesses, launches AI-focused LSP44 for logistics providers - Logistics Management",
+      "date": "2026-07-21T06:01:20.883521"
+    },
+    {
+      "url_key": "westcentralonline.com/articles/ottawa-invests-165-million-in-ai-technology-for-climate-smart-farming",
+      "title_key": "ottawa invests $1.65 million in ai technology for climate-smart farming - westcentralonline",
+      "url": "https://www.westcentralonline.com/articles/ottawa-invests-165-million-in-ai-technology-for-climate-smart-farming",
+      "title": "Ottawa invests $1.65 million in AI technology for climate-smart farming - WestCentralOnline",
+      "date": "2026-07-21T06:01:20.883521"
+    },
+    {
+      "url_key": "insurancejournal.com/news/international/2026/07/14/877479.htm",
+      "title_key": "chemical tanker stolt magnesium hit by explosion off omani coast, manager says - insurance journal",
+      "url": "https://www.insurancejournal.com/news/international/2026/07/14/877479.htm",
+      "title": "Chemical Tanker Stolt Magnesium Hit by Explosion off Omani Coast, Manager Says - Insurance Journal",
+      "date": "2026-07-21T06:01:20.883521"
     }
   ],
   "words": [
-    {
-      "word": "fine-tuning",
-      "date": "2026-06-05T08:52:00.119158"
-    },
     {
       "word": "quantization",
       "date": "2026-06-06T08:01:54.776727"
@@ -1189,14 +1206,13 @@
     {
       "word": "embedding",
       "date": "2026-07-20T06:01:22.199817"
+    },
+    {
+      "word": "fine-tuning",
+      "date": "2026-07-21T06:01:20.883521"
     }
   ],
   "quotes": [
-    {
-      "text": "Computing is not about computers anymore. It is about living.",
-      "author": "Nicholas Negroponte",
-      "date": "2026-06-05T08:52:00.119158"
-    },
     {
       "text": "The biggest risk is not taking any risk.",
       "author": "Mark Zuckerberg",
@@ -1416,7 +1432,12 @@
       "text": "The best way to predict the future is to invent it.",
       "author": "Alan Kay",
       "date": "2026-07-20T06:01:22.199817"
+    },
+    {
+      "text": "The best way to predict the future is to invent the tools that make it possible, but the best way to invent the tools is to understand the problems you are trying to solve.",
+      "author": "Alan Kay",
+      "date": "2026-07-21T06:01:20.883521"
     }
   ],
-  "last_sent_date": "2026-07-20"
+  "last_sent_date": "2026-07-21"
 }
