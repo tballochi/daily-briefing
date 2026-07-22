@@ -1028,17 +1028,30 @@
       "url": "https://www.insurancejournal.com/news/international/2026/07/14/877479.htm",
       "title": "Chemical Tanker Stolt Magnesium Hit by Explosion off Omani Coast, Manager Says - Insurance Journal",
       "date": "2026-07-21T06:01:20.883521"
+    },
+    {
+      "url_key": "wsj.com/logistics-report/altana-acquires-ai-platform-to-tackle-customs-complexity-0bf30fa2",
+      "title_key": "exclusive | altana acquires ai platform to tackle customs complexity - wsj",
+      "url": "https://www.wsj.com/logistics-report/altana-acquires-ai-platform-to-tackle-customs-complexity-0bf30fa2",
+      "title": "Exclusive | Altana Acquires AI Platform to Tackle Customs Complexity - WSJ",
+      "date": "2026-07-22T06:01:09.624857"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/maersk_preps_to_open_up_a_new_boston_area_fulfillment_hub",
+      "title_key": "maersk preps to open up a new boston-area fulfillment hub - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/maersk_preps_to_open_up_a_new_boston_area_fulfillment_hub/",
+      "title": "Maersk preps to open up a new Boston-area fulfillment hub - Logistics Management",
+      "date": "2026-07-22T06:01:09.624857"
+    },
+    {
+      "url_key": "thenewstack.io/anaconda-kilo-open-source-acquisition",
+      "title_key": "anaconda buys kilo, the open source coding agent that answers to no single model maker - the new stack",
+      "url": "https://thenewstack.io/anaconda-kilo-open-source-acquisition",
+      "title": "Anaconda buys Kilo, the open source coding agent that answers to no single model maker - The New Stack",
+      "date": "2026-07-22T06:01:09.624857"
     }
   ],
   "words": [
-    {
-      "word": "quantization",
-      "date": "2026-06-06T08:01:54.776727"
-    },
-    {
-      "word": "webhook",
-      "date": "2026-06-07T06:01:09.085012"
-    },
     {
       "word": "latency",
       "date": "2026-06-08T06:01:16.226584"
@@ -1210,19 +1223,13 @@
     {
       "word": "fine-tuning",
       "date": "2026-07-21T06:01:20.883521"
+    },
+    {
+      "word": "quantization",
+      "date": "2026-07-22T06:01:09.624857"
     }
   ],
   "quotes": [
-    {
-      "text": "The biggest risk is not taking any risk.",
-      "author": "Mark Zuckerberg",
-      "date": "2026-06-06T08:01:54.776727"
-    },
-    {
-      "text": "The future belongs to those who see possibilities before they become obvious.",
-      "author": "John Sculley",
-      "date": "2026-06-07T06:01:09.085012"
-    },
     {
       "text": "Code is the language in which we describe the world around us.",
       "author": "Lawrence Lessig",
@@ -1437,7 +1444,12 @@
       "text": "The best way to predict the future is to invent the tools that make it possible, but the best way to invent the tools is to understand the problems you are trying to solve.",
       "author": "Alan Kay",
       "date": "2026-07-21T06:01:20.883521"
+    },
+    {
+      "text": "The best way to get good ideas is to get a lot of ideas and throw away the bad ones.",
+      "author": "Linus Pauling",
+      "date": "2026-07-22T06:01:09.624857"
     }
   ],
-  "last_sent_date": "2026-07-21"
+  "last_sent_date": "2026-07-22"
 }
