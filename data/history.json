@@ -1049,13 +1049,30 @@
       "url": "https://thenewstack.io/anaconda-kilo-open-source-acquisition",
       "title": "Anaconda buys Kilo, the open source coding agent that answers to no single model maker - The New Stack",
       "date": "2026-07-22T06:01:09.624857"
+    },
+    {
+      "url_key": "reuters.com/business/microsoft-fund-mistrals-european-ai-expansion-multibillion-dollar-deal-2026-07-21",
+      "title_key": "microsoft to fund mistral's european ai expansion in multibillion-dollar deal - reuters",
+      "url": "https://www.reuters.com/business/microsoft-fund-mistrals-european-ai-expansion-multibillion-dollar-deal-2026-07-21/",
+      "title": "Microsoft to fund Mistral's European AI expansion in multibillion-dollar deal - Reuters",
+      "date": "2026-07-23T06:01:34.805730"
+    },
+    {
+      "url_key": "maritime-executive.com/article/more-ships-u-turn-to-avoid-houthi-threats",
+      "title_key": "more ships u-turn to avoid houthi threats - the maritime executive",
+      "url": "https://maritime-executive.com/article/more-ships-u-turn-to-avoid-houthi-threats",
+      "title": "More Ships U-Turn to Avoid Houthi Threats - The Maritime Executive",
+      "date": "2026-07-23T06:01:34.805730"
+    },
+    {
+      "url_key": "axios.com/2026/07/22/mistral-samsung-20-billion-valuation",
+      "title_key": "mistral in talks with samsung on €20b valuation - axios",
+      "url": "https://www.axios.com/2026/07/22/mistral-samsung-20-billion-valuation",
+      "title": "Mistral in talks with Samsung on €20B valuation - Axios",
+      "date": "2026-07-23T06:01:34.805730"
     }
   ],
   "words": [
-    {
-      "word": "latency",
-      "date": "2026-06-08T06:01:16.226584"
-    },
     {
       "word": "vector database",
       "date": "2026-06-09T06:01:51.318124"
@@ -1227,14 +1244,13 @@
     {
       "word": "quantization",
       "date": "2026-07-22T06:01:09.624857"
+    },
+    {
+      "word": " webhook",
+      "date": "2026-07-23T06:01:34.805730"
     }
   ],
   "quotes": [
-    {
-      "text": "Code is the language in which we describe the world around us.",
-      "author": "Lawrence Lessig",
-      "date": "2026-06-08T06:01:16.226584"
-    },
     {
       "text": "Innovation distinguishes between a leader and a follower.",
       "author": "Steve Jobs",
@@ -1449,7 +1465,12 @@
       "text": "The best way to get good ideas is to get a lot of ideas and throw away the bad ones.",
       "author": "Linus Pauling",
       "date": "2026-07-22T06:01:09.624857"
+    },
+    {
+      "text": "Computer science is no more about computers than astronomy is about telescopes.",
+      "author": "Edsger W. Dijkstra",
+      "date": "2026-07-23T06:01:34.805730"
     }
   ],
-  "last_sent_date": "2026-07-22"
+  "last_sent_date": "2026-07-23"
 }
