@@ -1070,6 +1070,27 @@
       "url": "https://www.axios.com/2026/07/22/mistral-samsung-20-billion-valuation",
       "title": "Mistral in talks with Samsung on €20B valuation - Axios",
       "date": "2026-07-23T06:01:34.805730"
+    },
+    {
+      "url_key": "bnonews.com/index.php/2026/07/the-future-of-freight-next-gen-engine-tech",
+      "title_key": "the future of freight: next-gen engine tech - bno news",
+      "url": "https://bnonews.com/index.php/2026/07/the-future-of-freight-next-gen-engine-tech",
+      "title": "The Future of Freight: Next-Gen Engine Tech - BNO News",
+      "date": "2026-07-24T06:01:24.126842"
+    },
+    {
+      "url_key": "mrkt30.com/what-happened-to-le-chat-mistrals-vibe-rebrand-tested-2026",
+      "title_key": "what happened to le chat? mistral’s vibe rebrand, tested (2026) - mrkt3.0",
+      "url": "https://mrkt30.com/what-happened-to-le-chat-mistrals-vibe-rebrand-tested-2026",
+      "title": "What Happened to Le Chat? Mistral’s Vibe Rebrand, Tested (2026) - MRKT3.0",
+      "date": "2026-07-24T06:01:24.126842"
+    },
+    {
+      "url_key": "gizmodo.com/google-introduces-gemini-3-6-to-remind-you-it-has-an-ai-model-too-2000788641",
+      "title_key": "google introduces gemini 3.6 to remind you it has an ai model, too - gizmodo",
+      "url": "https://gizmodo.com/google-introduces-gemini-3-6-to-remind-you-it-has-an-ai-model-too-2000788641",
+      "title": "Google Introduces Gemini 3.6 to Remind You It Has an AI Model, Too - Gizmodo",
+      "date": "2026-07-24T06:01:24.126842"
     }
   ],
   "words": [
@@ -1248,6 +1269,10 @@
     {
       "word": " webhook",
       "date": "2026-07-23T06:01:34.805730"
+    },
+    {
+      "word": "latency",
+      "date": "2026-07-24T06:01:24.126842"
     }
   ],
   "quotes": [
@@ -1470,7 +1495,12 @@
       "text": "Computer science is no more about computers than astronomy is about telescopes.",
       "author": "Edsger W. Dijkstra",
       "date": "2026-07-23T06:01:34.805730"
+    },
+    {
+      "text": "The computer is a bicycle for our minds",
+      "author": "Steve Jobs",
+      "date": "2026-07-24T06:01:24.126842"
     }
   ],
-  "last_sent_date": "2026-07-23"
+  "last_sent_date": "2026-07-24"
 }
