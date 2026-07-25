@@ -1091,17 +1091,30 @@
       "url": "https://gizmodo.com/google-introduces-gemini-3-6-to-remind-you-it-has-an-ai-model-too-2000788641",
       "title": "Google Introduces Gemini 3.6 to Remind You It Has an AI Model, Too - Gizmodo",
       "date": "2026-07-24T06:01:24.126842"
+    },
+    {
+      "url_key": "actuia.com/en/actors/mistral-ai",
+      "title_key": "mistral ai — actuia",
+      "url": "https://www.actuia.com/en/actors/mistral-ai",
+      "title": "Mistral AI — ActuIA",
+      "date": "2026-07-25T06:01:34.039981"
+    },
+    {
+      "url_key": "indiashippingnews.com/logistics/concor-signs-mou-with-iit-roorkee-to-develop-ai-driven-smart-logistics-decision-support-system",
+      "title_key": "concor signs mou with iit roorkee to develop ai-driven smart logistics decision support system - india shipping news",
+      "url": "https://indiashippingnews.com/logistics/concor-signs-mou-with-iit-roorkee-to-develop-ai-driven-smart-logistics-decision-support-system",
+      "title": "CONCOR signs MoU with IIT Roorkee to develop AI-driven smart logistics decision support system - India Shipping News",
+      "date": "2026-07-25T06:01:34.039981"
+    },
+    {
+      "url_key": "securityweek.com/cisco-launches-low-cost-ai-models-for-source-code-security",
+      "title_key": "cisco launches low-cost ai models for source code security - securityweek",
+      "url": "https://www.securityweek.com/cisco-launches-low-cost-ai-models-for-source-code-security/",
+      "title": "Cisco Launches Low-Cost AI Models for Source Code Security - SecurityWeek",
+      "date": "2026-07-25T06:01:34.039981"
     }
   ],
   "words": [
-    {
-      "word": "vector database",
-      "date": "2026-06-09T06:01:51.318124"
-    },
-    {
-      "word": "hypervisor",
-      "date": "2026-06-10T06:01:19.468456"
-    },
     {
       "word": "microservice",
       "date": "2026-06-11T06:01:48.959521"
@@ -1273,19 +1286,13 @@
     {
       "word": "latency",
       "date": "2026-07-24T06:01:24.126842"
+    },
+    {
+      "word": "vectorization",
+      "date": "2026-07-25T06:01:34.039981"
     }
   ],
   "quotes": [
-    {
-      "text": "Innovation distinguishes between a leader and a follower.",
-      "author": "Steve Jobs",
-      "date": "2026-06-09T06:01:51.318124"
-    },
-    {
-      "text": "The most important thing about a technology is how it changes people.",
-      "author": "Jaron Lanier",
-      "date": "2026-06-10T06:01:19.468456"
-    },
     {
       "text": "The best way to get good ideas is to get a lot of ideas.",
       "author": "Linus Pauling",
@@ -1500,7 +1507,12 @@
       "text": "The computer is a bicycle for our minds",
       "author": "Steve Jobs",
       "date": "2026-07-24T06:01:24.126842"
+    },
+    {
+      "text": "The most important thing about a technology is how it changes people.",
+      "author": "Steve Jobs",
+      "date": "2026-07-25T06:01:34.039981"
     }
   ],
-  "last_sent_date": "2026-07-24"
+  "last_sent_date": "2026-07-25"
 }
