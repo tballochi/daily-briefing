@@ -1112,6 +1112,27 @@
       "url": "https://www.securityweek.com/cisco-launches-low-cost-ai-models-for-source-code-security/",
       "title": "Cisco Launches Low-Cost AI Models for Source Code Security - SecurityWeek",
       "date": "2026-07-25T06:01:34.039981"
+    },
+    {
+      "url_key": "markets.businessinsider.com/news/stocks/weathernews-launches-smartphone-app-for-ai-powered-marine-weather-service-seanavigator-1036364290",
+      "title_key": "weathernews launches smartphone app for ai-powered marine weather service seanavigator - markets.businessinsider.com",
+      "url": "https://markets.businessinsider.com/news/stocks/weathernews-launches-smartphone-app-for-ai-powered-marine-weather-service-seanavigator-1036364290",
+      "title": "Weathernews Launches Smartphone App for AI-Powered Marine Weather Service SeaNavigator - markets.businessinsider.com",
+      "date": "2026-07-26T06:01:20.475127"
+    },
+    {
+      "url_key": "infoq.com/articles/self-building-agent-langchain4j",
+      "title_key": "the self-building agent: a langchain4j experiment - infoq.com",
+      "url": "https://www.infoq.com/articles/self-building-agent-langchain4j/",
+      "title": "The Self-Building Agent: A LangChain4j Experiment - infoq.com",
+      "date": "2026-07-26T06:01:20.475127"
+    },
+    {
+      "url_key": "securityweek.com/capital-one-open-sources-ai-powered-vulnhunter-security-tool",
+      "title_key": "capital one open sources ai-powered ‘vulnhunter’ security tool - securityweek",
+      "url": "https://www.securityweek.com/capital-one-open-sources-ai-powered-vulnhunter-security-tool/",
+      "title": "Capital One Open Sources AI-Powered ‘VulnHunter’ Security Tool - SecurityWeek",
+      "date": "2026-07-26T06:01:20.475127"
     }
   ],
   "words": [
@@ -1290,6 +1311,10 @@
     {
       "word": "vectorization",
       "date": "2026-07-25T06:01:34.039981"
+    },
+    {
+      "word": "Polymerization",
+      "date": "2026-07-26T06:01:20.475127"
     }
   ],
   "quotes": [
@@ -1512,7 +1537,12 @@
       "text": "The most important thing about a technology is how it changes people.",
       "author": "Steve Jobs",
       "date": "2026-07-25T06:01:34.039981"
+    },
+    {
+      "text": "The value of a network is proportional to the square of the number of nodes on the network",
+      "author": "Robert Metcalfe",
+      "date": "2026-07-26T06:01:20.475127"
     }
   ],
-  "last_sent_date": "2026-07-25"
+  "last_sent_date": "2026-07-26"
 }
