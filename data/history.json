@@ -1133,17 +1133,30 @@
       "url": "https://www.securityweek.com/capital-one-open-sources-ai-powered-vulnhunter-security-tool/",
       "title": "Capital One Open Sources AI-Powered ‘VulnHunter’ Security Tool - SecurityWeek",
       "date": "2026-07-26T06:01:20.475127"
+    },
+    {
+      "url_key": "marinelink.com/news/ksoe-siemens-partner-aipowered-shipyard-541524",
+      "title_key": "ksoe and siemens partner on ai-powered shipyard - marine news magazine",
+      "url": "https://www.marinelink.com/news/ksoe-siemens-partner-aipowered-shipyard-541524",
+      "title": "KSOE And Siemens Partner On AI-Powered Shipyard - Marine News Magazine",
+      "date": "2026-07-27T06:01:26.321680"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/j.b_hunt_rolls_out_overroute_following_a_year_of_internal_development",
+      "title_key": "j.b. hunt rolls out overroute, following a year of internal development - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/j.b_hunt_rolls_out_overroute_following_a_year_of_internal_development",
+      "title": "J.B. Hunt rolls out Overroute, following a year of internal development - Logistics Management",
+      "date": "2026-07-27T06:01:26.321680"
+    },
+    {
+      "url_key": "cnet.com/tech/services-and-software/googles-opal-ai-builds-apps-from-your-words-when-it-works",
+      "title_key": "google’s opal ai builds apps from your words — when it works - cnet",
+      "url": "https://www.cnet.com/tech/services-and-software/googles-opal-ai-builds-apps-from-your-words-when-it-works/",
+      "title": "Google’s Opal AI Builds Apps From Your Words — When It Works - CNET",
+      "date": "2026-07-27T06:01:26.321680"
     }
   ],
   "words": [
-    {
-      "word": "microservice",
-      "date": "2026-06-11T06:01:48.959521"
-    },
-    {
-      "word": "orchestration",
-      "date": "2026-06-12T06:01:11.387165"
-    },
     {
       "word": "transcoding",
       "date": "2026-06-13T06:01:21.075351"
@@ -1315,19 +1328,13 @@
     {
       "word": "Polymerization",
       "date": "2026-07-26T06:01:20.475127"
+    },
+    {
+      "word": "idempotence",
+      "date": "2026-07-27T06:01:26.321680"
     }
   ],
   "quotes": [
-    {
-      "text": "The best way to get good ideas is to get a lot of ideas.",
-      "author": "Linus Pauling",
-      "date": "2026-06-11T06:01:48.959521"
-    },
-    {
-      "text": "Technology is nothing, it's what you do with it that matters",
-      "author": "Tim Berners-Lee",
-      "date": "2026-06-12T06:01:11.387165"
-    },
     {
       "text": "The computer is mightily embarrassed by its inability to draw a straight line.",
       "author": "Alan Kay",
@@ -1542,7 +1549,12 @@
       "text": "The value of a network is proportional to the square of the number of nodes on the network",
       "author": "Robert Metcalfe",
       "date": "2026-07-26T06:01:20.475127"
+    },
+    {
+      "text": "Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
+      "author": "Steve Jobs",
+      "date": "2026-07-27T06:01:26.321680"
     }
   ],
-  "last_sent_date": "2026-07-26"
+  "last_sent_date": "2026-07-27"
 }
