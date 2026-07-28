@@ -1154,13 +1154,30 @@
       "url": "https://www.cnet.com/tech/services-and-software/googles-opal-ai-builds-apps-from-your-words-when-it-works/",
       "title": "Google’s Opal AI Builds Apps From Your Words — When It Works - CNET",
       "date": "2026-07-27T06:01:26.321680"
+    },
+    {
+      "url_key": "newscientist.com/article/2580504-why-open-source-software-can-be-both-good-and-bad",
+      "title_key": "why open-source software can be both good and bad - new scientist",
+      "url": "https://www.newscientist.com/article/2580504-why-open-source-software-can-be-both-good-and-bad/",
+      "title": "Why open-source software can be both good and bad - New Scientist",
+      "date": "2026-07-28T06:01:25.789982"
+    },
+    {
+      "url_key": "marinelink.com/news/maersk-takes-delivery-first-ammonia-541563",
+      "title_key": "maersk takes delivery of first ammonia carrier - marine news magazine",
+      "url": "https://www.marinelink.com/news/maersk-takes-delivery-first-ammonia-541563",
+      "title": "Maersk Takes Delivery Of First Ammonia Carrier - Marine News Magazine",
+      "date": "2026-07-28T06:01:25.789982"
+    },
+    {
+      "url_key": "cnbc.com/2026/07/25/ups-fedex-dhl-healthare-logistics-glp.html",
+      "title_key": "logistics giants are racing to keep up with healthcare boom as glp-1s highlight need for cold storage - cnbc",
+      "url": "https://www.cnbc.com/2026/07/25/ups-fedex-dhl-healthare-logistics-glp.html",
+      "title": "Logistics giants are racing to keep up with healthcare boom as GLP-1s highlight need for cold storage - CNBC",
+      "date": "2026-07-28T06:01:25.789982"
     }
   ],
   "words": [
-    {
-      "word": "transcoding",
-      "date": "2026-06-13T06:01:21.075351"
-    },
     {
       "word": "transcoding",
       "date": "2026-06-14T06:01:28.889405"
@@ -1332,14 +1349,13 @@
     {
       "word": "idempotence",
       "date": "2026-07-27T06:01:26.321680"
+    },
+    {
+      "word": "hypervisor",
+      "date": "2026-07-28T06:01:25.789982"
     }
   ],
   "quotes": [
-    {
-      "text": "The computer is mightily embarrassed by its inability to draw a straight line.",
-      "author": "Alan Kay",
-      "date": "2026-06-13T06:01:21.075351"
-    },
     {
       "text": "The information highway is really a quotation from the bible, it's in the book of Numbers, and it says 'the highways will be filled with the knowledge of the lord'.",
       "author": "Al Gore",
@@ -1554,7 +1570,12 @@
       "text": "Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
       "author": "Steve Jobs",
       "date": "2026-07-27T06:01:26.321680"
+    },
+    {
+      "text": "Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
+      "author": "Steve Jobs",
+      "date": "2026-07-28T06:01:25.789982"
     }
   ],
-  "last_sent_date": "2026-07-27"
+  "last_sent_date": "2026-07-28"
 }
