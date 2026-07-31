@@ -1217,17 +1217,30 @@
       "url": "https://timesofindia.indiatimes.com/education/news/from-a-mumbai-engineering-graduate-to-global-ai-expert-how-sameer-paradkar-became-one-of-the-worlds-leading-voices-in-enterprise-architecture/articleshow/132675127.cms",
       "title": "From Mumbai engineering student to global AI architect: How Sameer built solutions for Microsoft, ISRO, European Union and Fortune 100 firms - The Times of India",
       "date": "2026-07-30T06:01:20.709472"
+    },
+    {
+      "url_key": "cmacgm-group.com/en/news-media/second-quarter-2026-financial-results",
+      "title_key": "second quarter 2026 financial results | cma cgm group",
+      "url": "https://www.cmacgm-group.com/en/news-media/second-quarter-2026-financial-results",
+      "title": "Second Quarter 2026 Financial Results | CMA CGM Group",
+      "date": "2026-07-31T06:01:33.529575"
+    },
+    {
+      "url_key": "observer.com/2026/07/arthur-menschs-mistral-is-europes-best-bet-for-sovereign-a-i",
+      "title_key": "arthur mensch’s mistral is europe’s best bet for sovereign a.i.",
+      "url": "https://observer.com/2026/07/arthur-menschs-mistral-is-europes-best-bet-for-sovereign-a-i",
+      "title": "Arthur Mensch’s Mistral Is Europe’s Best Bet for Sovereign A.I.",
+      "date": "2026-07-31T06:01:33.529575"
+    },
+    {
+      "url_key": "thenewstack.io/tines-ai-workflow-governance",
+      "title_key": "\"there is a sell-by date on low-code, no-code\": what tines thinks comes next - the new stack",
+      "url": "https://thenewstack.io/tines-ai-workflow-governance",
+      "title": "\"There is a sell-by date on low-code, no-code\": What Tines thinks comes next - The New Stack",
+      "date": "2026-07-31T06:01:33.529575"
     }
   ],
   "words": [
-    {
-      "word": "normalization",
-      "date": "2026-06-15T06:01:26.251580"
-    },
-    {
-      "word": "cache",
-      "date": "2026-06-16T06:01:25.688680"
-    },
     {
       "word": "tokenization",
       "date": "2026-06-17T06:01:32.277320"
@@ -1399,19 +1412,13 @@
     {
       "word": "transduction",
       "date": "2026-07-30T06:01:20.709472"
+    },
+    {
+      "word": "transduction",
+      "date": "2026-07-31T06:01:33.529575"
     }
   ],
   "quotes": [
-    {
-      "text": "The value of a network is proportional to the square of the number of nodes on the network.",
-      "author": "Bob Metcalfe",
-      "date": "2026-06-15T06:01:26.251580"
-    },
-    {
-      "text": "The most important thing about a technology is how it changes people.",
-      "author": "Steve Jobs",
-      "date": "2026-06-16T06:01:25.688680"
-    },
     {
       "text": "The biggest risk is not taking any risk...",
       "author": "Mark Zuckerberg",
@@ -1626,7 +1633,12 @@
       "text": "The biggest risk is not taking any risk, but the biggest risk is also not being prepared to take any risk",
       "author": "Mark Zuckerberg",
       "date": "2026-07-30T06:01:20.709472"
+    },
+    {
+      "text": "Code is not just something you write, it's something you live with, and if you don't make it nice, you'll be sorry later",
+      "author": "John Ousterhout",
+      "date": "2026-07-31T06:01:33.529575"
     }
   ],
-  "last_sent_date": "2026-07-30"
+  "last_sent_date": "2026-07-31"
 }
