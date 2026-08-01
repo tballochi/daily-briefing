@@ -1238,13 +1238,30 @@
       "url": "https://thenewstack.io/tines-ai-workflow-governance",
       "title": "\"There is a sell-by date on low-code, no-code\": What Tines thinks comes next - The New Stack",
       "date": "2026-07-31T06:01:33.529575"
+    },
+    {
+      "url_key": "fr8technologies.com/press-release/freight-technologies-expands-fleet-rocket-to-92-integrated-gps-providers",
+      "title_key": "freight technologies expands fleet rocket to 92 integrated gps providers - freight technologies",
+      "url": "https://fr8technologies.com/press-release/freight-technologies-expands-fleet-rocket-to-92-integrated-gps-providers",
+      "title": "Freight Technologies Expands Fleet Rocket to 92 Integrated GPS Providers - Freight Technologies",
+      "date": "2026-08-01T06:02:40.706096"
+    },
+    {
+      "url_key": "sqmagazine.co.uk/ai-funding-tracker",
+      "title_key": "ai mega-round tracker - sq magazine",
+      "url": "https://sqmagazine.co.uk/ai-funding-tracker/",
+      "title": "AI Mega-Round Tracker - SQ Magazine",
+      "date": "2026-08-01T06:02:40.706096"
+    },
+    {
+      "url_key": "crn.com/news/ai/2026/the-10-coolest-open-source-software-tools-of-2026-so-far",
+      "title_key": "the 10 coolest open-source software tools of 2026 (so far)",
+      "url": "https://www.crn.com/news/ai/2026/the-10-coolest-open-source-software-tools-of-2026-so-far",
+      "title": "The 10 Coolest Open-Source Software Tools Of 2026 (So Far)",
+      "date": "2026-08-01T06:02:40.706096"
     }
   ],
   "words": [
-    {
-      "word": "tokenization",
-      "date": "2026-06-17T06:01:32.277320"
-    },
     {
       "word": "demultiplexing",
       "date": "2026-06-19T06:02:29.101425"
@@ -1416,14 +1433,13 @@
     {
       "word": "transduction",
       "date": "2026-07-31T06:01:33.529575"
+    },
+    {
+      "word": "transcoding",
+      "date": "2026-08-01T06:02:40.706096"
     }
   ],
   "quotes": [
-    {
-      "text": "The biggest risk is not taking any risk...",
-      "author": "Mark Zuckerberg",
-      "date": "2026-06-17T06:01:32.277320"
-    },
     {
       "text": "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.",
       "author": "Michelangelo",
@@ -1638,7 +1654,12 @@
       "text": "Code is not just something you write, it's something you live with, and if you don't make it nice, you'll be sorry later",
       "author": "John Ousterhout",
       "date": "2026-07-31T06:01:33.529575"
+    },
+    {
+      "text": "The computer is mightier than the sword, but only if you know how to use it.",
+      "author": "Sam Ewing",
+      "date": "2026-08-01T06:02:40.706096"
     }
   ],
-  "last_sent_date": "2026-07-31"
+  "last_sent_date": "2026-08-01"
 }
