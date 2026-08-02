@@ -1,48 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "marinelink.com/news/cma-cgm-takes-delivery-worlds-largest-539624",
-      "title_key": "cma cgm takes delivery of world’s largest lng-powered container ship - marine news magazine",
-      "url": "https://www.marinelink.com/news/cma-cgm-takes-delivery-worlds-largest-539624",
-      "title": "CMA CGM Takes Delivery of World’s Largest LNG-Powered Container Ship - Marine News Magazine",
-      "date": "2026-06-02T17:36:10.197140"
-    },
-    {
-      "url_key": "law.com/legaltechnews/2026/05/27/legal-professionals-increasingly-see-ai-as-a-job-generator",
-      "title_key": "legal professionals increasingly see ai as a job generator - law.com",
-      "url": "https://www.law.com/legaltechnews/2026/05/27/legal-professionals-increasingly-see-ai-as-a-job-generator/",
-      "title": "Legal Professionals Increasingly See AI as a Job Generator - Law.com",
-      "date": "2026-06-02T17:36:10.197140"
-    },
-    {
-      "url_key": "mmsonline.com/articles/exploring-automation-at-imts-2026",
-      "title_key": "exploring automation at imts 2026 - modern machine shop",
-      "url": "https://www.mmsonline.com/articles/exploring-automation-at-imts-2026",
-      "title": "Exploring Automation at IMTS 2026 - Modern Machine Shop",
-      "date": "2026-06-02T17:36:10.197140"
-    },
-    {
-      "url_key": "marinelink.com/news/cma-cgm-notre-dame-makes-maiden-call-539884",
-      "title_key": "cma cgm notre dame makes maiden call in singapore - marine news magazine",
-      "url": "https://www.marinelink.com/news/cma-cgm-notre-dame-makes-maiden-call-539884",
-      "title": "CMA CGM Notre Dame Makes Maiden Call In Singapore - Marine News Magazine",
-      "date": "2026-06-03T06:01:02.120836"
-    },
-    {
-      "url_key": "opentools.ai/news/claude-opus-4-8-dynamic-workflows-benchmarks-2026",
-      "title_key": "claude opus 4.8 tops gpt-5.5 with dynamic workflows and 4x better honesty - opentools",
-      "url": "https://opentools.ai/news/claude-opus-4-8-dynamic-workflows-benchmarks-2026",
-      "title": "Claude Opus 4.8 Tops GPT-5.5 With Dynamic Workflows and 4x Better Honesty - OpenTools",
-      "date": "2026-06-03T06:01:02.120836"
-    },
-    {
-      "url_key": "seatrade-maritime.com/containers/maersk-launches-new-service-linking-china-and-india",
-      "title_key": "maersk launches new service linking china and india - seatrade maritime news",
-      "url": "https://www.seatrade-maritime.com/containers/maersk-launches-new-service-linking-china-and-india",
-      "title": "Maersk launches new service linking China and India - Seatrade Maritime News",
-      "date": "2026-06-03T06:01:02.120836"
-    },
-    {
       "url_key": "itnews.com.au/news/researchers-build-self-replicating-ai-worm-with-byo-llm-626409",
       "title_key": "researchers build self-replicating ai worm with byo llm - itnews",
       "url": "https://www.itnews.com.au/news/researchers-build-self-replicating-ai-worm-with-byo-llm-626409?utm_source=feed&utm_medium=rss&utm_campaign=editors_picks",
@@ -1259,6 +1217,27 @@
       "url": "https://www.crn.com/news/ai/2026/the-10-coolest-open-source-software-tools-of-2026-so-far",
       "title": "The 10 Coolest Open-Source Software Tools Of 2026 (So Far)",
       "date": "2026-08-01T06:02:40.706096"
+    },
+    {
+      "url_key": "csoonline.com/article/4202383/its-easier-to-steal-cargo-than-toothpaste.html",
+      "title_key": "it’s easier to steal cargo than toothpaste - csoonline.com",
+      "url": "https://www.csoonline.com/article/4202383/its-easier-to-steal-cargo-than-toothpaste.html",
+      "title": "It’s easier to steal cargo than toothpaste - csoonline.com",
+      "date": "2026-08-02T06:01:27.310857"
+    },
+    {
+      "url_key": "ainonline.com/aviation-news/futureflight/2026-07-31/iai-joins-merlins-push-automate-cargo-aircraft",
+      "title_key": "merlin, israel aerospace industries team on autonomous freighter conversion - aviation international news",
+      "url": "https://www.ainonline.com/aviation-news/futureflight/2026-07-31/iai-joins-merlins-push-automate-cargo-aircraft",
+      "title": "Merlin, Israel Aerospace Industries Team on Autonomous Freighter Conversion - Aviation International News",
+      "date": "2026-08-02T06:01:27.310857"
+    },
+    {
+      "url_key": "biospace.com/press-releases/median-technologies-and-olea-medical-a-canon-medical-systems-company-partner-to-advance-commercial-deployment-of-ai-powered-eyonis-lcs-for-lung-cancer-screening",
+      "title_key": "median technologies and olea medical, a canon medical systems company, partner to advance commercial deployment of ai-powered eyonis® lcs for lung cancer screening - biospace.com",
+      "url": "https://www.biospace.com/press-releases/median-technologies-and-olea-medical-a-canon-medical-systems-company-partner-to-advance-commercial-deployment-of-ai-powered-eyonis-lcs-for-lung-cancer-screening",
+      "title": "Median Technologies and Olea Medical, a Canon Medical Systems Company, Partner to Advance Commercial Deployment of AI-Powered eyonis® LCS for Lung Cancer Screening - biospace.com",
+      "date": "2026-08-02T06:01:27.310857"
     }
   ],
   "words": [
@@ -1437,6 +1416,10 @@
     {
       "word": "transcoding",
       "date": "2026-08-01T06:02:40.706096"
+    },
+    {
+      "word": "transcoding",
+      "date": "2026-08-02T06:01:27.310857"
     }
   ],
   "quotes": [
@@ -1659,7 +1642,12 @@
       "text": "The computer is mightier than the sword, but only if you know how to use it.",
       "author": "Sam Ewing",
       "date": "2026-08-01T06:02:40.706096"
+    },
+    {
+      "text": "The value of a network is proportional to the square of the number of nodes on the network",
+      "author": "Bob Metcalfe",
+      "date": "2026-08-02T06:01:27.310857"
     }
   ],
-  "last_sent_date": "2026-08-01"
+  "last_sent_date": "2026-08-02"
 }
