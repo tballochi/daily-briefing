@@ -1238,6 +1238,27 @@
       "url": "https://www.biospace.com/press-releases/median-technologies-and-olea-medical-a-canon-medical-systems-company-partner-to-advance-commercial-deployment-of-ai-powered-eyonis-lcs-for-lung-cancer-screening",
       "title": "Median Technologies and Olea Medical, a Canon Medical Systems Company, Partner to Advance Commercial Deployment of AI-Powered eyonis® LCS for Lung Cancer Screening - biospace.com",
       "date": "2026-08-02T06:01:27.310857"
+    },
+    {
+      "url_key": "mexicobusiness.news/tech/news/us-mexico-cross-border-freight-nearshoring-drives-rate-spikes",
+      "title_key": "us-mexico cross-border freight: nearshoring drives rate spikes",
+      "url": "https://mexicobusiness.news/tech/news/us-mexico-cross-border-freight-nearshoring-drives-rate-spikes",
+      "title": "US-Mexico Cross-Border Freight: Nearshoring Drives Rate Spikes",
+      "date": "2026-08-03T06:01:42.344763"
+    },
+    {
+      "url_key": "aimultiple.com/agentic-orchestration",
+      "title_key": "top 10+ agentic orchestration frameworks & tools",
+      "url": "https://aimultiple.com/agentic-orchestration",
+      "title": "Top 10+ Agentic Orchestration Frameworks & Tools",
+      "date": "2026-08-03T06:01:42.344763"
+    },
+    {
+      "url_key": "figma.com/resource-library/agentic-framework",
+      "title_key": "what is an agentic framework?",
+      "url": "https://www.figma.com/resource-library/agentic-framework",
+      "title": "What Is an Agentic Framework?",
+      "date": "2026-08-03T06:01:42.344763"
     }
   ],
   "words": [
@@ -1420,6 +1441,10 @@
     {
       "word": "transcoding",
       "date": "2026-08-02T06:01:27.310857"
+    },
+    {
+      "word": "transcoding",
+      "date": "2026-08-03T06:01:42.344763"
     }
   ],
   "quotes": [
@@ -1647,7 +1672,12 @@
       "text": "The value of a network is proportional to the square of the number of nodes on the network",
       "author": "Bob Metcalfe",
       "date": "2026-08-02T06:01:27.310857"
+    },
+    {
+      "text": "Code is the language in which we describe the world and the means by which we turn descriptions into reality.",
+      "author": "Alan Kay",
+      "date": "2026-08-03T06:01:42.344763"
     }
   ],
-  "last_sent_date": "2026-08-02"
+  "last_sent_date": "2026-08-03"
 }
