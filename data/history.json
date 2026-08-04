@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "itnews.com.au/news/researchers-build-self-replicating-ai-worm-with-byo-llm-626409",
-      "title_key": "researchers build self-replicating ai worm with byo llm - itnews",
-      "url": "https://www.itnews.com.au/news/researchers-build-self-replicating-ai-worm-with-byo-llm-626409?utm_source=feed&utm_medium=rss&utm_campaign=editors_picks",
-      "title": "Researchers build self-replicating AI worm with BYO LLM - iTnews",
-      "date": "2026-06-04T07:57:50.422768"
-    },
-    {
-      "url_key": "marinelink.com/news/maritime/ventofoil",
-      "title_key": "ventofoil news - marine news magazine",
-      "url": "https://www.marinelink.com/news/maritime/ventofoil",
-      "title": "Ventofoil News - Marine News Magazine",
-      "date": "2026-06-04T07:57:50.422768"
-    },
-    {
-      "url_key": "marinelink.com/news/abf-seizes-cocaine-concealed-roro-cargo-539769",
-      "title_key": "abf seizes cocaine concealed in roro cargo - marine news magazine",
-      "url": "https://www.marinelink.com/news/abf-seizes-cocaine-concealed-roro-cargo-539769",
-      "title": "ABF Seizes Cocaine Concealed in RoRo Cargo - Marine News Magazine",
-      "date": "2026-06-04T07:57:50.422768"
-    },
-    {
       "url_key": "marinelink.com/news/mrs-managing-maritime-risk-a-dynamic-539918",
       "title_key": "mrs '26: managing maritime risk in a dynamic geopolitical environment - marine news magazine",
       "url": "https://www.marinelink.com/news/mrs-managing-maritime-risk-a-dynamic-539918",
@@ -1259,17 +1238,30 @@
       "url": "https://www.figma.com/resource-library/agentic-framework",
       "title": "What Is an Agentic Framework?",
       "date": "2026-08-03T06:01:42.344763"
+    },
+    {
+      "url_key": "hartfordbusiness.com/article/ct-shipping-technology-company-says-sale-among-strategic-review-options",
+      "title_key": "ct shipping technology company says sale among strategic review options",
+      "url": "https://hartfordbusiness.com/article/ct-shipping-technology-company-says-sale-among-strategic-review-options",
+      "title": "CT shipping technology company says sale among strategic review options",
+      "date": "2026-08-04T06:01:30.318941"
+    },
+    {
+      "url_key": "tracxn.com/d/companies/mistral-ai/__slzq7rzxlyqqa97jtpwo09jldeb76rvjvb306ohciwu/funding-and-investors",
+      "title_key": "mistral ai - 2026 funding rounds & list of investors",
+      "url": "https://tracxn.com/d/companies/mistral-ai/__SLZq7rzxLYqqA97jtPwO09jLDeb76RVJVb306OhciWU/funding-and-investors",
+      "title": "Mistral AI - 2026 Funding Rounds & List of Investors",
+      "date": "2026-08-04T06:01:30.318941"
+    },
+    {
+      "url_key": "opensource.googleblog.com/2026/08/adapting-open-source-practices-to-an-ai-first-world-a-retrospective-on-2025.html",
+      "title_key": "adapting open source practices to an ai-first world: a retrospective on 2025",
+      "url": "https://opensource.googleblog.com/2026/08/adapting-open-source-practices-to-an-ai-first-world-a-retrospective-on-2025.html",
+      "title": "Adapting open source practices to an AI-first world: A retrospective on 2025",
+      "date": "2026-08-04T06:01:30.318941"
     }
   ],
   "words": [
-    {
-      "word": "demultiplexing",
-      "date": "2026-06-19T06:02:29.101425"
-    },
-    {
-      "word": "debouncing",
-      "date": "2026-06-20T06:01:21.567992"
-    },
     {
       "word": "debiasing",
       "date": "2026-06-21T06:02:30.503302"
@@ -1445,19 +1437,13 @@
     {
       "word": "transcoding",
       "date": "2026-08-03T06:01:42.344763"
+    },
+    {
+      "word": "transduction",
+      "date": "2026-08-04T06:01:30.318941"
     }
   ],
   "quotes": [
-    {
-      "text": "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.",
-      "author": "Michelangelo",
-      "date": "2026-06-19T06:02:29.101425"
-    },
-    {
-      "text": "The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.",
-      "author": "Bill Gates",
-      "date": "2026-06-20T06:01:21.567992"
-    },
     {
       "text": "The best way to predict the future is to invent the tools that make it possible.",
       "author": "Alan Kay",
@@ -1677,7 +1663,12 @@
       "text": "Code is the language in which we describe the world and the means by which we turn descriptions into reality.",
       "author": "Alan Kay",
       "date": "2026-08-03T06:01:42.344763"
+    },
+    {
+      "text": "The most important thing about a technology is how it changes people.",
+      "author": "Steve Jobs",
+      "date": "2026-08-04T06:01:30.318941"
     }
   ],
-  "last_sent_date": "2026-08-03"
+  "last_sent_date": "2026-08-04"
 }
