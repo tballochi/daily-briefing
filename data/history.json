@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "marinelink.com/news/mrs-managing-maritime-risk-a-dynamic-539918",
-      "title_key": "mrs '26: managing maritime risk in a dynamic geopolitical environment - marine news magazine",
-      "url": "https://www.marinelink.com/news/mrs-managing-maritime-risk-a-dynamic-539918",
-      "title": "MRS '26: Managing Maritime Risk in a Dynamic Geopolitical Environment - Marine News Magazine",
-      "date": "2026-06-05T08:52:00.119158"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/modern_logistics_labor_ai_investments_succeed_when_talent_leads",
-      "title_key": "modern logistics labor: ai investments succeed when talent leads - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/modern_logistics_labor_ai_investments_succeed_when_talent_leads",
-      "title": "Modern Logistics Labor: AI investments succeed when talent leads - Logistics Management",
-      "date": "2026-06-05T08:52:00.119158"
-    },
-    {
-      "url_key": "therobotreport.com/top-10-robotics-stories-of-may-2026",
-      "title_key": "top 10 robotics stories of may 2026 - the robot report",
-      "url": "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/",
-      "title": "Top 10 robotics stories of May 2026 - The Robot Report",
-      "date": "2026-06-05T08:52:00.119158"
-    },
-    {
       "url_key": "inboundlogistics.com/articles/in-brief-supply-chain-freight-tech-updates-0426",
       "title_key": "in brief: the latest supply chain, freight tech updates - inbound logistics",
       "url": "https://www.inboundlogistics.com/articles/in-brief-supply-chain-freight-tech-updates-0426/",
@@ -1259,6 +1238,27 @@
       "url": "https://opensource.googleblog.com/2026/08/adapting-open-source-practices-to-an-ai-first-world-a-retrospective-on-2025.html",
       "title": "Adapting open source practices to an AI-first world: A retrospective on 2025",
       "date": "2026-08-04T06:01:30.318941"
+    },
+    {
+      "url_key": "trans.info/en/modern-technology-makes-life-easier-but-not-safer-the-flip-side-of-logistics-digitalization-493190",
+      "title_key": "modern technology makes life easier, but not safer. the flip side of logistics digitalization | trans.info",
+      "url": "https://trans.info/en/modern-technology-makes-life-easier-but-not-safer-the-flip-side-of-logistics-digitalization-493190",
+      "title": "Modern technology makes life easier, but not safer. The flip side of logistics digitalization | trans.info",
+      "date": "2026-08-05T06:01:34.264170"
+    },
+    {
+      "url_key": "quiverquant.com/news/descartes+systems+group+helps+forefront+global+logistics+build+ai-powered+digital+freight+brokerage",
+      "title_key": "descartes systems group helps forefront global logistics build ai-powered digital freight brokerage | quiver quantitative",
+      "url": "https://www.quiverquant.com/news/Descartes+Systems+Group+Helps+Forefront+Global+Logistics+Build+AI-Powered+Digital+Freight+Brokerage",
+      "title": "Descartes Systems Group Helps Forefront Global Logistics Build AI-Powered Digital Freight Brokerage | Quiver Quantitative",
+      "date": "2026-08-05T06:01:34.264170"
+    },
+    {
+      "url_key": "builtin.com/articles/agentic-ai-platforms",
+      "title_key": "11 top agentic ai platforms and tools to know",
+      "url": "https://builtin.com/articles/agentic-ai-platforms",
+      "title": "11 Top Agentic AI Platforms and Tools to Know",
+      "date": "2026-08-05T06:01:34.264170"
     }
   ],
   "words": [
@@ -1441,6 +1441,10 @@
     {
       "word": "transduction",
       "date": "2026-08-04T06:01:30.318941"
+    },
+    {
+      "word": "transcoding",
+      "date": "2026-08-05T06:01:34.264170"
     }
   ],
   "quotes": [
@@ -1668,7 +1672,12 @@
       "text": "The most important thing about a technology is how it changes people.",
       "author": "Steve Jobs",
       "date": "2026-08-04T06:01:30.318941"
+    },
+    {
+      "text": "The key is not to prioritize what's on your schedule, but to schedule your priorities.",
+      "author": "Stephen Covey",
+      "date": "2026-08-05T06:01:34.264170"
     }
   ],
-  "last_sent_date": "2026-08-04"
+  "last_sent_date": "2026-08-05"
 }
