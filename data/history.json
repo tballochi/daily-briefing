@@ -1,48 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "inboundlogistics.com/articles/in-brief-supply-chain-freight-tech-updates-0426",
-      "title_key": "in brief: the latest supply chain, freight tech updates - inbound logistics",
-      "url": "https://www.inboundlogistics.com/articles/in-brief-supply-chain-freight-tech-updates-0426/",
-      "title": "IN BRIEF: The Latest Supply Chain, Freight Tech Updates - Inbound Logistics",
-      "date": "2026-06-06T08:01:54.776727"
-    },
-    {
-      "url_key": "artificiallawyer.com/2026/06/02/mcp-the-standard-that-decides-legal-ais-future",
-      "title_key": "mcp: the standard that decides legal ai’s future - artificial lawyer",
-      "url": "https://www.artificiallawyer.com/2026/06/02/mcp-the-standard-that-decides-legal-ais-future/",
-      "title": "MCP: The Standard that Decides Legal AI’s Future - Artificial Lawyer",
-      "date": "2026-06-06T08:01:54.776727"
-    },
-    {
-      "url_key": "techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months",
-      "title_key": "supabase doubles valuation to $10b in 8 months - techcrunch",
-      "url": "https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/",
-      "title": "Supabase doubles valuation to $10B in 8 months - TechCrunch",
-      "date": "2026-06-06T08:01:54.776727"
-    },
-    {
-      "url_key": "marinelink.com/news/gtt-gets-hanwha-oceans-lng-carrier-tank-539953",
-      "title_key": "gtt gets hanwha ocean’s lng carrier tank design order - marine news magazine",
-      "url": "https://www.marinelink.com/news/gtt-gets-hanwha-oceans-lng-carrier-tank-539953",
-      "title": "GTT Gets Hanwha Ocean’S LNG Carrier Tank Design Order - Marine News Magazine",
-      "date": "2026-06-07T06:01:09.085012"
-    },
-    {
-      "url_key": "itnews.com.au/news/researchers-build-self-replicating-worm-with-byo-small-ai-model-626409",
-      "title_key": "researchers build self-replicating worm with byo small ai model - itnews",
-      "url": "https://www.itnews.com.au/news/researchers-build-self-replicating-worm-with-byo-small-ai-model-626409",
-      "title": "Researchers build self-replicating worm with BYO small AI model - iTnews",
-      "date": "2026-06-07T06:01:09.085012"
-    },
-    {
-      "url_key": "reuters.com/business/openai-plans-chatgpt-superapp-overhaul-ahead-listing-ft-reports-2026-06-07",
-      "title_key": "openai plans chatgpt 'superapp' overhaul ahead of listing, ft reports - reuters",
-      "url": "https://www.reuters.com/business/openai-plans-chatgpt-superapp-overhaul-ahead-listing-ft-reports-2026-06-07/",
-      "title": "OpenAI plans ChatGPT 'superapp' overhaul ahead of listing, FT reports - Reuters",
-      "date": "2026-06-07T06:01:09.085012"
-    },
-    {
       "url_key": "marinelink.com/news/container-ship-sinks-off-batam-540024",
       "title_key": "container ship sinks off batam - marine news magazine",
       "url": "https://www.marinelink.com/news/container-ship-sinks-off-batam-540024",
@@ -1259,13 +1217,30 @@
       "url": "https://builtin.com/articles/agentic-ai-platforms",
       "title": "11 Top Agentic AI Platforms and Tools to Know",
       "date": "2026-08-05T06:01:34.264170"
+    },
+    {
+      "url_key": "helpnetsecurity.com/2026/08/05/tenable-broadens-ai-visibility-across-major-llms-and-ai-tools",
+      "title_key": "tenable broadens ai visibility across major llms and ai tools",
+      "url": "https://www.helpnetsecurity.com/2026/08/05/tenable-broadens-ai-visibility-across-major-llms-and-ai-tools",
+      "title": "Tenable broadens AI visibility across major LLMs and AI tools",
+      "date": "2026-08-06T06:01:13.138036"
+    },
+    {
+      "url_key": "inboundlogistics.com/articles/a-sustainable-partnership-provides-a-custom-solution-reusable-packaging",
+      "title_key": "md logistics: reusable packaging for cold chain shipping",
+      "url": "https://www.inboundlogistics.com/articles/a-sustainable-partnership-provides-a-custom-solution-reusable-packaging",
+      "title": "MD Logistics: Reusable Packaging for Cold Chain Shipping",
+      "date": "2026-08-06T06:01:13.138036"
+    },
+    {
+      "url_key": "newscientist.com/article/2580566-will-a-new-kind-of-ai-that-understands-physical-reality-change-the-world-again",
+      "title_key": "will a new kind of ai that understands physical reality change the world again?",
+      "url": "https://www.newscientist.com/article/2580566-will-a-new-kind-of-ai-that-understands-physical-reality-change-the-world-again",
+      "title": "Will a new kind of AI that understands physical reality change the world again?",
+      "date": "2026-08-06T06:01:13.138036"
     }
   ],
   "words": [
-    {
-      "word": "debiasing",
-      "date": "2026-06-21T06:02:30.503302"
-    },
     {
       "word": "proximity",
       "date": "2026-06-22T06:01:27.287384"
@@ -1445,14 +1420,13 @@
     {
       "word": "transcoding",
       "date": "2026-08-05T06:01:34.264170"
+    },
+    {
+      "word": "transcoding",
+      "date": "2026-08-06T06:01:13.138036"
     }
   ],
   "quotes": [
-    {
-      "text": "The best way to predict the future is to invent the tools that make it possible.",
-      "author": "Alan Kay",
-      "date": "2026-06-21T06:02:30.503302"
-    },
     {
       "text": "The computer should be a tool, not a tyrant.",
       "author": "Steve Jobs",
@@ -1677,7 +1651,12 @@
       "text": "The key is not to prioritize what's on your schedule, but to schedule your priorities.",
       "author": "Stephen Covey",
       "date": "2026-08-05T06:01:34.264170"
+    },
+    {
+      "text": "The future belongs to those who see possibilities before they become obvious.",
+      "author": "John Sculley",
+      "date": "2026-08-06T06:01:13.138036"
     }
   ],
-  "last_sent_date": "2026-08-05"
+  "last_sent_date": "2026-08-06"
 }
