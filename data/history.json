@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "marinelink.com/news/container-ship-sinks-off-batam-540024",
-      "title_key": "container ship sinks off batam - marine news magazine",
-      "url": "https://www.marinelink.com/news/container-ship-sinks-off-batam-540024",
-      "title": "Container Ship Sinks Off Batam - Marine News Magazine",
-      "date": "2026-06-08T06:01:16.226584"
-    },
-    {
-      "url_key": "onrec.com/news/top-25-hr-tech-domains-cited-by-llms",
-      "title_key": "top 25 hr tech domains cited by llms",
-      "url": "https://www.onrec.com/news/top-25-hr-tech-domains-cited-by-llms",
-      "title": "Top 25 HR Tech Domains Cited by LLMs",
-      "date": "2026-06-08T06:01:16.226584"
-    },
-    {
-      "url_key": "eurekalert.org/news-releases/1129812",
-      "title_key": "ai fails classic attention test",
-      "url": "https://www.eurekalert.org/news-releases/1129812",
-      "title": "AI fails classic attention test",
-      "date": "2026-06-08T06:01:16.226584"
-    },
-    {
       "url_key": "seatrade-maritime.com/tankers/marinakis-calls-for-dark-fleet-destruction",
       "title_key": "marinakis calls for dark fleet destruction - seatrade maritime news",
       "url": "https://www.seatrade-maritime.com/tankers/marinakis-calls-for-dark-fleet-destruction",
@@ -1238,17 +1217,30 @@
       "url": "https://www.newscientist.com/article/2580566-will-a-new-kind-of-ai-that-understands-physical-reality-change-the-world-again",
       "title": "Will a new kind of AI that understands physical reality change the world again?",
       "date": "2026-08-06T06:01:13.138036"
+    },
+    {
+      "url_key": "thenewstack.io/platform-engineering-ai-harness",
+      "title_key": "every software company will become a dev tools company - the new stack",
+      "url": "https://thenewstack.io/platform-engineering-ai-harness",
+      "title": "Every software company will become a dev tools company - The New Stack",
+      "date": "2026-08-07T06:01:32.313326"
+    },
+    {
+      "url_key": "mistral.ai/news/shieldstral",
+      "title_key": "introducing shieldstral. | mistral ai",
+      "url": "https://mistral.ai/news/shieldstral",
+      "title": "Introducing Shieldstral. | Mistral AI",
+      "date": "2026-08-07T06:01:32.313326"
+    },
+    {
+      "url_key": "vivatech.com",
+      "title_key": "vivatech: 2027 edition",
+      "url": "https://vivatech.com",
+      "title": "VivaTech: 2027 Edition",
+      "date": "2026-08-07T06:01:32.313326"
     }
   ],
   "words": [
-    {
-      "word": "proximity",
-      "date": "2026-06-22T06:01:27.287384"
-    },
-    {
-      "word": "idempotence",
-      "date": "2026-06-23T06:01:25.638561"
-    },
     {
       "word": "jitter",
       "date": "2026-06-24T06:01:35.005460"
@@ -1424,19 +1416,13 @@
     {
       "word": "transcoding",
       "date": "2026-08-06T06:01:13.138036"
+    },
+    {
+      "word": "transcoding",
+      "date": "2026-08-07T06:01:32.313326"
     }
   ],
   "quotes": [
-    {
-      "text": "The computer should be a tool, not a tyrant.",
-      "author": "Steve Jobs",
-      "date": "2026-06-22T06:01:27.287384"
-    },
-    {
-      "text": "The art of doing mathematics consists in finding that special case which contains all the germs of generality.",
-      "author": "David Hilbert",
-      "date": "2026-06-23T06:01:25.638561"
-    },
     {
       "text": "The computer is a moron.",
       "author": "Peter Drucker",
@@ -1656,7 +1642,12 @@
       "text": "The future belongs to those who see possibilities before they become obvious.",
       "author": "John Sculley",
       "date": "2026-08-06T06:01:13.138036"
+    },
+    {
+      "text": "Code is the language in which we describe the world and the means by which we turn descriptions into reality.",
+      "author": "John Maeda",
+      "date": "2026-08-07T06:01:32.313326"
     }
   ],
-  "last_sent_date": "2026-08-06"
+  "last_sent_date": "2026-08-07"
 }
