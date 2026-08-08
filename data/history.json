@@ -1238,6 +1238,27 @@
       "url": "https://vivatech.com",
       "title": "VivaTech: 2027 Edition",
       "date": "2026-08-07T06:01:32.313326"
+    },
+    {
+      "url_key": "digitalapplied.com/blog/mistral-sovereign-ai-eu-compliance-stack-2026",
+      "title_key": "mistral as the sovereign-ai play after august 2, 2026",
+      "url": "https://www.digitalapplied.com/blog/mistral-sovereign-ai-eu-compliance-stack-2026",
+      "title": "Mistral as the Sovereign-AI Play After August 2, 2026",
+      "date": "2026-08-08T05:53:45.286174"
+    },
+    {
+      "url_key": "aimultiple.com/open-source-ai-agents",
+      "title_key": "best 50+ open source ai agents listed",
+      "url": "https://aimultiple.com/open-source-ai-agents",
+      "title": "Best 50+ Open Source AI Agents Listed",
+      "date": "2026-08-08T05:53:45.286174"
+    },
+    {
+      "url_key": "x.com/mistraldevs",
+      "title_key": "mistral for developers (@mistraldevs) / x",
+      "url": "https://x.com/MistralDevs?lang=en",
+      "title": "Mistral for Developers (@MistralDevs) / X",
+      "date": "2026-08-08T05:53:45.286174"
     }
   ],
   "words": [
@@ -1420,6 +1441,10 @@
     {
       "word": "transcoding",
       "date": "2026-08-07T06:01:32.313326"
+    },
+    {
+      "word": "transduction",
+      "date": "2026-08-08T05:53:45.286174"
     }
   ],
   "quotes": [
@@ -1647,7 +1672,12 @@
       "text": "Code is the language in which we describe the world and the means by which we turn descriptions into reality.",
       "author": "John Maeda",
       "date": "2026-08-07T06:01:32.313326"
+    },
+    {
+      "text": "The art of programming is the art of doing something with a machine that you would not normally think of as a machine",
+      "author": "Donald Knuth",
+      "date": "2026-08-08T05:53:45.286174"
     }
   ],
-  "last_sent_date": "2026-08-07"
+  "last_sent_date": "2026-08-08"
 }
