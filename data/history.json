@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "seatrade-maritime.com/tankers/marinakis-calls-for-dark-fleet-destruction",
-      "title_key": "marinakis calls for dark fleet destruction - seatrade maritime news",
-      "url": "https://www.seatrade-maritime.com/tankers/marinakis-calls-for-dark-fleet-destruction",
-      "title": "Marinakis calls for dark fleet destruction - Seatrade Maritime News",
-      "date": "2026-06-09T06:01:51.318124"
-    },
-    {
-      "url_key": "itnews.com.au/news/anthropic-opens-claude-mythos-preview-ai-program-to-australia-626399",
-      "title_key": "anthropic opens claude mythos preview ai program to australia - itnews",
-      "url": "https://www.itnews.com.au/news/anthropic-opens-claude-mythos-preview-ai-program-to-australia-626399",
-      "title": "Anthropic opens Claude Mythos Preview AI program to Australia - iTnews",
-      "date": "2026-06-09T06:01:51.318124"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/the_pairing_of_tariffs_and_geopolitics_is_reshaping_pharma_supply_chains",
-      "title_key": "the pairing of tariffs and geopolitics is reshaping pharma supply chains - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/the_pairing_of_tariffs_and_geopolitics_is_reshaping_pharma_supply_chains/",
-      "title": "The pairing of tariffs and geopolitics is reshaping pharma supply chains - Logistics Management",
-      "date": "2026-06-09T06:01:51.318124"
-    },
-    {
       "url_key": "maritime-executive.com/article/suez-canal-will-raise-surcharge-fees-as-it-still-looks-to-increase-transits",
       "title_key": "suez canal will raise surcharge fees as it still looks to increase transits - the maritime executive",
       "url": "https://maritime-executive.com/article/suez-canal-will-raise-surcharge-fees-as-it-still-looks-to-increase-transits",
@@ -1259,13 +1238,30 @@
       "url": "https://x.com/MistralDevs?lang=en",
       "title": "Mistral for Developers (@MistralDevs) / X",
       "date": "2026-08-08T05:53:45.286174"
+    },
+    {
+      "url_key": "citybiz.co/article/885210/bluegrace-logistics-acquires-truk-tms-to-expand-managed-logistics-platform",
+      "title_key": "bluegrace logistics acquires truk tms to expand managed logistics platform | citybiz",
+      "url": "https://www.citybiz.co/article/885210/bluegrace-logistics-acquires-truk-tms-to-expand-managed-logistics-platform",
+      "title": "BlueGrace Logistics Acquires Truk TMS to Expand Managed Logistics Platform | citybiz",
+      "date": "2026-08-09T05:55:59.104724"
+    },
+    {
+      "url_key": "techxplore.com/news/2026-08-hardware-aware-framework-large-language.html",
+      "title_key": "hardware-aware framework accelerates large language models without additional training",
+      "url": "https://techxplore.com/news/2026-08-hardware-aware-framework-large-language.html",
+      "title": "Hardware-aware framework accelerates large language models without additional training",
+      "date": "2026-08-09T05:55:59.104724"
+    },
+    {
+      "url_key": "headline.com/blog-latest",
+      "title_key": "venture capital insights & founder stories | headline blog",
+      "url": "https://headline.com/blog-latest",
+      "title": "Venture Capital Insights & Founder Stories | Headline Blog",
+      "date": "2026-08-09T05:55:59.104724"
     }
   ],
   "words": [
-    {
-      "word": "jitter",
-      "date": "2026-06-24T06:01:35.005460"
-    },
     {
       "word": "cybernetics",
       "date": "2026-06-25T06:01:33.123739"
@@ -1445,14 +1441,13 @@
     {
       "word": "transduction",
       "date": "2026-08-08T05:53:45.286174"
+    },
+    {
+      "word": "transcoding",
+      "date": "2026-08-09T05:55:59.104724"
     }
   ],
   "quotes": [
-    {
-      "text": "The computer is a moron.",
-      "author": "Peter Drucker",
-      "date": "2026-06-24T06:01:35.005460"
-    },
     {
       "text": "The internet is becoming the town square for the global village of tomorrow",
       "author": "Bill Gates",
@@ -1677,7 +1672,12 @@
       "text": "The art of programming is the art of doing something with a machine that you would not normally think of as a machine",
       "author": "Donald Knuth",
       "date": "2026-08-08T05:53:45.286174"
+    },
+    {
+      "text": "The computer is a medium, and the message is the change that the medium brings to the user, not the content that the medium carries.",
+      "author": "Marshall McLuhan",
+      "date": "2026-08-09T05:55:59.104724"
     }
   ],
-  "last_sent_date": "2026-08-08"
+  "last_sent_date": "2026-08-09"
 }
