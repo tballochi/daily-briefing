@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "maritime-executive.com/article/suez-canal-will-raise-surcharge-fees-as-it-still-looks-to-increase-transits",
-      "title_key": "suez canal will raise surcharge fees as it still looks to increase transits - the maritime executive",
-      "url": "https://maritime-executive.com/article/suez-canal-will-raise-surcharge-fees-as-it-still-looks-to-increase-transits",
-      "title": "Suez Canal Will Raise Surcharge Fees as It Still Looks to Increase Transits - The Maritime Executive",
-      "date": "2026-06-10T06:01:19.468456"
-    },
-    {
-      "url_key": "techcrunch.com/press-release/minimus-launches-supply-chain-protection-and-minicli-to-automate-open-source-and-container-security-as-code",
-      "title_key": "minimus launches supply chain protection and minicli to automate open-source and container security as code - techcrunch",
-      "url": "https://techcrunch.com/press-release/minimus-launches-supply-chain-protection-and-minicli-to-automate-open-source-and-container-security-as-code/",
-      "title": "Minimus launches supply chain protection and minicli to automate open-source and container security as code - TechCrunch",
-      "date": "2026-06-10T06:01:19.468456"
-    },
-    {
-      "url_key": "markets.businessinsider.com/news/stocks/xpo-provides-north-american-ltl-operating-data-for-may-2026-1036223055",
-      "title_key": "xpo provides north american ltl operating data for may 2026 - markets.businessinsider.com",
-      "url": "https://markets.businessinsider.com/news/stocks/xpo-provides-north-american-ltl-operating-data-for-may-2026-1036223055",
-      "title": "XPO Provides North American LTL Operating Data for May 2026 - markets.businessinsider.com",
-      "date": "2026-06-10T06:01:19.468456"
-    },
-    {
       "url_key": "marinelink.com/news/cma-cgm-chief-unwise-assume-hormuz-return-540118",
       "title_key": "cma cgm chief: “unwise” to assume hormuz will return to pre-war situation - marine news magazine",
       "url": "https://www.marinelink.com/news/cma-cgm-chief-unwise-assume-hormuz-return-540118",
@@ -1259,13 +1238,30 @@
       "url": "https://headline.com/blog-latest",
       "title": "Venture Capital Insights & Founder Stories | Headline Blog",
       "date": "2026-08-09T05:55:59.104724"
+    },
+    {
+      "url_key": "composio.dev/toolkits/gemini/framework/langchain",
+      "title_key": "gemini mcp integration with langchain | composio",
+      "url": "https://composio.dev/toolkits/gemini/framework/langchain",
+      "title": "Gemini MCP Integration with LangChain | Composio",
+      "date": "2026-08-10T06:01:18.613292"
+    },
+    {
+      "url_key": "linkedin.com/posts/simon-barna-11899125_digitaltwin-artificialintelligence-generativeai-activity-7490099140568395777-k_ez",
+      "title_key": "setting up a personal ai agent as a digital twin | simon barna posted on the topic | linkedin",
+      "url": "https://www.linkedin.com/posts/simon-barna-11899125_digitaltwin-artificialintelligence-generativeai-activity-7490099140568395777-k_Ez",
+      "title": "Setting Up a Personal AI Agent as a Digital Twin | Simon Barna posted on the topic | LinkedIn",
+      "date": "2026-08-10T06:01:18.613292"
+    },
+    {
+      "url_key": "finance.yahoo.com/technology/articles/echo-global-logistics-named-1-200200767.html",
+      "title_key": "echo global logistics named #1 3pl by inbound logistics for historic tenth year in a row",
+      "url": "https://finance.yahoo.com/technology/articles/echo-global-logistics-named-1-200200767.html",
+      "title": "Echo Global Logistics Named #1 3PL by Inbound Logistics for Historic Tenth Year in a Row",
+      "date": "2026-08-10T06:01:18.613292"
     }
   ],
   "words": [
-    {
-      "word": "cybernetics",
-      "date": "2026-06-25T06:01:33.123739"
-    },
     {
       "word": "provenance",
       "date": "2026-06-26T06:01:50.547324"
@@ -1445,14 +1441,13 @@
     {
       "word": "transcoding",
       "date": "2026-08-09T05:55:59.104724"
+    },
+    {
+      "word": "orchestration",
+      "date": "2026-08-10T06:01:18.613292"
     }
   ],
   "quotes": [
-    {
-      "text": "The internet is becoming the town square for the global village of tomorrow",
-      "author": "Bill Gates",
-      "date": "2026-06-25T06:01:33.123739"
-    },
     {
       "text": "The computer is a bicycle for our minds.",
       "author": "Steve Jobs",
@@ -1677,7 +1672,12 @@
       "text": "The computer is a medium, and the message is the change that the medium brings to the user, not the content that the medium carries.",
       "author": "Marshall McLuhan",
       "date": "2026-08-09T05:55:59.104724"
+    },
+    {
+      "text": "The biggest risk is not taking any risk, in a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks and not trying new things.",
+      "author": "Mark Zuckerberg",
+      "date": "2026-08-10T06:01:18.613292"
     }
   ],
-  "last_sent_date": "2026-08-09"
+  "last_sent_date": "2026-08-10"
 }
