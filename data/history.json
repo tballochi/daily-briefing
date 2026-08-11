@@ -1,48 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "marinelink.com/news/cma-cgm-chief-unwise-assume-hormuz-return-540118",
-      "title_key": "cma cgm chief: “unwise” to assume hormuz will return to pre-war situation - marine news magazine",
-      "url": "https://www.marinelink.com/news/cma-cgm-chief-unwise-assume-hormuz-return-540118",
-      "title": "CMA CGM Chief: “Unwise” to Assume Hormuz Will Return to Pre-War Situation - Marine News Magazine",
-      "date": "2026-06-11T06:01:48.959521"
-    },
-    {
-      "url_key": "globaltrademag.com/peak-season-readiness-comes-from-supporting-the-workforce-behind-it",
-      "title_key": "peak season readiness comes from supporting the workforce behind it - global trade magazine",
-      "url": "https://www.globaltrademag.com/peak-season-readiness-comes-from-supporting-the-workforce-behind-it/",
-      "title": "Peak Season Readiness Comes From Supporting the Workforce Behind It - Global Trade Magazine",
-      "date": "2026-06-11T06:01:48.959521"
-    },
-    {
-      "url_key": "forbes.com/sites/catherinebrock/2026/06/09/where-are-they-now-5-ai-ipos-since-2023",
-      "title_key": "where are they now: 5 ai ipos since 2023 - forbes",
-      "url": "https://www.forbes.com/sites/catherinebrock/2026/06/09/where-are-they-now-5-ai-ipos-since-2023/",
-      "title": "Where Are They Now: 5 AI IPOs Since 2023 - Forbes",
-      "date": "2026-06-11T06:01:48.959521"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/u.s_bound_import_declines_are_expected_after_june_states_global_port_tracker_report",
-      "title_key": "u.s.-bound import declines are expected after june, states global port tracker report - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/u.s_bound_import_declines_are_expected_after_june_states_global_port_tracker_report",
-      "title": "U.S.-bound import declines are expected after June, states Global Port Tracker report - Logistics Management",
-      "date": "2026-06-12T06:01:11.387165"
-    },
-    {
-      "url_key": "news-medical.net/news/20260611/leading-ai-models-ace-many-vaccine-questions-but-falter-on-clinical-rules.aspx",
-      "title_key": "leading ai models ace many vaccine questions but falter on clinical rules - news-medical",
-      "url": "https://www.news-medical.net/news/20260611/Leading-AI-models-ace-many-vaccine-questions-but-falter-on-clinical-rules.aspx",
-      "title": "Leading AI models ace many vaccine questions but falter on clinical rules - News-Medical",
-      "date": "2026-06-12T06:01:11.387165"
-    },
-    {
-      "url_key": "krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026",
-      "title_key": "a record-breaking patch tuesday for june 2026 - krebs on security",
-      "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-      "title": "A Record-Breaking Patch Tuesday for June 2026 - Krebs on Security",
-      "date": "2026-06-12T06:01:11.387165"
-    },
-    {
       "url_key": "marinelink.com/news/usmma-honors-top-graduates-class-540209",
       "title_key": "usmma honors top graduates of class of 2026 - marine news magazine",
       "url": "https://www.marinelink.com/news/usmma-honors-top-graduates-class-540209",
@@ -1259,13 +1217,30 @@
       "url": "https://finance.yahoo.com/technology/articles/echo-global-logistics-named-1-200200767.html",
       "title": "Echo Global Logistics Named #1 3PL by Inbound Logistics for Historic Tenth Year in a Row",
       "date": "2026-08-10T06:01:18.613292"
+    },
+    {
+      "url_key": "techcrunch.com/2026/08/10/a-data-breach-at-shipping-giant-ceva-logistics-is-rippling-across-banks-retailers-steam-gamers-and-beyond",
+      "title_key": "a data breach at shipping giant ceva logistics is rippling across banks, retailers, steam gamers, and beyond",
+      "url": "https://techcrunch.com/2026/08/10/a-data-breach-at-shipping-giant-ceva-logistics-is-rippling-across-banks-retailers-steam-gamers-and-beyond",
+      "title": "A data breach at shipping giant Ceva Logistics is rippling across banks, retailers, Steam gamers, and beyond",
+      "date": "2026-08-11T06:01:23.810562"
+    },
+    {
+      "url_key": "facebook.com/robban.assafina.magazine/posts/propel-launches-with-cargill-ultrabulk-and-cmbtech-as-its-first-partnerscargill-/1846711326305172",
+      "title_key": "robban assafina - propel launches with cargill, ultrabulk...",
+      "url": "https://www.facebook.com/Robban.Assafina.Magazine/posts/propel-launches-with-cargill-ultrabulk-and-cmbtech-as-its-first-partnerscargill-/1846711326305172",
+      "title": "Robban Assafina - Propel launches with Cargill, Ultrabulk...",
+      "date": "2026-08-11T06:01:23.810562"
+    },
+    {
+      "url_key": "teamvismaleaseabike.com/race-report/news/tulett-remains-in-top-ten-overall-after-tough-mountain-stage-at-vuelta-a-burgos",
+      "title_key": "team visma | lease a bike | tulett remains in top ten overall after…",
+      "url": "https://www.teamvismaleaseabike.com/race-report/news/tulett-remains-in-top-ten-overall-after-tough-mountain-stage-at-vuelta-a-burgos",
+      "title": "Team Visma | Lease a Bike | Tulett Remains in top ten overall after…",
+      "date": "2026-08-11T06:01:23.810562"
     }
   ],
   "words": [
-    {
-      "word": "provenance",
-      "date": "2026-06-26T06:01:50.547324"
-    },
     {
       "word": "chroot",
       "date": "2026-06-27T06:02:03.437177"
@@ -1445,14 +1420,13 @@
     {
       "word": "orchestration",
       "date": "2026-08-10T06:01:18.613292"
+    },
+    {
+      "word": "transmutation",
+      "date": "2026-08-11T06:01:23.810562"
     }
   ],
   "quotes": [
-    {
-      "text": "The computer is a bicycle for our minds.",
-      "author": "Steve Jobs",
-      "date": "2026-06-26T06:01:50.547324"
-    },
     {
       "text": "The best way to predict the future is to invent it, but the best way to invent the future is to understand the present",
       "author": "Alan Kay",
@@ -1677,7 +1651,12 @@
       "text": "The biggest risk is not taking any risk, in a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks and not trying new things.",
       "author": "Mark Zuckerberg",
       "date": "2026-08-10T06:01:18.613292"
+    },
+    {
+      "text": "The computer is a tool, and like any tool, its value depends on the user.",
+      "author": "Alan Kay",
+      "date": "2026-08-11T06:01:23.810562"
     }
   ],
-  "last_sent_date": "2026-08-10"
+  "last_sent_date": "2026-08-11"
 }
