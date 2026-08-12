@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "marinelink.com/news/usmma-honors-top-graduates-class-540209",
-      "title_key": "usmma honors top graduates of class of 2026 - marine news magazine",
-      "url": "https://www.marinelink.com/news/usmma-honors-top-graduates-class-540209",
-      "title": "USMMA Honors Top Graduates Of Class Of 2026 - Marine News Magazine",
-      "date": "2026-06-13T06:01:21.075351"
-    },
-    {
-      "url_key": "letsdatascience.com/news/ltm-launches-ai-1000-workforce-training-programme-6c91c841",
-      "title_key": "ltm launches ai 1000 workforce training programme - let's data science",
-      "url": "https://letsdatascience.com/news/ltm-launches-ai-1000-workforce-training-programme-6c91c841",
-      "title": "LTM launches AI 1000 workforce training programme - Let's Data Science",
-      "date": "2026-06-13T06:01:21.075351"
-    },
-    {
-      "url_key": "globenewswire.com/news-release/2026/06/12/3311228/0/en/csl-delivers-world-s-first-battery-powered-self-unloading-bulk-carrier-to-support-adbri-operations.html",
-      "title_key": "csl delivers world’s first battery-powered self-unloading bulk carrier to support adbri operations - globenewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/06/12/3311228/0/en/csl-delivers-world-s-first-battery-powered-self-unloading-bulk-carrier-to-support-adbri-operations.html",
-      "title": "CSL Delivers World’s First Battery-Powered Self-Unloading Bulk Carrier to Support Adbri Operations - GlobeNewswire",
-      "date": "2026-06-13T06:01:21.075351"
-    },
-    {
       "url_key": "einnews.com/pr_news/918406185/logistics-plus-is-named-a-2026-g75-green-supply-chain-partner-by-inbound-logistics",
       "title_key": "logistics plus is named a 2026 g75 green supply chain partner by inbound logistics - ein news",
       "url": "https://www.einnews.com/pr_news/918406185/logistics-plus-is-named-a-2026-g75-green-supply-chain-partner-by-inbound-logistics",
@@ -1238,17 +1217,30 @@
       "url": "https://www.teamvismaleaseabike.com/race-report/news/tulett-remains-in-top-ten-overall-after-tough-mountain-stage-at-vuelta-a-burgos",
       "title": "Team Visma | Lease a Bike | Tulett Remains in top ten overall after…",
       "date": "2026-08-11T06:01:23.810562"
+    },
+    {
+      "url_key": "mistral.ai/news/regional-inference-open-models-new-compute",
+      "title_key": "in-region inference, open models, and new european ... - mistral",
+      "url": "https://mistral.ai/news/regional-inference-open-models-new-compute",
+      "title": "In-region inference, open models, and new European ... - Mistral",
+      "date": "2026-08-12T06:01:34.807564"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/freight_capacity_tightens_as_shipping_demand_demains_uneven_u.s_bank_freight_payment_index_finds",
+      "title_key": "freight capacity tightens as shipping demand demains uneven, u.s. bank freight payment index finds - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/freight_capacity_tightens_as_shipping_demand_demains_uneven_u.s_bank_freight_payment_index_finds",
+      "title": "Freight capacity tightens as shipping demand demains uneven, U.S. Bank Freight Payment Index finds - Logistics Management",
+      "date": "2026-08-12T06:01:34.807564"
+    },
+    {
+      "url_key": "bankinfosecurity.com/mistral-expands-sovereign-ai-push-european-compute-a-32527",
+      "title_key": "mistral expands sovereign ai push with european compute",
+      "url": "https://www.bankinfosecurity.com/mistral-expands-sovereign-ai-push-european-compute-a-32527",
+      "title": "Mistral Expands Sovereign AI Push With European Compute",
+      "date": "2026-08-12T06:01:34.807564"
     }
   ],
   "words": [
-    {
-      "word": "chroot",
-      "date": "2026-06-27T06:02:03.437177"
-    },
-    {
-      "word": "deduplication",
-      "date": "2026-06-28T06:01:23.125543"
-    },
     {
       "word": "neural mesh",
       "date": "2026-06-29T06:01:59.826691"
@@ -1424,19 +1416,13 @@
     {
       "word": "transmutation",
       "date": "2026-08-11T06:01:23.810562"
+    },
+    {
+      "word": "transcoding",
+      "date": "2026-08-12T06:01:34.807564"
     }
   ],
   "quotes": [
-    {
-      "text": "The best way to predict the future is to invent it, but the best way to invent the future is to understand the present",
-      "author": "Alan Kay",
-      "date": "2026-06-27T06:02:03.437177"
-    },
-    {
-      "text": "The most important thing about a technology is how it changes people.",
-      "author": "Steve Jobs",
-      "date": "2026-06-28T06:01:23.125543"
-    },
     {
       "text": "The future of computing is not about the technology itself, but about the social and economic structures it enables.",
       "author": "Tim Berners-Lee",
@@ -1656,7 +1642,12 @@
       "text": "The computer is a tool, and like any tool, its value depends on the user.",
       "author": "Alan Kay",
       "date": "2026-08-11T06:01:23.810562"
+    },
+    {
+      "text": "Software is a great combination of artistry and engineering.",
+      "author": "Bill Gates",
+      "date": "2026-08-12T06:01:34.807564"
     }
   ],
-  "last_sent_date": "2026-08-11"
+  "last_sent_date": "2026-08-12"
 }
