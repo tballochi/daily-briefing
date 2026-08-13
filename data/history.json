@@ -1238,6 +1238,27 @@
       "url": "https://www.bankinfosecurity.com/mistral-expands-sovereign-ai-push-european-compute-a-32527",
       "title": "Mistral Expands Sovereign AI Push With European Compute",
       "date": "2026-08-12T06:01:34.807564"
+    },
+    {
+      "url_key": "tech.einnews.com/pr_news/933462589/e2open-ocean-shipping-index-reveals-global-shipping-resilience-amid-rising-disruption",
+      "title_key": "e2open ocean shipping index reveals global ...",
+      "url": "https://tech.einnews.com/pr_news/933462589/e2open-ocean-shipping-index-reveals-global-shipping-resilience-amid-rising-disruption",
+      "title": "E2open Ocean Shipping Index Reveals Global ...",
+      "date": "2026-08-13T06:01:26.686074"
+    },
+    {
+      "url_key": "cryptopolitan.com/best-ai-agent-builders-2026-no-code-low-code",
+      "title_key": "best ai agent builders in 2026: 8 no-code and low-code platforms compared - cryptopolitan",
+      "url": "https://www.cryptopolitan.com/best-ai-agent-builders-2026-no-code-low-code",
+      "title": "Best AI Agent Builders in 2026: 8 No-Code and Low-Code Platforms Compared - Cryptopolitan",
+      "date": "2026-08-13T06:01:26.686074"
+    },
+    {
+      "url_key": "venturebeat.com/infrastructure/mistral-ai-wants-to-build-1-gigawatt-of-european-compute-by-2030-and-lock-in-customers-now",
+      "title_key": "mistral ai wants to build 1 gigawatt of european compute ...",
+      "url": "https://venturebeat.com/infrastructure/mistral-ai-wants-to-build-1-gigawatt-of-european-compute-by-2030-and-lock-in-customers-now",
+      "title": "Mistral AI wants to build 1 gigawatt of European compute ...",
+      "date": "2026-08-13T06:01:26.686074"
     }
   ],
   "words": [
@@ -1420,6 +1441,10 @@
     {
       "word": "transcoding",
       "date": "2026-08-12T06:01:34.807564"
+    },
+    {
+      "word": "transcoding",
+      "date": "2026-08-13T06:01:26.686074"
     }
   ],
   "quotes": [
@@ -1647,7 +1672,12 @@
       "text": "Software is a great combination of artistry and engineering.",
       "author": "Bill Gates",
       "date": "2026-08-12T06:01:34.807564"
+    },
+    {
+      "text": "Code is the language in which we describe the world and the means by which we turn descriptions into reality.",
+      "author": "John McCarthy",
+      "date": "2026-08-13T06:01:26.686074"
     }
   ],
-  "last_sent_date": "2026-08-12"
+  "last_sent_date": "2026-08-13"
 }
