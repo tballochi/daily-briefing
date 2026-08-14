@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "einnews.com/pr_news/918406185/logistics-plus-is-named-a-2026-g75-green-supply-chain-partner-by-inbound-logistics",
-      "title_key": "logistics plus is named a 2026 g75 green supply chain partner by inbound logistics - ein news",
-      "url": "https://www.einnews.com/pr_news/918406185/logistics-plus-is-named-a-2026-g75-green-supply-chain-partner-by-inbound-logistics",
-      "title": "Logistics Plus is Named a 2026 G75 Green Supply Chain Partner by Inbound Logistics - EIN News",
-      "date": "2026-06-14T06:01:28.889405"
-    },
-    {
-      "url_key": "logisticsmgmt.com/download/the_next_phase_of_supply_chain_technology_software",
-      "title_key": "the next phase of supply chain technology & software - logistics management",
-      "url": "https://www.logisticsmgmt.com/download/the_next_phase_of_supply_chain_technology_software",
-      "title": "The Next Phase of Supply Chain Technology & Software - Logistics Management",
-      "date": "2026-06-14T06:01:28.889405"
-    },
-    {
-      "url_key": "natlawreview.com/press-releases/logistics-plus-named-2026-g75-green-supply-chain-partner-inbound-logistics",
-      "title_key": "logistics plus is named a 2026 g75 green supply chain partner by inbound logistics - the national law review",
-      "url": "https://natlawreview.com/press-releases/logistics-plus-named-2026-g75-green-supply-chain-partner-inbound-logistics",
-      "title": "Logistics Plus is Named a 2026 G75 Green Supply Chain Partner by Inbound Logistics - The National Law Review",
-      "date": "2026-06-14T06:01:28.889405"
-    },
-    {
       "url_key": "law360.com/articles/2487875/standard-setter-floats-responsible-ai-adoption-rules",
       "title_key": "standard setter floats responsible ai adoption rules - law360",
       "url": "https://www.law360.com/articles/2487875/standard-setter-floats-responsible-ai-adoption-rules",
@@ -1259,13 +1238,30 @@
       "url": "https://venturebeat.com/infrastructure/mistral-ai-wants-to-build-1-gigawatt-of-european-compute-by-2030-and-lock-in-customers-now",
       "title": "Mistral AI wants to build 1 gigawatt of European compute ...",
       "date": "2026-08-13T06:01:26.686074"
+    },
+    {
+      "url_key": "kalkine.ca/news/technology/descartes-systems-group-stock-under-pressure-after-august-12-decline-valuation-risk-and-cautious-investor-sentiment",
+      "title_key": "descartes systems group stock under pressure after august 12 decline: valuation risk and cautious investor sentiment",
+      "url": "https://kalkine.ca/news/technology/descartes-systems-group-stock-under-pressure-after-august-12-decline-valuation-risk-and-cautious-investor-sentiment",
+      "title": "Descartes Systems Group Stock Under Pressure After August 12 Decline: Valuation Risk and Cautious Investor Sentiment",
+      "date": "2026-08-14T06:01:23.551609"
+    },
+    {
+      "url_key": "trendhunter.com/trends/aiflow",
+      "title_key": "no-code ai workflow platforms: ai-flow builds and connects ai workflows on one visual… | trend hunter",
+      "url": "https://www.trendhunter.com/trends/aiflow",
+      "title": "No-Code AI Workflow Platforms: AI-Flow Builds And Connects AI Workflows On One Visual… | Trend Hunter",
+      "date": "2026-08-14T06:01:23.551609"
+    },
+    {
+      "url_key": "facebook.com/marius.comper/posts/mistral-ai-is-asking-some-of-europes-largest-companies-to-make-five-year-commitm/10164778248089621",
+      "title_key": "mistral ai is asking some of europe's largest companies to ...",
+      "url": "https://www.facebook.com/marius.comper/posts/mistral-ai-is-asking-some-of-europes-largest-companies-to-make-five-year-commitm/10164778248089621",
+      "title": "Mistral AI is asking some of Europe's largest companies to ...",
+      "date": "2026-08-14T06:01:23.551609"
     }
   ],
   "words": [
-    {
-      "word": "neural mesh",
-      "date": "2026-06-29T06:01:59.826691"
-    },
     {
       "word": "homomorphism",
       "date": "2026-06-30T06:01:25.711285"
@@ -1445,14 +1441,13 @@
     {
       "word": "transcoding",
       "date": "2026-08-13T06:01:26.686074"
+    },
+    {
+      "word": "transcoding",
+      "date": "2026-08-14T06:01:23.551609"
     }
   ],
   "quotes": [
-    {
-      "text": "The future of computing is not about the technology itself, but about the social and economic structures it enables.",
-      "author": "Tim Berners-Lee",
-      "date": "2026-06-29T06:01:59.826691"
-    },
     {
       "text": "The art of programming is the art of doing something with a machine that you would not normally think of as a machine.",
       "author": "Donald Knuth",
@@ -1677,7 +1672,12 @@
       "text": "Code is the language in which we describe the world and the means by which we turn descriptions into reality.",
       "author": "John McCarthy",
       "date": "2026-08-13T06:01:26.686074"
+    },
+    {
+      "text": "The computer is a bicycle for our minds.",
+      "author": "Steve Jobs",
+      "date": "2026-08-14T06:01:23.551609"
     }
   ],
-  "last_sent_date": "2026-08-13"
+  "last_sent_date": "2026-08-14"
 }
