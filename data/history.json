@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "law360.com/articles/2487875/standard-setter-floats-responsible-ai-adoption-rules",
-      "title_key": "standard setter floats responsible ai adoption rules - law360",
-      "url": "https://www.law360.com/articles/2487875/standard-setter-floats-responsible-ai-adoption-rules",
-      "title": "Standard Setter Floats Responsible AI Adoption Rules - Law360",
-      "date": "2026-06-15T06:01:26.251580"
-    },
-    {
-      "url_key": "indexbox.io/blog/cma-cgm-group-deploys-ai-at-scale-across-shipping-logistics-and-media-operations",
-      "title_key": "cma cgm group deploys ai at scale across shipping, logistics, and media operations",
-      "url": "https://www.indexbox.io/blog/cma-cgm-group-deploys-ai-at-scale-across-shipping-logistics-and-media-operations/",
-      "title": "CMA CGM Group Deploys AI at Scale Across Shipping, Logistics, and Media Operations",
-      "date": "2026-06-15T06:01:26.251580"
-    },
-    {
-      "url_key": "itnews.com.au/resource/2026-identity-security-landscape-626433",
-      "title_key": "2026 identity security landscape - itnews",
-      "url": "https://www.itnews.com.au/resource/2026-identity-security-landscape-626433",
-      "title": "2026 Identity Security Landscape - iTnews",
-      "date": "2026-06-15T06:01:26.251580"
-    },
-    {
       "url_key": "thenewstack.io/agent-loops-cloud-native-verification",
       "title_key": "loops are replacing prompts. verification is about to be your biggest problem. - the new stack",
       "url": "https://thenewstack.io/agent-loops-cloud-native-verification/",
@@ -1259,13 +1238,30 @@
       "url": "https://www.facebook.com/marius.comper/posts/mistral-ai-is-asking-some-of-europes-largest-companies-to-make-five-year-commitm/10164778248089621",
       "title": "Mistral AI is asking some of Europe's largest companies to ...",
       "date": "2026-08-14T06:01:23.551609"
+    },
+    {
+      "url_key": "thenewstack.io/mistral-third-party-open-models",
+      "title_key": "five european companies just agreed to buy ai compute that doesn't exist yet - the new stack",
+      "url": "https://thenewstack.io/mistral-third-party-open-models",
+      "title": "Five European companies just agreed to buy AI compute that doesn't exist yet - The New Stack",
+      "date": "2026-08-15T05:36:58.775843"
+    },
+    {
+      "url_key": "devops.com/projectdiscovery-brings-open-source-ai-testing-to-vulnerability-discovery",
+      "title_key": "projectdiscovery brings open source ai testing to vulnerability discovery",
+      "url": "https://devops.com/projectdiscovery-brings-open-source-ai-testing-to-vulnerability-discovery",
+      "title": "ProjectDiscovery Brings Open Source AI Testing to Vulnerability Discovery",
+      "date": "2026-08-15T05:36:58.775843"
+    },
+    {
+      "url_key": "simplify.jobs/p/d641cd19-395a-4579-8b31-1ce37f511265/talent-acquisition-specialist",
+      "title_key": "talent acquisition specialist @ mistral ai | simplify jobs",
+      "url": "https://simplify.jobs/p/d641cd19-395a-4579-8b31-1ce37f511265/Talent-Acquisition-Specialist",
+      "title": "Talent Acquisition Specialist @ Mistral AI | Simplify Jobs",
+      "date": "2026-08-15T05:36:58.775843"
     }
   ],
   "words": [
-    {
-      "word": "homomorphism",
-      "date": "2026-06-30T06:01:25.711285"
-    },
     {
       "word": "homography",
       "date": "2026-07-01T06:01:29.576822"
@@ -1445,14 +1441,13 @@
     {
       "word": "transcoding",
       "date": "2026-08-14T06:01:23.551609"
+    },
+    {
+      "word": "transduction",
+      "date": "2026-08-15T05:36:58.775843"
     }
   ],
   "quotes": [
-    {
-      "text": "The art of programming is the art of doing something with a machine that you would not normally think of as a machine.",
-      "author": "Donald Knuth",
-      "date": "2026-06-30T06:01:25.711285"
-    },
     {
       "text": "The Internet is a great way to get on the net.",
       "author": "Robert Metcalfe",
@@ -1677,7 +1672,12 @@
       "text": "The computer is a bicycle for our minds.",
       "author": "Steve Jobs",
       "date": "2026-08-14T06:01:23.551609"
+    },
+    {
+      "text": "The future of computing is not about the technology; it's about the people and how they use the technology to improve their lives.",
+      "author": "Bill Gates",
+      "date": "2026-08-15T05:36:58.775843"
     }
   ],
-  "last_sent_date": "2026-08-14"
+  "last_sent_date": "2026-08-15"
 }
