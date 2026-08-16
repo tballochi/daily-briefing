@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "thenewstack.io/agent-loops-cloud-native-verification",
-      "title_key": "loops are replacing prompts. verification is about to be your biggest problem. - the new stack",
-      "url": "https://thenewstack.io/agent-loops-cloud-native-verification/",
-      "title": "Loops are replacing prompts. Verification is about to be your biggest problem. - The New Stack",
-      "date": "2026-06-16T06:01:25.688680"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/usdot_rolls_out_american_supply_chain_sovereignty_initiative",
-      "title_key": "usdot rolls out american supply chain sovereignty initiative - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/usdot_rolls_out_american_supply_chain_sovereignty_initiative",
-      "title": "USDOT rolls out American Supply Chain Sovereignty Initiative - Logistics Management",
-      "date": "2026-06-16T06:01:25.688680"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/u.s_bound_imports_see_annual_gains_in_may_for_first_time_in_13_months_reports_sp_global_market_intelligence",
-      "title_key": "u.s.-bound imports see annual gains in may, for first time in 13 months, reports s&p global market intelligence - logistics management",
-      "url": "http://www.logisticsmgmt.com/article/u.s_bound_imports_see_annual_gains_in_may_for_first_time_in_13_months_reports_sp_global_market_intelligence",
-      "title": "U.S.-bound imports see annual gains in May, for first time in 13 months, reports S&P Global Market Intelligence - Logistics Management",
-      "date": "2026-06-16T06:01:25.688680"
-    },
-    {
       "url_key": "marinelink.com/news/sallaum-lines-orders-two-ceu-dualfuel-540303",
       "title_key": "sallaum lines orders two 8,600-ceu dual-fuel pctcs - marine news magazine",
       "url": "https://www.marinelink.com/news/sallaum-lines-orders-two-ceu-dualfuel-540303",
@@ -1259,13 +1238,30 @@
       "url": "https://simplify.jobs/p/d641cd19-395a-4579-8b31-1ce37f511265/Talent-Acquisition-Specialist",
       "title": "Talent Acquisition Specialist @ Mistral AI | Simplify Jobs",
       "date": "2026-08-15T05:36:58.775843"
+    },
+    {
+      "url_key": "startuphub.ai/ai-news/artificial-intelligence/2026/ai-boosts-open-source-security",
+      "title_key": "ai boosts open source security",
+      "url": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/ai-boosts-open-source-security",
+      "title": "AI Boosts Open Source Security",
+      "date": "2026-08-16T05:39:21.112228"
+    },
+    {
+      "url_key": "tradingview.com/news/reuters.com,2026-08-10:newsml_acswqckba:0",
+      "title_key": "news by access newswire on tradingview, 2026-08-10 — tag:reuters.com,2026-08-10:newsml_acswqckba:0",
+      "url": "https://www.tradingview.com/news/reuters.com,2026-08-10:newsml_ACSwqCKBa:0",
+      "title": "News by ACCESS Newswire on TradingView, 2026-08-10 — tag:reuters.com,2026-08-10:newsml_ACSwqCKBa:0",
+      "date": "2026-08-16T05:39:21.112228"
+    },
+    {
+      "url_key": "aibusiness.com/generative-ai/mistral-aims-build-1gb-of-compute-capacity-2030",
+      "title_key": "mistral aims to build 1gb of compute capacity by 2030",
+      "url": "https://aibusiness.com/generative-ai/mistral-aims-build-1gb-of-compute-capacity-2030",
+      "title": "Mistral Aims to Build 1GB of Compute Capacity by 2030",
+      "date": "2026-08-16T05:39:21.112228"
     }
   ],
   "words": [
-    {
-      "word": "homography",
-      "date": "2026-07-01T06:01:29.576822"
-    },
     {
       "word": "proximity sensor",
       "date": "2026-07-02T06:02:31.909101"
@@ -1445,14 +1441,13 @@
     {
       "word": "transduction",
       "date": "2026-08-15T05:36:58.775843"
+    },
+    {
+      "word": "transformation",
+      "date": "2026-08-16T05:39:21.112228"
     }
   ],
   "quotes": [
-    {
-      "text": "The Internet is a great way to get on the net.",
-      "author": "Robert Metcalfe",
-      "date": "2026-07-01T06:01:29.576822"
-    },
     {
       "text": "The computer is mightier than the sword.",
       "author": "Alan Kay",
@@ -1677,7 +1672,12 @@
       "text": "The future of computing is not about the technology; it's about the people and how they use the technology to improve their lives.",
       "author": "Bill Gates",
       "date": "2026-08-15T05:36:58.775843"
+    },
+    {
+      "text": "The computer is a very personal machine, and it's only going to become more personal",
+      "author": "Steve Jobs",
+      "date": "2026-08-16T05:39:21.112228"
     }
   ],
-  "last_sent_date": "2026-08-15"
+  "last_sent_date": "2026-08-16"
 }
