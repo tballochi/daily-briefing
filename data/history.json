@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "marinelink.com/news/sallaum-lines-orders-two-ceu-dualfuel-540303",
-      "title_key": "sallaum lines orders two 8,600-ceu dual-fuel pctcs - marine news magazine",
-      "url": "https://www.marinelink.com/news/sallaum-lines-orders-two-ceu-dualfuel-540303",
-      "title": "Sallaum Lines Orders Two 8,600-CEU Dual-Fuel PCTCs - Marine News Magazine",
-      "date": "2026-06-17T06:01:32.277320"
-    },
-    {
-      "url_key": "thurrott.com/mobile/android/google-pixel/337467/google-releases-the-june-2026-pixel-drop",
-      "title_key": "google releases the june 2026 pixel drop - thurrott.com",
-      "url": "https://www.thurrott.com/mobile/android/google-pixel/337467/google-releases-the-june-2026-pixel-drop",
-      "title": "Google Releases the June 2026 Pixel Drop - Thurrott.com",
-      "date": "2026-06-17T06:01:32.277320"
-    },
-    {
-      "url_key": "stocktitan.net/news/cosm/cosmos-health-signs-3-year-contract-manufacturing-agreement-with-8lcjbiitlr2e.html",
-      "title_key": "cosmos health signs 3-year contract manufacturing agreement with verisfield for 3.9 million units of vasclor gest progesterone pessaries - stock titan",
-      "url": "https://www.stocktitan.net/news/COSM/cosmos-health-signs-3-year-contract-manufacturing-agreement-with-8lcjbiitlr2e.html",
-      "title": "Cosmos Health Signs 3-Year Contract Manufacturing Agreement with Verisfield for 3.9 Million Units of VASCLOR GEST Progesterone Pessaries - Stock Titan",
-      "date": "2026-06-17T06:01:32.277320"
-    },
-    {
       "url_key": "maritime-executive.com/article/cma-cgm-and-capital-clean-energy-carriers-form-jv-for-lng-bunker-vessel",
       "title_key": "cma cgm and capital clean energy carriers form jv for lng bunker vessel - the maritime executive",
       "url": "https://maritime-executive.com/article/cma-cgm-and-capital-clean-energy-carriers-form-jv-for-lng-bunker-vessel",
@@ -1259,13 +1238,30 @@
       "url": "https://aibusiness.com/generative-ai/mistral-aims-build-1gb-of-compute-capacity-2030",
       "title": "Mistral Aims to Build 1GB of Compute Capacity by 2030",
       "date": "2026-08-16T05:39:21.112228"
+    },
+    {
+      "url_key": "technologymagazine.com/articles/top-10-devops-tools",
+      "title_key": "top 10 devops tools",
+      "url": "https://technologymagazine.com/articles/top-10-devops-tools",
+      "title": "Top 10 DevOps Tools",
+      "date": "2026-08-17T05:47:23.097100"
+    },
+    {
+      "url_key": "heise.de/en/news/mistral-s-big-bet-on-europe-s-ai-infrastructure-11412228.html",
+      "title_key": "mistral's big bet on europe's ai infrastructure | heise online",
+      "url": "https://www.heise.de/en/news/Mistral-s-big-bet-on-Europe-s-AI-infrastructure-11412228.html",
+      "title": "Mistral's big bet on Europe's AI infrastructure | heise online",
+      "date": "2026-08-17T05:47:23.097100"
+    },
+    {
+      "url_key": "splash247.com/mg-ship-takes-logistics-intelligence-platform-into-europe",
+      "title_key": "mg ship takes logistics intelligence platform into europe - splash247",
+      "url": "https://splash247.com/mg-ship-takes-logistics-intelligence-platform-into-europe",
+      "title": "MG Ship takes logistics intelligence platform into Europe - Splash247",
+      "date": "2026-08-17T05:47:23.097100"
     }
   ],
   "words": [
-    {
-      "word": "proximity sensor",
-      "date": "2026-07-02T06:02:31.909101"
-    },
     {
       "word": "granularity",
       "date": "2026-07-03T06:01:37.964521"
@@ -1445,14 +1441,13 @@
     {
       "word": "transformation",
       "date": "2026-08-16T05:39:21.112228"
+    },
+    {
+      "word": "transcoding",
+      "date": "2026-08-17T05:47:23.097100"
     }
   ],
   "quotes": [
-    {
-      "text": "The computer is mightier than the sword.",
-      "author": "Alan Kay",
-      "date": "2026-07-02T06:02:31.909101"
-    },
     {
       "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
       "author": "Nelson Mandela",
@@ -1677,7 +1672,12 @@
       "text": "The computer is a very personal machine, and it's only going to become more personal",
       "author": "Steve Jobs",
       "date": "2026-08-16T05:39:21.112228"
+    },
+    {
+      "text": "The art of programming is the art of doing something with a machine that you would not normally think of as a machine",
+      "author": "Donald Knuth",
+      "date": "2026-08-17T05:47:23.097100"
     }
   ],
-  "last_sent_date": "2026-08-16"
+  "last_sent_date": "2026-08-17"
 }
