@@ -114,3 +114,56 @@ class BriefingConfig:
 def load() -> BriefingConfig:
     """Load and validate the user's briefing preferences."""
     return BriefingConfig(_load_raw())
+
+
+# --- Environment validation -------------------------------------------------
+
+class ConfigError(Exception):
+    """A missing/invalid setting the user can fix. Printed as a plain message.
+
+    Raised instead of letting an API client blow up 40 lines deep: someone trying
+    the project for the first time should be told which key is missing and where to
+    get it, not handed a stack trace.
+    """
+
+
+# Every secret the agent can need, with a human explanation of how to get it.
+_ENV_HELP = {
+    "GROQ_API_KEY": "the AI brain. Get one free at https://console.groq.com/keys",
+    "TAVILY_API_KEY": "live web search. Get one free at https://app.tavily.com",
+    "GMAIL_ADDRESS": "the Gmail account that sends the briefing, e.g. you@gmail.com",
+    "GMAIL_APP_PASSWORD": (
+        "a 16-character Gmail App Password (NOT your normal password) from "
+        "https://myaccount.google.com/apppasswords — needs 2FA enabled"
+    ),
+    "RECIPIENT_EMAIL": "the address the briefing is delivered to",
+}
+
+# Building a briefing only needs the two API keys; delivery also needs the Gmail set.
+RESEARCH_ENV = ("GROQ_API_KEY", "TAVILY_API_KEY")
+DELIVERY_ENV = ("GMAIL_ADDRESS", "GMAIL_APP_PASSWORD", "RECIPIENT_EMAIL")
+
+
+def check_env(*, delivery: bool = True) -> None:
+    """Fail early and readably if a required secret is missing.
+
+    `delivery=False` for --dry-run, which builds a briefing but never sends it, so
+    it can be tried with just the two free API keys and no Gmail setup at all.
+    """
+    required = list(RESEARCH_ENV) + (list(DELIVERY_ENV) if delivery else [])
+    missing = [name for name in required if not (os.getenv(name) or "").strip()]
+    if not missing:
+        return
+
+    lines = [
+        f"Missing {len(missing)} required setting(s):",
+        "",
+        *(f"  {name}  —  {_ENV_HELP[name]}" for name in missing),
+        "",
+        "Set them in a .env file (copy .env.example) for a local run, or as GitHub",
+        "Actions secrets when running on GitHub.",
+    ]
+    if not delivery:
+        lines.append("")
+        lines.append("Tip: --dry-run only needs GROQ_API_KEY and TAVILY_API_KEY.")
+    raise ConfigError("\n".join(lines))

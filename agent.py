@@ -811,6 +811,33 @@ def _render_html(briefing: dict, today: str) -> str:
 </html>"""
 
 
+def render_text(subject: str, payload: dict) -> str:
+    """Render the briefing as plain text, for the --dry-run console preview."""
+    lines = [subject, "=" * len(subject), ""]
+    for i, article in enumerate(payload.get("articles", []), start=1):
+        lines += [
+            f"{i}. {article.get('title', '')}",
+            f"   {article.get('summary', '')}",
+            f"   -> {article.get('url', '')}",
+            "",
+        ]
+
+    word = payload.get("word", {})
+    if word.get("word"):
+        lines += [
+            f"WORD OF THE DAY — {word.get('word', '')}",
+            f"   {word.get('definition', '')}",
+            f"   \"{word.get('example', '')}\"",
+            "",
+        ]
+
+    quote = payload.get("quote", {})
+    if quote.get("text"):
+        lines += [f"\"{quote.get('text', '')}\"", f"   — {quote.get('author', '')}", ""]
+
+    return "\n".join(lines)
+
+
 # --- Public pipeline -------------------------------------------------------
 
 def build_briefing() -> tuple[str, str, dict]:
@@ -830,9 +857,16 @@ def build_briefing() -> tuple[str, str, dict]:
 
     briefing = synthesize_briefing(selected, today)
     html_body = _render_html(briefing, today)
+    written = [n for section in briefing.get("sections", []) for n in section.get("news", [])]
     payload = {
-        "articles": [{"url": a.get("url", ""), "title": a.get("title", "")} for a in selected],
+        # `summary` rides along so --dry-run can print a plaintext preview without a
+        # second LLM call; history.record_sent only ever reads url/title.
+        "articles": [
+            {"url": n.get("url", ""), "title": n.get("title", ""), "summary": n.get("summary", "")}
+            for n in written
+        ],
         "word": briefing.get("word_of_the_day", {}),
         "quote": briefing.get("quote_of_the_day", {}),
     }
+    logger.info("Briefing built: %d article(s), word=%r", len(payload["articles"]), payload["word"].get("word", ""))
     return subject, html_body, payload

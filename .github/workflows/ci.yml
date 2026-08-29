@@ -1,0 +1,41 @@
+name: CI
+
+# Runs the test suite on every push and pull request. Nothing here touches the
+# network or any API key: the tests mock Groq/Tavily and use throwaway files, so a
+# fork can run them with no secrets configured.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # 3.11 is the documented minimum; 3.13 catches deprecations early.
+        python-version: ["3.11", "3.13"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Check the briefing imports cleanly
+        # Catches a syntax error or bad import that the mocked tests could miss.
+        run: python -c "import main, agent, scheduler, email_sender, history, config"

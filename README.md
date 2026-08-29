@@ -104,10 +104,16 @@ focus:                       # OPTIONAL — a story that's ALWAYS included
 **Option A — locally** (good for a first test):
 
 ```bash
-cp .env.example .env      # then fill in the 5 values below
+cp .env.example .env      # then fill in the values below
+python main.py --dry-run  # build a briefing and preview it — sends NOTHING
 python main.py --now      # build & send one briefing right now
 python main.py            # or start the local scheduler (daily at 09:00 Paris)
 ```
+
+`--dry-run` is the fastest way to see what you'd get: it needs only `GROQ_API_KEY`
+and `TAVILY_API_KEY` (**no Gmail setup at all**), prints the briefing to your
+terminal, and writes the rendered email to `data/preview.html` to open in a browser.
+It sends no email and records nothing in the de-duplication history.
 
 Your `.env` holds the secrets:
 
@@ -168,8 +174,23 @@ passes the morning-window + once-a-day guard — it can never double-send.
   it no-ops, so a stray trigger never emails you at night.
 - **Resilient search** — Tavily calls are throttled and retried with backoff, so a
   transient blip or free-tier rate limit can't sink the morning's briefing.
+- **Model fallback** — if the configured Groq model is retired, the agent degrades to the
+  next one in `model_fallbacks` instead of failing the run.
+- **Friendly setup errors** — a missing key tells you which one and where to get it,
+  before anything else runs.
 - **Failure alert** — if the agent genuinely finds nothing valid, it emails you a short
   "couldn't send today" note instead of silently failing.
+
+## Tests
+
+```bash
+pip install -r requirements-dev.txt
+pytest -q
+```
+
+The suite mocks the network, so it needs no API keys and runs in under a second. It
+covers the model fallback chain, config defaults, de-duplication, and both send guards.
+CI runs it on every push and pull request.
 
 ---
 
