@@ -46,10 +46,15 @@ git clone https://github.com/tballochi/daily-briefing.git
 cd daily-briefing
 pip install -r requirements.txt
 
+python main.py --setup      # asks for your keys and checks each one works
+python main.py --dry-run    # builds a real briefing — sends nothing
+```
+
+Prefer doing it by hand? Skip the wizard and write the two keys yourself:
+
+```bash
 echo "GROQ_API_KEY=..."   > .env     # free: https://console.groq.com/keys
 echo "TAVILY_API_KEY=..." >> .env    # free: https://app.tavily.com
-
-python main.py --dry-run
 ```
 
 `--dry-run` researches the news, writes the briefing, prints it to your terminal and
@@ -113,9 +118,20 @@ block. No `config.yaml` at all? Sensible defaults keep it running.
 
 Nothing stays on. No server, no container, no cron on your laptop.
 
-**1.** Fork or push this repo to your GitHub account.
+**1.** Click **[Use this template](https://github.com/tballochi/daily-briefing/generate)**
+to get your own copy (or fork it). Then clone it and run:
 
-**2.** Add 5 **Settings → Secrets and variables → Actions** secrets:
+```bash
+python main.py --setup
+```
+
+The wizard asks for each key, **verifies it against the real API before saving** — a wrong
+Gmail App Password fails here instead of silently at 8am tomorrow — clears the inherited
+de-duplication history, offers to upload your secrets with the `gh` CLI, and prints your
+pinger URL with your repo already filled in.
+
+**2.** Add 5 **Settings → Secrets and variables → Actions** secrets (the wizard can do
+this for you if you have the `gh` CLI):
 
 | Secret | Where to get it |
 |--------|-----------------|
@@ -178,6 +194,7 @@ Honest comparison with the other "AI daily newsletter" repos:
 | **Never double-sends** | A morning-window guard plus a once-a-day guard, so several triggers still produce one email. |
 | **Survives model deprecations** | The model is configurable with a fallback chain — a retired model degrades the run instead of killing it. |
 | **Grounded summaries** | Written only from real source text, with links copied from actual search results. |
+| **Two-minute setup** | `--setup` checks every key against its real API before saving, so a bad credential surfaces now rather than at 8am tomorrow. |
 
 ---
 
@@ -248,7 +265,7 @@ guard changed.
 ## Run it locally instead
 
 ```bash
-cp .env.example .env      # fill in your values
+python main.py --setup    # guided setup (or copy .env.example by hand)
 python main.py --dry-run  # preview only, sends nothing
 python main.py --now      # build & send one briefing now
 python main.py            # run the scheduler (daily at 09:00 Europe/Paris)
@@ -282,7 +299,8 @@ chain, config defaults, de-duplication and both send guards. CI runs it on every
 daily-briefing/
 ├── config.yaml            # your preferences: title, topics, focus, model
 ├── config.py              # loads/validates config.yaml, checks required secrets
-├── main.py                # entry point (--dry-run / --now)
+├── main.py                # entry point (--setup / --dry-run / --now)
+├── setup_wizard.py        # guided setup, verifies every key
 ├── agent.py               # the agent: research loop, writing, HTML rendering
 ├── email_sender.py        # Gmail delivery
 ├── scheduler.py           # the briefing jobs + local daily scheduler

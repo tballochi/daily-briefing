@@ -1,6 +1,7 @@
 """Entry point for the Daily Briefing agent.
 
 Usage:
+    python main.py --setup    # guided first-time setup (checks every key)
     python main.py --dry-run  # build a briefing and preview it — sends nothing
     python main.py --now      # send today's briefing now (skips if already sent today)
     python main.py --now --force   # send now even if one was already sent today
@@ -20,6 +21,10 @@ def main() -> int:
     setup_logging()
 
     try:
+        if "--setup" in sys.argv:
+            import setup_wizard
+
+            return setup_wizard.main()
         if "--dry-run" in sys.argv:
             run_dry_run()
         elif "--now" in sys.argv:

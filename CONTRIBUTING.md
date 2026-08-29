@@ -24,9 +24,7 @@ CI runs it on Python 3.11 and 3.13 for every push and pull request.
 ## Try your change for real
 
 ```bash
-echo "GROQ_API_KEY=..."   > .env     # free: https://console.groq.com/keys
-echo "TAVILY_API_KEY=..." >> .env    # free: https://app.tavily.com
-
+python main.py --setup    # or write the two keys into .env yourself
 python main.py --dry-run
 ```
 
