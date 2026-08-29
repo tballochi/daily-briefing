@@ -13,6 +13,16 @@ title: Daily Briefing
 # How many stories the briefing contains each morning.
 num_articles: 3
 
+# The Groq model the agent thinks with. Providers deprecate models regularly, so the
+# agent tries `model` first and degrades to `model_fallbacks` in order if it has been
+# decommissioned — a dead model slows the run down, it doesn't kill your briefing.
+# Check what's currently live: https://console.groq.com/docs/deprecations
+# You can also override the primary at runtime with the GROQ_MODEL env var.
+model: openai/gpt-oss-120b
+model_fallbacks:
+  - openai/gpt-oss-20b
+  - qwen/qwen3.8-27b
+
 # The topics the agent researches. Free text — write them the way you'd describe
 # your interests. The agent turns these into web searches and picks the best,
 # most recent, substantive stories across them. Add, remove, reword freely.

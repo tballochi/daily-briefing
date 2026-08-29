@@ -1,6 +1,6 @@
 """AI agent for the daily tech briefing.
 
-Two phases, both driven by Llama 3.3 70B on Groq:
+Two phases, both driven by a Groq-hosted LLM (see `model` in config.yaml):
 
 1. Research agent (tool-using loop): the LLM decides which searches to run, judges
    the results, skips articles already sent on previous days, avoids index/nav
@@ -30,8 +30,6 @@ import history
 
 logger = logging.getLogger("briefing.agent")
 
-GROQ_MODEL = "llama-3.3-70b-versatile"
-
 # Free-tier guardrails ------------------------------------------------------
 TPM_LIMIT = 12000          # Groq free-tier tokens-per-minute ceiling
 TPM_SAFETY = 0.85          # only use 85% of the budget to stay clear of 429s
@@ -47,6 +45,12 @@ FOCUS_KEYWORDS = FOCUS["keywords"] if FOCUS else ()
 
 # Minimum number of focus articles to guarantee in the briefing
 MIN_FOCUS_ARTICLES = 2 if FOCUS else 0
+
+# Models to try, in order, from config.yaml (`model` + `model_fallbacks`). Groq retires
+# models on a rolling basis and a retired one 404s on every call, so we never hardcode a
+# single name: the run degrades to the next model instead of dying.
+# Current deprecations: https://console.groq.com/docs/deprecations
+MODEL_CHAIN = CFG.model_chain
 
 
 def _build_system_prompt() -> str:
@@ -266,17 +270,81 @@ def _url_alive(url: str, timeout: int = 6) -> bool:
     return True
 
 
+# --- Model resolution & graceful degradation -------------------------------
+
+# Index into MODEL_CHAIN of the model currently believed to work. Once a model is
+# found to be gone we stop retrying it for the rest of the run.
+_active_model = 0
+
+# What a retired Groq model looks like: a 404 whose body carries one of these codes.
+# See https://console.groq.com/docs/deprecations for what is being retired next.
+_MODEL_GONE_MARKERS = (
+    "model_not_found",
+    "model_decommissioned",
+    "does not exist or you do not have access",
+    "has been decommissioned",
+)
+
+
+def _is_model_unavailable(exc: Exception) -> bool:
+    """True if this error means "that model is gone", not "that call failed"."""
+    text = str(exc).lower()
+    if any(marker in text for marker in _MODEL_GONE_MARKERS):
+        return True
+    return getattr(exc, "status_code", None) == 404
+
+
+def _chat_completion(client, **kwargs):
+    """Run a Groq completion, degrading through MODEL_CHAIN if a model is retired.
+
+    Deprecations are the one failure mode that takes the agent down permanently and
+    silently (every call 404s from the day the model is decommissioned), so instead of
+    failing we log loudly and try the next model. Only when the whole chain is gone
+    does the run fail — and then the error names every model tried.
+    """
+    global _active_model
+
+    errors: list[str] = []
+    for index in range(_active_model, len(MODEL_CHAIN)):
+        model = MODEL_CHAIN[index]
+        try:
+            response = client.chat.completions.create(model=model, **kwargs)
+        except Exception as exc:  # noqa: BLE001
+            if not _is_model_unavailable(exc):
+                raise
+            errors.append(f"{model}: {exc}")
+            logger.warning(
+                "Groq model %r is unavailable (deprecated/decommissioned?): %s. "
+                "Falling back to the next model in config.yaml. "
+                "Check https://console.groq.com/docs/deprecations",
+                model, exc,
+            )
+            continue
+
+        if index != _active_model:
+            logger.warning("Now using fallback model %r for the rest of this run", model)
+            _active_model = index
+        return response
+
+    raise RuntimeError(
+        "Every Groq model in the fallback chain failed as unavailable "
+        f"({', '.join(MODEL_CHAIN)}). Update `model` / `model_fallbacks` in config.yaml "
+        "with a live model from https://console.groq.com/docs/deprecations. "
+        "Details: " + " | ".join(errors)
+    )
+
+
 def _create_completion(client, messages: list, tool_choice, max_retries: int = 4):
     """Call Groq tool-use, retrying the flaky 'tool_use_failed' parse error.
 
-    Llama occasionally emits a malformed function-call string that Groq rejects
+    The model occasionally emits a malformed function-call string that Groq rejects
     with a 400 tool_use_failed. A simple retry almost always recovers.
     """
     last_exc = None
     for attempt in range(max_retries):
         try:
-            return client.chat.completions.create(
-                model=GROQ_MODEL,
+            return _chat_completion(
+                client,
                 messages=messages,
                 tools=TOOLS,
                 tool_choice=tool_choice,
@@ -595,8 +663,8 @@ Return ONLY JSON with this schema:
 }}"""
 
     client = _groq_client()
-    response = client.chat.completions.create(
-        model=GROQ_MODEL,
+    response = _chat_completion(
+        client,
         messages=[
             {"role": "system", "content": SYNTHESIS_SYSTEM},
             {"role": "user", "content": user},
@@ -753,6 +821,7 @@ def build_briefing() -> tuple[str, str, dict]:
     """
     today = datetime.now().strftime("%B %d, %Y")
     subject = f"{CFG.title} — {today}"
+    logger.info("Model chain: %s", " -> ".join(MODEL_CHAIN))
 
     selected, collected = run_agent_selection(today)
     selected = _ensure_focus_news(selected, collected)

@@ -1,9 +1,10 @@
 """User briefing preferences, loaded from config.yaml.
 
 Personalisation (which topics to cover, how many stories, an optional always-include
-"focus" theme) lives in config.yaml — not in the code — so anyone who clones the repo
-just edits one readable file to make the briefing their own. If the file is missing or
-partial we fall back to sensible built-in defaults, so the briefing always runs.
+"focus" theme, which Groq model to use) lives in config.yaml — not in the code — so
+anyone who clones the repo just edits one readable file to make the briefing their own.
+If the file is missing or partial we fall back to sensible built-in defaults, so the
+briefing always runs.
 """
 
 import os
@@ -12,6 +13,13 @@ import logging
 logger = logging.getLogger("briefing.config")
 
 _CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.yaml")
+
+# Groq deprecates models regularly, so the model is config-driven with a fallback
+# chain: if the primary one is decommissioned the agent degrades to the next instead of
+# failing the whole morning. Check what is still live before changing these:
+# https://console.groq.com/docs/deprecations
+_DEFAULT_MODEL = "openai/gpt-oss-120b"
+_DEFAULT_MODEL_FALLBACKS = ["openai/gpt-oss-20b", "qwen/qwen3.8-27b"]
 
 # Used when config.yaml is absent/unreadable so the agent never hard-fails on config.
 _DEFAULT_TOPICS = [
@@ -48,6 +56,10 @@ class BriefingConfig:
     Attributes:
         title: name shown in the email subject and header (topic-agnostic default).
         num_articles: how many stories the briefing contains.
+        model: the Groq model the agent prefers.
+        model_fallbacks: models tried, in order, if `model` is unavailable.
+        model_chain: `model` followed by `model_fallbacks` (deduplicated) — the exact
+               order the agent tries when a model 404s as deprecated/decommissioned.
         topics: list of free-text interest areas that steer the agent's searches.
         focus: optional dict {label, priority_query, keywords} for a story that must
                always be present (e.g. shipping/CMA CGM); None if not configured.
@@ -60,6 +72,24 @@ class BriefingConfig:
             self.num_articles = max(1, int(data.get("num_articles") or 3))
         except (TypeError, ValueError):
             self.num_articles = 3
+
+        # GROQ_MODEL wins over config.yaml so a dead model can be worked around from
+        # the environment (a GitHub secret/variable) without editing and pushing code.
+        self.model = (
+            os.getenv("GROQ_MODEL", "").strip()
+            or str(data.get("model") or "").strip()
+            or _DEFAULT_MODEL
+        )
+
+        fallbacks = data.get("model_fallbacks")
+        if fallbacks is None:
+            fallbacks = _DEFAULT_MODEL_FALLBACKS
+        self.model_fallbacks = [str(m).strip() for m in fallbacks if str(m).strip()]
+
+        self.model_chain = []
+        for name in [self.model, *self.model_fallbacks]:
+            if name not in self.model_chain:
+                self.model_chain.append(name)
 
         topics = data.get("topics") or _DEFAULT_TOPICS
         self.topics = [str(t).strip() for t in topics if str(t).strip()] or list(_DEFAULT_TOPICS)

@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 logs/
 .DS_Store
+.pytest_cache/
+venv/
+data/preview.html

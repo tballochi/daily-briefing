@@ -4,7 +4,8 @@ A small **AI agent that emails you a personalised news briefing every morning** 
 topics *you* choose, written from real, freshly-searched articles. It runs **100% free**,
 needs **no server** (nothing has to stay on), and delivers reliably **before 10am**.
 
-Built with **Groq (Llama 3.3 70B)** for the AI brain and **Tavily** for live web search.
+Built with **Groq (`openai/gpt-oss-120b` by default, swappable in `config.yaml`)** for
+the AI brain and **Tavily** for live web search.
 
 > Out of the box it's tuned for tech (AI, shipping/logistics, automation), but every
 > topic is configurable — point it at finance, sports, climate, your industry, whatever
@@ -23,9 +24,12 @@ Every morning, an autonomous agent:
 3. **Delivers** — emails you a clean, newspaper-style digest.
 
 It's a real tool-using agent, not a fixed script: it decides what to search and what's
-worth keeping. The whole run fits inside the **Groq + Tavily free tiers**, executes on
-**free GitHub Actions** minutes, and is triggered on time by a **free external pinger**.
-No infrastructure, no cost.
+worth keeping. The model it thinks with is set in `config.yaml`, with a fallback chain —
+if the provider retires a model, the agent drops to the next one instead of going dark.
+
+The whole run fits inside the **Groq + Tavily free tiers**, executes on **free GitHub
+Actions** minutes, and is triggered on time by a **free external pinger**. No
+infrastructure, no cost.
 
 ### What lands in your inbox
 
@@ -59,6 +63,11 @@ This is the **one file** you edit to define the briefing. No code, no secrets:
 title: Daily Briefing        # shown in the email subject + header
 num_articles: 3              # how many stories per morning
 
+model: openai/gpt-oss-120b   # the Groq model the agent thinks with
+model_fallbacks:             # tried in order if the one above is retired
+  - openai/gpt-oss-20b
+  - qwen/qwen3.8-27b
+
 topics:                      # what the agent researches (free text)
   - AI & LLMs (GPT, Claude, agents, MCP)
   - automation & no-code (n8n, Zapier, Make)
@@ -74,6 +83,10 @@ focus:                       # OPTIONAL — a story that's ALWAYS included
 - **`focus`** — guarantees one story on a niche you care about. Set `priority_query` to a
   specific subject to prefer it, or leave it empty (`""`) to just guarantee the theme.
   **Don't want a guaranteed story? Delete the whole `focus:` block.**
+- **`model`** — any model your Groq key can reach; `model_fallbacks` are tried in order
+  if it 404s as deprecated, so a retired model can't take the briefing down. Override the
+  primary without editing the file with the `GROQ_MODEL` env var. Live models:
+  [Groq deprecations](https://console.groq.com/docs/deprecations).
 - No `config.yaml` at all? The agent falls back to sensible defaults, so it always runs.
 
 ### 3. Get 3 free API keys
@@ -165,7 +178,7 @@ passes the morning-window + once-a-day guard — it can never double-send.
 | Tool | Role |
 |------|------|
 | Python 3.11+ | Core language |
-| Groq — Llama 3.3 70B | The agent's brain (decides, summarises) |
+| Groq — `openai/gpt-oss-120b` | The agent's brain (decides, summarises) — configurable, with fallbacks |
 | Tavily | Real-time news search |
 | GitHub Actions | Free runtime for the daily job |
 | cron-job.org | Free external pinger that triggers it on time (~8am Paris) |
