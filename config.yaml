@@ -1,5 +1,5 @@
 # =============================================================================
-#  Daily Tech Briefing — your preferences
+#  Daily Briefing: your preferences
 # =============================================================================
 #  This is the ONE file to edit to make the briefing your own. It does NOT
 #  contain any secrets (API keys stay in .env / GitHub Secrets).
@@ -7,7 +7,7 @@
 # =============================================================================
 
 # Name shown in the email subject line and header. Make it topic-agnostic if your
-# topics aren't all "tech" — e.g. "Daily Briefing", "Morning Digest", "Tom's Brief".
+# topics aren't all "tech", e.g. "Daily Briefing", "Morning Digest", "Tom's Brief".
 title: Daily Briefing
 
 # Small line at the bottom of the email. Set to "" to leave it out.
@@ -18,7 +18,7 @@ num_articles: 3
 
 # The Groq model the agent thinks with. Providers deprecate models regularly, so the
 # agent tries `model` first and degrades to `model_fallbacks` in order if it has been
-# decommissioned — a dead model slows the run down, it doesn't kill your briefing.
+# decommissioned. A dead model slows the run down, it doesn't kill your briefing.
 # Check what's currently live: https://console.groq.com/docs/deprecations
 # You can also override the primary at runtime with the GROQ_MODEL env var.
 model: openai/gpt-oss-120b
@@ -26,7 +26,7 @@ model_fallbacks:
   - openai/gpt-oss-20b
   - qwen/qwen3.8-27b
 
-# The topics the agent researches. Free text — write them the way you'd describe
+# The topics the agent researches. Free text, written the way you'd describe
 # your interests. The agent turns these into web searches and picks the best,
 # most recent, substantive stories across them. Add, remove, reword freely.
 topics:
@@ -35,7 +35,7 @@ topics:
   - automation & no-code (n8n, Zapier, Make)
   - dev tools & open source
 
-# OPTIONAL — a story that must ALWAYS be in the briefing, on top of your topics.
+# OPTIONAL: a story that must ALWAYS be in the briefing, on top of your topics.
 # Useful for a niche you never want to miss. Delete this whole `focus:` block
 # if you don't want a guaranteed story.
 focus:
