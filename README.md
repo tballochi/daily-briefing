@@ -240,8 +240,9 @@ To move outside that window, edit the hour list in the gate step of
 <summary><strong>What if it fails one morning?</strong></summary><br>
 
 It retries once after two minutes. If that also fails you get a short "couldn't send
-today" email explaining why, and the full traceback is in the Actions log. The next
-morning's run is unaffected.
+today" email explaining why, the full traceback goes to the Actions log, and the run is
+marked failed — so a broken morning is red in the Actions tab rather than a green check.
+The next morning's run is unaffected.
 </details>
 
 <details>

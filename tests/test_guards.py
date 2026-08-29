@@ -107,3 +107,44 @@ def test_a_missing_secret_is_reported_before_any_api_call(monkeypatch, spy_send)
         scheduler.run_briefing()
 
     assert spy_send == []
+
+
+# --- A failed briefing must be visibly failed -------------------------------
+
+def test_a_failed_briefing_exits_non_zero(secrets, monkeypatch):
+    """A green check on a broken briefing hid a decommissioned model for 12 days.
+
+    The alert email is best-effort and easy to miss; the Actions run status is not.
+    """
+    monkeypatch.setattr(scheduler.history, "last_sent_date", lambda: "2026-01-01")
+    monkeypatch.setattr(scheduler.time, "sleep", lambda _: None)  # skip the retry delay
+
+    def always_fails():
+        raise RuntimeError("Error code: 404 - model_not_found")
+
+    alerts = []
+    monkeypatch.setattr(scheduler, "_build_and_send", always_fails)
+    monkeypatch.setattr(scheduler, "send_failure_alert", alerts.append)
+
+    with pytest.raises(RuntimeError, match="model_not_found"):
+        scheduler.run_briefing()
+
+    assert len(alerts) == 1, "the failure alert must still be sent"
+
+
+def test_the_retry_still_rescues_a_transient_failure(secrets, monkeypatch):
+    """Only a second failure is fatal — one blip must not fail the run."""
+    monkeypatch.setattr(scheduler.history, "last_sent_date", lambda: "2026-01-01")
+    monkeypatch.setattr(scheduler.time, "sleep", lambda _: None)
+
+    attempts = []
+
+    def fails_once():
+        attempts.append(1)
+        if len(attempts) == 1:
+            raise RuntimeError("transient blip")
+
+    monkeypatch.setattr(scheduler, "_build_and_send", fails_once)
+    scheduler.run_briefing()  # must not raise
+
+    assert len(attempts) == 2

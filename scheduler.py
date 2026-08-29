@@ -3,7 +3,8 @@
 `run_briefing` is idempotent per Paris day: it sends at most one briefing per day,
 no matter how many times it is triggered. This lets the GitHub workflow fire several
 times in the morning window (robust to GitHub cron delays) without ever double-sending.
-On failure it retries once after a short delay, then emails a failure alert.
+On failure it retries once after a short delay, then emails a failure alert and
+exits non-zero so the run is visibly red in GitHub Actions.
 
 `run_dry_run` builds exactly the same briefing but sends nothing and remembers
 nothing — the 2-minute way to see the output with only the two free API keys.
@@ -95,6 +96,10 @@ def run_briefing(force: bool = False) -> None:
     except Exception as exc:  # noqa: BLE001
         logger.exception("Retry also failed: %s. Sending failure alert.", exc)
         send_failure_alert(str(exc))
+        # Re-raise so the process exits non-zero and the GitHub Actions run is marked
+        # failed. Swallowing this made twelve days of broken briefings show a green
+        # check, which is how a decommissioned model went unnoticed for that long.
+        raise
 
 
 def run_dry_run() -> str:

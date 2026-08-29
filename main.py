@@ -35,6 +35,10 @@ def main() -> int:
         # A setting the user can fix: show the explanation, not a stack trace.
         print(f"\n{exc}\n", file=sys.stderr)
         return 1
+    except Exception:  # noqa: BLE001
+        # Already logged with a traceback by the job itself. Exit non-zero so a failed
+        # briefing shows as a failed run instead of a green check.
+        return 1
     return 0
 
 
