@@ -757,6 +757,11 @@ def _render_html(briefing: dict, today: str) -> str:
     """Render the briefing dict into a newspaper-style HTML email."""
     sections_html = "".join(_section_html(s) for s in briefing.get("sections", []))
 
+    # No personal address here — this footer goes out in every clone's briefing.
+    footer = "Curated by your AI Agent"
+    if CFG.footer_note:
+        footer += f" &nbsp;|&nbsp; {CFG.footer_note}"
+
     word = briefing.get("word_of_the_day", {})
     quote = briefing.get("quote_of_the_day", {})
 
@@ -804,7 +809,7 @@ def _render_html(briefing: dict, today: str) -> str:
     </div>
     <div style="padding:20px 36px;border-top:2px solid #111111;text-align:center;">
       <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:1px;
-                color:#888888;">Curated by your AI Agent &nbsp;|&nbsp; tballochi99@gmail.com &nbsp;|&nbsp; Stay ahead of the curve</p>
+                color:#888888;">{footer}</p>
     </div>
   </div>
 </body>

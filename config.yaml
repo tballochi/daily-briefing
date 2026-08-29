@@ -10,6 +10,9 @@
 # topics aren't all "tech" — e.g. "Daily Briefing", "Morning Digest", "Tom's Brief".
 title: Daily Briefing
 
+# Small line at the bottom of the email. Set to "" to leave it out.
+footer_note: Stay ahead of the curve
+
 # How many stories the briefing contains each morning.
 num_articles: 3
 

@@ -55,6 +55,7 @@ class BriefingConfig:
 
     Attributes:
         title: name shown in the email subject and header (topic-agnostic default).
+        footer_note: small line at the bottom of the email (empty to omit).
         num_articles: how many stories the briefing contains.
         model: the Groq model the agent prefers.
         model_fallbacks: models tried, in order, if `model` is unavailable.
@@ -67,6 +68,9 @@ class BriefingConfig:
 
     def __init__(self, data: dict):
         self.title = str(data.get("title") or "").strip() or "Daily Briefing"
+
+        # Deliberately not a personal address: this renders in every clone's inbox.
+        self.footer_note = str(data.get("footer_note", "Stay ahead of the curve") or "").strip()
 
         try:
             self.num_articles = max(1, int(data.get("num_articles") or 3))

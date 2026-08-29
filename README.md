@@ -1,72 +1,91 @@
-# Daily Briefing Agent
+<h1 align="center">Daily Briefing Agent</h1>
 
-A small **AI agent that emails you a personalised news briefing every morning** — on the
-topics *you* choose, written from real, freshly-searched articles. It runs **100% free**,
-needs **no server** (nothing has to stay on), and delivers reliably **before 10am**.
+<p align="center">
+  <strong>Wake up to an AI-written news briefing in your inbox every morning — on your
+  topics, from real freshly-searched articles.<br>100% free, no server, runs entirely on
+  GitHub Actions.</strong>
+</p>
 
-Built with **Groq (`openai/gpt-oss-120b` by default, swappable in `config.yaml`)** for
-the AI brain and **Tavily** for live web search.
+<p align="center">
+  <a href="https://github.com/tballochi/daily-briefing/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/tballochi/daily-briefing/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+  <img alt="Python 3.11+" src="https://img.shields.io/badge/python-3.11%2B-blue.svg">
+  <a href="CONTRIBUTING.md"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
+  <a href="https://github.com/tballochi/daily-briefing/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/tballochi/daily-briefing?style=social"></a>
+</p>
 
-> Out of the box it's tuned for tech (AI, shipping/logistics, automation), but every
-> topic is configurable — point it at finance, sports, climate, your industry, whatever
-> you want to wake up informed about.
+<p align="center">
+  <img src="docs/screenshot-email.png" alt="A rendered Daily Briefing email: three summarised stories with sources and dates, a word of the day, and a quote of the day." width="700">
+</p>
+
+<p align="center"><em>A real briefing, exactly as the agent produced it — nothing in it
+was written by hand.</em></p>
 
 ---
 
-## The concept
+It's 8am. Your coffee is still too hot to drink, so you open your inbox — and the only
+thing worth reading is already there. Three stories that actually matter to you, four
+sentences each, every source linked and dated. Nothing you were sent yesterday. No feed,
+no notifications, no twenty tabs you'll never get back to.
+
+While you were asleep, an agent searched the web on your topics, threw out the filler,
+read what was left and wrote it up. By the time your coffee is drinkable, you're caught
+up — and you close the tab and get on with your day.
+
+That's the whole product. The rest of this README is how to have it running before your
+next coffee.
+
+---
+
+## Try it in 2 minutes
+
+You need **two free API keys** — no Gmail, no deploy, no account anywhere else.
+
+```bash
+git clone https://github.com/tballochi/daily-briefing.git
+cd daily-briefing
+pip install -r requirements.txt
+
+echo "GROQ_API_KEY=..."   > .env     # free: https://console.groq.com/keys
+echo "TAVILY_API_KEY=..." >> .env    # free: https://app.tavily.com
+
+python main.py --dry-run
+```
+
+`--dry-run` researches the news, writes the briefing, prints it to your terminal and
+saves the rendered email to `data/preview.html`. **It sends nothing and stores nothing** —
+so you can see exactly what you'd be getting before setting up delivery.
+
+Then edit `config.yaml` to your own topics and run it again.
+
+---
+
+## What it actually does
 
 Every morning, an autonomous agent:
 
-1. **Researches** — runs several live web searches across *your* topics, judges the
-   results, and skips anything already sent on a previous day.
-2. **Writes** — summarises the chosen stories from their real source text (no
-   hallucinated facts, no fabricated links).
-3. **Delivers** — emails you a clean, newspaper-style digest.
+1. **Researches** — runs live web searches across *your* topics, judges the results, and
+   skips anything it already sent you on a previous day.
+2. **Writes** — summarises the chosen stories from their real source text. No
+   hallucinated facts, no fabricated links: every URL comes from a real search result.
+3. **Delivers** — emails you a newspaper-style digest, before 10am.
 
-It's a real tool-using agent, not a fixed script: it decides what to search and what's
-worth keeping. The model it thinks with is set in `config.yaml`, with a fallback chain —
-if the provider retires a model, the agent drops to the next one instead of going dark.
+It's a tool-using agent, not a fixed script: it decides what to search, judges what's
+worth keeping, and searches again if the results are thin.
 
-The whole run fits inside the **Groq + Tavily free tiers**, executes on **free GitHub
-Actions** minutes, and is triggered on time by a **free external pinger**. No
-infrastructure, no cost.
-
-### What lands in your inbox
-
-A newspaper-style email with:
-
-- **N top stories** (you pick how many) across your chosen topics. Optionally, one slot
-  is reserved for a **focus theme** you never want to miss.
-- For each: a short factual summary, the **publication date**, and a link to the source.
-- **Word of the day** — a real term with a definition and an example.
-- **Quote of the day** — from a well-known figure.
-
-No repeats: once a story is sent, it never comes back.
+**In the email:** your N top stories, each with a factual summary, source and publication
+date · a word of the day · a quote of the day. Optionally, one slot is reserved for a
+**focus theme** you never want to miss.
 
 ---
 
-## Initialize it (start to finish)
+## Make it yours — `config.yaml`
 
-### 1. Clone & install
-
-```bash
-git clone https://github.com/<you>/daily-briefing.git
-cd daily-briefing
-pip install -r requirements.txt
-```
-
-### 2. Make it yours — `config.yaml`
-
-This is the **one file** you edit to define the briefing. No code, no secrets:
+One readable file, no code, no secrets:
 
 ```yaml
 title: Daily Briefing        # shown in the email subject + header
 num_articles: 3              # how many stories per morning
-
-model: openai/gpt-oss-120b   # the Groq model the agent thinks with
-model_fallbacks:             # tried in order if the one above is retired
-  - openai/gpt-oss-20b
-  - qwen/qwen3.8-27b
 
 topics:                      # what the agent researches (free text)
   - AI & LLMs (GPT, Claude, agents, MCP)
@@ -77,109 +96,163 @@ focus:                       # OPTIONAL — a story that's ALWAYS included
   label: shipping / maritime / logistics
   priority_query: CMA CGM    # searched first; preferred when there's fresh news
   keywords: [cma cgm, shipping, maritime, container, freight]
+
+model: openai/gpt-oss-120b   # the Groq model the agent thinks with
+model_fallbacks:             # tried in order if the one above is retired
+  - openai/gpt-oss-20b
+  - qwen/qwen3.8-27b
 ```
 
-- **`topics`** — reword to your interests; the agent turns them into searches.
-- **`focus`** — guarantees one story on a niche you care about. Set `priority_query` to a
-  specific subject to prefer it, or leave it empty (`""`) to just guarantee the theme.
-  **Don't want a guaranteed story? Delete the whole `focus:` block.**
-- **`model`** — any model your Groq key can reach; `model_fallbacks` are tried in order
-  if it 404s as deprecated, so a retired model can't take the briefing down. Override the
-  primary without editing the file with the `GROQ_MODEL` env var. Live models:
-  [Groq deprecations](https://console.groq.com/docs/deprecations).
-- No `config.yaml` at all? The agent falls back to sensible defaults, so it always runs.
-
-### 3. Get 3 free API keys
-
-| Key | Where | Free tier |
-|-----|-------|-----------|
-| Groq | https://console.groq.com/keys | yes |
-| Tavily | https://app.tavily.com | yes (1000 searches/month) |
-| Gmail App Password | https://myaccount.google.com/apppasswords | needs 2FA enabled |
-
-> The Gmail App Password is a 16-character code — **not** your normal Gmail password.
-
-### 4. Choose how to run it
-
-**Option A — locally** (good for a first test):
-
-```bash
-cp .env.example .env      # then fill in the values below
-python main.py --dry-run  # build a briefing and preview it — sends NOTHING
-python main.py --now      # build & send one briefing right now
-python main.py            # or start the local scheduler (daily at 09:00 Paris)
-```
-
-`--dry-run` is the fastest way to see what you'd get: it needs only `GROQ_API_KEY`
-and `TAVILY_API_KEY` (**no Gmail setup at all**), prints the briefing to your
-terminal, and writes the rendered email to `data/preview.html` to open in a browser.
-It sends no email and records nothing in the de-duplication history.
-
-Your `.env` holds the secrets:
-
-```
-GROQ_API_KEY=...
-TAVILY_API_KEY=...
-GMAIL_ADDRESS=...            # the Gmail that sends the email
-GMAIL_APP_PASSWORD=...       # the 16-char app password
-RECIPIENT_EMAIL=...          # where the briefing is delivered
-```
-
-**Option B — automatically on GitHub (recommended, nothing stays on):**
-
-1. Push the repo to your GitHub account.
-2. **Settings → Secrets and variables → Actions** → add the same 5 values as **secrets**:
-   `GROQ_API_KEY`, `TAVILY_API_KEY`, `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD`,
-   `RECIPIENT_EMAIL`.
-3. Test it immediately: **Actions → *Daily Briefing* → Run workflow** (tick `force` to
-   send even if today's already went out).
-
-The workflow is **idempotent** — it sends at most one briefing per day and commits the
-de-duplication history (`data/history.json`) back to the repo after each send, so
-multiple triggers can never double-send.
-
-### 5. Make it punctual — a free external pinger
-
-GitHub's own `schedule:` cron is unreliable on low-activity repos: it drops most triggers
-and can fire hours late, so a fixed "before 10am" delivery isn't guaranteed by it alone.
-The fix (still 100% free) is a tiny external cron that calls GitHub at a fixed time;
-GitHub's own cron stays on as a **best-effort backup**.
-
-**a) Create a GitHub token** — https://github.com/settings/personal-access-tokens/new
-   - Repository access: *Only select repositories* → this repo
-   - Permissions → **Actions: Read and write**
-   - Generate and copy the `github_pat_...` value (keep it secret).
-
-**b) Create a free job on [cron-job.org](https://cron-job.org)** that runs daily at
-   **~08:00 Europe/Paris** with:
-   - **Method**: `POST`
-   - **URL**: `https://api.github.com/repos/<you>/daily-briefing/actions/workflows/daily-briefing.yml/dispatches`
-   - **Body**: `{"ref":"main"}`
-   - **Headers**:
-     - `Accept: application/vnd.github+json`
-     - `Authorization: Bearer <your github_pat_...>`
-     - `X-GitHub-Api-Version: 2022-11-28`
-
-A successful call returns **HTTP 204**. The pinger fires *without* forcing, so it still
-passes the morning-window + once-a-day guard — it can never double-send.
-
-> Renamed the repo later? Update the `<you>/daily-briefing` part of this URL on
-> cron-job.org. GitHub redirects GETs but not reliably POSTs, so fix it by hand.
+Topics are free text — point it at finance, climate, football, your industry, whatever
+you want to wake up informed about. Don't want a guaranteed story? Delete the `focus:`
+block. No `config.yaml` at all? Sensible defaults keep it running.
 
 ---
 
-## Reliability notes
+## Deploy free on GitHub Actions
 
-- **Window guard** — the job only sends between **06:00–11:00 Europe/Paris**; outside that
-  it no-ops, so a stray trigger never emails you at night.
-- **Resilient search** — Tavily calls are throttled and retried with backoff, so a
-  transient blip or free-tier rate limit can't sink the morning's briefing.
-- **Model fallback** — if the configured Groq model is retired, the agent degrades to the
-  next one in `model_fallbacks` instead of failing the run.
-- **Friendly setup errors** — a missing key tells you which one and where to get it,
-  before anything else runs.
-- **Failure alert** — if the agent genuinely finds nothing valid, it emails you a short
-  "couldn't send today" note instead of silently failing.
+Nothing stays on. No server, no container, no cron on your laptop.
+
+**1.** Fork or push this repo to your GitHub account.
+
+**2.** Add 5 **Settings → Secrets and variables → Actions** secrets:
+
+| Secret | Where to get it |
+|--------|-----------------|
+| `GROQ_API_KEY` | [console.groq.com/keys](https://console.groq.com/keys) — free |
+| `TAVILY_API_KEY` | [app.tavily.com](https://app.tavily.com) — free, 1000 searches/month |
+| `GMAIL_ADDRESS` | the Gmail that sends the briefing |
+| `GMAIL_APP_PASSWORD` | [16-char App Password](https://myaccount.google.com/apppasswords) (needs 2FA) — **not** your Gmail password |
+| `RECIPIENT_EMAIL` | where it gets delivered |
+
+**3.** Test it now: **Actions → Daily Briefing → Run workflow**, tick `force`.
+
+**4.** Make it punctual — add a free external pinger (5 minutes, one time):
+
+<details>
+<summary><strong>Why, and how to set up the free cron pinger</strong></summary>
+
+<br>
+
+GitHub's own `schedule:` cron is unreliable on low-activity repos — it drops most
+triggers and can fire hours late, so "before 10am" isn't guaranteed by it alone. The fix,
+still 100% free, is a tiny external cron that calls GitHub at a fixed time. GitHub's own
+cron stays on as a best-effort backup.
+
+**a) Create a GitHub token** — [new fine-grained token](https://github.com/settings/personal-access-tokens/new)
+- Repository access: *Only select repositories* → this repo
+- Permissions → **Actions: Read and write**
+- Copy the `github_pat_...` value
+
+**b) Create a free job on [cron-job.org](https://cron-job.org)**, daily at ~08:00 in your
+timezone:
+
+- **Method**: `POST`
+- **URL**: `https://api.github.com/repos/<you>/daily-briefing/actions/workflows/daily-briefing.yml/dispatches`
+- **Body**: `{"ref":"main"}`
+- **Headers**:
+  - `Accept: application/vnd.github+json`
+  - `Authorization: Bearer <your github_pat_...>`
+  - `X-GitHub-Api-Version: 2022-11-28`
+
+A successful call returns **HTTP 204**. The pinger fires *without* forcing, so it still
+passes the morning-window and once-a-day guards — it can never double-send.
+
+> Renamed the repo later? Update the URL by hand; GitHub redirects GETs but not
+> reliably POSTs.
+
+</details>
+
+---
+
+## Why this one
+
+Honest comparison with the other "AI daily newsletter" repos:
+
+| | |
+|---|---|
+| **Free forever, not free-tier-then-paid** | Groq + Tavily free tiers, free GitHub Actions minutes, free cron pinger. There is no paid step. |
+| **Zero infrastructure** | No server, no Docker, no database, no always-on process. Your keys never leave your own repo's secrets. |
+| **A real agent, not a fixed RSS pipeline** | It chooses its own searches, judges result quality, and searches again when they're thin. |
+| **Never repeats a story** | Sent articles are remembered in `data/history.json`, committed back to the repo, and matched by URL *and* headline. |
+| **Never double-sends** | A morning-window guard plus a once-a-day guard, so several triggers still produce one email. |
+| **Survives model deprecations** | The model is configurable with a fallback chain — a retired model degrades the run instead of killing it. |
+| **Grounded summaries** | Written only from real source text, with links copied from actual search results. |
+
+---
+
+## FAQ
+
+<details>
+<summary><strong>What does it cost?</strong></summary><br>
+
+Nothing. A run uses a handful of Groq calls and up to 6 Tavily searches, well inside both
+free tiers (Tavily gives 1000 searches/month; the briefing uses ~180). GitHub Actions is
+free for public repos. cron-job.org is free. There is no paid tier to graduate into.
+</details>
+
+<details>
+<summary><strong>Where do my API keys live? Is anything sent to you?</strong></summary><br>
+
+Your keys live in **your** GitHub repo's Actions secrets (or your local `.env`, which is
+gitignored). The agent talks only to Groq, Tavily and Gmail's SMTP server. Nothing is
+sent anywhere else, and the author never sees your keys, topics or briefings.
+</details>
+
+<details>
+<summary><strong>How do I change the model?</strong></summary><br>
+
+Edit `model:` in `config.yaml` to any model your Groq key can reach, and list backups
+under `model_fallbacks:`. You can also override it without editing the file by setting
+the `GROQ_MODEL` environment variable (or a `GROQ_MODEL` GitHub Actions *variable*).
+Providers retire models regularly — check
+[Groq's deprecations page](https://console.groq.com/docs/deprecations) for what's live.
+</details>
+
+<details>
+<summary><strong>Can I use something other than Gmail?</strong></summary><br>
+
+Yes, with a small edit. `email_sender.py` uses plain `smtplib` over SSL, so pointing
+`SMTP_HOST` / `SMTP_PORT` at another provider (Fastmail, Zoho, a company relay) and using
+that account's credentials works. Gmail is the default only because its App Passwords are
+free and easy.
+</details>
+
+<details>
+<summary><strong>Can I change the delivery time?</strong></summary><br>
+
+Yes. The time is set by your cron-job.org job; the workflow only enforces a
+**06:00–11:00 Europe/Paris** safety window so a stray trigger can't email you at night.
+To move outside that window, edit the hour list in the gate step of
+`.github/workflows/daily-briefing.yml` (and `TIMEZONE` in `scheduler.py` for local runs).
+</details>
+
+<details>
+<summary><strong>What if it fails one morning?</strong></summary><br>
+
+It retries once after two minutes. If that also fails you get a short "couldn't send
+today" email explaining why, and the full traceback is in the Actions log. The next
+morning's run is unaffected.
+</details>
+
+<details>
+<summary><strong>Can I get more than 3 stories, or several briefings a day?</strong></summary><br>
+
+Set `num_articles:` to whatever you like. One briefing per day is enforced by design —
+the de-duplication history keys on the date — so a second daily send would need that
+guard changed.
+</details>
+
+---
+
+## Run it locally instead
+
+```bash
+cp .env.example .env      # fill in your values
+python main.py --dry-run  # preview only, sends nothing
+python main.py --now      # build & send one briefing now
+python main.py            # run the scheduler (daily at 09:00 Europe/Paris)
+```
 
 ## Tests
 
@@ -188,43 +261,46 @@ pip install -r requirements-dev.txt
 pytest -q
 ```
 
-The suite mocks the network, so it needs no API keys and runs in under a second. It
-covers the model fallback chain, config defaults, de-duplication, and both send guards.
-CI runs it on every push and pull request.
-
----
+Mocked network, no API keys needed, runs in under a second. Covers the model fallback
+chain, config defaults, de-duplication and both send guards. CI runs it on every push.
 
 ## Tech stack
 
 | Tool | Role |
 |------|------|
 | Python 3.11+ | Core language |
-| Groq — `openai/gpt-oss-120b` | The agent's brain (decides, summarises) — configurable, with fallbacks |
+| Groq — `openai/gpt-oss-120b` | The agent's brain — configurable, with fallbacks |
 | Tavily | Real-time news search |
 | GitHub Actions | Free runtime for the daily job |
-| cron-job.org | Free external pinger that triggers it on time (~8am Paris) |
-| smtplib | Sends the email via Gmail |
+| cron-job.org | Free external pinger, so it's punctual |
+| smtplib | Gmail delivery |
 | PyYAML | Reads your `config.yaml` |
 
 ## Project structure
 
 ```
 daily-briefing/
-├── config.yaml                     # Your preferences: title, topics, focus
-├── config.py                       # Loads/validates config.yaml (with defaults)
-├── main.py                         # Entry point (--now to send once)
-├── agent.py                        # The AI agent (research + writing + HTML)
-├── email_sender.py                 # Gmail delivery
-├── scheduler.py                    # Local daily scheduler + logging
-├── history.py                      # Remembers sent articles (no repeats)
-├── data/history.json               # The de-duplication memory
-├── .github/workflows/daily-briefing.yml   # Morning run: window guard + idempotency
-├── requirements.txt
-└── .env.example
+├── config.yaml            # your preferences: title, topics, focus, model
+├── config.py              # loads/validates config.yaml, checks required secrets
+├── main.py                # entry point (--dry-run / --now)
+├── agent.py               # the agent: research loop, writing, HTML rendering
+├── email_sender.py        # Gmail delivery
+├── scheduler.py           # the briefing jobs + local daily scheduler
+├── history.py             # remembers sent articles (no repeats)
+├── data/history.json      # the de-duplication memory
+├── docs/                  # screenshot + sample briefing
+├── tests/                 # pytest suite (no network)
+└── .github/workflows/     # daily-briefing.yml (the morning run) + ci.yml
 ```
 
 ---
 
-## Author
+## Contributing
 
-Timoté Ballochi — https://github.com/tballochi
+Issues and PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
+Built by [Timoté Ballochi](https://github.com/tballochi).
