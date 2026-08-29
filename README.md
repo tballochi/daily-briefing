@@ -10,16 +10,14 @@
   <a href="https://github.com/tballochi/daily-briefing/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/tballochi/daily-briefing/actions/workflows/ci.yml/badge.svg"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
   <img alt="Python 3.11+" src="https://img.shields.io/badge/python-3.11%2B-blue.svg">
-  <a href="CONTRIBUTING.md"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
-  <a href="https://github.com/tballochi/daily-briefing/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/tballochi/daily-briefing?style=social"></a>
 </p>
 
 <p align="center">
   <img src="docs/screenshot-email.png" alt="A rendered Daily Briefing email: three summarised stories with sources and dates, a word of the day, and a quote of the day." width="700">
 </p>
 
-<p align="center"><em>A real briefing, exactly as the agent produced it — nothing in it
-was written by hand.</em></p>
+<p align="center"><em>A real briefing. Every headline, summary and link in it was
+chosen and written by the agent.</em></p>
 
 ---
 
@@ -31,9 +29,6 @@ no notifications, no twenty tabs you'll never get back to.
 While you were asleep, an agent searched the web on your topics, threw out the filler,
 read what was left and wrote it up. By the time your coffee is drinkable, you're caught
 up — and you close the tab and get on with your day.
-
-That's the whole product. The rest of this README is how to have it running before your
-next coffee.
 
 ---
 
@@ -50,12 +45,9 @@ python main.py --setup      # asks for your keys and checks each one works
 python main.py --dry-run    # builds a real briefing — sends nothing
 ```
 
-Prefer doing it by hand? Skip the wizard and write the two keys yourself:
-
-```bash
-echo "GROQ_API_KEY=..."   > .env     # free: https://console.groq.com/keys
-echo "TAVILY_API_KEY=..." >> .env    # free: https://app.tavily.com
-```
+Both keys are free: [Groq](https://console.groq.com/keys) and
+[Tavily](https://app.tavily.com). Prefer not to use the wizard? Put them in a `.env`
+file yourself as `GROQ_API_KEY=` and `TAVILY_API_KEY=`.
 
 `--dry-run` researches the news, writes the briefing, prints it to your terminal and
 saves the rendered email to `data/preview.html`. **It sends nothing and stores nothing** —
@@ -73,7 +65,7 @@ Every morning, an autonomous agent:
    skips anything it already sent you on a previous day.
 2. **Writes** — summarises the chosen stories from their real source text. No
    hallucinated facts, no fabricated links: every URL comes from a real search result.
-3. **Delivers** — emails you a newspaper-style digest, before 10am.
+3. **Delivers** — emails you a newspaper-style digest, at the time you choose.
 
 It's a tool-using agent, not a fixed script: it decides what to search, judges what's
 worth keeping, and searches again if the results are thin.
@@ -181,20 +173,20 @@ passes the morning-window and once-a-day guards — it can never double-send.
 
 ---
 
-## Why this one
+## Design choices
 
-Honest comparison with the other "AI daily newsletter" repos:
+The things this does differently, and what they cost:
 
 | | |
 |---|---|
-| **Free forever, not free-tier-then-paid** | Groq + Tavily free tiers, free GitHub Actions minutes, free cron pinger. There is no paid step. |
-| **Zero infrastructure** | No server, no Docker, no database, no always-on process. Your keys never leave your own repo's secrets. |
-| **A real agent, not a fixed RSS pipeline** | It chooses its own searches, judges result quality, and searches again when they're thin. |
-| **Never repeats a story** | Sent articles are remembered in `data/history.json`, committed back to the repo, and matched by URL *and* headline. |
+| **No paid step, anywhere** | It runs inside the Groq, Tavily and GitHub Actions free tiers — a daily run uses ~180 of Tavily's 1000 monthly searches. Worth being clear: those are three companies' free tiers, not a guarantee I can make. If one changes, this changes. |
+| **No infrastructure** | No server, no Docker, no database, no always-on process. The trade-off is that you're running on GitHub's schedule and inside their limits. |
+| **An agent, not an RSS pipeline** | It picks its own search queries, judges result quality, and searches again when results are thin — which also means it's slower and less predictable than a feed reader. |
+| **Never repeats a story** | Sent articles are matched by normalised URL *and* headline, kept in `data/history.json` and committed back to the repo. No database to run; the trade-off is a daily commit in your history. |
 | **Never double-sends** | A morning-window guard plus a once-a-day guard, so several triggers still produce one email. |
-| **Survives model deprecations** | The model is configurable with a fallback chain — a retired model degrades the run instead of killing it. |
-| **Grounded summaries** | Written only from real source text, with links copied from actual search results. |
-| **Two-minute setup** | `--setup` checks every key against its real API before saving, so a bad credential surfaces now rather than at 8am tomorrow. |
+| **Survives model deprecations** | The model is configurable with a fallback chain. This exists because a hardcoded model was retired by the provider and took the agent down for a day. |
+| **Grounded summaries** | Written only from real source text, and any URL the model didn't actually find in a search result is dropped before it can reach the email. |
+| **Keys stay yours** | They live in your own repo's secrets or your local `.env`. The agent talks to Groq, Tavily and Gmail's SMTP server, and nothing else. |
 
 ---
 
@@ -285,13 +277,11 @@ chain, config defaults, de-duplication and both send guards. CI runs it on every
 
 | Tool | Role |
 |------|------|
-| Python 3.11+ | Core language |
+| Python 3.11+ | Core language — 5 dependencies, no framework |
 | Groq — `openai/gpt-oss-120b` | The agent's brain — configurable, with fallbacks |
 | Tavily | Real-time news search |
-| GitHub Actions | Free runtime for the daily job |
-| cron-job.org | Free external pinger, so it's punctual |
-| smtplib | Gmail delivery |
-| PyYAML | Reads your `config.yaml` |
+| GitHub Actions | Runtime for the daily job |
+| cron-job.org | External pinger, so it fires on time |
 
 ## Project structure
 

@@ -6,3 +6,6 @@ logs/
 .pytest_cache/
 venv/
 data/preview.html
+
+# Local drafts and working notes.
+docs/launch/
