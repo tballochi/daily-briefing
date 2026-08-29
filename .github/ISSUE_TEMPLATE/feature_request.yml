@@ -1,0 +1,51 @@
+name: Feature request
+description: Suggest an improvement or a new capability.
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One constraint up front: this project stays **free and serverless**. Proposals
+        that need a paid service or an always-on process won't be merged, but a free
+        alternative to the same end usually can be.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the problem?
+      description: What are you trying to do that's awkward or impossible today?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like it to do?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part does this touch?
+      options:
+        - Research / source selection
+        - Writing & summaries
+        - Email design or delivery
+        - Another delivery channel (Telegram, Discord, RSS...)
+        - Configuration
+        - Scheduling & reliability
+        - Docs / setup experience
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Constraints
+      options:
+        - label: This can work on free tiers only, with no server or always-on process
+          required: true
+        - label: I'd be willing to open a PR for it

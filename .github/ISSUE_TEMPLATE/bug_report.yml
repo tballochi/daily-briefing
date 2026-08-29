@@ -1,0 +1,77 @@
+name: Bug report
+description: Something broke — a failed run, a bad briefing, a setup problem.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. The error text and the model in use are usually enough to
+        diagnose it — a retired Groq model is the most common cause of a sudden failure.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you get instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message / log output
+      description: >
+        Paste the error. For a GitHub Actions failure, the "Send briefing" step's output;
+        for a local run, the console or logs/briefing.log. Redact your API keys.
+      render: text
+    validations:
+      required: true
+
+  - type: input
+    id: model
+    attributes:
+      label: Which Groq model was in use?
+      description: >
+        The first lines of a run log it ("Model chain: ..."). If you got a 404, also paste
+        the error code — `model_not_found` and `model_decommissioned` mean the model was
+        retired: see https://console.groq.com/docs/deprecations
+      placeholder: "openai/gpt-oss-120b — error code model_not_found"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: how-run
+    attributes:
+      label: How were you running it?
+      options:
+        - GitHub Actions (the daily workflow)
+        - Locally with --dry-run
+        - Locally with --now
+        - Locally with the scheduler
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      placeholder: "3.11.9"
+
+  - type: textarea
+    id: config
+    attributes:
+      label: Your config.yaml
+      description: Optional, but helpful. It contains no secrets.
+      render: yaml
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I ran `python main.py --dry-run` and included the error above
+        - label: I checked that my API keys are set and not expired
+        - label: I removed any API keys from the text I pasted
+          required: true

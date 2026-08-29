@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Setup help — try the dry run first
+    url: https://github.com/tballochi/daily-briefing#try-it-in-2-minutes
+    about: "`python main.py --dry-run` needs only two free API keys and reports missing settings by name."
+  - name: Groq model deprecations
+    url: https://console.groq.com/docs/deprecations
+    about: A sudden model_not_found error usually means the configured model was retired.
