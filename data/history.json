@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "seatrade-maritime.com/containers/maersk-sharply-ups-full-year-profit-forecast",
-      "title_key": "maersk sharply ups full year profit forecast - seatrade maritime news",
-      "url": "https://www.seatrade-maritime.com/containers/maersk-sharply-ups-full-year-profit-forecast",
-      "title": "Maersk sharply ups full year profit forecast - Seatrade Maritime News",
-      "date": "2026-07-01T06:01:29.576822"
-    },
-    {
-      "url_key": "theneurondaily.com/p/openai-launched-sol-terra-and-luna-kiiinda",
-      "title_key": "😺 openai launched sol, terra, and luna... kiiinda. - the neuron",
-      "url": "https://www.theneurondaily.com/p/openai-launched-sol-terra-and-luna-kiiinda",
-      "title": "😺 OpenAI launched Sol, Terra, and Luna... kiiinda. - The Neuron",
-      "date": "2026-07-01T06:01:29.576822"
-    },
-    {
-      "url_key": "thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
-      "title_key": "⚡ weekly recap: linux kernel flaws, ai malware tricks, turla backdoor, infostealers and more - the hacker news",
-      "url": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
-      "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More - The Hacker News",
-      "date": "2026-07-01T06:01:29.576822"
-    },
-    {
       "url_key": "globalbankingandfinance.com/cma-cgm-buy-fedex-third-party-logistics-arm-1-4-billion-deal",
       "title_key": "cma cgm to acquire fedex third-party logistics arm for $1.4 billion - global banking & finance review",
       "url": "https://www.globalbankingandfinance.com/cma-cgm-buy-fedex-third-party-logistics-arm-1-4-billion-deal/",
@@ -1028,13 +1007,30 @@
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
       "title": "Our decision on Cursor following its acquisition by SpaceX | OpenAI",
       "date": "2026-08-29T07:52:48.457892"
+    },
+    {
+      "url_key": "marinelink.com/news/classnk-launches-survey-compass-ai-542431",
+      "title_key": "classnk launches survey compass ai assistant for ship",
+      "url": "https://www.marinelink.com/news/classnk-launches-survey-compass-ai-542431",
+      "title": "Classnk Launches Survey Compass AI Assistant For Ship",
+      "date": "2026-08-30T06:03:58.552701"
+    },
+    {
+      "url_key": "reuters.com/legal/legalindustry/wikihow-sues-openai-copyright-infringement-over-ai-training-2026-08-24",
+      "title_key": "wikihow sues openai for copyright infringement over ai ...",
+      "url": "https://www.reuters.com/legal/legalindustry/wikihow-sues-openai-copyright-infringement-over-ai-training-2026-08-24",
+      "title": "WikiHow sues OpenAI for copyright infringement over AI ...",
+      "date": "2026-08-30T06:03:58.552701"
+    },
+    {
+      "url_key": "releasebot.io/updates/n8n",
+      "title_key": "n8n release notes - august 2026 latest updates",
+      "url": "https://releasebot.io/updates/n8n",
+      "title": "n8n Release Notes - August 2026 Latest Updates",
+      "date": "2026-08-30T06:03:58.552701"
     }
   ],
   "words": [
-    {
-      "word": "polymerization",
-      "date": "2026-07-16T06:02:49.734407"
-    },
     {
       "word": "experientialism",
       "date": "2026-07-17T06:04:23.013153"
@@ -1166,14 +1162,13 @@
     {
       "word": "sharding",
       "date": "2026-08-29T07:52:48.457892"
+    },
+    {
+      "word": "memoization",
+      "date": "2026-08-30T06:03:58.552701"
     }
   ],
   "quotes": [
-    {
-      "text": "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.",
-      "author": "Michelangelo",
-      "date": "2026-07-16T06:02:49.734407"
-    },
     {
       "text": "The best way to predict the future is to invent it, but the best way to invent the future is to understand the present.",
       "author": "Alan Kay",
@@ -1338,7 +1333,12 @@
       "text": "Your most unhappy customers are your greatest source of learning.",
       "author": "Bill Gates",
       "date": "2026-08-29T07:52:48.457892"
+    },
+    {
+      "text": "Innovation distinguishes between a leader and a follower.",
+      "author": "Steve Jobs",
+      "date": "2026-08-30T06:03:58.552701"
     }
   ],
-  "last_sent_date": "2026-08-29"
+  "last_sent_date": "2026-08-30"
 }
