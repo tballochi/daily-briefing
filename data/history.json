@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "globalbankingandfinance.com/cma-cgm-buy-fedex-third-party-logistics-arm-1-4-billion-deal",
-      "title_key": "cma cgm to acquire fedex third-party logistics arm for $1.4 billion - global banking & finance review",
-      "url": "https://www.globalbankingandfinance.com/cma-cgm-buy-fedex-third-party-logistics-arm-1-4-billion-deal/",
-      "title": "CMA CGM to Acquire FedEx Third-Party Logistics Arm for $1.4 Billion - Global Banking & Finance Review",
-      "date": "2026-07-02T06:02:31.909101"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/37th_state_of_logistics_ocean",
-      "title_key": "37th state of logistics: ocean - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/37th_state_of_logistics_ocean",
-      "title": "37th State of Logistics: Ocean - Logistics Management",
-      "date": "2026-07-02T06:02:31.909101"
-    },
-    {
-      "url_key": "therobotreport.com/top-10-robotic-stories-june-2026",
-      "title_key": "top 10 robotics developments of june 2026 - the robot report",
-      "url": "https://www.therobotreport.com/top-10-robotic-stories-june-2026/",
-      "title": "Top 10 robotics developments of June 2026 - The Robot Report",
-      "date": "2026-07-02T06:02:31.909101"
-    },
-    {
       "url_key": "reuters.com/legal/transactional/cma-cgm-buy-fedex-third-party-logistics-arm-14-billion-deal-2026-07-01",
       "title_key": "cma cgm to buy fedex third-party logistics arm for $1.4 billion - reuters",
       "url": "https://www.reuters.com/legal/transactional/cma-cgm-buy-fedex-third-party-logistics-arm-14-billion-deal-2026-07-01/",
@@ -1028,13 +1007,30 @@
       "url": "https://releasebot.io/updates/n8n",
       "title": "n8n Release Notes - August 2026 Latest Updates",
       "date": "2026-08-30T06:03:58.552701"
+    },
+    {
+      "url_key": "caliber.az/en/post/saudi-arabia-france-sign-major-deals-on-defence-ai-and-investment",
+      "title_key": "saudi arabia, france sign major deals on defence, ai and investment",
+      "url": "https://caliber.az/en/post/saudi-arabia-france-sign-major-deals-on-defence-ai-and-investment",
+      "title": "Saudi Arabia, France sign major deals on defence, AI and investment",
+      "date": "2026-08-31T06:05:45.137881"
+    },
+    {
+      "url_key": "unite.ai/openai-brings-gpt-5-6-model-family-to-awss-kiro",
+      "title_key": "openai brings gpt-5.6 model family to aws’s kiro – unite.ai",
+      "url": "https://www.unite.ai/openai-brings-gpt-5-6-model-family-to-awss-kiro",
+      "title": "OpenAI Brings GPT-5.6 Model Family to AWS’s Kiro – Unite.AI",
+      "date": "2026-08-31T06:05:45.137881"
+    },
+    {
+      "url_key": "facebook.com/groups/763037808641014/posts/1612372630374190",
+      "title_key": "saudi arabia's rsgt, france's cma cgm sign deal to ...",
+      "url": "https://www.facebook.com/groups/763037808641014/posts/1612372630374190",
+      "title": "Saudi Arabia's RSGT, France's CMA CGM sign deal to ...",
+      "date": "2026-08-31T06:05:45.137881"
     }
   ],
   "words": [
-    {
-      "word": "experientialism",
-      "date": "2026-07-17T06:04:23.013153"
-    },
     {
       "word": "inference",
       "date": "2026-07-18T06:01:26.654035"
@@ -1166,14 +1162,13 @@
     {
       "word": "memoization",
       "date": "2026-08-30T06:03:58.552701"
+    },
+    {
+      "word": "garbage collection",
+      "date": "2026-08-31T06:05:45.137881"
     }
   ],
   "quotes": [
-    {
-      "text": "The best way to predict the future is to invent it, but the best way to invent the future is to understand the present.",
-      "author": "Alan Kay",
-      "date": "2026-07-17T06:04:23.013153"
-    },
     {
       "text": "Software is a great combination of artistry and engineering.",
       "author": "Bill Gates",
@@ -1338,7 +1333,12 @@
       "text": "Innovation distinguishes between a leader and a follower.",
       "author": "Steve Jobs",
       "date": "2026-08-30T06:03:58.552701"
+    },
+    {
+      "text": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs",
+      "date": "2026-08-31T06:05:45.137881"
     }
   ],
-  "last_sent_date": "2026-08-30"
+  "last_sent_date": "2026-08-31"
 }
