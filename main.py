@@ -8,6 +8,7 @@ Usage:
     python main.py            # start the scheduler (daily at 09:00 Europe/Paris)
 """
 
+import logging
 import sys
 
 from dotenv import load_dotenv
@@ -36,8 +37,10 @@ def main() -> int:
         print(f"\n{exc}\n", file=sys.stderr)
         return 1
     except Exception:  # noqa: BLE001
-        # Already logged with a traceback by the job itself. Exit non-zero so a failed
-        # briefing shows as a failed run instead of a green check.
+        # Log here as well as exiting non-zero: run_briefing logs its own traceback
+        # before re-raising, but --dry-run and --setup do not, and a command that dies
+        # with no output and a bare exit code is impossible to diagnose.
+        logging.getLogger("briefing").exception("Command failed")
         return 1
     return 0
 

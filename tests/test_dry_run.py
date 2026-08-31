@@ -72,3 +72,24 @@ def test_the_console_preview_shows_the_story_word_and_quote():
     assert "https://example.com/a" in text
     assert "idempotency" in text
     assert "Edsger Dijkstra" in text
+
+
+def test_a_failing_command_reports_why_instead_of_exiting_silently(dry_run_env, monkeypatch, caplog):
+    """Exiting non-zero with no output is undiagnosable.
+
+    run_briefing logs its own traceback before re-raising, but --dry-run and --setup
+    do not, so the top-level handler has to log or the failure is invisible.
+    """
+    import logging
+    import main
+
+    monkeypatch.setattr(scheduler, "build_briefing", lambda: 1 / 0)
+    monkeypatch.setattr(main, "load_dotenv", lambda *a, **k: False)
+    monkeypatch.setattr(main, "setup_logging", lambda: None)
+    monkeypatch.setattr(main.sys, "argv", ["main.py", "--dry-run"])
+
+    with caplog.at_level(logging.ERROR, logger="briefing"):
+        assert main.main() == 1
+
+    assert caplog.records, "a failing command must log something"
+    assert caplog.records[-1].exc_info, "the traceback must be logged, not just a message"
