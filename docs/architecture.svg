@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" width="900" height="430" role="img" aria-label="Architecture: a free cron service posts to GitHub Actions at 08:00, the runner searches with Tavily, writes with Groq, delivers through Gmail SMTP and commits its de-duplication state back to the repo, then disappears.">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0B2C4D"/>
+    </marker>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8172"/>
+    </marker>
+    <style>
+      .t   { font-family: Georgia,'Times New Roman',serif; font-size:17px; font-weight:700; fill:#111; }
+      .s   { font-family: Arial,Helvetica,sans-serif; font-size:12px; fill:#5a5a5a; }
+      .lbl { font-family: Arial,Helvetica,sans-serif; font-size:11px; font-weight:700; letter-spacing:.8px; fill:#0B2C4D; text-transform:uppercase; }
+      .step{ font-family: Arial,Helvetica,sans-serif; font-size:12.5px; fill:#2b2b2b; }
+      .foot{ font-family: Georgia,'Times New Roman',serif; font-size:15px; font-style:italic; fill:#111; }
+      .box { fill:#fffdf8; stroke:#c9c2b4; stroke-width:1.5; }
+      .run { fill:#f6f3ec; stroke:#111; stroke-width:2; }
+    </style>
+  </defs>
+
+  <rect width="900" height="430" fill="#efece4"/>
+
+  <!-- timer -->
+  <rect class="box" x="20" y="62" width="168" height="92" rx="3"/>
+  <text class="t"   x="104" y="94"  text-anchor="middle">cron-job.org</text>
+  <text class="s"   x="104" y="115" text-anchor="middle">free external timer</text>
+  <text class="s"   x="104" y="133" text-anchor="middle">fires at 08:00 daily</text>
+
+  <line x1="190" y1="108" x2="256" y2="108" stroke="#0B2C4D" stroke-width="2" marker-end="url(#a)"/>
+  <text class="lbl" x="223" y="98" text-anchor="middle">POST</text>
+
+  <!-- runner -->
+  <rect class="run" x="262" y="30" width="356" height="156" rx="3"/>
+  <text class="t"    x="286" y="60">GitHub Actions runner</text>
+  <text class="s"    x="286" y="80">starts up, works 2–4 minutes, disappears</text>
+  <text class="step" x="286" y="110">1 · checks out the repo, installs 5 deps</text>
+  <text class="step" x="286" y="134">2 · runs the research + writing agent</text>
+  <text class="step" x="286" y="158">3 · sends the email, commits its memory</text>
+
+  <line x1="620" y1="108" x2="686" y2="108" stroke="#0B2C4D" stroke-width="2" marker-end="url(#a)"/>
+  <text class="lbl" x="653" y="98" text-anchor="middle">EMAIL</text>
+
+  <!-- inbox -->
+  <rect class="box" x="690" y="62" width="188" height="92" rx="3"/>
+  <text class="t" x="784" y="94"  text-anchor="middle">Your inbox</text>
+  <text class="s" x="784" y="115" text-anchor="middle">newspaper-style briefing</text>
+  <text class="s" x="784" y="133" text-anchor="middle">waiting when you wake up</text>
+
+  <!-- services the runner calls -->
+  <path d="M319,186 L319,246" stroke="#8a8172" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#b)"/>
+  <path d="M440,186 L440,246" stroke="#8a8172" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#b)"/>
+  <path d="M561,186 L561,246" stroke="#8a8172" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#b)"/>
+
+  <rect class="box" x="262" y="250" width="114" height="66" rx="3"/>
+  <text class="t" x="319" y="277" text-anchor="middle">Tavily</text>
+  <text class="s" x="319" y="299" text-anchor="middle">live web search</text>
+
+  <rect class="box" x="383" y="250" width="114" height="66" rx="3"/>
+  <text class="t" x="440" y="277" text-anchor="middle">Groq</text>
+  <text class="s" x="440" y="299" text-anchor="middle">picks and writes</text>
+
+  <rect class="box" x="504" y="250" width="114" height="66" rx="3"/>
+  <text class="t" x="561" y="277" text-anchor="middle" style="font-size:15px">Gmail SMTP</text>
+  <text class="s" x="561" y="299" text-anchor="middle">delivery</text>
+
+  <text class="lbl" x="319" y="338" text-anchor="middle">FREE TIER</text>
+  <text class="lbl" x="440" y="338" text-anchor="middle">FREE TIER</text>
+  <text class="lbl" x="561" y="338" text-anchor="middle">FREE TIER</text>
+
+  <!-- state committed back to the repo -->
+  <path d="M618,150 C668,150 690,190 690,246" fill="none" stroke="#0B2C4D" stroke-width="2" marker-end="url(#a)"/>
+  <rect class="box" x="690" y="250" width="188" height="66" rx="3"/>
+  <text class="t" x="784" y="277" text-anchor="middle">Your repo</text>
+  <text class="s" x="784" y="299" text-anchor="middle">data/history.json, so no repeats</text>
+
+  <text class="foot" x="450" y="392" text-anchor="middle">No server, no container, no database. Nothing is running the other 23 hours and 56 minutes.</text>
+</svg>

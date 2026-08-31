@@ -53,6 +53,10 @@ file yourself as `GROQ_API_KEY=` and `TAVILY_API_KEY=`.
 saves the rendered email to `data/preview.html`. **It sends nothing and stores nothing**,
 so you can see exactly what you'd be getting before setting up delivery.
 
+<p align="center">
+  <img src="docs/screenshot-dry-run.png" alt="Terminal output of python main.py --dry-run: the agent logs its model chain and its searches, then prints three summarised stories with their links, and confirms nothing was emailed or recorded." width="720">
+</p>
+
 Then edit `config.yaml` to your own topics and run it again.
 
 ---
@@ -69,6 +73,10 @@ Every morning, an autonomous agent:
 
 It's a tool-using agent, not a fixed script: it decides what to search, judges what's
 worth keeping, and searches again if the results are thin.
+
+<p align="center">
+  <img src="docs/architecture.svg" alt="A free cron service posts to GitHub Actions at 08:00. The runner checks out the repo, runs the agent against Tavily and Groq, sends the email through Gmail SMTP, commits its de-duplication state back to the repo, and disappears." width="820">
+</p>
 
 **In the email:** your N top stories, each with a factual summary, source and publication
 date · a word of the day · a quote of the day. Optionally, one slot is reserved for a
