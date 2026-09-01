@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "reuters.com/legal/transactional/cma-cgm-buy-fedex-third-party-logistics-arm-14-billion-deal-2026-07-01",
-      "title_key": "cma cgm to buy fedex third-party logistics arm for $1.4 billion - reuters",
-      "url": "https://www.reuters.com/legal/transactional/cma-cgm-buy-fedex-third-party-logistics-arm-14-billion-deal-2026-07-01/",
-      "title": "CMA CGM to buy FedEx third-party logistics arm for $1.4 billion - Reuters",
-      "date": "2026-07-03T06:01:37.964521"
-    },
-    {
-      "url_key": "marinelink.com/news/fleetwork-posidonia-signals-turning-point-540885",
-      "title_key": "fleetwork: posidonia 2026 signals turning point for al, cloud adoption in shipping - marine link",
-      "url": "https://www.marinelink.com/news/fleetwork-posidonia-signals-turning-point-540885",
-      "title": "Fleetwork: Posidonia 2026 Signals Turning Point for Al, Cloud Adoption in Shipping - Marine Link",
-      "date": "2026-07-03T06:01:37.964521"
-    },
-    {
-      "url_key": "law.com/corpcounsel/2026/06/29/legal-ai-is-only-as-smart-as-the-system-behind-it",
-      "title_key": "legal ai is only as smart as the system behind it - law.com",
-      "url": "https://www.law.com/corpcounsel/2026/06/29/legal-ai-is-only-as-smart-as-the-system-behind-it/",
-      "title": "Legal AI Is Only as Smart as the System Behind It - Law.com",
-      "date": "2026-07-03T06:01:37.964521"
-    },
-    {
       "url_key": "logisticsmgmt.com/article/cma_cgm_is_set_to_acquire_fedex_supply_chain_in_1.4_billion_deal_significantly_expanding_north_american_logistics_footprint",
       "title_key": "cma cgm is set to acquire fedex supply chain in $1.4 billion deal, significantly expanding north american logistics footprint - logistics management",
       "url": "https://www.logisticsmgmt.com/article/cma_cgm_is_set_to_acquire_fedex_supply_chain_in_1.4_billion_deal_significantly_expanding_north_american_logistics_footprint",
@@ -1028,13 +1007,30 @@
       "url": "https://www.facebook.com/groups/763037808641014/posts/1612372630374190",
       "title": "Saudi Arabia's RSGT, France's CMA CGM sign deal to ...",
       "date": "2026-08-31T06:05:45.137881"
+    },
+    {
+      "url_key": "app.dealroom.co/news/note/cambridge-pixel-to-demonstrate-autonomous-vessel-sensor-software-at-smm-2026",
+      "title_key": "cambridge pixel to demonstrate autonomous vessel sensor software at smm 2026 | dealroom.co",
+      "url": "https://app.dealroom.co/news/note/cambridge-pixel-to-demonstrate-autonomous-vessel-sensor-software-at-smm-2026",
+      "title": "Cambridge Pixel to demonstrate autonomous vessel sensor software at SMM 2026 | Dealroom.co",
+      "date": "2026-09-01T06:04:30.773217"
+    },
+    {
+      "url_key": "geeky-gadgets.com/gpt-6-vs-gemini-4-leaks",
+      "title_key": "openai chatgpt 6 astra reportedly packs 10 trillion parameters",
+      "url": "https://www.geeky-gadgets.com/gpt-6-vs-gemini-4-leaks",
+      "title": "OpenAI ChatGPT 6 Astra Reportedly Packs 10 Trillion Parameters",
+      "date": "2026-09-01T06:04:30.773217"
+    },
+    {
+      "url_key": "tech-insider.org/meta-hatch-ai-agent-watermelon-model-2026",
+      "title_key": "meta hatch ai agents, watermelon model at $199.99 [2026]",
+      "url": "https://tech-insider.org/meta-hatch-ai-agent-watermelon-model-2026",
+      "title": "Meta Hatch AI Agents, Watermelon Model at $199.99 [2026]",
+      "date": "2026-09-01T06:04:30.773217"
     }
   ],
   "words": [
-    {
-      "word": "inference",
-      "date": "2026-07-18T06:01:26.654035"
-    },
     {
       "word": "idempotency",
       "date": "2026-07-19T06:01:21.004916"
@@ -1166,14 +1162,13 @@
     {
       "word": "garbage collection",
       "date": "2026-08-31T06:05:45.137881"
+    },
+    {
+      "word": "protobuf",
+      "date": "2026-09-01T06:04:30.773217"
     }
   ],
   "quotes": [
-    {
-      "text": "Software is a great combination of artistry and engineering.",
-      "author": "Bill Gates",
-      "date": "2026-07-18T06:01:26.654035"
-    },
     {
       "text": "The best way to predict the future is to invent it.",
       "author": "Alan Kay",
@@ -1338,7 +1333,12 @@
       "text": "The only way to do great work is to love what you do.",
       "author": "Steve Jobs",
       "date": "2026-08-31T06:05:45.137881"
+    },
+    {
+      "text": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs",
+      "date": "2026-09-01T06:04:30.773217"
     }
   ],
-  "last_sent_date": "2026-08-31"
+  "last_sent_date": "2026-09-01"
 }
