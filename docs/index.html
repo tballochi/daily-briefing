@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My CI was green for twelve days while the job failed every morning</title>
+<meta name="description" content="A GitHub Actions job caught its own error, emailed an alert and exited 0, so twelve failed mornings showed as green checks. What caused it, and the free serverless setup it runs on.">
+<meta property="og:title" content="My CI was green for twelve days while the job failed every morning">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://raw.githubusercontent.com/tballochi/daily-briefing/main/docs/architecture.svg">
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:#e9e6df; color:#111;
+         font-family: Georgia,'Times New Roman',serif; line-height:1.7; }
+  .sheet { max-width:760px; margin:0 auto; background:#fff; padding:0 0 64px;
+            border-left:1px solid #ddd; border-right:1px solid #ddd; }
+  header { padding:44px 44px 24px; border-bottom:4px double #111; text-align:center; }
+  .kicker { font-family:Arial,Helvetica,sans-serif; font-size:11px; letter-spacing:3px;
+             text-transform:uppercase; color:#0B2C4D; margin-bottom:14px; }
+  h1 { font-size:34px; line-height:1.2; margin:0 0 14px; }
+  .byline { font-family:Arial,Helvetica,sans-serif; font-size:12px; letter-spacing:1px;
+             text-transform:uppercase; color:#666; }
+  main { padding:0 44px; }
+  main > p { font-size:17px; margin:22px 0; }
+  h2 { font-size:23px; margin:44px 0 6px; padding-top:22px; border-top:1px solid #ddd; }
+  a { color:#0B2C4D; }
+  code { font-family:'SF Mono',Menlo,Consolas,monospace; font-size:13.5px;
+          background:#f2efe8; padding:1px 5px; border-radius:3px; }
+  pre { background:#15171c; color:#d5d1c8; padding:18px 20px; overflow-x:auto;
+         border-radius:6px; font-size:13px; line-height:1.6; }
+  pre code { background:none; padding:0; color:inherit; font-size:13px; }
+  img { max-width:100%; height:auto; display:block; margin:28px auto;
+         border:1px solid #ddd; }
+  ul { padding-left:22px; } li { margin:8px 0; font-size:17px; }
+  footer { max-width:760px; margin:0 auto; padding:26px 44px 60px; text-align:center;
+            font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#777; }
+  @media (max-width:640px) { header,main { padding-left:22px; padding-right:22px; }
+                              h1 { font-size:27px; } }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <header>
+    <div class="kicker">Daily Briefing &middot; Engineering notes</div>
+    <h1>My CI was green for twelve days while the job failed every morning</h1>
+    <div class="byline">Timot&eacute; Ballochi &middot; September 2026</div>
+  </header>
+  <main>
+<p>Every morning a GitHub Actions job researches the news and emails me a briefing. Last
+Saturday I opened the Actions tab for an unrelated reason and found twelve consecutive
+green checks, covering twelve mornings on which no briefing had been sent.</p>
+<p>It had been broken since August 17. The job caught its own error, emailed me an alert,
+and exited 0. GitHub rendered a green check for each one.</p>
+<p>I had built the failure notification and then stopped reading it, because an alert you
+receive every morning is an alert you stop seeing. The signal I actually looked at, the
+green check, was lying to me the whole time.</p>
+<p>Here is the bug, the deeper mistake underneath it, and the free serverless setup it all
+runs on.</p>
+<h2>The bug: a model name I had hardcoded</h2>
+<p>One morning I got this instead of my briefing:</p>
+<pre><code>Reason: Error code: 404 - {'error': {'message': 'The model
+`llama-3.3-70b-versatile` does not exist or you do not have access to it.',
+'code': 'model_not_found'}}
+</code></pre>
+<p>Groq had retired the model. I'd hardcoded the name, so every call 404'd and the agent was
+dead until I noticed.</p>
+<p>The lesson isn't "use a different model". It's that a hardcoded model name is a time bomb
+with someone else's fuse. The model now lives in config with a fallback chain:</p>
+<pre><code class="language-yaml">model: openai/gpt-oss-120b
+model_fallbacks:
+  - openai/gpt-oss-20b
+  - qwen/qwen3.8-27b
+</code></pre>
+<p>and a retirement degrades the run instead of ending it:</p>
+<pre><code class="language-python">def _chat_completion(client, **kwargs):
+    &quot;&quot;&quot;Run a Groq completion, degrading through MODEL_CHAIN if a model is retired.&quot;&quot;&quot;
+    global _active_model
+
+    for index in range(_active_model, len(MODEL_CHAIN)):
+        model = MODEL_CHAIN[index]
+        try:
+            response = client.chat.completions.create(model=model, **kwargs)
+        except Exception as exc:
+            if not _is_model_unavailable(exc):
+                raise
+            logger.warning(&quot;Groq model %r is unavailable: %s. Falling back.&quot;, model, exc)
+            continue
+
+        if index != _active_model:
+            logger.warning(&quot;Now using fallback model %r for the rest of this run&quot;, model)
+            _active_model = index
+        return response
+
+    raise RuntimeError(&quot;Every Groq model in the fallback chain failed as unavailable&quot;)
+</code></pre>
+<p>Once a model is known dead, <code>_active_model</code> advances so the rest of the run doesn't keep
+paying for the same 404. Only when the entire chain is gone does the run fail, and the
+error then names every model it tried.</p>
+<p>If you're building on a hosted LLM API: put the model name in config today, before you
+need to.</p>
+<h2>The mistake behind the mistake</h2>
+<p>Here's the part that actually stings. When I went to verify the fix, I looked at the
+Actions history and found twelve consecutive green checks, while the briefing had not
+been sent once since the model was retired.</p>
+<p>The job was exiting 0 on failure:</p>
+<pre><code class="language-python">    try:
+        _build_and_send()
+    except Exception as exc:
+        logger.exception(&quot;Retry also failed: %s. Sending failure alert.&quot;, exc)
+        send_failure_alert(str(exc))
+        # ...and then nothing. The function returns normally, the process exits 0,
+        # and GitHub renders a green check for a morning that never happened.
+</code></pre>
+<p>I'd written a failure-alert email and treated that as the notification channel. But an
+email you get every morning is an email you stop reading, and the signal I actually check
+the green check in the Actions tab, was lying to me. The alert fired twelve times and
+I noticed on day twelve.</p>
+<p>The fix is one line, <code>raise</code> after the alert, so the run goes red. The lesson is bigger
+than the line: <strong>a handled error that leaves your status green isn't handled, it's
+hidden.</strong> If you catch an exception at the top level of a scheduled job, make sure the
+thing you actually look at still turns red.</p>
+<h2>The whole architecture</h2>
+<p>There isn't a server. There isn't a container, a database, or a process that stays on.</p>
+<p><img alt="Architecture: a free cron service posts to GitHub Actions at 08:00; the runner searches with Tavily, writes with Groq, delivers through Gmail SMTP, commits its de-duplication state back to the repo, and disappears." src="https://raw.githubusercontent.com/tballochi/daily-briefing/main/docs/architecture.svg" /></p>
+<p>A free external cron service sends one HTTP request each morning. That request triggers a
+GitHub Actions job in my own repo, which installs Python, injects my API keys from repo
+secrets, runs the agent for a few minutes, sends the email, and commits its de-duplication
+state back into the repository.</p>
+<p>The two pieces are often confused, so to be explicit: <strong>the pinger only knows how to send
+an HTTP request.</strong> It can't run code, hold secrets, or store anything. GitHub Actions is
+the machine that does the actual work. The pinger just tells it when.</p>
+<p>Everything sits inside free tiers: Groq's free API, Tavily's free search (1000 searches a
+month; a daily run uses about 180), free Actions minutes on public repos, and a free cron
+job. There's no paid step in the design and no point where it starts asking for a card.</p>
+<h2>The agent loop</h2>
+<p>This is a tool-using loop, not an RSS pipeline. The model gets two tools:</p>
+<pre><code class="language-python">TOOLS = [
+    {
+        &quot;type&quot;: &quot;function&quot;,
+        &quot;function&quot;: {
+            &quot;name&quot;: &quot;search_news&quot;,
+            &quot;description&quot;: (
+                &quot;Search the web for recent news (last 7 days) on a query. Returns a &quot;
+                &quot;list of articles with title, url, snippet, date and an already_sent flag.&quot;
+            ),
+            &quot;parameters&quot;: {
+                &quot;type&quot;: &quot;object&quot;,
+                &quot;properties&quot;: {&quot;query&quot;: {&quot;type&quot;: &quot;string&quot;}},
+                &quot;required&quot;: [&quot;query&quot;],
+            },
+        },
+    },
+    {
+        &quot;type&quot;: &quot;function&quot;,
+        &quot;function&quot;: {
+            &quot;name&quot;: &quot;finalize_selection&quot;,
+            &quot;description&quot;: &quot;Submit the chosen articles once strong, non-duplicate stories are found.&quot;,
+            &quot;parameters&quot;: {
+                &quot;type&quot;: &quot;object&quot;,
+                &quot;properties&quot;: {&quot;urls&quot;: {&quot;type&quot;: &quot;array&quot;, &quot;items&quot;: {&quot;type&quot;: &quot;string&quot;}}},
+                &quot;required&quot;: [&quot;urls&quot;],
+            },
+        },
+    },
+]
+</code></pre>
+<p>The model decides what to search for, reads what comes back, and decides whether it needs
+another search or is ready to commit. It rejects index pages and round-ups, which turn up
+constantly in news search and are worthless in a briefing.</p>
+<p>Two details make it behave:</p>
+<p><strong>Every result is tagged with whether it's already been sent.</strong></p>
+<pre><code class="language-python">results.append({
+    &quot;title&quot;: title,
+    &quot;url&quot;: url,
+    &quot;snippet&quot;: (item.get(&quot;content&quot;, &quot;&quot;) or &quot;&quot;)[:500],
+    &quot;date&quot;: item.get(&quot;published_date&quot;, &quot;&quot;),
+    &quot;already_sent&quot;: history.is_seen(url, title),
+})
+</code></pre>
+<p>The model can see its own past output and route around it. Matching is on both normalised
+URL <em>and</em> normalised headline, because the same story gets syndicated under different
+links.</p>
+<p><strong>And there are hard caps.</strong> Six searches, ten loop steps. An agent left to its own devices
+will happily burn a free tier exploring.</p>
+<h2>Two passes, not one</h2>
+<p>This is the design decision I'd most defend. Research and writing are separate LLM calls
+with separate system prompts.</p>
+<p>The research pass only selects URLs. The writing pass never sees the internet. It gets
+the real snippets and is told to summarise those and nothing else:</p>
+<pre><code class="language-python">SYNTHESIS_SYSTEM = (
+    &quot;You are a technology journalist. You write concise, factual news-brief summaries &quot;
+    &quot;grounded ONLY in the source snippet provided for each article. Professional, &quot;
+    &quot;neutral tone. No filler, no opinion, no advice, no targeting of any reader.&quot;
+)
+</code></pre>
+<p>When I had this as one combined call, it drifted into inventing plausible-sounding detail
+almost immediately, filling gaps with things that sounded right. Splitting the passes
+fixed it, because the writer has nothing to invent <em>from</em>.</p>
+<h2>Making hallucinated links structurally impossible</h2>
+<p>Prompting a model not to invent URLs is not a solution. So the agent's selection gets
+intersected with the URLs that actually appeared in search results:</p>
+<pre><code class="language-python">by_url = {_norm_url(a[&quot;url&quot;]): a for a in collected if a.get(&quot;url&quot;)}
+
+for url in urls:
+    article = by_url.get(_norm_url(url))
+    if not article:
+        logger.warning(&quot;Dropped fabricated/unknown URL from selection: %s&quot;, url)
+        continue
+    ...
+</code></pre>
+<p>If the model invents a link, it isn't in <code>collected</code>, so it's dropped before it can reach
+the email, and the shortfall is backfilled from real results. It doesn't matter how
+convincing the fabrication is. It never survives the filter.</p>
+<p>Links are then checked for a 404 before they go out, treating only a clear 404/410 as
+dead so a bot-blocking 403 doesn't cost me a good article.</p>
+<h2>The other thing I got wrong: trusting GitHub's cron</h2>
+<p>I originally used GitHub's built-in <code>schedule:</code> trigger. On a low-activity repo it is
+genuinely unreliable: it delayed runs by hours and dropped some entirely. "Before 10am"
+wasn't a promise I could keep.</p>
+<p>The fix is a free external cron service that calls the <code>workflow_dispatch</code> API at a fixed
+time. GitHub's own cron stays on as a backup, which means the job can now fire several
+times in a morning, so it needs to be safe to run repeatedly.</p>
+<p>Two guards handle that. A window guard in the workflow:</p>
+<pre><code class="language-yaml">H=$(TZ=Europe/Paris date +%H)
+case &quot;$H&quot; in
+  06|07|08|09|10|11) echo &quot;run=true&quot;  &gt;&gt; &quot;$GITHUB_OUTPUT&quot; ;;
+  *)                 echo &quot;run=false&quot; &gt;&gt; &quot;$GITHUB_OUTPUT&quot; ;;
+esac
+</code></pre>
+<p>and a once-a-day idempotency check in Python:</p>
+<pre><code class="language-python">today = _paris_today()
+if not force and history.last_sent_date() == today:
+    logger.info(&quot;Briefing already sent today (%s) — skipping.&quot;, today)
+    return
+</code></pre>
+<p>Several triggers, one email, and nothing can wake you at 3am.</p>
+<h2>State without a database</h2>
+<p>De-duplication needs memory, and I didn't want to provision storage for a JSON file. So
+the workflow commits it back to the repo:</p>
+<pre><code class="language-yaml">git add data/history.json
+git commit -m &quot;chore: update article history [skip ci]&quot;
+git push origin HEAD:main
+</code></pre>
+<p>It's a hack, and I like it. There's nothing to back up, nothing to pay for, and I can read
+my own briefing archive in the git log. The push retries with a rebase, because concurrent
+triggers can leave the runner behind <code>origin/main</code>.</p>
+<h2>The thing I should have built first</h2>
+<p><code>--dry-run</code>. It runs the entire pipeline (research, writing, HTML rendering) and then
+prints the briefing and writes the rendered email to a file instead of sending it. No
+email is sent, no history is recorded.</p>
+<pre><code class="language-bash">python main.py --dry-run
+</code></pre>
+<p><img alt="Terminal output of a dry run: the agent logs its model chain and searches, prints three summarised stories with links, and confirms nothing was emailed or recorded." src="https://raw.githubusercontent.com/tballochi/daily-briefing/main/docs/screenshot-dry-run.png" /></p>
+<p>It needs only a Groq key and a Tavily key. No Gmail App Password, no 2FA, no deploy.</p>
+<p>I added it late, and it immediately became the thing I point people at. Configuring email
+before you know whether you like the output is a ridiculous thing to ask of someone. Every
+project that produces output should have a mode that shows you the output and does nothing
+else.</p>
+<h2>Try it</h2>
+<pre><code class="language-bash">git clone https://github.com/tballochi/daily-briefing.git
+cd daily-briefing
+pip install -r requirements.txt
+
+echo &quot;GROQ_API_KEY=...&quot;   &gt; .env     # free: https://console.groq.com/keys
+echo &quot;TAVILY_API_KEY=...&quot; &gt;&gt; .env    # free: https://app.tavily.com
+
+python main.py --dry-run
+</code></pre>
+<p>Then edit <code>config.yaml</code>. Topics are free text, so point it at finance, climate, football,
+your industry, whatever you want to wake up informed about.</p>
+<p>Honest limitation to close on: summaries are only as good as the search snippet behind
+them. When a source returns a thin snippet, the summary is thin. It won't fabricate to
+compensate, but it doesn't fetch full article bodies yet either. That's the next thing.</p>
+<p>The repo is MIT licensed, has 71 tests and CI on every push:
+<strong>https://github.com/tballochi/daily-briefing</strong></p>
+<hr />
+  </main>
+</div>
+<footer>
+  Source and setup instructions:
+  <a href="https://github.com/tballochi/daily-briefing">github.com/tballochi/daily-briefing</a>
+</footer>
+</body>
+</html>
