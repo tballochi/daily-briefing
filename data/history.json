@@ -1,48 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "logisticsmgmt.com/article/cma_cgm_is_set_to_acquire_fedex_supply_chain_in_1.4_billion_deal_significantly_expanding_north_american_logistics_footprint",
-      "title_key": "cma cgm is set to acquire fedex supply chain in $1.4 billion deal, significantly expanding north american logistics footprint - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/cma_cgm_is_set_to_acquire_fedex_supply_chain_in_1.4_billion_deal_significantly_expanding_north_american_logistics_footprint",
-      "title": "CMA CGM is set to acquire FedEx Supply Chain in $1.4 billion deal, significantly expanding North American logistics footprint - Logistics Management",
-      "date": "2026-07-04T06:01:31.048884"
-    },
-    {
-      "url_key": "nature.com/articles/s44333-026-00115-2",
-      "title_key": "llm-assisted screening method for large-scale transportation model calibration - nature",
-      "url": "https://www.nature.com/articles/s44333-026-00115-2",
-      "title": "LLM-assisted screening method for large-scale transportation model calibration - Nature",
-      "date": "2026-07-04T06:01:31.048884"
-    },
-    {
-      "url_key": "securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting",
-      "title_key": "in other news: canadian hacker jailed, open source zero-days, two sentenced for atm jackpotting - securityweek",
-      "url": "https://www.securityweek.com/in-other-news-canadian-hacker-jailed-open-source-zero-days-two-sentenced-for-atm-jackpotting/",
-      "title": "In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting - SecurityWeek",
-      "date": "2026-07-04T06:01:31.048884"
-    },
-    {
-      "url_key": "maritime-executive.com/article/cma-cgm-one-and-oocl-introduce-next-generation-containerships",
-      "title_key": "cma cgm, oocl, and one introduce next-generation containerships - the maritime executive",
-      "url": "https://maritime-executive.com/article/cma-cgm-one-and-oocl-introduce-next-generation-containerships",
-      "title": "CMA CGM, OOCL, and ONE Introduce Next-Generation Containerships - The Maritime Executive",
-      "date": "2026-07-05T06:01:30.430283"
-    },
-    {
-      "url_key": "hackernoon.com/the-month-ai-governance-became-operational",
-      "title_key": "the month ai governance became operational - hackernoon",
-      "url": "https://hackernoon.com/the-month-ai-governance-became-operational",
-      "title": "The Month AI Governance Became Operational - HackerNoon",
-      "date": "2026-07-05T06:01:30.430283"
-    },
-    {
-      "url_key": "phoronix.com/news/cachyos-june-2026-released",
-      "title_key": "cachyos june 2026 os released with more performance optimizations - phoronix",
-      "url": "https://www.phoronix.com/news/CachyOS-June-2026-Released",
-      "title": "CachyOS June 2026 OS Released With More Performance Optimizations - Phoronix",
-      "date": "2026-07-05T06:01:30.430283"
-    },
-    {
       "url_key": "marinelink.com/news/cma-cgm-celebrates-naming-notre-dame-540903",
       "title_key": "cma cgm celebrates naming notre dame, the largest french-flagged containership - marine link",
       "url": "https://www.marinelink.com/news/cma-cgm-celebrates-naming-notre-dame-540903",
@@ -1028,17 +986,30 @@
       "url": "https://tech-insider.org/meta-hatch-ai-agent-watermelon-model-2026",
       "title": "Meta Hatch AI Agents, Watermelon Model at $199.99 [2026]",
       "date": "2026-09-01T06:04:30.773217"
+    },
+    {
+      "url_key": "manifoldtimes.com/news/cma-cgm-group-and-shell-enter-biofuel-partnership-for-shipping-fleet",
+      "title_key": "cma cgm group and shell enter biofuel partnership for shipping fleet",
+      "url": "https://www.manifoldtimes.com/news/cma-cgm-group-and-shell-enter-biofuel-partnership-for-shipping-fleet",
+      "title": "CMA CGM Group and Shell enter biofuel partnership for shipping fleet",
+      "date": "2026-09-03T06:10:35.978339"
+    },
+    {
+      "url_key": "tech-insider.org/gemini-3-8-flash-launch-pricing-2026",
+      "title_key": "gemini 3.8 flash launches at $0.75/1m input [2026]",
+      "url": "https://tech-insider.org/gemini-3-8-flash-launch-pricing-2026",
+      "title": "Gemini 3.8 Flash Launches at $0.75/1M Input [2026]",
+      "date": "2026-09-03T06:10:35.978339"
+    },
+    {
+      "url_key": "eu.36kr.com/en/p/3967133839498752",
+      "title_key": "openai’s new transformer goes viral: astra architecture unveiled for the first time",
+      "url": "https://eu.36kr.com/en/p/3967133839498752",
+      "title": "OpenAI’s New Transformer Goes Viral: Astra Architecture Unveiled for the First Time",
+      "date": "2026-09-03T06:10:35.978339"
     }
   ],
   "words": [
-    {
-      "word": "idempotency",
-      "date": "2026-07-19T06:01:21.004916"
-    },
-    {
-      "word": "embedding",
-      "date": "2026-07-20T06:01:22.199817"
-    },
     {
       "word": "fine-tuning",
       "date": "2026-07-21T06:01:20.883521"
@@ -1166,19 +1137,13 @@
     {
       "word": "protobuf",
       "date": "2026-09-01T06:04:30.773217"
+    },
+    {
+      "word": "embedding",
+      "date": "2026-09-03T06:10:35.978339"
     }
   ],
   "quotes": [
-    {
-      "text": "The best way to predict the future is to invent it.",
-      "author": "Alan Kay",
-      "date": "2026-07-19T06:01:21.004916"
-    },
-    {
-      "text": "The best way to predict the future is to invent it.",
-      "author": "Alan Kay",
-      "date": "2026-07-20T06:01:22.199817"
-    },
     {
       "text": "The best way to predict the future is to invent the tools that make it possible, but the best way to invent the tools is to understand the problems you are trying to solve.",
       "author": "Alan Kay",
@@ -1338,7 +1303,12 @@
       "text": "The only way to do great work is to love what you do.",
       "author": "Steve Jobs",
       "date": "2026-09-01T06:04:30.773217"
+    },
+    {
+      "text": "The best way to predict the future is to invent it.",
+      "author": "Alan Kay",
+      "date": "2026-09-03T06:10:35.978339"
     }
   ],
-  "last_sent_date": "2026-09-01"
+  "last_sent_date": "2026-09-03"
 }
