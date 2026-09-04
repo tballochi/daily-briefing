@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "marinelink.com/news/cma-cgm-celebrates-naming-notre-dame-540903",
-      "title_key": "cma cgm celebrates naming notre dame, the largest french-flagged containership - marine link",
-      "url": "https://www.marinelink.com/news/cma-cgm-celebrates-naming-notre-dame-540903",
-      "title": "CMA CGM Celebrates Naming NOTRE DAME, the Largest French-Flagged Containership - Marine Link",
-      "date": "2026-07-06T06:01:45.588990"
-    },
-    {
-      "url_key": "darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders",
-      "title_key": "chinese llms broaden the gap between attackers & defenders - dark reading",
-      "url": "https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders",
-      "title": "Chinese LLMs Broaden the Gap Between Attackers & Defenders - Dark Reading",
-      "date": "2026-07-06T06:01:45.588990"
-    },
-    {
-      "url_key": "pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it",
-      "title_key": "open source game engine godot will no longer accept ai-authored code contributions: 'we can’t trust heavy users of ai to understand their code enough to fix it' - pc gamer",
-      "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
-      "title": "Open source game engine Godot will no longer accept AI-authored code contributions: 'We can’t trust heavy users of AI to understand their code enough to fix it' - PC Gamer",
-      "date": "2026-07-06T06:01:45.588990"
-    },
-    {
       "url_key": "inboundlogistics.com/articles/six-technologies-reshaping-logistics-execution",
       "title_key": "6 technologies reshaping logistics execution - inbound logistics",
       "url": "https://www.inboundlogistics.com/articles/six-technologies-reshaping-logistics-execution/",
@@ -1007,13 +986,30 @@
       "url": "https://eu.36kr.com/en/p/3967133839498752",
       "title": "OpenAI’s New Transformer Goes Viral: Astra Architecture Unveiled for the First Time",
       "date": "2026-09-03T06:10:35.978339"
+    },
+    {
+      "url_key": "maritimeprofessional.com/amp/news/shipsy-launches-logistics-intelligence-layer-422603",
+      "title_key": "shipsy launches logistics intelligence layer for",
+      "url": "https://www.maritimeprofessional.com/amp/news/shipsy-launches-logistics-intelligence-layer-422603",
+      "title": "Shipsy Launches Logistics Intelligence Layer for",
+      "date": "2026-09-04T09:44:31.863977"
+    },
+    {
+      "url_key": "thenewstack.io/openai-gpt6-astra-benchmarks",
+      "title_key": "openai launches gpt-6 astra and says welcome to the \"agi era\" - the new stack",
+      "url": "https://thenewstack.io/openai-gpt6-astra-benchmarks",
+      "title": "OpenAI launches GPT-6 Astra and says welcome to the \"AGI era\" - The New Stack",
+      "date": "2026-09-04T09:44:31.863977"
+    },
+    {
+      "url_key": "tech.yahoo.com/ai/meta-ai/articles/meta-releases-muse-spark-1-105243877.html",
+      "title_key": "meta releases muse spark 1.3 for coding and ai agents",
+      "url": "https://tech.yahoo.com/ai/meta-ai/articles/meta-releases-muse-spark-1-105243877.html",
+      "title": "Meta releases Muse Spark 1.3 for coding and AI agents",
+      "date": "2026-09-04T09:44:31.863977"
     }
   ],
   "words": [
-    {
-      "word": "fine-tuning",
-      "date": "2026-07-21T06:01:20.883521"
-    },
     {
       "word": "quantization",
       "date": "2026-07-22T06:01:09.624857"
@@ -1141,14 +1137,13 @@
     {
       "word": "embedding",
       "date": "2026-09-03T06:10:35.978339"
+    },
+    {
+      "word": "zero-knowledge proof",
+      "date": "2026-09-04T09:44:31.863977"
     }
   ],
   "quotes": [
-    {
-      "text": "The best way to predict the future is to invent the tools that make it possible, but the best way to invent the tools is to understand the problems you are trying to solve.",
-      "author": "Alan Kay",
-      "date": "2026-07-21T06:01:20.883521"
-    },
     {
       "text": "The best way to get good ideas is to get a lot of ideas and throw away the bad ones.",
       "author": "Linus Pauling",
@@ -1308,7 +1303,12 @@
       "text": "The best way to predict the future is to invent it.",
       "author": "Alan Kay",
       "date": "2026-09-03T06:10:35.978339"
+    },
+    {
+      "text": "Design is not just what it looks like and feels like. Design is how it works.",
+      "author": "Steve Jobs",
+      "date": "2026-09-04T09:44:31.863977"
     }
   ],
-  "last_sent_date": "2026-09-03"
+  "last_sent_date": "2026-09-04"
 }
