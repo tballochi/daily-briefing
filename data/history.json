@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "inboundlogistics.com/articles/six-technologies-reshaping-logistics-execution",
-      "title_key": "6 technologies reshaping logistics execution - inbound logistics",
-      "url": "https://www.inboundlogistics.com/articles/six-technologies-reshaping-logistics-execution/",
-      "title": "6 Technologies Reshaping Logistics Execution - Inbound Logistics",
-      "date": "2026-07-07T06:01:42.192054"
-    },
-    {
-      "url_key": "forbes.com/sites/lanceeliot/2026/07/05/the-secret-of-why-these-eleven-words-are-prominently-included-when-you-ask-ai-to-write-a-creative-story",
-      "title_key": "the secret of why these eleven words are prominently included when you ask ai to write a creative story - forbes",
-      "url": "https://www.forbes.com/sites/lanceeliot/2026/07/05/the-secret-of-why-these-eleven-words-are-prominently-included-when-you-ask-ai-to-write-a-creative-story/",
-      "title": "The Secret Of Why These Eleven Words Are Prominently Included When You Ask AI To Write A Creative Story - Forbes",
-      "date": "2026-07-07T06:01:42.192054"
-    },
-    {
-      "url_key": "techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created",
-      "title_key": "reddit is using llms to solve a problem llms largely created - techcrunch",
-      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
-      "title": "Reddit is using LLMs to solve a problem LLMs largely created - TechCrunch",
-      "date": "2026-07-07T06:01:42.192054"
-    },
-    {
       "url_key": "marinelink.com/blogs/blog/french-shipping-group-cma-cgm-signs-agreement-with-syria-105023",
       "title_key": "french shipping group cma cgm signs agreement with syria - marine link",
       "url": "https://www.marinelink.com/blogs/blog/french-shipping-group-cma-cgm-signs-agreement-with-syria-105023",
@@ -1007,13 +986,30 @@
       "url": "https://tech.yahoo.com/ai/meta-ai/articles/meta-releases-muse-spark-1-105243877.html",
       "title": "Meta releases Muse Spark 1.3 for coding and AI agents",
       "date": "2026-09-04T09:44:31.863977"
+    },
+    {
+      "url_key": "thedigitalship.com/news/maritime-software/cma-cgm-bureau-veritas-and-sdari-develop-ai-assisted-container-ship-concept",
+      "title_key": "cma cgm, bureau veritas and sdari develop ai-assisted container ship concept – digital ship",
+      "url": "https://thedigitalship.com/news/maritime-software/cma-cgm-bureau-veritas-and-sdari-develop-ai-assisted-container-ship-concept",
+      "title": "CMA CGM, Bureau Veritas and SDARI develop AI-assisted container ship concept – Digital Ship",
+      "date": "2026-09-05T09:09:32.493919"
+    },
+    {
+      "url_key": "koino.fr/articles/ia-logistique-supply-chain-12-exemples-reels-2026",
+      "title_key": "ia logistique et supply chain : 12 exemples réels (2026)",
+      "url": "https://www.koino.fr/articles/ia-logistique-supply-chain-12-exemples-reels-2026",
+      "title": "IA logistique et supply chain : 12 exemples réels (2026)",
+      "date": "2026-09-05T09:09:32.493919"
+    },
+    {
+      "url_key": "tech-insider.org/langchain-vs-langgraph-2026",
+      "title_key": "langchain vs langgraph 2026: full comparison - tech insider",
+      "url": "https://tech-insider.org/langchain-vs-langgraph-2026",
+      "title": "LangChain vs LangGraph 2026: Full Comparison - Tech Insider",
+      "date": "2026-09-05T09:09:32.493919"
     }
   ],
   "words": [
-    {
-      "word": "quantization",
-      "date": "2026-07-22T06:01:09.624857"
-    },
     {
       "word": " webhook",
       "date": "2026-07-23T06:01:34.805730"
@@ -1141,14 +1137,13 @@
     {
       "word": "zero-knowledge proof",
       "date": "2026-09-04T09:44:31.863977"
+    },
+    {
+      "word": "circuit breaker",
+      "date": "2026-09-05T09:09:32.493919"
     }
   ],
   "quotes": [
-    {
-      "text": "The best way to get good ideas is to get a lot of ideas and throw away the bad ones.",
-      "author": "Linus Pauling",
-      "date": "2026-07-22T06:01:09.624857"
-    },
     {
       "text": "Computer science is no more about computers than astronomy is about telescopes.",
       "author": "Edsger W. Dijkstra",
@@ -1308,7 +1303,12 @@
       "text": "Design is not just what it looks like and feels like. Design is how it works.",
       "author": "Steve Jobs",
       "date": "2026-09-04T09:44:31.863977"
+    },
+    {
+      "text": "Talk is cheap. Show me the code.",
+      "author": "Linus Torvalds",
+      "date": "2026-09-05T09:09:32.493919"
     }
   ],
-  "last_sent_date": "2026-09-04"
+  "last_sent_date": "2026-09-05"
 }
