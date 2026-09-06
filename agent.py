@@ -574,7 +574,21 @@ def run_agent_selection(today: str) -> tuple[list[dict], list[dict]]:
             else "auto"
         )
 
-        response = _create_completion(client, messages, tool_choice)
+        try:
+            response = _create_completion(client, messages, tool_choice)
+        except Exception as exc:  # noqa: BLE001
+            if not force_final:
+                raise
+            # On the forced-finalize step the model sometimes tries to search anyway,
+            # and Groq rejects the whole request rather than the stray tool call. Every
+            # article it found is already in `collected`, so finish from those instead
+            # of losing the briefing at the last step.
+            logger.warning(
+                "Forced finalize failed (%s). Selecting from the %d article(s) already "
+                "gathered instead.", exc, len(collected),
+            )
+            return _resolve_selection([], collected), collected
+
         msg = response.choices[0].message
         messages.append(_assistant_message_to_dict(msg))
 
