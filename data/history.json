@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "marinelink.com/blogs/blog/french-shipping-group-cma-cgm-signs-agreement-with-syria-105023",
-      "title_key": "french shipping group cma cgm signs agreement with syria - marine link",
-      "url": "https://www.marinelink.com/blogs/blog/french-shipping-group-cma-cgm-signs-agreement-with-syria-105023",
-      "title": "French shipping group CMA CGM signs agreement with Syria - Marine Link",
-      "date": "2026-07-08T06:01:48.244443"
-    },
-    {
-      "url_key": "securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks",
-      "title_key": "north korean hackers target open source developers in supply chain attacks - securityweek",
-      "url": "https://www.securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks/",
-      "title": "North Korean Hackers Target Open Source Developers in Supply Chain Attacks - SecurityWeek",
-      "date": "2026-07-08T06:01:48.244443"
-    },
-    {
-      "url_key": "androidauthority.com/july-2026-pixel-update-3684978",
-      "title_key": "google's july 2026 update is here for your pixel phone - android authority",
-      "url": "https://www.androidauthority.com/july-2026-pixel-update-3684978/",
-      "title": "Google's July 2026 update is here for your Pixel phone - Android Authority",
-      "date": "2026-07-08T06:01:48.244443"
-    },
-    {
       "url_key": "seatrade-maritime.com/containers/gemini-suez-return-signals-cautious-step-towards-liner-normalisation",
       "title_key": "gemini suez return signals cautious step towards liner normalisation - seatrade maritime news",
       "url": "https://www.seatrade-maritime.com/containers/gemini-suez-return-signals-cautious-step-towards-liner-normalisation",
@@ -1007,13 +986,30 @@
       "url": "https://tech-insider.org/langchain-vs-langgraph-2026",
       "title": "LangChain vs LangGraph 2026: Full Comparison - Tech Insider",
       "date": "2026-09-05T09:09:32.493919"
+    },
+    {
+      "url_key": "reutersconnect.com/item/aug-26-2026-the-atlantic-endurance-an-82-foot-crew-transfer-vessel-owned-by-rhode-island-fast-ferry-is-being-used-to-test/dgfnonjldxrlcnmuy29tldiwmjy6bmv3c21sx01umvvtqvrprefzmjk3mdkxmte",
+      "title_key": "licensable picture: aug 26, 2026. the atlantic endurance, an 82-foot crew transfer vessel owned by rhode island fast ferry, is being used to test | reuters connect",
+      "url": "https://www.reutersconnect.com/item/aug-26-2026-the-atlantic-endurance-an-82-foot-crew-transfer-vessel-owned-by-rhode-island-fast-ferry-is-being-used-to-test/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVVTQVRPREFZMjk3MDkxMTE",
+      "title": "Licensable picture: Aug 26, 2026. The Atlantic Endurance, an 82-foot crew transfer vessel owned by Rhode Island Fast Ferry, is being used to test | Reuters Connect",
+      "date": "2026-09-06T06:11:37.266221"
+    },
+    {
+      "url_key": "yellow.com/news/gpt-6-astra-launch",
+      "title_key": "openai launches gpt-6 astra, its most capable model yet",
+      "url": "https://yellow.com/news/gpt-6-astra-launch",
+      "title": "OpenAI Launches GPT-6 Astra, Its Most Capable Model Yet",
+      "date": "2026-09-06T06:11:37.266221"
+    },
+    {
+      "url_key": "techradar.com/pro/launching-a-business-in-2026-use-these-7-ai-tools",
+      "title_key": "launching a business in 2026? use these 7 ai tools",
+      "url": "https://www.techradar.com/pro/launching-a-business-in-2026-use-these-7-ai-tools",
+      "title": "Launching a business in 2026? Use these 7 AI tools",
+      "date": "2026-09-06T06:11:37.266221"
     }
   ],
   "words": [
-    {
-      "word": " webhook",
-      "date": "2026-07-23T06:01:34.805730"
-    },
     {
       "word": "latency",
       "date": "2026-07-24T06:01:24.126842"
@@ -1141,14 +1137,13 @@
     {
       "word": "circuit breaker",
       "date": "2026-09-05T09:09:32.493919"
+    },
+    {
+      "word": "microservice",
+      "date": "2026-09-06T06:11:37.266221"
     }
   ],
   "quotes": [
-    {
-      "text": "Computer science is no more about computers than astronomy is about telescopes.",
-      "author": "Edsger W. Dijkstra",
-      "date": "2026-07-23T06:01:34.805730"
-    },
     {
       "text": "The computer is a bicycle for our minds",
       "author": "Steve Jobs",
@@ -1308,7 +1303,12 @@
       "text": "Talk is cheap. Show me the code.",
       "author": "Linus Torvalds",
       "date": "2026-09-05T09:09:32.493919"
+    },
+    {
+      "text": "Technology is best when it brings people together.",
+      "author": "Matt Mullenweg",
+      "date": "2026-09-06T06:11:37.266221"
     }
   ],
-  "last_sent_date": "2026-09-05"
+  "last_sent_date": "2026-09-06"
 }
