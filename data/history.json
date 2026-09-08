@@ -1,48 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "seatrade-maritime.com/containers/gemini-suez-return-signals-cautious-step-towards-liner-normalisation",
-      "title_key": "gemini suez return signals cautious step towards liner normalisation - seatrade maritime news",
-      "url": "https://www.seatrade-maritime.com/containers/gemini-suez-return-signals-cautious-step-towards-liner-normalisation",
-      "title": "Gemini Suez return signals cautious step towards liner normalisation - Seatrade Maritime News",
-      "date": "2026-07-09T06:01:48.128868"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/july_u.s_import_volumes_are_pooised_to_hit_record_high_as_shippers_race_ahead_of_expected_tariff_hikes",
-      "title_key": "july u.s. import volumes are pooised to hit record high as shippers race ahead of expected tariff hikes - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/july_u.s_import_volumes_are_pooised_to_hit_record_high_as_shippers_race_ahead_of_expected_tariff_hikes",
-      "title": "July U.S. import volumes are pooised to hit record high as shippers race ahead of expected tariff hikes - Logistics Management",
-      "date": "2026-07-09T06:01:48.128868"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/july_u.s_import_volumes_are_poised_to_hit_record_high_as_shippers_race_ahead_of_expected_tariff_hikes",
-      "title_key": "july u.s. import volumes are poised to hit record high as shippers race ahead of expected tariff hikes - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/july_u.s_import_volumes_are_poised_to_hit_record_high_as_shippers_race_ahead_of_expected_tariff_hikes",
-      "title": "July U.S. import volumes are poised to hit record high as shippers race ahead of expected tariff hikes - Logistics Management",
-      "date": "2026-07-09T06:01:48.128868"
-    },
-    {
-      "url_key": "techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor",
-      "title_key": "what is mistral ai? everything to know about the openai competitor - techcrunch",
-      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-      "title": "What is Mistral AI? Everything to know about the OpenAI competitor - TechCrunch",
-      "date": "2026-07-10T06:02:49.823021"
-    },
-    {
-      "url_key": "inboundlogistics.com/articles/2026-top-100-3pls",
-      "title_key": "2026 top 100 3pls - inbound logistics",
-      "url": "https://www.inboundlogistics.com/articles/2026-top-100-3pls/",
-      "title": "2026 Top 100 3PLs - Inbound Logistics",
-      "date": "2026-07-10T06:02:49.823021"
-    },
-    {
-      "url_key": "roboticsandautomationnews.com/2026/07/07/autonomous-trucking-and-liability-whos-responsible-when-a-self-driving-truck-crashes/103112",
-      "title_key": "autonomous trucking and liability: who’s responsible when a self-driving truck crashes? - robotics & automation news",
-      "url": "https://roboticsandautomationnews.com/2026/07/07/autonomous-trucking-and-liability-whos-responsible-when-a-self-driving-truck-crashes/103112/",
-      "title": "Autonomous Trucking and Liability: Who’s Responsible When a Self-Driving Truck Crashes? - Robotics & Automation News",
-      "date": "2026-07-10T06:02:49.823021"
-    },
-    {
       "url_key": "seatrade-maritime.com/containers/cma-cgm-notre-dame-takes-on-first-european-bio-lng-in-rotterdam",
       "title_key": "cma cgm notre dame takes on first european bio-lng in rotterdam - seatrade maritime news",
       "url": "https://www.seatrade-maritime.com/containers/cma-cgm-notre-dame-takes-on-first-european-bio-lng-in-rotterdam",
@@ -1007,17 +965,30 @@
       "url": "https://www.techradar.com/pro/launching-a-business-in-2026-use-these-7-ai-tools",
       "title": "Launching a business in 2026? Use these 7 AI tools",
       "date": "2026-09-06T06:11:37.266221"
+    },
+    {
+      "url_key": "container-mag.com/article/cyberdockside-ai-and-hexashield-launch-continuous-ot-monitor-mtrm4uo0",
+      "title_key": "cyberdockside.ai and hexashield launch continuous ot monitoring for ports and vessels",
+      "url": "https://container-mag.com/article/cyberdockside-ai-and-hexashield-launch-continuous-ot-monitor-mtrm4uo0",
+      "title": "CyberDockside.ai and HexaShield launch continuous OT monitoring for ports and vessels",
+      "date": "2026-09-08T06:04:35.449061"
+    },
+    {
+      "url_key": "trendingtopics.eu/mistral-raises-e3-billion-at-a-e21-billion-valuation-to-become-worlds-biggest-neocloud",
+      "title_key": "mistral raises €3 billion at a €21 billion valuation after strategic pivot to neocloud",
+      "url": "https://www.trendingtopics.eu/mistral-raises-e3-billion-at-a-e21-billion-valuation-to-become-worlds-biggest-neocloud",
+      "title": "Mistral Raises €3 Billion at a €21 Billion Valuation After Strategic Pivot to Neocloud",
+      "date": "2026-09-08T06:04:35.449061"
+    },
+    {
+      "url_key": "247wallst.com/investing/2026/09/03/sundar-pichai-promised-a-gemini-flagship-in-june-and-alphabet-is-on-its-worst-streak-since-2015",
+      "title_key": "sundar pichai promised a gemini flagship in june, and alphabet is on its worst streak since 2015 - 24/7 wall st.",
+      "url": "https://247wallst.com/investing/2026/09/03/sundar-pichai-promised-a-gemini-flagship-in-june-and-alphabet-is-on-its-worst-streak-since-2015",
+      "title": "Sundar Pichai Promised a Gemini Flagship in June, and Alphabet Is on Its Worst Streak Since 2015 - 24/7 Wall St.",
+      "date": "2026-09-08T06:04:35.449061"
     }
   ],
   "words": [
-    {
-      "word": "latency",
-      "date": "2026-07-24T06:01:24.126842"
-    },
-    {
-      "word": "vectorization",
-      "date": "2026-07-25T06:01:34.039981"
-    },
     {
       "word": "Polymerization",
       "date": "2026-07-26T06:01:20.475127"
@@ -1144,16 +1115,6 @@
     }
   ],
   "quotes": [
-    {
-      "text": "The computer is a bicycle for our minds",
-      "author": "Steve Jobs",
-      "date": "2026-07-24T06:01:24.126842"
-    },
-    {
-      "text": "The most important thing about a technology is how it changes people.",
-      "author": "Steve Jobs",
-      "date": "2026-07-25T06:01:34.039981"
-    },
     {
       "text": "The value of a network is proportional to the square of the number of nodes on the network",
       "author": "Robert Metcalfe",
@@ -1310,5 +1271,5 @@
       "date": "2026-09-06T06:11:37.266221"
     }
   ],
-  "last_sent_date": "2026-09-06"
+  "last_sent_date": "2026-09-08"
 }
