@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "seatrade-maritime.com/containers/cma-cgm-notre-dame-takes-on-first-european-bio-lng-in-rotterdam",
-      "title_key": "cma cgm notre dame takes on first european bio-lng in rotterdam - seatrade maritime news",
-      "url": "https://www.seatrade-maritime.com/containers/cma-cgm-notre-dame-takes-on-first-european-bio-lng-in-rotterdam",
-      "title": "CMA CGM Notre Dame takes on first European bio-LNG in Rotterdam - Seatrade Maritime News",
-      "date": "2026-07-11T06:03:06.467273"
-    },
-    {
-      "url_key": "zamin.uz/en/technology/210655-europe-s-openai-rival-how-mistral-ai-became-a-symbol-of-technological-independence.html",
-      "title_key": "europe's openai rival: how mistral ai became a symbol of technological independence - zamin.uz",
-      "url": "https://zamin.uz/en/technology/210655-europe-s-openai-rival-how-mistral-ai-became-a-symbol-of-technological-independence.html",
-      "title": "Europe's OpenAI Rival: How Mistral AI Became a Symbol of Technological Independence - Zamin.uz",
-      "date": "2026-07-11T06:03:06.467273"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/maersk_and_hapag_lloyd_resume_one_suez_canal_service",
-      "title_key": "maersk and hapag-lloyd resume one suez canal service - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/maersk_and_hapag_lloyd_resume_one_suez_canal_service",
-      "title": "Maersk and Hapag-Lloyd resume One Suez canal service - Logistics Management",
-      "date": "2026-07-11T06:03:06.467273"
-    },
-    {
       "url_key": "roboticsandautomationnews.com/2026/07/07/can-ai-predict-car-accidents-before-they-occur/103108",
       "title_key": "can ai predict car accidents before they occur? - robotics & automation news",
       "url": "https://roboticsandautomationnews.com/2026/07/07/can-ai-predict-car-accidents-before-they-occur/103108/",
@@ -986,13 +965,30 @@
       "url": "https://247wallst.com/investing/2026/09/03/sundar-pichai-promised-a-gemini-flagship-in-june-and-alphabet-is-on-its-worst-streak-since-2015",
       "title": "Sundar Pichai Promised a Gemini Flagship in June, and Alphabet Is on Its Worst Streak Since 2015 - 24/7 Wall St.",
       "date": "2026-09-08T06:04:35.449061"
+    },
+    {
+      "url_key": "ww.fashionnetwork.com/news/french-ai-firm-mistral-raises-3-billion-to-scale-up-business,1864347.html",
+      "title_key": "french ai firm mistral raises €3 billion to scale up business",
+      "url": "https://ww.fashionnetwork.com/news/French-ai-firm-mistral-raises-3-billion-to-scale-up-business,1864347.html",
+      "title": "French AI firm Mistral raises €3 billion to scale up business",
+      "date": "2026-09-09T06:04:56.403605"
+    },
+    {
+      "url_key": "aiidelist.com/blog/mistral-ai-2026",
+      "title_key": "mistral ai 2026: models, vibe, pricing & funding - ai ide list",
+      "url": "https://aiidelist.com/blog/mistral-ai-2026",
+      "title": "Mistral AI 2026: Models, Vibe, Pricing & Funding - AI IDE List",
+      "date": "2026-09-09T06:04:56.403605"
+    },
+    {
+      "url_key": "facebook.com/malaymaildotcom/posts/europe-cannot-rely-on-mistral-alone-for-ai-sovereignty-minister-warns/1525669562930726",
+      "title_key": "europe cannot rely on mistral alone for ai sovereignty, minister warns",
+      "url": "https://www.facebook.com/malaymaildotcom/posts/europe-cannot-rely-on-mistral-alone-for-ai-sovereignty-minister-warns/1525669562930726",
+      "title": "Europe cannot rely on Mistral alone for AI sovereignty, minister warns",
+      "date": "2026-09-09T06:04:56.403605"
     }
   ],
   "words": [
-    {
-      "word": "Polymerization",
-      "date": "2026-07-26T06:01:20.475127"
-    },
     {
       "word": "idempotence",
       "date": "2026-07-27T06:01:26.321680"
@@ -1112,14 +1108,13 @@
     {
       "word": "microservice",
       "date": "2026-09-06T06:11:37.266221"
+    },
+    {
+      "word": "federated learning",
+      "date": "2026-09-09T06:04:56.403605"
     }
   ],
   "quotes": [
-    {
-      "text": "The value of a network is proportional to the square of the number of nodes on the network",
-      "author": "Robert Metcalfe",
-      "date": "2026-07-26T06:01:20.475127"
-    },
     {
       "text": "Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
       "author": "Steve Jobs",
@@ -1269,7 +1264,12 @@
       "text": "Technology is best when it brings people together.",
       "author": "Matt Mullenweg",
       "date": "2026-09-06T06:11:37.266221"
+    },
+    {
+      "text": "We always overestimate the change that will happen in the next two years and underestimate the change that will happen in the next ten.",
+      "author": "Bill Gates",
+      "date": "2026-09-09T06:04:56.403605"
     }
   ],
-  "last_sent_date": "2026-09-08"
+  "last_sent_date": "2026-09-09"
 }
