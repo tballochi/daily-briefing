@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "roboticsandautomationnews.com/2026/07/07/can-ai-predict-car-accidents-before-they-occur/103108",
-      "title_key": "can ai predict car accidents before they occur? - robotics & automation news",
-      "url": "https://roboticsandautomationnews.com/2026/07/07/can-ai-predict-car-accidents-before-they-occur/103108/",
-      "title": "Can AI Predict Car Accidents Before They Occur? - Robotics & Automation News",
-      "date": "2026-07-12T06:01:52.967025"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/orchestrating_the_modern_warehouse_flexible_automation_ai_and_the_rise_of_connected_systems",
-      "title_key": "orchestrating the modern warehouse: flexible automation, ai and the rise of connected systems - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/orchestrating_the_modern_warehouse_flexible_automation_ai_and_the_rise_of_connected_systems",
-      "title": "Orchestrating the Modern Warehouse: Flexible automation, AI and the rise of connected systems - Logistics Management",
-      "date": "2026-07-12T06:01:52.967025"
-    },
-    {
-      "url_key": "marinelink.com/news/hapaglloyd-deploy-nexuswave-fleetwide-540987",
-      "title_key": "hapag-lloyd to deploy nexuswave fleetwide - marine link",
-      "url": "https://www.marinelink.com/news/hapaglloyd-deploy-nexuswave-fleetwide-540987",
-      "title": "Hapag-Lloyd To Deploy Nexuswave Fleetwide - Marine Link",
-      "date": "2026-07-12T06:01:52.967025"
-    },
-    {
       "url_key": "logisticsmgmt.com/article/descartes_acquisition_of_drivin_will_expand_its_last_mile_reach_in_latin_america",
       "title_key": "descartes’ acquisition of drivin will expand its last mile reach in latin america - logistics management",
       "url": "https://www.logisticsmgmt.com/article/descartes_acquisition_of_drivin_will_expand_its_last_mile_reach_in_latin_america/",
@@ -986,13 +965,30 @@
       "url": "https://www.facebook.com/malaymaildotcom/posts/europe-cannot-rely-on-mistral-alone-for-ai-sovereignty-minister-warns/1525669562930726",
       "title": "Europe cannot rely on Mistral alone for AI sovereignty, minister warns",
       "date": "2026-09-09T06:04:56.403605"
+    },
+    {
+      "url_key": "freightwaves.com/news/overroute-raises-5-5m-to-expand-ai-freight-execution-platform",
+      "title_key": "overroute raises $5.5m to expand ai freight execution platform - freightwaves",
+      "url": "https://www.freightwaves.com/news/overroute-raises-5-5m-to-expand-ai-freight-execution-platform",
+      "title": "Overroute raises $5.5M to expand AI freight execution platform - FreightWaves",
+      "date": "2026-09-10T06:05:46.390716"
+    },
+    {
+      "url_key": "marinevesseltraffic.com/container-lines-maps/cma%2520cgm",
+      "title_key": "cma cgm line container ships live fleet map with current positions",
+      "url": "https://www.marinevesseltraffic.com/container-lines-maps/CMA%2520CGM",
+      "title": "CMA CGM line container ships live fleet map with current positions",
+      "date": "2026-09-10T06:05:46.390716"
+    },
+    {
+      "url_key": "intelligentliving.co/gemini-3-8-flash-vs-glm-5-3-flash",
+      "title_key": "gemini 3.8 flash vs glm 5.3 flash: benchmarks, pricing & speed (2026)",
+      "url": "https://www.intelligentliving.co/gemini-3-8-flash-vs-glm-5-3-flash",
+      "title": "Gemini 3.8 Flash vs GLM 5.3 Flash: Benchmarks, Pricing & Speed (2026)",
+      "date": "2026-09-10T06:05:46.390716"
     }
   ],
   "words": [
-    {
-      "word": "idempotence",
-      "date": "2026-07-27T06:01:26.321680"
-    },
     {
       "word": "hypervisor",
       "date": "2026-07-28T06:01:25.789982"
@@ -1112,14 +1108,13 @@
     {
       "word": "federated learning",
       "date": "2026-09-09T06:04:56.403605"
+    },
+    {
+      "word": "latency",
+      "date": "2026-09-10T06:05:46.390716"
     }
   ],
   "quotes": [
-    {
-      "text": "Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
-      "author": "Steve Jobs",
-      "date": "2026-07-27T06:01:26.321680"
-    },
     {
       "text": "Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
       "author": "Steve Jobs",
@@ -1269,7 +1264,12 @@
       "text": "We always overestimate the change that will happen in the next two years and underestimate the change that will happen in the next ten.",
       "author": "Bill Gates",
       "date": "2026-09-09T06:04:56.403605"
+    },
+    {
+      "text": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
+      "author": "Steve Jobs",
+      "date": "2026-09-10T06:05:46.390716"
     }
   ],
-  "last_sent_date": "2026-09-09"
+  "last_sent_date": "2026-09-10"
 }
