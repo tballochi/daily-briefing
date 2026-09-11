@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "logisticsmgmt.com/article/descartes_acquisition_of_drivin_will_expand_its_last_mile_reach_in_latin_america",
-      "title_key": "descartes’ acquisition of drivin will expand its last mile reach in latin america - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/descartes_acquisition_of_drivin_will_expand_its_last_mile_reach_in_latin_america/",
-      "title": "Descartes’ acquisition of Drivin will expand its last mile reach in Latin America - Logistics Management",
-      "date": "2026-07-13T06:01:58.629935"
-    },
-    {
-      "url_key": "nature.com/articles/s41586-026-10742-x",
-      "title_key": "large language models can predict the results of social science experiments - nature",
-      "url": "https://www.nature.com/articles/s41586-026-10742-x",
-      "title": "Large language models can predict the results of social science experiments - Nature",
-      "date": "2026-07-13T06:01:58.629935"
-    },
-    {
-      "url_key": "maritime-executive.com/corporate/cma-cgm-notre-dame-completes-its-first-bio-lng-bunkering-operation-in-rotterdam",
-      "title_key": "cma cgm notre dame completes its first bio-lng bunkering operation in rotterdam - the maritime executive",
-      "url": "https://maritime-executive.com/corporate/cma-cgm-notre-dame-completes-its-first-bio-lng-bunkering-operation-in-rotterdam",
-      "title": "CMA CGM NOTRE DAME Completes Its First Bio-LNG Bunkering Operation in Rotterdam - The Maritime Executive",
-      "date": "2026-07-13T06:01:58.629935"
-    },
-    {
       "url_key": "fleetowner.com/technology/news/55389217/fleet-technology-updates-from-pcs-software-beyondtrucks-and-carrier-logistics",
       "title_key": "trucking tech today: new tms tools support smarter freight and fleet management - fleetowner",
       "url": "https://www.fleetowner.com/technology/news/55389217/fleet-technology-updates-from-pcs-software-beyondtrucks-and-carrier-logistics",
@@ -986,13 +965,30 @@
       "url": "https://www.intelligentliving.co/gemini-3-8-flash-vs-glm-5-3-flash",
       "title": "Gemini 3.8 Flash vs GLM 5.3 Flash: Benchmarks, Pricing & Speed (2026)",
       "date": "2026-09-10T06:05:46.390716"
+    },
+    {
+      "url_key": "container-news.com/cma-cgm-bureau-veritas-and-sdari-explore-ai-assisted-containership-concept",
+      "title_key": "cma cgm, bureau veritas and sdari explore ai-assisted containership concept - container news",
+      "url": "https://container-news.com/cma-cgm-bureau-veritas-and-sdari-explore-ai-assisted-containership-concept",
+      "title": "CMA CGM, Bureau Veritas and SDARI explore AI-assisted containership concept - Container News",
+      "date": "2026-09-11T09:38:02.462408"
+    },
+    {
+      "url_key": "luxtimes.lu/luxembourg/luxembourg-invests-10m-in-mistral-ai-to-support-european-champion/161191067.html",
+      "title_key": "luxembourg invests €10m in mistral ai to support ‘european champion’",
+      "url": "https://www.luxtimes.lu/luxembourg/luxembourg-invests-10m-in-mistral-ai-to-support-european-champion/161191067.html",
+      "title": "Luxembourg invests €10m in Mistral AI to support ‘European champion’",
+      "date": "2026-09-11T09:38:02.462408"
+    },
+    {
+      "url_key": "github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+      "title_key": "gpt-6 astra is generally available in github copilot",
+      "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+      "title": "GPT-6 Astra is generally available in GitHub Copilot",
+      "date": "2026-09-11T09:38:02.462408"
     }
   ],
   "words": [
-    {
-      "word": "hypervisor",
-      "date": "2026-07-28T06:01:25.789982"
-    },
     {
       "word": "transpiler",
       "date": "2026-07-29T06:01:53.007956"
@@ -1112,14 +1108,13 @@
     {
       "word": "latency",
       "date": "2026-09-10T06:05:46.390716"
+    },
+    {
+      "word": "vector database",
+      "date": "2026-09-11T09:38:02.462408"
     }
   ],
   "quotes": [
-    {
-      "text": "Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
-      "author": "Steve Jobs",
-      "date": "2026-07-28T06:01:25.789982"
-    },
     {
       "text": "Code is not just something you write, it's something you live with, and if you don't make it nice, you'll be sorry later",
       "author": "John Ousterhout",
@@ -1269,7 +1264,12 @@
       "text": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
       "author": "Steve Jobs",
       "date": "2026-09-10T06:05:46.390716"
+    },
+    {
+      "text": "When something is important enough, you do it even if the odds are against you.",
+      "author": "Elon Musk",
+      "date": "2026-09-11T09:38:02.462408"
     }
   ],
-  "last_sent_date": "2026-09-10"
+  "last_sent_date": "2026-09-11"
 }
