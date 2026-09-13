@@ -14,6 +14,7 @@ loop is paced to respect the Groq free-tier limit of 12,000 tokens/minute.
 """
 
 import os
+import re
 import json
 import time
 import logging
@@ -35,6 +36,12 @@ TPM_LIMIT = 12000          # Groq free-tier tokens-per-minute ceiling
 TPM_SAFETY = 0.85          # only use 85% of the budget to stay clear of 429s
 MAX_STEPS = 10             # hard cap on agent loop iterations
 MAX_SEARCHES = 6           # hard cap on Tavily searches per run (quota friendly)
+
+# Token budget for the writing call. Reasoning models spend most of it thinking before
+# they emit anything: gpt-oss-120b used ~1000 reasoning tokens on a 3-article briefing,
+# so the old 1500 cap left the JSON truncated and Groq's validator rejected it
+# ("max completion tokens reached before generating a valid document").
+SYNTHESIS_MAX_TOKENS = 4000
 
 # User preferences (topics, focus theme, article count) live in config.yaml so the
 # briefing is personalisable without touching the code. See config.py.
@@ -636,6 +643,66 @@ def run_agent_selection(today: str) -> tuple[list[dict], list[dict]]:
 
 # --- Phase 2: write the briefing from the selected real articles -----------
 
+_RECOVERABLE_SYNTHESIS_MARKERS = (
+    "json_validate_failed",     # output was not valid JSON (usually truncated by the budget)
+    "reasoning_effort",         # a model in the chain rejects the parameter
+)
+
+
+def _is_recoverable_synthesis_error(exc: Exception) -> bool:
+    """True for errors a different call shape can fix; model outages are not these."""
+    text = str(exc).lower()
+    return any(m in text for m in _RECOVERABLE_SYNTHESIS_MARKERS)
+
+
+def _parse_json_object(text: str) -> dict:
+    """Parse a JSON object out of model output, tolerating leaked reasoning.
+
+    Some models wrap their answer in <think> blocks or prose even when asked for JSON
+    only. Strip that and take the outermost {...}; raise if there is none.
+    """
+    cleaned = re.sub(r"<think>.*?</think>", "", text or "", flags=re.S)
+    start, end = cleaned.find("{"), cleaned.rfind("}")
+    if start == -1 or end <= start:
+        raise ValueError("no JSON object in model output")
+    data = json.loads(cleaned[start : end + 1])
+    if not isinstance(data, dict):
+        raise ValueError("model output is not a JSON object")
+    return data
+
+
+def _synthesis_completion(client, messages: list) -> dict | None:
+    """Get the writing call's JSON, degrading the call shape rather than the briefing.
+
+    Attempt 1 is the cheap, strict one. If the API refuses the JSON (budget exhausted,
+    parameter rejected), later attempts loosen the request. None means every attempt
+    failed and the caller should fall back to snippet summaries: a briefing with plain
+    excerpts is still worth sending, a failure email is not.
+    """
+    attempts = (
+        # Strict JSON mode, low reasoning effort: halves the budget on gpt-oss models.
+        {"response_format": {"type": "json_object"}, "reasoning_effort": "low"},
+        # Same without the effort hint, in case a model in the chain rejects it.
+        {"response_format": {"type": "json_object"}},
+        # No JSON mode at all; parse whatever comes back leniently.
+        {},
+    )
+    for index, extra in enumerate(attempts, start=1):
+        try:
+            response = _chat_completion(
+                client, messages=messages, temperature=0.5,
+                max_tokens=SYNTHESIS_MAX_TOKENS, **extra,
+            )
+            return _parse_json_object(response.choices[0].message.content)
+        except (ValueError, json.JSONDecodeError) as exc:
+            logger.warning("Synthesis attempt %d returned unparseable JSON: %s", index, exc)
+        except Exception as exc:  # noqa: BLE001
+            if not _is_recoverable_synthesis_error(exc):
+                raise
+            logger.warning("Synthesis attempt %d refused by the API: %s", index, str(exc)[:200])
+    return None
+
+
 def synthesize_briefing(selected: list[dict], today: str) -> dict:
     """Write factual summaries (grounded in snippets) + word & quote of the day."""
     numbered = "\n\n".join(
@@ -677,17 +744,18 @@ Return ONLY JSON with this schema:
 }}"""
 
     client = _groq_client()
-    response = _chat_completion(
+    data = _synthesis_completion(
         client,
-        messages=[
+        [
             {"role": "system", "content": SYNTHESIS_SYSTEM},
             {"role": "user", "content": user},
         ],
-        temperature=0.5,
-        max_tokens=1500,
-        response_format={"type": "json_object"},
     )
-    data = json.loads(response.choices[0].message.content)
+    if data is None:
+        # Every call shape failed. Ship the real articles with their source excerpts
+        # rather than nothing: the reader still gets the stories and the links.
+        logger.warning("Synthesis failed on every attempt; sending snippet summaries without word/quote")
+        data = {}
 
     summaries = data.get("summaries", {})
     news = []
@@ -779,6 +847,8 @@ def _render_html(briefing: dict, today: str) -> str:
     word = briefing.get("word_of_the_day", {})
     quote = briefing.get("quote_of_the_day", {})
 
+    # Either block is omitted entirely when synthesis could not produce it, rather
+    # than rendering an empty box.
     word_html = f"""
         <div style="margin-top:34px;border:1px solid #c9c2b4;background-color:#f6f3ec;padding:20px;">
           <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:bold;
@@ -818,8 +888,8 @@ def _render_html(briefing: dict, today: str) -> str:
     </div>
     <div style="padding:6px 36px 30px;">
       {sections_html}
-      {word_html}
-      {quote_html}
+      {word_html if word.get("word") else ""}
+      {quote_html if quote.get("text") else ""}
     </div>
     <div style="padding:20px 36px;border-top:2px solid #111111;text-align:center;">
       <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:1px;
