@@ -1,69 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "fleetowner.com/technology/news/55389217/fleet-technology-updates-from-pcs-software-beyondtrucks-and-carrier-logistics",
-      "title_key": "trucking tech today: new tms tools support smarter freight and fleet management - fleetowner",
-      "url": "https://www.fleetowner.com/technology/news/55389217/fleet-technology-updates-from-pcs-software-beyondtrucks-and-carrier-logistics",
-      "title": "Trucking Tech Today: New TMS tools support smarter freight and fleet management - FleetOwner",
-      "date": "2026-07-14T06:02:57.329731"
-    },
-    {
-      "url_key": "linuxiac.com/chatto-chat-app-is-now-open-source-and-available-to-self-host",
-      "title_key": "chatto chat app is now open source and available to self-host - linuxiac",
-      "url": "https://linuxiac.com/chatto-chat-app-is-now-open-source-and-available-to-self-host/",
-      "title": "Chatto Chat App Is Now Open Source and Available to Self-Host - Linuxiac",
-      "date": "2026-07-14T06:02:57.329731"
-    },
-    {
-      "url_key": "businessinsider.com/sundays-furniture-delivery-cartage-ai-2026-7",
-      "title_key": "missed the delivery window for your new couch? ai could fix that. - business insider",
-      "url": "https://www.businessinsider.com/sundays-furniture-delivery-cartage-ai-2026-7",
-      "title": "Missed the delivery window for your new couch? AI could fix that. - Business Insider",
-      "date": "2026-07-14T06:02:57.329731"
-    },
-    {
-      "url_key": "law.com/dailybusinessreview/2026/07/08/why-florida-supreme-court-got-it-right-on-ai-certifications",
-      "title_key": "why florida supreme court got it right on ai certifications - law.com",
-      "url": "https://www.law.com/dailybusinessreview/2026/07/08/why-florida-supreme-court-got-it-right-on-ai-certifications/",
-      "title": "Why Florida Supreme Court Got It Right on AI Certifications - Law.com",
-      "date": "2026-07-15T06:02:07.697860"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/freightsnap_shiplify_strategic_partnership_targets_ltl_invoice_accuracy_and_trust_between_carriers_and_shippers",
-      "title_key": "freightsnap, shiplify strategic partnership targets ltl invoice accuracy and trust between carriers and shippers - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/freightsnap_shiplify_strategic_partnership_targets_ltl_invoice_accuracy_and_trust_between_carriers_and_shippers/",
-      "title": "FreightSnap, Shiplify strategic partnership targets LTL invoice accuracy and trust between carriers and shippers - Logistics Management",
-      "date": "2026-07-15T06:02:07.697860"
-    },
-    {
-      "url_key": "darkreading.com/application-security/ai-coding-security-risks-productivity-gains",
-      "title_key": "ai coding: do security risks outweigh productivity gains? - dark reading",
-      "url": "https://www.darkreading.com/application-security/ai-coding-security-risks-productivity-gains",
-      "title": "AI Coding: Do Security Risks Outweigh Productivity Gains? - Dark Reading",
-      "date": "2026-07-15T06:02:07.697860"
-    },
-    {
-      "url_key": "observer.com/list/2026-ai-power-index",
-      "title_key": "observer's 2026 a.i. power index: who controls the capital ...",
-      "url": "https://observer.com/list/2026-ai-power-index",
-      "title": "Observer's 2026 A.I. Power Index: Who Controls the Capital ...",
-      "date": "2026-07-16T06:02:49.734407"
-    },
-    {
-      "url_key": "inboundlogistics.com/articles/takeaways-shaping-the-future-of-the-global-supply-chain-0526",
-      "title_key": "supply chain trends: rfid, ai robots & reverse logistics - inbound logistics",
-      "url": "https://www.inboundlogistics.com/articles/takeaways-shaping-the-future-of-the-global-supply-chain-0526/",
-      "title": "Supply Chain Trends: RFID, AI Robots & Reverse Logistics - Inbound Logistics",
-      "date": "2026-07-16T06:02:49.734407"
-    },
-    {
-      "url_key": "arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models",
-      "title_key": "simulating everything, sort of: the promise and limits of world models - ars technica",
-      "url": "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/",
-      "title": "Simulating everything, sort of: The promise and limits of world models - Ars Technica",
-      "date": "2026-07-16T06:02:49.734407"
-    },
-    {
       "url_key": "forbes.com/sites/serenitygibbons/2026/07/16/the-future-of-business-automation-is-adaptability",
       "title_key": "the future of business automation is adaptability - forbes",
       "url": "https://www.forbes.com/sites/serenitygibbons/2026/07/16/the-future-of-business-automation-is-adaptability/",
@@ -986,21 +923,30 @@
       "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
       "title": "GPT-6 Astra is generally available in GitHub Copilot",
       "date": "2026-09-11T09:38:02.462408"
+    },
+    {
+      "url_key": "mistral.ai/news/mistral-x-cloudera",
+      "title_key": "cloudera and mistral partner to bring specialized, sovereign intelligence to enterprise data",
+      "url": "https://mistral.ai/news/mistral-x-cloudera",
+      "title": "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data",
+      "date": "2026-09-14T06:05:58.906568"
+    },
+    {
+      "url_key": "mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+      "title_key": "making sovereign, open-weight ai the technology frontier",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+      "title": "Making sovereign, open-weight AI the technology frontier",
+      "date": "2026-09-14T06:05:58.906568"
+    },
+    {
+      "url_key": "lemonde.fr/en/economy/article/2026/09/08/mistral-ai-raises-3-billion-in-response-to-doubts-over-its-strategic-direction_6757278_19.html",
+      "title_key": "mistral ai raises €3 billion in response to doubts over its ...",
+      "url": "https://www.lemonde.fr/en/economy/article/2026/09/08/mistral-ai-raises-3-billion-in-response-to-doubts-over-its-strategic-direction_6757278_19.html",
+      "title": "Mistral AI raises €3 billion in response to doubts over its ...",
+      "date": "2026-09-14T06:05:58.906568"
     }
   ],
   "words": [
-    {
-      "word": "transpiler",
-      "date": "2026-07-29T06:01:53.007956"
-    },
-    {
-      "word": "transduction",
-      "date": "2026-07-30T06:01:20.709472"
-    },
-    {
-      "word": "transduction",
-      "date": "2026-07-31T06:01:33.529575"
-    },
     {
       "word": "transcoding",
       "date": "2026-08-01T06:02:40.706096"
@@ -1112,24 +1058,13 @@
     {
       "word": "vector database",
       "date": "2026-09-11T09:38:02.462408"
+    },
+    {
+      "word": "quantization",
+      "date": "2026-09-14T06:05:58.906568"
     }
   ],
   "quotes": [
-    {
-      "text": "Code is not just something you write, it's something you live with, and if you don't make it nice, you'll be sorry later",
-      "author": "John Ousterhout",
-      "date": "2026-07-29T06:01:53.007956"
-    },
-    {
-      "text": "The biggest risk is not taking any risk, but the biggest risk is also not being prepared to take any risk",
-      "author": "Mark Zuckerberg",
-      "date": "2026-07-30T06:01:20.709472"
-    },
-    {
-      "text": "Code is not just something you write, it's something you live with, and if you don't make it nice, you'll be sorry later",
-      "author": "John Ousterhout",
-      "date": "2026-07-31T06:01:33.529575"
-    },
     {
       "text": "The computer is mightier than the sword, but only if you know how to use it.",
       "author": "Sam Ewing",
@@ -1269,7 +1204,12 @@
       "text": "When something is important enough, you do it even if the odds are against you.",
       "author": "Elon Musk",
       "date": "2026-09-11T09:38:02.462408"
+    },
+    {
+      "text": "Innovation is saying no to 1,000 things.",
+      "author": "Steve Jobs",
+      "date": "2026-09-14T06:05:58.906568"
     }
   ],
-  "last_sent_date": "2026-09-11"
+  "last_sent_date": "2026-09-14"
 }
