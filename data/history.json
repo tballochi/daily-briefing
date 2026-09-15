@@ -944,13 +944,30 @@
       "url": "https://www.lemonde.fr/en/economy/article/2026/09/08/mistral-ai-raises-3-billion-in-response-to-doubts-over-its-strategic-direction_6757278_19.html",
       "title": "Mistral AI raises €3 billion in response to doubts over its ...",
       "date": "2026-09-14T06:05:58.906568"
+    },
+    {
+      "url_key": "safety4sea.com/cm-jotun-hull-performance-is-the-lowest-hanging-fruit-for-lower-emissions",
+      "title_key": "jotun: hull performance is the lowest-hanging fruit for lower emissions - safety4sea",
+      "url": "https://safety4sea.com/cm-jotun-hull-performance-is-the-lowest-hanging-fruit-for-lower-emissions",
+      "title": "Jotun: Hull performance is the lowest-hanging fruit for lower emissions - SAFETY4SEA",
+      "date": "2026-09-15T06:04:00.342674"
+    },
+    {
+      "url_key": "openai.com/index/navier-stokes-solution",
+      "title_key": "on the navier–stokes millennium prize problem | openai",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "title": "On the Navier–Stokes Millennium Prize Problem | OpenAI",
+      "date": "2026-09-15T06:04:00.342674"
+    },
+    {
+      "url_key": "stattimes.com/technology/ceva-logistics-pilots-autonomous-vehicles-at-singapore-blue-hub-1360617",
+      "title_key": "ceva logistics pilots autonomous vehicles at singapore blue hub",
+      "url": "https://www.stattimes.com/technology/ceva-logistics-pilots-autonomous-vehicles-at-singapore-blue-hub-1360617",
+      "title": "CEVA Logistics pilots autonomous vehicles at Singapore Blue Hub",
+      "date": "2026-09-15T06:04:00.342674"
     }
   ],
   "words": [
-    {
-      "word": "transcoding",
-      "date": "2026-08-01T06:02:40.706096"
-    },
     {
       "word": "transcoding",
       "date": "2026-08-02T06:01:27.310857"
@@ -1062,14 +1079,13 @@
     {
       "word": "quantization",
       "date": "2026-09-14T06:05:58.906568"
+    },
+    {
+      "word": "backpressure",
+      "date": "2026-09-15T06:04:00.342674"
     }
   ],
   "quotes": [
-    {
-      "text": "The computer is mightier than the sword, but only if you know how to use it.",
-      "author": "Sam Ewing",
-      "date": "2026-08-01T06:02:40.706096"
-    },
     {
       "text": "The value of a network is proportional to the square of the number of nodes on the network",
       "author": "Bob Metcalfe",
@@ -1209,7 +1225,12 @@
       "text": "Innovation is saying no to 1,000 things.",
       "author": "Steve Jobs",
       "date": "2026-09-14T06:05:58.906568"
+    },
+    {
+      "text": "The purpose of technology is to enable people to do things they could not do before.",
+      "author": "Tim O'Reilly",
+      "date": "2026-09-15T06:04:00.342674"
     }
   ],
-  "last_sent_date": "2026-09-14"
+  "last_sent_date": "2026-09-15"
 }
