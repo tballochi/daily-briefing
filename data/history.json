@@ -1,48 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "forbes.com/sites/serenitygibbons/2026/07/16/the-future-of-business-automation-is-adaptability",
-      "title_key": "the future of business automation is adaptability - forbes",
-      "url": "https://www.forbes.com/sites/serenitygibbons/2026/07/16/the-future-of-business-automation-is-adaptability/",
-      "title": "The Future Of Business Automation Is Adaptability - Forbes",
-      "date": "2026-07-17T06:04:23.013153"
-    },
-    {
-      "url_key": "nature.com/articles/s44271-026-00508-6",
-      "title_key": "understanding large language models demands distinguishing human projection from machine cognition - nature",
-      "url": "https://www.nature.com/articles/s44271-026-00508-6",
-      "title": "Understanding large language models demands distinguishing human projection from machine cognition - Nature",
-      "date": "2026-07-17T06:04:23.013153"
-    },
-    {
-      "url_key": "wealthmanagement.com/artificial-intelligence/mariner-partners-with-humanity-labs-for-ai-workforce",
-      "title_key": "mariner partners with humanity labs for ai workforce - wealth management",
-      "url": "https://www.wealthmanagement.com/artificial-intelligence/mariner-partners-with-humanity-labs-for-ai-workforce",
-      "title": "Mariner Partners With Humanity Labs for AI Workforce - Wealth Management",
-      "date": "2026-07-17T06:04:23.013153"
-    },
-    {
-      "url_key": "csoonline.com/article/4197499/npm-ecosystem-hit-with-two-new-supply-chain-compromises.html",
-      "title_key": "npm ecosystem hit with two new supply chain compromises - csoonline.com",
-      "url": "https://www.csoonline.com/article/4197499/npm-ecosystem-hit-with-two-new-supply-chain-compromises.html",
-      "title": "NPM ecosystem hit with two new supply chain compromises - csoonline.com",
-      "date": "2026-07-18T06:01:26.654035"
-    },
-    {
-      "url_key": "venturebeat.com/technology/canva-launches-code-2-0-offering-ai-website-building-to-every-user-including-free-accounts",
-      "title_key": "canva launches code 2.0, offering ai website building to every user — including free accounts - venturebeat",
-      "url": "https://venturebeat.com/technology/canva-launches-code-2-0-offering-ai-website-building-to-every-user-including-free-accounts",
-      "title": "Canva launches Code 2.0, offering AI website building to every user — including free accounts - VentureBeat",
-      "date": "2026-07-18T06:01:26.654035"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/june_u.s_bound_imports_post_annual_gains_reports_descartes",
-      "title_key": "june u.s.-bound imports post annual gains, reports descartes - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/june_u.s_bound_imports_post_annual_gains_reports_descartes/",
-      "title": "June U.S.-bound imports post annual gains, reports Descartes - Logistics Management",
-      "date": "2026-07-18T06:01:26.654035"
-    },
-    {
       "url_key": "roboticsandautomationnews.com/2026/07/17/opinion-exotec-managing-director-highlights-key-warehouse-automation-trends-for-2026/103366",
       "title_key": "opinion: exotec managing director highlights key warehouse automation trends for 2026 - robotics & automation news",
       "url": "https://roboticsandautomationnews.com/2026/07/17/opinion-exotec-managing-director-highlights-key-warehouse-automation-trends-for-2026/103366/",
@@ -965,13 +923,30 @@
       "url": "https://www.stattimes.com/technology/ceva-logistics-pilots-autonomous-vehicles-at-singapore-blue-hub-1360617",
       "title": "CEVA Logistics pilots autonomous vehicles at Singapore Blue Hub",
       "date": "2026-09-15T06:04:00.342674"
+    },
+    {
+      "url_key": "porttechnology.org/news/port-development/cma-cgm-invests-100m-to-expand-beirut-container-terminal",
+      "title_key": "cma cgm invests $100m to expand beirut container terminal",
+      "url": "https://www.porttechnology.org/news/port-development/cma-cgm-invests-100m-to-expand-beirut-container-terminal",
+      "title": "CMA CGM invests $100m to expand Beirut container terminal",
+      "date": "2026-09-16T06:05:53.295570"
+    },
+    {
+      "url_key": "siliconangle.com/2026/09/15/googles-new-speech-model-gemini-3-8-live-supports-real-time-reasoning",
+      "title_key": "google's new speech model gemini 3.8 live supports real-time reasoning - siliconangle",
+      "url": "https://siliconangle.com/2026/09/15/googles-new-speech-model-gemini-3-8-live-supports-real-time-reasoning",
+      "title": "Google's new speech model Gemini 3.8 Live supports real-time reasoning - SiliconANGLE",
+      "date": "2026-09-16T06:05:53.295570"
+    },
+    {
+      "url_key": "tech-insider.org/mistral-ai-valuation-samsung-funding-2026",
+      "title_key": "mistral ai valuation tops €21b after samsung deal",
+      "url": "https://tech-insider.org/mistral-ai-valuation-samsung-funding-2026",
+      "title": "Mistral AI Valuation Tops €21B After Samsung Deal",
+      "date": "2026-09-16T06:05:53.295570"
     }
   ],
   "words": [
-    {
-      "word": "transcoding",
-      "date": "2026-08-02T06:01:27.310857"
-    },
     {
       "word": "transcoding",
       "date": "2026-08-03T06:01:42.344763"
@@ -1083,14 +1058,13 @@
     {
       "word": "backpressure",
       "date": "2026-09-15T06:04:00.342674"
+    },
+    {
+      "word": "idempotency",
+      "date": "2026-09-16T06:05:53.295570"
     }
   ],
   "quotes": [
-    {
-      "text": "The value of a network is proportional to the square of the number of nodes on the network",
-      "author": "Bob Metcalfe",
-      "date": "2026-08-02T06:01:27.310857"
-    },
     {
       "text": "Code is the language in which we describe the world and the means by which we turn descriptions into reality.",
       "author": "Alan Kay",
@@ -1230,7 +1204,12 @@
       "text": "The purpose of technology is to enable people to do things they could not do before.",
       "author": "Tim O'Reilly",
       "date": "2026-09-15T06:04:00.342674"
+    },
+    {
+      "text": "We are stubborn on vision but flexible on details.",
+      "author": "Jeff Bezos",
+      "date": "2026-09-16T06:05:53.295570"
     }
   ],
-  "last_sent_date": "2026-09-15"
+  "last_sent_date": "2026-09-16"
 }
