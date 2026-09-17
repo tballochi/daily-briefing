@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "roboticsandautomationnews.com/2026/07/17/opinion-exotec-managing-director-highlights-key-warehouse-automation-trends-for-2026/103366",
-      "title_key": "opinion: exotec managing director highlights key warehouse automation trends for 2026 - robotics & automation news",
-      "url": "https://roboticsandautomationnews.com/2026/07/17/opinion-exotec-managing-director-highlights-key-warehouse-automation-trends-for-2026/103366/",
-      "title": "Opinion: Exotec managing director highlights key warehouse automation trends for 2026 - Robotics & Automation News",
-      "date": "2026-07-19T06:01:21.004916"
-    },
-    {
-      "url_key": "maritime-executive.com/corporate/data-driven-voyage-optimization-shortens-atlantic-transit-by-2-5-days",
-      "title_key": "data-driven voyage optimization shortens atlantic transit by 2.5 days - the maritime executive",
-      "url": "https://maritime-executive.com/corporate/data-driven-voyage-optimization-shortens-atlantic-transit-by-2-5-days",
-      "title": "Data-Driven Voyage Optimization Shortens Atlantic Transit by 2.5 Days - The Maritime Executive",
-      "date": "2026-07-19T06:01:21.004916"
-    },
-    {
-      "url_key": "mining-technology.com/news/cemi-marks-clerk-partner-canadian-mining-innovation",
-      "title_key": "cemi and marks & clerk partner on canadian mining innovation - mining technology",
-      "url": "https://www.mining-technology.com/news/cemi-marks-clerk-partner-canadian-mining-innovation/",
-      "title": "CEMI and Marks & Clerk partner on Canadian mining innovation - Mining Technology",
-      "date": "2026-07-19T06:01:21.004916"
-    },
-    {
       "url_key": "seatrade-maritime.com/security/piracy-and-yemen-escalation-threaten-red-sea-shipping-return",
       "title_key": "piracy and yemen escalation threaten red sea shipping return - seatrade maritime news",
       "url": "https://www.seatrade-maritime.com/security/piracy-and-yemen-escalation-threaten-red-sea-shipping-return",
@@ -944,13 +923,30 @@
       "url": "https://tech-insider.org/mistral-ai-valuation-samsung-funding-2026",
       "title": "Mistral AI Valuation Tops €21B After Samsung Deal",
       "date": "2026-09-16T06:05:53.295570"
+    },
+    {
+      "url_key": "ua.news/en/world/frantsiia-i-saudivska-araviia-ogolosili-blizko-20-ugod-i-memorandumiv",
+      "title_key": "france and saudi arabia announce around 20 agreements | ua.news",
+      "url": "https://ua.news/en/world/frantsiia-i-saudivska-araviia-ogolosili-blizko-20-ugod-i-memorandumiv",
+      "title": "France and Saudi Arabia announce around 20 agreements | UA.NEWS",
+      "date": "2026-09-17T06:03:37.317982"
+    },
+    {
+      "url_key": "mistral.ai/news/mistral-x-mozilla",
+      "title_key": "mistral x mozilla: private, multilingual ai browsing",
+      "url": "https://mistral.ai/news/mistral-x-mozilla",
+      "title": "Mistral x Mozilla: Private, Multilingual AI Browsing",
+      "date": "2026-09-17T06:03:37.317982"
+    },
+    {
+      "url_key": "streamlinefeed.co.ke/news/american-university-of-beirut-partners-with-cma-cgm-to-launch-ai-institute",
+      "title_key": "american university of beirut partners with cma cgm to launch ai institute",
+      "url": "https://streamlinefeed.co.ke/news/american-university-of-beirut-partners-with-cma-cgm-to-launch-ai-institute",
+      "title": "American University of Beirut partners with CMA CGM to launch AI institute",
+      "date": "2026-09-17T06:03:37.317982"
     }
   ],
   "words": [
-    {
-      "word": "transcoding",
-      "date": "2026-08-03T06:01:42.344763"
-    },
     {
       "word": "transduction",
       "date": "2026-08-04T06:01:30.318941"
@@ -1062,14 +1058,13 @@
     {
       "word": "idempotency",
       "date": "2026-09-16T06:05:53.295570"
+    },
+    {
+      "word": "webhook",
+      "date": "2026-09-17T06:03:37.317982"
     }
   ],
   "quotes": [
-    {
-      "text": "Code is the language in which we describe the world and the means by which we turn descriptions into reality.",
-      "author": "Alan Kay",
-      "date": "2026-08-03T06:01:42.344763"
-    },
     {
       "text": "The most important thing about a technology is how it changes people.",
       "author": "Steve Jobs",
@@ -1209,7 +1204,12 @@
       "text": "We are stubborn on vision but flexible on details.",
       "author": "Jeff Bezos",
       "date": "2026-09-16T06:05:53.295570"
+    },
+    {
+      "text": "The computer was born to solve problems that did not exist before.",
+      "author": "Bill Gates",
+      "date": "2026-09-17T06:03:37.317982"
     }
   ],
-  "last_sent_date": "2026-09-16"
+  "last_sent_date": "2026-09-17"
 }
