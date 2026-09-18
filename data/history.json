@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "seatrade-maritime.com/security/piracy-and-yemen-escalation-threaten-red-sea-shipping-return",
-      "title_key": "piracy and yemen escalation threaten red sea shipping return - seatrade maritime news",
-      "url": "https://www.seatrade-maritime.com/security/piracy-and-yemen-escalation-threaten-red-sea-shipping-return",
-      "title": "Piracy and Yemen escalation threaten Red Sea shipping return - Seatrade Maritime News",
-      "date": "2026-07-20T06:01:22.199817"
-    },
-    {
-      "url_key": "reuters.com/business/over-200-experts-call-urgent-action-tackle-ais-economic-impact-2026-07-13",
-      "title_key": "over 200 experts call for urgent action to tackle ai's economic impact - reuters",
-      "url": "https://www.reuters.com/business/over-200-experts-call-urgent-action-tackle-ais-economic-impact-2026-07-13/",
-      "title": "Over 200 experts call for urgent action to tackle AI's economic impact - Reuters",
-      "date": "2026-07-20T06:01:22.199817"
-    },
-    {
-      "url_key": "darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover",
-      "title_key": "2-click cursor exploit enables dev environment takeover - dark reading",
-      "url": "https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover",
-      "title": "2-Click Cursor Exploit Enables Dev Environment Takeover - Dark Reading",
-      "date": "2026-07-20T06:01:22.199817"
-    },
-    {
       "url_key": "logisticsmgmt.com/article/project44_splits_into_two_businesses_launches_ai_focused_lsp44_for_logistics_providers",
       "title_key": "project44 splits into two businesses, launches ai-focused lsp44 for logistics providers - logistics management",
       "url": "https://www.logisticsmgmt.com/article/project44_splits_into_two_businesses_launches_ai_focused_lsp44_for_logistics_providers/",
@@ -944,13 +923,30 @@
       "url": "https://streamlinefeed.co.ke/news/american-university-of-beirut-partners-with-cma-cgm-to-launch-ai-institute",
       "title": "American University of Beirut partners with CMA CGM to launch AI institute",
       "date": "2026-09-17T06:03:37.317982"
+    },
+    {
+      "url_key": "bizjournals.com/orlando/news/2026/09/17/onerail-omnistar-nvidia-last-mile-ai-decisioning.html",
+      "title_key": "onerail unveils nvidia-powered delivery platform amid investor buzz",
+      "url": "https://www.bizjournals.com/orlando/news/2026/09/17/onerail-omnistar-nvidia-last-mile-ai-decisioning.html",
+      "title": "OneRail unveils Nvidia-powered delivery platform amid investor buzz",
+      "date": "2026-09-18T06:03:34.683066"
+    },
+    {
+      "url_key": "3dvf.com/en/better-than-a-human-at-running-a-computer-openai-s-new-chatgpt-6-scored-100-on-a-hacking-benchmark",
+      "title_key": "better than a human at running a computer, openai's new chatgpt 6 scored 100% on a hacking benchmark",
+      "url": "https://3dvf.com/en/better-than-a-human-at-running-a-computer-openai-s-new-chatgpt-6-scored-100-on-a-hacking-benchmark",
+      "title": "Better than a human at running a computer, OpenAI's new ChatGPT 6 scored 100% on a hacking benchmark",
+      "date": "2026-09-18T06:03:34.683066"
+    },
+    {
+      "url_key": "ppc.land/openai-lets-advertisers-run-chatgpt-ads-from-hubspot-and-shopify",
+      "title_key": "openai lets advertisers run chatgpt ads from hubspot and shopify",
+      "url": "https://ppc.land/openai-lets-advertisers-run-chatgpt-ads-from-hubspot-and-shopify",
+      "title": "OpenAI lets advertisers run ChatGPT ads from HubSpot and Shopify",
+      "date": "2026-09-18T06:03:34.683066"
     }
   ],
   "words": [
-    {
-      "word": "transduction",
-      "date": "2026-08-04T06:01:30.318941"
-    },
     {
       "word": "transcoding",
       "date": "2026-08-05T06:01:34.264170"
@@ -1062,14 +1058,13 @@
     {
       "word": "webhook",
       "date": "2026-09-17T06:03:37.317982"
+    },
+    {
+      "word": "rate limiting",
+      "date": "2026-09-18T06:03:34.683066"
     }
   ],
   "quotes": [
-    {
-      "text": "The most important thing about a technology is how it changes people.",
-      "author": "Steve Jobs",
-      "date": "2026-08-04T06:01:30.318941"
-    },
     {
       "text": "The key is not to prioritize what's on your schedule, but to schedule your priorities.",
       "author": "Stephen Covey",
@@ -1209,7 +1204,12 @@
       "text": "The computer was born to solve problems that did not exist before.",
       "author": "Bill Gates",
       "date": "2026-09-17T06:03:37.317982"
+    },
+    {
+      "text": "Our industry does not respect tradition—it respects innovation.",
+      "author": "Satya Nadella",
+      "date": "2026-09-18T06:03:34.683066"
     }
   ],
-  "last_sent_date": "2026-09-17"
+  "last_sent_date": "2026-09-18"
 }
