@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "wsj.com/logistics-report/altana-acquires-ai-platform-to-tackle-customs-complexity-0bf30fa2",
-      "title_key": "exclusive | altana acquires ai platform to tackle customs complexity - wsj",
-      "url": "https://www.wsj.com/logistics-report/altana-acquires-ai-platform-to-tackle-customs-complexity-0bf30fa2",
-      "title": "Exclusive | Altana Acquires AI Platform to Tackle Customs Complexity - WSJ",
-      "date": "2026-07-22T06:01:09.624857"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/maersk_preps_to_open_up_a_new_boston_area_fulfillment_hub",
-      "title_key": "maersk preps to open up a new boston-area fulfillment hub - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/maersk_preps_to_open_up_a_new_boston_area_fulfillment_hub/",
-      "title": "Maersk preps to open up a new Boston-area fulfillment hub - Logistics Management",
-      "date": "2026-07-22T06:01:09.624857"
-    },
-    {
-      "url_key": "thenewstack.io/anaconda-kilo-open-source-acquisition",
-      "title_key": "anaconda buys kilo, the open source coding agent that answers to no single model maker - the new stack",
-      "url": "https://thenewstack.io/anaconda-kilo-open-source-acquisition",
-      "title": "Anaconda buys Kilo, the open source coding agent that answers to no single model maker - The New Stack",
-      "date": "2026-07-22T06:01:09.624857"
-    },
-    {
       "url_key": "reuters.com/business/microsoft-fund-mistrals-european-ai-expansion-multibillion-dollar-deal-2026-07-21",
       "title_key": "microsoft to fund mistral's european ai expansion in multibillion-dollar deal - reuters",
       "url": "https://www.reuters.com/business/microsoft-fund-mistrals-european-ai-expansion-multibillion-dollar-deal-2026-07-21/",
@@ -944,13 +923,30 @@
       "url": "https://www.arabnews.com/corporate-and-sponsored-content/american-university-of-beirut-and-cma-cgm-join-forces-to-advance-ai-data-science-3001760",
       "title": "Arab News | American University of Beirut and CMA CGM join forces to advance AI & data science",
       "date": "2026-09-19T06:05:04.672219"
+    },
+    {
+      "url_key": "breakbulk.news/maersk-expands-north-american-e-commerce-delivery-reach-through-shipstore",
+      "title_key": "maersk expands north american e commerce delivery reach ...",
+      "url": "https://breakbulk.news/maersk-expands-north-american-e-commerce-delivery-reach-through-shipstore",
+      "title": "Maersk expands North American e commerce delivery reach ...",
+      "date": "2026-09-20T06:04:51.187888"
+    },
+    {
+      "url_key": "fortune.com/2026/09/14/openai-may-have-violated-californias-ai-safety-law-with-astra-model-releases-ai-watchdog-says",
+      "title_key": "openai may have violated california's ai safety law with ... - fortune",
+      "url": "https://fortune.com/2026/09/14/openai-may-have-violated-californias-ai-safety-law-with-astra-model-releases-ai-watchdog-says",
+      "title": "OpenAI may have violated California's AI safety law with ... - Fortune",
+      "date": "2026-09-20T06:04:51.187888"
+    },
+    {
+      "url_key": "theloadstar.com/container-shipping-health-check-more-room-to-manage-the-next-supply-wave",
+      "title_key": "container shipping health check – more room to manage the next supply wave - the loadstar",
+      "url": "https://theloadstar.com/container-shipping-health-check-more-room-to-manage-the-next-supply-wave",
+      "title": "Container shipping health check – more room to manage the next supply wave - The Loadstar",
+      "date": "2026-09-20T06:04:51.187888"
     }
   ],
   "words": [
-    {
-      "word": "transcoding",
-      "date": "2026-08-06T06:01:13.138036"
-    },
     {
       "word": "transcoding",
       "date": "2026-08-07T06:01:32.313326"
@@ -1062,14 +1058,13 @@
     {
       "word": "caching",
       "date": "2026-09-19T06:05:04.672219"
+    },
+    {
+      "word": "event sourcing",
+      "date": "2026-09-20T06:04:51.187888"
     }
   ],
   "quotes": [
-    {
-      "text": "The future belongs to those who see possibilities before they become obvious.",
-      "author": "John Sculley",
-      "date": "2026-08-06T06:01:13.138036"
-    },
     {
       "text": "Code is the language in which we describe the world and the means by which we turn descriptions into reality.",
       "author": "John Maeda",
@@ -1209,7 +1204,12 @@
       "text": "The Web does not just change what we do; it changes who we are.",
       "author": "Tim Berners-Lee",
       "date": "2026-09-19T06:05:04.672219"
+    },
+    {
+      "text": "If you think good architecture is expensive, try bad architecture.",
+      "author": "Brian Kernighan",
+      "date": "2026-09-20T06:04:51.187888"
     }
   ],
-  "last_sent_date": "2026-09-19"
+  "last_sent_date": "2026-09-20"
 }
