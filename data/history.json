@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "reuters.com/business/microsoft-fund-mistrals-european-ai-expansion-multibillion-dollar-deal-2026-07-21",
-      "title_key": "microsoft to fund mistral's european ai expansion in multibillion-dollar deal - reuters",
-      "url": "https://www.reuters.com/business/microsoft-fund-mistrals-european-ai-expansion-multibillion-dollar-deal-2026-07-21/",
-      "title": "Microsoft to fund Mistral's European AI expansion in multibillion-dollar deal - Reuters",
-      "date": "2026-07-23T06:01:34.805730"
-    },
-    {
-      "url_key": "maritime-executive.com/article/more-ships-u-turn-to-avoid-houthi-threats",
-      "title_key": "more ships u-turn to avoid houthi threats - the maritime executive",
-      "url": "https://maritime-executive.com/article/more-ships-u-turn-to-avoid-houthi-threats",
-      "title": "More Ships U-Turn to Avoid Houthi Threats - The Maritime Executive",
-      "date": "2026-07-23T06:01:34.805730"
-    },
-    {
-      "url_key": "axios.com/2026/07/22/mistral-samsung-20-billion-valuation",
-      "title_key": "mistral in talks with samsung on €20b valuation - axios",
-      "url": "https://www.axios.com/2026/07/22/mistral-samsung-20-billion-valuation",
-      "title": "Mistral in talks with Samsung on €20B valuation - Axios",
-      "date": "2026-07-23T06:01:34.805730"
-    },
-    {
       "url_key": "bnonews.com/index.php/2026/07/the-future-of-freight-next-gen-engine-tech",
       "title_key": "the future of freight: next-gen engine tech - bno news",
       "url": "https://bnonews.com/index.php/2026/07/the-future-of-freight-next-gen-engine-tech",
@@ -944,13 +923,30 @@
       "url": "https://theloadstar.com/container-shipping-health-check-more-room-to-manage-the-next-supply-wave",
       "title": "Container shipping health check – more room to manage the next supply wave - The Loadstar",
       "date": "2026-09-20T06:04:51.187888"
+    },
+    {
+      "url_key": "inboundlogistics.com/articles/in-brief-new-services-and-solutions-0726",
+      "title_key": "from ai to green fuel: developments in freight and logistics tech - inbound logistics",
+      "url": "https://www.inboundlogistics.com/articles/in-brief-new-services-and-solutions-0726",
+      "title": "From AI to Green Fuel: Developments in Freight and Logistics Tech - Inbound Logistics",
+      "date": "2026-09-21T06:05:04.604711"
+    },
+    {
+      "url_key": "shattered.io/valve-steam-ceva-logistics-breach-2026",
+      "title_key": "valve: steam data safe after ceva logistics breach [2026]",
+      "url": "https://shattered.io/valve-steam-ceva-logistics-breach-2026",
+      "title": "Valve: Steam Data Safe After CEVA Logistics Breach [2026]",
+      "date": "2026-09-21T06:05:04.604711"
+    },
+    {
+      "url_key": "langchain.com/blog/jev-agent-evals-langsmith",
+      "title_key": "can jev be a better agent evaluator? - langchain",
+      "url": "https://www.langchain.com/blog/jev-agent-evals-langsmith",
+      "title": "Can Jev Be a Better Agent Evaluator? - LangChain",
+      "date": "2026-09-21T06:05:04.604711"
     }
   ],
   "words": [
-    {
-      "word": "transcoding",
-      "date": "2026-08-07T06:01:32.313326"
-    },
     {
       "word": "transduction",
       "date": "2026-08-08T05:53:45.286174"
@@ -1062,14 +1058,13 @@
     {
       "word": "event sourcing",
       "date": "2026-09-20T06:04:51.187888"
+    },
+    {
+      "word": "sandboxing",
+      "date": "2026-09-21T06:05:04.604711"
     }
   ],
   "quotes": [
-    {
-      "text": "Code is the language in which we describe the world and the means by which we turn descriptions into reality.",
-      "author": "John Maeda",
-      "date": "2026-08-07T06:01:32.313326"
-    },
     {
       "text": "The art of programming is the art of doing something with a machine that you would not normally think of as a machine",
       "author": "Donald Knuth",
@@ -1209,7 +1204,12 @@
       "text": "If you think good architecture is expensive, try bad architecture.",
       "author": "Brian Kernighan",
       "date": "2026-09-20T06:04:51.187888"
+    },
+    {
+      "text": "The only way to win is to learn faster than the competition.",
+      "author": "Eric Schmidt",
+      "date": "2026-09-21T06:05:04.604711"
     }
   ],
-  "last_sent_date": "2026-09-20"
+  "last_sent_date": "2026-09-21"
 }
