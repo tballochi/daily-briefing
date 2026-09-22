@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "bnonews.com/index.php/2026/07/the-future-of-freight-next-gen-engine-tech",
-      "title_key": "the future of freight: next-gen engine tech - bno news",
-      "url": "https://bnonews.com/index.php/2026/07/the-future-of-freight-next-gen-engine-tech",
-      "title": "The Future of Freight: Next-Gen Engine Tech - BNO News",
-      "date": "2026-07-24T06:01:24.126842"
-    },
-    {
-      "url_key": "mrkt30.com/what-happened-to-le-chat-mistrals-vibe-rebrand-tested-2026",
-      "title_key": "what happened to le chat? mistral’s vibe rebrand, tested (2026) - mrkt3.0",
-      "url": "https://mrkt30.com/what-happened-to-le-chat-mistrals-vibe-rebrand-tested-2026",
-      "title": "What Happened to Le Chat? Mistral’s Vibe Rebrand, Tested (2026) - MRKT3.0",
-      "date": "2026-07-24T06:01:24.126842"
-    },
-    {
-      "url_key": "gizmodo.com/google-introduces-gemini-3-6-to-remind-you-it-has-an-ai-model-too-2000788641",
-      "title_key": "google introduces gemini 3.6 to remind you it has an ai model, too - gizmodo",
-      "url": "https://gizmodo.com/google-introduces-gemini-3-6-to-remind-you-it-has-an-ai-model-too-2000788641",
-      "title": "Google Introduces Gemini 3.6 to Remind You It Has an AI Model, Too - Gizmodo",
-      "date": "2026-07-24T06:01:24.126842"
-    },
-    {
       "url_key": "actuia.com/en/actors/mistral-ai",
       "title_key": "mistral ai — actuia",
       "url": "https://www.actuia.com/en/actors/mistral-ai",
@@ -944,13 +923,30 @@
       "url": "https://www.langchain.com/blog/jev-agent-evals-langsmith",
       "title": "Can Jev Be a Better Agent Evaluator? - LangChain",
       "date": "2026-09-21T06:05:04.604711"
+    },
+    {
+      "url_key": "breakbulk.news/cma-cgm-invests-100-million-to-more-than-double-beirut-terminal-capacity",
+      "title_key": "cma cgm invests $100 million to more than double beirut terminal capacity",
+      "url": "https://breakbulk.news/cma-cgm-invests-100-million-to-more-than-double-beirut-terminal-capacity",
+      "title": "CMA CGM invests $100 million to more than double Beirut terminal capacity",
+      "date": "2026-09-22T06:05:34.799194"
+    },
+    {
+      "url_key": "ventureatlas.org/industry/artificial-intelligence",
+      "title_key": "ai labs - venture atlas",
+      "url": "https://www.ventureatlas.org/industry/artificial-intelligence",
+      "title": "AI Labs - Venture Atlas",
+      "date": "2026-09-22T06:05:34.799194"
+    },
+    {
+      "url_key": "news.aibase.com/news/31092",
+      "title_key": "claude releases major update: 43 all-in-one workflows and deep integration with 27 leading applications",
+      "url": "https://news.aibase.com/news/31092",
+      "title": "Claude Releases Major Update: 43 All-in-One Workflows and Deep Integration with 27 Leading Applications",
+      "date": "2026-09-22T06:05:34.799194"
     }
   ],
   "words": [
-    {
-      "word": "transduction",
-      "date": "2026-08-08T05:53:45.286174"
-    },
     {
       "word": "transcoding",
       "date": "2026-08-09T05:55:59.104724"
@@ -1062,14 +1058,13 @@
     {
       "word": "sandboxing",
       "date": "2026-09-21T06:05:04.604711"
+    },
+    {
+      "word": "gossip protocol",
+      "date": "2026-09-22T06:05:34.799194"
     }
   ],
   "quotes": [
-    {
-      "text": "The art of programming is the art of doing something with a machine that you would not normally think of as a machine",
-      "author": "Donald Knuth",
-      "date": "2026-08-08T05:53:45.286174"
-    },
     {
       "text": "The computer is a medium, and the message is the change that the medium brings to the user, not the content that the medium carries.",
       "author": "Marshall McLuhan",
@@ -1209,7 +1204,12 @@
       "text": "The only way to win is to learn faster than the competition.",
       "author": "Eric Schmidt",
       "date": "2026-09-21T06:05:04.604711"
+    },
+    {
+      "text": "The Internet is the most important single development in the history of human communication since the invention of the printing press.",
+      "author": "Robert Kahn",
+      "date": "2026-09-22T06:05:34.799194"
     }
   ],
-  "last_sent_date": "2026-09-21"
+  "last_sent_date": "2026-09-22"
 }
