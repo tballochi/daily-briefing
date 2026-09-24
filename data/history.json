@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "markets.businessinsider.com/news/stocks/weathernews-launches-smartphone-app-for-ai-powered-marine-weather-service-seanavigator-1036364290",
-      "title_key": "weathernews launches smartphone app for ai-powered marine weather service seanavigator - markets.businessinsider.com",
-      "url": "https://markets.businessinsider.com/news/stocks/weathernews-launches-smartphone-app-for-ai-powered-marine-weather-service-seanavigator-1036364290",
-      "title": "Weathernews Launches Smartphone App for AI-Powered Marine Weather Service SeaNavigator - markets.businessinsider.com",
-      "date": "2026-07-26T06:01:20.475127"
-    },
-    {
-      "url_key": "infoq.com/articles/self-building-agent-langchain4j",
-      "title_key": "the self-building agent: a langchain4j experiment - infoq.com",
-      "url": "https://www.infoq.com/articles/self-building-agent-langchain4j/",
-      "title": "The Self-Building Agent: A LangChain4j Experiment - infoq.com",
-      "date": "2026-07-26T06:01:20.475127"
-    },
-    {
-      "url_key": "securityweek.com/capital-one-open-sources-ai-powered-vulnhunter-security-tool",
-      "title_key": "capital one open sources ai-powered ‘vulnhunter’ security tool - securityweek",
-      "url": "https://www.securityweek.com/capital-one-open-sources-ai-powered-vulnhunter-security-tool/",
-      "title": "Capital One Open Sources AI-Powered ‘VulnHunter’ Security Tool - SecurityWeek",
-      "date": "2026-07-26T06:01:20.475127"
-    },
-    {
       "url_key": "marinelink.com/news/ksoe-siemens-partner-aipowered-shipyard-541524",
       "title_key": "ksoe and siemens partner on ai-powered shipyard - marine news magazine",
       "url": "https://www.marinelink.com/news/ksoe-siemens-partner-aipowered-shipyard-541524",
@@ -944,13 +923,30 @@
       "url": "https://www.width.ai/post/n8n-vs-langgraph-for-production-ai-workflows",
       "title": "n8n vs LangGraph for Production AI Workflows: Which Should You ...",
       "date": "2026-09-23T06:03:11.941164"
+    },
+    {
+      "url_key": "linkedin.com/posts/alexandre-pasquiou-0bb3b8b9_cmacgmstartupawards-predictiveai-ccsa-activity-7508435983374229506-x0bm",
+      "title_key": "#cmacgmstartupawards #predictiveai #ccsa | alexandre pasquiou",
+      "url": "https://www.linkedin.com/posts/alexandre-pasquiou-0bb3b8b9_cmacgmstartupawards-predictiveai-ccsa-activity-7508435983374229506-X0bm",
+      "title": "#cmacgmstartupawards #predictiveai #ccsa | Alexandre Pasquiou",
+      "date": "2026-09-24T06:06:33.162754"
+    },
+    {
+      "url_key": "instagram.com/p/ddmq5ohjm7y",
+      "title_key": "l'europe vient de signer le plus gros tour de table de son histoire ...",
+      "url": "https://www.instagram.com/p/DdmQ5ohjm7Y",
+      "title": "L'Europe vient de signer le plus gros tour de table de son histoire ...",
+      "date": "2026-09-24T06:06:33.162754"
+    },
+    {
+      "url_key": "facebook.com/marius.comper/posts/mistral-ai-began-in-2023-with-an-explicit-ambition-to-build-state-of-the-art-gen/10164960057739621",
+      "title_key": "mistral ai began in 2023 with an explicit ambition to build state-of ...",
+      "url": "https://www.facebook.com/marius.comper/posts/mistral-ai-began-in-2023-with-an-explicit-ambition-to-build-state-of-the-art-gen/10164960057739621",
+      "title": "Mistral AI began in 2023 with an explicit ambition to build state-of ...",
+      "date": "2026-09-24T06:06:33.162754"
     }
   ],
   "words": [
-    {
-      "word": "orchestration",
-      "date": "2026-08-10T06:01:18.613292"
-    },
     {
       "word": "transmutation",
       "date": "2026-08-11T06:01:23.810562"
@@ -1062,14 +1058,13 @@
     {
       "word": "homomorphic encryption",
       "date": "2026-09-23T06:03:11.941164"
+    },
+    {
+      "word": "pipeline parallelism",
+      "date": "2026-09-24T06:06:33.162754"
     }
   ],
   "quotes": [
-    {
-      "text": "The biggest risk is not taking any risk, in a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks and not trying new things.",
-      "author": "Mark Zuckerberg",
-      "date": "2026-08-10T06:01:18.613292"
-    },
     {
       "text": "The computer is a tool, and like any tool, its value depends on the user.",
       "author": "Alan Kay",
@@ -1209,7 +1204,12 @@
       "text": "Your brand is what other people say about you when you’re not in the room.",
       "author": "Jeff Bezos",
       "date": "2026-09-23T06:03:11.941164"
+    },
+    {
+      "text": "The biggest risk is not taking any risk.",
+      "author": "Mark Zuckerberg",
+      "date": "2026-09-24T06:06:33.162754"
     }
   ],
-  "last_sent_date": "2026-09-23"
+  "last_sent_date": "2026-09-24"
 }
