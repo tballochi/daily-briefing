@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "marinelink.com/news/ksoe-siemens-partner-aipowered-shipyard-541524",
-      "title_key": "ksoe and siemens partner on ai-powered shipyard - marine news magazine",
-      "url": "https://www.marinelink.com/news/ksoe-siemens-partner-aipowered-shipyard-541524",
-      "title": "KSOE And Siemens Partner On AI-Powered Shipyard - Marine News Magazine",
-      "date": "2026-07-27T06:01:26.321680"
-    },
-    {
-      "url_key": "logisticsmgmt.com/article/j.b_hunt_rolls_out_overroute_following_a_year_of_internal_development",
-      "title_key": "j.b. hunt rolls out overroute, following a year of internal development - logistics management",
-      "url": "https://www.logisticsmgmt.com/article/j.b_hunt_rolls_out_overroute_following_a_year_of_internal_development",
-      "title": "J.B. Hunt rolls out Overroute, following a year of internal development - Logistics Management",
-      "date": "2026-07-27T06:01:26.321680"
-    },
-    {
-      "url_key": "cnet.com/tech/services-and-software/googles-opal-ai-builds-apps-from-your-words-when-it-works",
-      "title_key": "google’s opal ai builds apps from your words — when it works - cnet",
-      "url": "https://www.cnet.com/tech/services-and-software/googles-opal-ai-builds-apps-from-your-words-when-it-works/",
-      "title": "Google’s Opal AI Builds Apps From Your Words — When It Works - CNET",
-      "date": "2026-07-27T06:01:26.321680"
-    },
-    {
       "url_key": "newscientist.com/article/2580504-why-open-source-software-can-be-both-good-and-bad",
       "title_key": "why open-source software can be both good and bad - new scientist",
       "url": "https://www.newscientist.com/article/2580504-why-open-source-software-can-be-both-good-and-bad/",
@@ -944,13 +923,30 @@
       "url": "https://www.facebook.com/marius.comper/posts/mistral-ai-began-in-2023-with-an-explicit-ambition-to-build-state-of-the-art-gen/10164960057739621",
       "title": "Mistral AI began in 2023 with an explicit ambition to build state-of ...",
       "date": "2026-09-24T06:06:33.162754"
+    },
+    {
+      "url_key": "gcaptain.com/shipping-magnate-worth-13-5-billion-rides-ai-boom-with-nvidia",
+      "title_key": "shipping magnate worth $13.5 billion rides ai boom with nvidia",
+      "url": "https://gcaptain.com/shipping-magnate-worth-13-5-billion-rides-ai-boom-with-nvidia",
+      "title": "Shipping Magnate Worth $13.5 Billion Rides AI Boom With Nvidia",
+      "date": "2026-09-25T06:03:08.301104"
+    },
+    {
+      "url_key": "thenewstack.io/openai-gpt-6-sol-luna-release",
+      "title_key": "openai releases gpt-6 sol and luna — and cuts token prices in half - the new stack",
+      "url": "https://thenewstack.io/openai-gpt-6-sol-luna-release",
+      "title": "OpenAI releases GPT-6 Sol and Luna — and cuts token prices in half - The New Stack",
+      "date": "2026-09-25T06:03:08.301104"
+    },
+    {
+      "url_key": "tech-insider.org/anthropic-new-ai-model-gpt-6-astra-2026",
+      "title_key": "anthropic weighs new ai model as gpt-6 astra gains",
+      "url": "https://tech-insider.org/anthropic-new-ai-model-gpt-6-astra-2026",
+      "title": "Anthropic Weighs New AI Model as GPT-6 Astra Gains",
+      "date": "2026-09-25T06:03:08.301104"
     }
   ],
   "words": [
-    {
-      "word": "transmutation",
-      "date": "2026-08-11T06:01:23.810562"
-    },
     {
       "word": "transcoding",
       "date": "2026-08-12T06:01:34.807564"
@@ -1062,14 +1058,13 @@
     {
       "word": "pipeline parallelism",
       "date": "2026-09-24T06:06:33.162754"
+    },
+    {
+      "word": "tensor decomposition",
+      "date": "2026-09-25T06:03:08.301104"
     }
   ],
   "quotes": [
-    {
-      "text": "The computer is a tool, and like any tool, its value depends on the user.",
-      "author": "Alan Kay",
-      "date": "2026-08-11T06:01:23.810562"
-    },
     {
       "text": "Software is a great combination of artistry and engineering.",
       "author": "Bill Gates",
@@ -1209,7 +1204,12 @@
       "text": "The biggest risk is not taking any risk.",
       "author": "Mark Zuckerberg",
       "date": "2026-09-24T06:06:33.162754"
+    },
+    {
+      "text": "Any sufficiently advanced technology is indistinguishable from magic.",
+      "author": "Arthur C. Clarke",
+      "date": "2026-09-25T06:03:08.301104"
     }
   ],
-  "last_sent_date": "2026-09-24"
+  "last_sent_date": "2026-09-25"
 }
