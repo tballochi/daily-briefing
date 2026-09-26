@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "newscientist.com/article/2580504-why-open-source-software-can-be-both-good-and-bad",
-      "title_key": "why open-source software can be both good and bad - new scientist",
-      "url": "https://www.newscientist.com/article/2580504-why-open-source-software-can-be-both-good-and-bad/",
-      "title": "Why open-source software can be both good and bad - New Scientist",
-      "date": "2026-07-28T06:01:25.789982"
-    },
-    {
-      "url_key": "marinelink.com/news/maersk-takes-delivery-first-ammonia-541563",
-      "title_key": "maersk takes delivery of first ammonia carrier - marine news magazine",
-      "url": "https://www.marinelink.com/news/maersk-takes-delivery-first-ammonia-541563",
-      "title": "Maersk Takes Delivery Of First Ammonia Carrier - Marine News Magazine",
-      "date": "2026-07-28T06:01:25.789982"
-    },
-    {
-      "url_key": "cnbc.com/2026/07/25/ups-fedex-dhl-healthare-logistics-glp.html",
-      "title_key": "logistics giants are racing to keep up with healthcare boom as glp-1s highlight need for cold storage - cnbc",
-      "url": "https://www.cnbc.com/2026/07/25/ups-fedex-dhl-healthare-logistics-glp.html",
-      "title": "Logistics giants are racing to keep up with healthcare boom as GLP-1s highlight need for cold storage - CNBC",
-      "date": "2026-07-28T06:01:25.789982"
-    },
-    {
       "url_key": "lejdd.fr/economie/mistral-cma-cgm-sodexo-les-cinq-infos-economiques-de-la-semaine-179814",
       "title_key": "mistral, cma cgm, sodexo : les cinq infos économiques de la semaine",
       "url": "https://www.lejdd.fr/economie/mistral-cma-cgm-sodexo-les-cinq-infos-economiques-de-la-semaine-179814",
@@ -944,13 +923,30 @@
       "url": "https://tech-insider.org/anthropic-new-ai-model-gpt-6-astra-2026",
       "title": "Anthropic Weighs New AI Model as GPT-6 Astra Gains",
       "date": "2026-09-25T06:03:08.301104"
+    },
+    {
+      "url_key": "northeasttimes.com/2026/09/24/google-deepmind-s-new-chief-signals-gemini-4-launch-is-close",
+      "title_key": "google deepmind's new chief signals gemini 4 launch is close",
+      "url": "https://northeasttimes.com/2026/09/24/google-deepmind-s-new-chief-signals-gemini-4-launch-is-close",
+      "title": "Google DeepMind's New Chief Signals Gemini 4 Launch Is Close",
+      "date": "2026-09-26T06:04:26.976512"
+    },
+    {
+      "url_key": "splash247.com/six-startups-win-cma-cgm-innovation-awards",
+      "title_key": "six startups win cma cgm innovation awards",
+      "url": "https://splash247.com/six-startups-win-cma-cgm-innovation-awards",
+      "title": "Six startups win CMA CGM innovation awards",
+      "date": "2026-09-26T06:04:26.976512"
+    },
+    {
+      "url_key": "cmacgm-group.com/en/news-media/cma-cgm-startup-awards-six-winning-startups-driving-innovation-shipping-logistics-media",
+      "title_key": "six winning startups driving innovation in shipping, logistics ...",
+      "url": "https://www.cmacgm-group.com/en/news-media/cma-cgm-startup-awards-six-winning-startups-driving-innovation-shipping-logistics-media",
+      "title": "six winning startups driving innovation in shipping, logistics ...",
+      "date": "2026-09-26T06:04:26.976512"
     }
   ],
   "words": [
-    {
-      "word": "transcoding",
-      "date": "2026-08-12T06:01:34.807564"
-    },
     {
       "word": "transcoding",
       "date": "2026-08-13T06:01:26.686074"
@@ -1062,14 +1058,13 @@
     {
       "word": "tensor decomposition",
       "date": "2026-09-25T06:03:08.301104"
+    },
+    {
+      "word": "zero‑copy",
+      "date": "2026-09-26T06:04:26.976512"
     }
   ],
   "quotes": [
-    {
-      "text": "Software is a great combination of artistry and engineering.",
-      "author": "Bill Gates",
-      "date": "2026-08-12T06:01:34.807564"
-    },
     {
       "text": "Code is the language in which we describe the world and the means by which we turn descriptions into reality.",
       "author": "John McCarthy",
@@ -1209,7 +1204,12 @@
       "text": "Any sufficiently advanced technology is indistinguishable from magic.",
       "author": "Arthur C. Clarke",
       "date": "2026-09-25T06:03:08.301104"
+    },
+    {
+      "text": "Focus on the customer and all else will follow.",
+      "author": "Jeff Bezos",
+      "date": "2026-09-26T06:04:26.976512"
     }
   ],
-  "last_sent_date": "2026-09-25"
+  "last_sent_date": "2026-09-26"
 }
