@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "lejdd.fr/economie/mistral-cma-cgm-sodexo-les-cinq-infos-economiques-de-la-semaine-179814",
-      "title_key": "mistral, cma cgm, sodexo : les cinq infos économiques de la semaine",
-      "url": "https://www.lejdd.fr/economie/mistral-cma-cgm-sodexo-les-cinq-infos-economiques-de-la-semaine-179814",
-      "title": "Mistral, CMA CGM, Sodexo : les cinq infos économiques de la semaine",
-      "date": "2026-07-29T06:01:53.007956"
-    },
-    {
-      "url_key": "sterc.com/en/blog/mistral",
-      "title_key": "mistral ai: europe's ai leader in privacy and control | sterc online agency",
-      "url": "https://sterc.com/en/blog/mistral",
-      "title": "Mistral AI: Europe's AI leader in privacy and control | Sterc Online Agency",
-      "date": "2026-07-29T06:01:53.007956"
-    },
-    {
-      "url_key": "startuphub.ai/ai-news/startup-news/2026/how-supabase-became-a-devtool-giant",
-      "title_key": "how supabase became a devtool giant | startuphub.ai",
-      "url": "https://www.startuphub.ai/ai-news/startup-news/2026/how-supabase-became-a-devtool-giant",
-      "title": "How Supabase Became a DevTool Giant | StartupHub.ai",
-      "date": "2026-07-29T06:01:53.007956"
-    },
-    {
       "url_key": "seatrade-maritime.com/containers/higher-rates-drive-profit-growth-for-cma-cgm-s-shipping-business",
       "title_key": "higher rates drive profit growth for cma cgm’s shipping business - seatrade maritime news",
       "url": "https://www.seatrade-maritime.com/containers/higher-rates-drive-profit-growth-for-cma-cgm-s-shipping-business",
@@ -944,13 +923,30 @@
       "url": "https://www.cmacgm-group.com/en/news-media/cma-cgm-startup-awards-six-winning-startups-driving-innovation-shipping-logistics-media",
       "title": "six winning startups driving innovation in shipping, logistics ...",
       "date": "2026-09-26T06:04:26.976512"
+    },
+    {
+      "url_key": "porttechnology.org/news/green-technology/neoline-cma-cgm-add-zeebrugge-to-wind-powered-route",
+      "title_key": "neoline, cma cgm add zeebrugge to wind-powered route",
+      "url": "https://www.porttechnology.org/news/green-technology/neoline-cma-cgm-add-zeebrugge-to-wind-powered-route",
+      "title": "NEOLINE, CMA CGM add Zeebrugge to wind-powered route",
+      "date": "2026-09-27T06:06:43.685481"
+    },
+    {
+      "url_key": "medium.com/@strategycheatsheet/maersks-ai-transformation-can-ai-turn-the-world-s-largest-logistics-company-into-a-digital-supply-5db061b4247a",
+      "title_key": "maersk's ai transformation: can ai turn the world's ...",
+      "url": "https://medium.com/@strategycheatsheet/maersks-ai-transformation-can-ai-turn-the-world-s-largest-logistics-company-into-a-digital-supply-5db061b4247a",
+      "title": "Maersk's AI Transformation: Can AI Turn the World's ...",
+      "date": "2026-09-27T06:06:43.685481"
+    },
+    {
+      "url_key": "siliconangle.com/2026/09/22/anthropic-releases-claude-opus-5-5-and-openai-counters-with-two-cheaper-gpt-6-models",
+      "title_key": "anthropic releases claude opus 5.5 and openai counters ...",
+      "url": "https://siliconangle.com/2026/09/22/anthropic-releases-claude-opus-5-5-and-openai-counters-with-two-cheaper-gpt-6-models",
+      "title": "Anthropic releases Claude Opus 5.5 and OpenAI counters ...",
+      "date": "2026-09-27T06:06:43.685481"
     }
   ],
   "words": [
-    {
-      "word": "transcoding",
-      "date": "2026-08-13T06:01:26.686074"
-    },
     {
       "word": "transcoding",
       "date": "2026-08-14T06:01:23.551609"
@@ -1062,14 +1058,13 @@
     {
       "word": "zero‑copy",
       "date": "2026-09-26T06:04:26.976512"
+    },
+    {
+      "word": "edge computing",
+      "date": "2026-09-27T06:06:43.685481"
     }
   ],
   "quotes": [
-    {
-      "text": "Code is the language in which we describe the world and the means by which we turn descriptions into reality.",
-      "author": "John McCarthy",
-      "date": "2026-08-13T06:01:26.686074"
-    },
     {
       "text": "The computer is a bicycle for our minds.",
       "author": "Steve Jobs",
@@ -1209,7 +1204,12 @@
       "text": "Focus on the customer and all else will follow.",
       "author": "Jeff Bezos",
       "date": "2026-09-26T06:04:26.976512"
+    },
+    {
+      "text": "Software is a great combination of artistry and engineering.",
+      "author": "Bill Gates",
+      "date": "2026-09-27T06:06:43.685481"
     }
   ],
-  "last_sent_date": "2026-09-26"
+  "last_sent_date": "2026-09-27"
 }
