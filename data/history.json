@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "seatrade-maritime.com/containers/higher-rates-drive-profit-growth-for-cma-cgm-s-shipping-business",
-      "title_key": "higher rates drive profit growth for cma cgm’s shipping business - seatrade maritime news",
-      "url": "https://www.seatrade-maritime.com/containers/higher-rates-drive-profit-growth-for-cma-cgm-s-shipping-business",
-      "title": "Higher rates drive profit growth for CMA CGM’s shipping business - Seatrade Maritime News",
-      "date": "2026-07-30T06:01:20.709472"
-    },
-    {
-      "url_key": "maritime-executive.com/article/cma-cgm-plans-growth-in-port-terminals-with-2-4b-investment-from-stonepeak",
-      "title_key": "cma cgm plans growth in port terminals with $2.4b investment from stonepeak - the maritime executive",
-      "url": "https://maritime-executive.com/article/cma-cgm-plans-growth-in-port-terminals-with-2-4b-investment-from-stonepeak",
-      "title": "CMA CGM Plans Growth in Port Terminals with $2.4B Investment from Stonepeak - The Maritime Executive",
-      "date": "2026-07-30T06:01:20.709472"
-    },
-    {
-      "url_key": "timesofindia.indiatimes.com/education/news/from-a-mumbai-engineering-graduate-to-global-ai-expert-how-sameer-paradkar-became-one-of-the-worlds-leading-voices-in-enterprise-architecture/articleshow/132675127.cms",
-      "title_key": "from mumbai engineering student to global ai architect: how sameer built solutions for microsoft, isro, european union and fortune 100 firms - the times of india",
-      "url": "https://timesofindia.indiatimes.com/education/news/from-a-mumbai-engineering-graduate-to-global-ai-expert-how-sameer-paradkar-became-one-of-the-worlds-leading-voices-in-enterprise-architecture/articleshow/132675127.cms",
-      "title": "From Mumbai engineering student to global AI architect: How Sameer built solutions for Microsoft, ISRO, European Union and Fortune 100 firms - The Times of India",
-      "date": "2026-07-30T06:01:20.709472"
-    },
-    {
       "url_key": "cmacgm-group.com/en/news-media/second-quarter-2026-financial-results",
       "title_key": "second quarter 2026 financial results | cma cgm group",
       "url": "https://www.cmacgm-group.com/en/news-media/second-quarter-2026-financial-results",
@@ -944,13 +923,30 @@
       "url": "https://siliconangle.com/2026/09/22/anthropic-releases-claude-opus-5-5-and-openai-counters-with-two-cheaper-gpt-6-models",
       "title": "Anthropic releases Claude Opus 5.5 and OpenAI counters ...",
       "date": "2026-09-27T06:06:43.685481"
+    },
+    {
+      "url_key": "en.wikipedia.org/wiki/cma_cgm",
+      "title_key": "cma cgm - wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CMA_CGM",
+      "title": "CMA CGM - Wikipedia",
+      "date": "2026-09-28T06:05:59.261421"
+    },
+    {
+      "url_key": "theloadstar.com/start-up-cherrys-logistics-ripe-for-growth-with-ai-and-a-human-touch",
+      "title_key": "start-up cherry’s logistics ripe for growth with ai - and a human touch - the loadstar",
+      "url": "https://theloadstar.com/start-up-cherrys-logistics-ripe-for-growth-with-ai-and-a-human-touch",
+      "title": "Start-up Cherry’s Logistics ripe for growth with AI - and a human touch - The Loadstar",
+      "date": "2026-09-28T06:05:59.261421"
+    },
+    {
+      "url_key": "practicalecommerce.com/new-ecommerce-tools-september-23-2026",
+      "title_key": "new ecommerce tools: september 23, 2026",
+      "url": "https://www.practicalecommerce.com/new-ecommerce-tools-september-23-2026",
+      "title": "New Ecommerce Tools: September 23, 2026",
+      "date": "2026-09-28T06:05:59.261421"
     }
   ],
   "words": [
-    {
-      "word": "transcoding",
-      "date": "2026-08-14T06:01:23.551609"
-    },
     {
       "word": "transduction",
       "date": "2026-08-15T05:36:58.775843"
@@ -1062,14 +1058,13 @@
     {
       "word": "edge computing",
       "date": "2026-09-27T06:06:43.685481"
+    },
+    {
+      "word": "semantic versioning",
+      "date": "2026-09-28T06:05:59.261421"
     }
   ],
   "quotes": [
-    {
-      "text": "The computer is a bicycle for our minds.",
-      "author": "Steve Jobs",
-      "date": "2026-08-14T06:01:23.551609"
-    },
     {
       "text": "The future of computing is not about the technology; it's about the people and how they use the technology to improve their lives.",
       "author": "Bill Gates",
@@ -1209,7 +1204,12 @@
       "text": "Software is a great combination of artistry and engineering.",
       "author": "Bill Gates",
       "date": "2026-09-27T06:06:43.685481"
+    },
+    {
+      "text": "The greatest danger in times of turbulence is not the turbulence—it is to act with yesterday’s logic.",
+      "author": "Peter Drucker",
+      "date": "2026-09-28T06:05:59.261421"
     }
   ],
-  "last_sent_date": "2026-09-27"
+  "last_sent_date": "2026-09-28"
 }
