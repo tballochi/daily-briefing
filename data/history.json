@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "cmacgm-group.com/en/news-media/second-quarter-2026-financial-results",
-      "title_key": "second quarter 2026 financial results | cma cgm group",
-      "url": "https://www.cmacgm-group.com/en/news-media/second-quarter-2026-financial-results",
-      "title": "Second Quarter 2026 Financial Results | CMA CGM Group",
-      "date": "2026-07-31T06:01:33.529575"
-    },
-    {
-      "url_key": "observer.com/2026/07/arthur-menschs-mistral-is-europes-best-bet-for-sovereign-a-i",
-      "title_key": "arthur mensch’s mistral is europe’s best bet for sovereign a.i.",
-      "url": "https://observer.com/2026/07/arthur-menschs-mistral-is-europes-best-bet-for-sovereign-a-i",
-      "title": "Arthur Mensch’s Mistral Is Europe’s Best Bet for Sovereign A.I.",
-      "date": "2026-07-31T06:01:33.529575"
-    },
-    {
-      "url_key": "thenewstack.io/tines-ai-workflow-governance",
-      "title_key": "\"there is a sell-by date on low-code, no-code\": what tines thinks comes next - the new stack",
-      "url": "https://thenewstack.io/tines-ai-workflow-governance",
-      "title": "\"There is a sell-by date on low-code, no-code\": What Tines thinks comes next - The New Stack",
-      "date": "2026-07-31T06:01:33.529575"
-    },
-    {
       "url_key": "fr8technologies.com/press-release/freight-technologies-expands-fleet-rocket-to-92-integrated-gps-providers",
       "title_key": "freight technologies expands fleet rocket to 92 integrated gps providers - freight technologies",
       "url": "https://fr8technologies.com/press-release/freight-technologies-expands-fleet-rocket-to-92-integrated-gps-providers",
@@ -944,13 +923,30 @@
       "url": "https://www.practicalecommerce.com/new-ecommerce-tools-september-23-2026",
       "title": "New Ecommerce Tools: September 23, 2026",
       "date": "2026-09-28T06:05:59.261421"
+    },
+    {
+      "url_key": "facebook.com/comredilyas.isah/posts/so-emmanuelmacron-decided-to-deploy-french-troops-to-support-saudi-arabia-in-its/1959553955013396",
+      "title_key": "france's objectives in deploying troops to saudi arabia",
+      "url": "https://www.facebook.com/comredilyas.isah/posts/so-emmanuelmacron-decided-to-deploy-french-troops-to-support-saudi-arabia-in-its/1959553955013396",
+      "title": "France's objectives in deploying troops to Saudi Arabia",
+      "date": "2026-09-29T06:05:55.639344"
+    },
+    {
+      "url_key": "mistral.ai/news/hallo-deutschland",
+      "title_key": "mistral opens munich hub to advance industrial ai in germany",
+      "url": "https://mistral.ai/news/hallo-deutschland",
+      "title": "Mistral Opens Munich Hub to Advance Industrial AI in Germany",
+      "date": "2026-09-29T06:05:55.639344"
+    },
+    {
+      "url_key": "itln.in/amp/logistics/how-hyderabads-pharma-supply-chain-ecosystem-is-preparing-for-the-next-1360767",
+      "title_key": "how hyderabad's pharma logistics ecosystem is preparing for the next",
+      "url": "https://www.itln.in/amp/logistics/how-hyderabads-pharma-supply-chain-ecosystem-is-preparing-for-the-next-1360767",
+      "title": "How Hyderabad's pharma logistics ecosystem is preparing for the next",
+      "date": "2026-09-29T06:05:55.639344"
     }
   ],
   "words": [
-    {
-      "word": "transduction",
-      "date": "2026-08-15T05:36:58.775843"
-    },
     {
       "word": "transformation",
       "date": "2026-08-16T05:39:21.112228"
@@ -1062,14 +1058,13 @@
     {
       "word": "semantic versioning",
       "date": "2026-09-28T06:05:59.261421"
+    },
+    {
+      "word": "feature flag",
+      "date": "2026-09-29T06:05:55.639344"
     }
   ],
   "quotes": [
-    {
-      "text": "The future of computing is not about the technology; it's about the people and how they use the technology to improve their lives.",
-      "author": "Bill Gates",
-      "date": "2026-08-15T05:36:58.775843"
-    },
     {
       "text": "The computer is a very personal machine, and it's only going to become more personal",
       "author": "Steve Jobs",
@@ -1209,7 +1204,12 @@
       "text": "The greatest danger in times of turbulence is not the turbulence—it is to act with yesterday’s logic.",
       "author": "Peter Drucker",
       "date": "2026-09-28T06:05:59.261421"
+    },
+    {
+      "text": "Data is the new oil.",
+      "author": "Clive Humby",
+      "date": "2026-09-29T06:05:55.639344"
     }
   ],
-  "last_sent_date": "2026-09-28"
+  "last_sent_date": "2026-09-29"
 }
