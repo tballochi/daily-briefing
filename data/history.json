@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "fr8technologies.com/press-release/freight-technologies-expands-fleet-rocket-to-92-integrated-gps-providers",
-      "title_key": "freight technologies expands fleet rocket to 92 integrated gps providers - freight technologies",
-      "url": "https://fr8technologies.com/press-release/freight-technologies-expands-fleet-rocket-to-92-integrated-gps-providers",
-      "title": "Freight Technologies Expands Fleet Rocket to 92 Integrated GPS Providers - Freight Technologies",
-      "date": "2026-08-01T06:02:40.706096"
-    },
-    {
-      "url_key": "sqmagazine.co.uk/ai-funding-tracker",
-      "title_key": "ai mega-round tracker - sq magazine",
-      "url": "https://sqmagazine.co.uk/ai-funding-tracker/",
-      "title": "AI Mega-Round Tracker - SQ Magazine",
-      "date": "2026-08-01T06:02:40.706096"
-    },
-    {
-      "url_key": "crn.com/news/ai/2026/the-10-coolest-open-source-software-tools-of-2026-so-far",
-      "title_key": "the 10 coolest open-source software tools of 2026 (so far)",
-      "url": "https://www.crn.com/news/ai/2026/the-10-coolest-open-source-software-tools-of-2026-so-far",
-      "title": "The 10 Coolest Open-Source Software Tools Of 2026 (So Far)",
-      "date": "2026-08-01T06:02:40.706096"
-    },
-    {
       "url_key": "csoonline.com/article/4202383/its-easier-to-steal-cargo-than-toothpaste.html",
       "title_key": "it’s easier to steal cargo than toothpaste - csoonline.com",
       "url": "https://www.csoonline.com/article/4202383/its-easier-to-steal-cargo-than-toothpaste.html",
@@ -944,13 +923,30 @@
       "url": "https://www.itln.in/amp/logistics/how-hyderabads-pharma-supply-chain-ecosystem-is-preparing-for-the-next-1360767",
       "title": "How Hyderabad's pharma logistics ecosystem is preparing for the next",
       "date": "2026-09-29T06:05:55.639344"
+    },
+    {
+      "url_key": "shattered.io/meta-stock-779-82-high-muse-ai-2026",
+      "title_key": "meta stock hits $779.82 high as muse ai ships",
+      "url": "https://shattered.io/meta-stock-779-82-high-muse-ai-2026",
+      "title": "Meta Stock Hits $779.82 High as Muse AI Ships",
+      "date": "2026-09-30T06:05:33.625559"
+    },
+    {
+      "url_key": "breakbulk.news/cma-cgm-selects-6-startups-for-shipping-logistics-and-ai-pilot-projects",
+      "title_key": "cma cgm selects 6 startups for shipping, logistics and ai pilot projects",
+      "url": "https://breakbulk.news/cma-cgm-selects-6-startups-for-shipping-logistics-and-ai-pilot-projects",
+      "title": "CMA CGM selects 6 startups for shipping, logistics and AI pilot projects",
+      "date": "2026-09-30T06:05:33.625559"
+    },
+    {
+      "url_key": "markets.businessinsider.com/news/stocks/avenirr-prepares-ai-business-platform-for-december-2026-launch-1036570943",
+      "title_key": "avenirr prepares ai business platform for december 2026 launch | markets insider",
+      "url": "https://markets.businessinsider.com/news/stocks/avenirr-prepares-ai-business-platform-for-december-2026-launch-1036570943",
+      "title": "Avenirr Prepares AI Business Platform for December 2026 Launch | Markets Insider",
+      "date": "2026-09-30T06:05:33.625559"
     }
   ],
   "words": [
-    {
-      "word": "transformation",
-      "date": "2026-08-16T05:39:21.112228"
-    },
     {
       "word": "transcoding",
       "date": "2026-08-17T05:47:23.097100"
@@ -1062,14 +1058,13 @@
     {
       "word": "feature flag",
       "date": "2026-09-29T06:05:55.639344"
+    },
+    {
+      "word": "latent space",
+      "date": "2026-09-30T06:05:33.625559"
     }
   ],
   "quotes": [
-    {
-      "text": "The computer is a very personal machine, and it's only going to become more personal",
-      "author": "Steve Jobs",
-      "date": "2026-08-16T05:39:21.112228"
-    },
     {
       "text": "The art of programming is the art of doing something with a machine that you would not normally think of as a machine",
       "author": "Donald Knuth",
@@ -1209,7 +1204,12 @@
       "text": "Data is the new oil.",
       "author": "Clive Humby",
       "date": "2026-09-29T06:05:55.639344"
+    },
+    {
+      "text": "The future is already here — it's just not evenly distributed.",
+      "author": "William Gibson",
+      "date": "2026-09-30T06:05:33.625559"
     }
   ],
-  "last_sent_date": "2026-09-29"
+  "last_sent_date": "2026-09-30"
 }
