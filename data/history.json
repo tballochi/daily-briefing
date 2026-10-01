@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "csoonline.com/article/4202383/its-easier-to-steal-cargo-than-toothpaste.html",
-      "title_key": "it’s easier to steal cargo than toothpaste - csoonline.com",
-      "url": "https://www.csoonline.com/article/4202383/its-easier-to-steal-cargo-than-toothpaste.html",
-      "title": "It’s easier to steal cargo than toothpaste - csoonline.com",
-      "date": "2026-08-02T06:01:27.310857"
-    },
-    {
-      "url_key": "ainonline.com/aviation-news/futureflight/2026-07-31/iai-joins-merlins-push-automate-cargo-aircraft",
-      "title_key": "merlin, israel aerospace industries team on autonomous freighter conversion - aviation international news",
-      "url": "https://www.ainonline.com/aviation-news/futureflight/2026-07-31/iai-joins-merlins-push-automate-cargo-aircraft",
-      "title": "Merlin, Israel Aerospace Industries Team on Autonomous Freighter Conversion - Aviation International News",
-      "date": "2026-08-02T06:01:27.310857"
-    },
-    {
-      "url_key": "biospace.com/press-releases/median-technologies-and-olea-medical-a-canon-medical-systems-company-partner-to-advance-commercial-deployment-of-ai-powered-eyonis-lcs-for-lung-cancer-screening",
-      "title_key": "median technologies and olea medical, a canon medical systems company, partner to advance commercial deployment of ai-powered eyonis® lcs for lung cancer screening - biospace.com",
-      "url": "https://www.biospace.com/press-releases/median-technologies-and-olea-medical-a-canon-medical-systems-company-partner-to-advance-commercial-deployment-of-ai-powered-eyonis-lcs-for-lung-cancer-screening",
-      "title": "Median Technologies and Olea Medical, a Canon Medical Systems Company, Partner to Advance Commercial Deployment of AI-Powered eyonis® LCS for Lung Cancer Screening - biospace.com",
-      "date": "2026-08-02T06:01:27.310857"
-    },
-    {
       "url_key": "mexicobusiness.news/tech/news/us-mexico-cross-border-freight-nearshoring-drives-rate-spikes",
       "title_key": "us-mexico cross-border freight: nearshoring drives rate spikes",
       "url": "https://mexicobusiness.news/tech/news/us-mexico-cross-border-freight-nearshoring-drives-rate-spikes",
@@ -944,13 +923,30 @@
       "url": "https://markets.businessinsider.com/news/stocks/avenirr-prepares-ai-business-platform-for-december-2026-launch-1036570943",
       "title": "Avenirr Prepares AI Business Platform for December 2026 Launch | Markets Insider",
       "date": "2026-09-30T06:05:33.625559"
+    },
+    {
+      "url_key": "theinference.org/article/mistral-s-3-billion-week-small-cheques-for-software-a-blank-one-for-compute",
+      "title_key": "mistral's €3 billion week: small cheques for software, a blank one for compute · the inference",
+      "url": "https://theinference.org/article/mistral-s-3-billion-week-small-cheques-for-software-a-blank-one-for-compute",
+      "title": "Mistral's €3 Billion Week: Small Cheques for Software, a Blank One for Compute · The Inference",
+      "date": "2026-10-01T06:02:41.877376"
+    },
+    {
+      "url_key": "forbes.com/sites/jonmarkman/2026/09/29/openai-calls-off-gpt-61-astras-october-launch-over-safety-concerns",
+      "title_key": "openai calls off gpt-6.1 astra's october launch over safety concerns",
+      "url": "https://www.forbes.com/sites/jonmarkman/2026/09/29/openai-calls-off-gpt-61-astras-october-launch-over-safety-concerns",
+      "title": "OpenAI Calls Off GPT-6.1 Astra's October Launch Over Safety Concerns",
+      "date": "2026-10-01T06:02:41.877376"
+    },
+    {
+      "url_key": "tech-insider.org/gemini-4-google-launch-deepmind-post-training-2026",
+      "title_key": "gemini 4 nears launch as google trails rivals [2026]",
+      "url": "https://tech-insider.org/gemini-4-google-launch-deepmind-post-training-2026",
+      "title": "Gemini 4 Nears Launch as Google Trails Rivals [2026]",
+      "date": "2026-10-01T06:02:41.877376"
     }
   ],
   "words": [
-    {
-      "word": "transcoding",
-      "date": "2026-08-17T05:47:23.097100"
-    },
     {
       "word": "sharding",
       "date": "2026-08-29T07:52:48.457892"
@@ -1062,14 +1058,13 @@
     {
       "word": "latent space",
       "date": "2026-09-30T06:05:33.625559"
+    },
+    {
+      "word": "containerization",
+      "date": "2026-10-01T06:02:41.877376"
     }
   ],
   "quotes": [
-    {
-      "text": "The art of programming is the art of doing something with a machine that you would not normally think of as a machine",
-      "author": "Donald Knuth",
-      "date": "2026-08-17T05:47:23.097100"
-    },
     {
       "text": "Your most unhappy customers are your greatest source of learning.",
       "author": "Bill Gates",
@@ -1209,7 +1204,12 @@
       "text": "The future is already here — it's just not evenly distributed.",
       "author": "William Gibson",
       "date": "2026-09-30T06:05:33.625559"
+    },
+    {
+      "text": "The best way to predict the future is to create it.",
+      "author": "Peter Drucker",
+      "date": "2026-10-01T06:02:41.877376"
     }
   ],
-  "last_sent_date": "2026-09-30"
+  "last_sent_date": "2026-10-01"
 }
