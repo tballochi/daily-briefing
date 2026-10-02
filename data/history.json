@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "mexicobusiness.news/tech/news/us-mexico-cross-border-freight-nearshoring-drives-rate-spikes",
-      "title_key": "us-mexico cross-border freight: nearshoring drives rate spikes",
-      "url": "https://mexicobusiness.news/tech/news/us-mexico-cross-border-freight-nearshoring-drives-rate-spikes",
-      "title": "US-Mexico Cross-Border Freight: Nearshoring Drives Rate Spikes",
-      "date": "2026-08-03T06:01:42.344763"
-    },
-    {
-      "url_key": "aimultiple.com/agentic-orchestration",
-      "title_key": "top 10+ agentic orchestration frameworks & tools",
-      "url": "https://aimultiple.com/agentic-orchestration",
-      "title": "Top 10+ Agentic Orchestration Frameworks & Tools",
-      "date": "2026-08-03T06:01:42.344763"
-    },
-    {
-      "url_key": "figma.com/resource-library/agentic-framework",
-      "title_key": "what is an agentic framework?",
-      "url": "https://www.figma.com/resource-library/agentic-framework",
-      "title": "What Is an Agentic Framework?",
-      "date": "2026-08-03T06:01:42.344763"
-    },
-    {
       "url_key": "hartfordbusiness.com/article/ct-shipping-technology-company-says-sale-among-strategic-review-options",
       "title_key": "ct shipping technology company says sale among strategic review options",
       "url": "https://hartfordbusiness.com/article/ct-shipping-technology-company-says-sale-among-strategic-review-options",
@@ -944,6 +923,27 @@
       "url": "https://tech-insider.org/gemini-4-google-launch-deepmind-post-training-2026",
       "title": "Gemini 4 Nears Launch as Google Trails Rivals [2026]",
       "date": "2026-10-01T06:02:41.877376"
+    },
+    {
+      "url_key": "x.com/gfbombassei/status/2105682183717281873",
+      "title_key": "giorgio bombassei",
+      "url": "https://x.com/GFBombassei/status/2105682183717281873",
+      "title": "Giorgio Bombassei",
+      "date": "2026-10-02T06:05:38.370584"
+    },
+    {
+      "url_key": "instagram.com/p/ddvv-_kenk8",
+      "title_key": "great opportunity in france.",
+      "url": "https://www.instagram.com/p/Ddvv-_KEnK8",
+      "title": "Great opportunity in France.",
+      "date": "2026-10-02T06:05:38.370584"
+    },
+    {
+      "url_key": "instagram.com/reel/dd6q-bzss4x",
+      "title_key": "souveraineté européenne ou illusion ? 🇪🇺🤖 mistral a levé ...",
+      "url": "https://www.instagram.com/reel/Dd6q-BZss4x",
+      "title": "Souveraineté européenne ou illusion ? 🇪🇺🤖 Mistral a levé ...",
+      "date": "2026-10-02T06:05:38.370584"
     }
   ],
   "words": [
@@ -1062,6 +1062,10 @@
     {
       "word": "containerization",
       "date": "2026-10-01T06:02:41.877376"
+    },
+    {
+      "word": "backpropagation",
+      "date": "2026-10-02T06:05:38.370584"
     }
   ],
   "quotes": [
@@ -1209,7 +1213,12 @@
       "text": "The best way to predict the future is to create it.",
       "author": "Peter Drucker",
       "date": "2026-10-01T06:02:41.877376"
+    },
+    {
+      "text": "The Web is more a social medium than a technical one.",
+      "author": "Tim Berners-Lee",
+      "date": "2026-10-02T06:05:38.370584"
     }
   ],
-  "last_sent_date": "2026-10-01"
+  "last_sent_date": "2026-10-02"
 }
