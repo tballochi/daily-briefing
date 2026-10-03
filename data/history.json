@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "hartfordbusiness.com/article/ct-shipping-technology-company-says-sale-among-strategic-review-options",
-      "title_key": "ct shipping technology company says sale among strategic review options",
-      "url": "https://hartfordbusiness.com/article/ct-shipping-technology-company-says-sale-among-strategic-review-options",
-      "title": "CT shipping technology company says sale among strategic review options",
-      "date": "2026-08-04T06:01:30.318941"
-    },
-    {
-      "url_key": "tracxn.com/d/companies/mistral-ai/__slzq7rzxlyqqa97jtpwo09jldeb76rvjvb306ohciwu/funding-and-investors",
-      "title_key": "mistral ai - 2026 funding rounds & list of investors",
-      "url": "https://tracxn.com/d/companies/mistral-ai/__SLZq7rzxLYqqA97jtPwO09jLDeb76RVJVb306OhciWU/funding-and-investors",
-      "title": "Mistral AI - 2026 Funding Rounds & List of Investors",
-      "date": "2026-08-04T06:01:30.318941"
-    },
-    {
-      "url_key": "opensource.googleblog.com/2026/08/adapting-open-source-practices-to-an-ai-first-world-a-retrospective-on-2025.html",
-      "title_key": "adapting open source practices to an ai-first world: a retrospective on 2025",
-      "url": "https://opensource.googleblog.com/2026/08/adapting-open-source-practices-to-an-ai-first-world-a-retrospective-on-2025.html",
-      "title": "Adapting open source practices to an AI-first world: A retrospective on 2025",
-      "date": "2026-08-04T06:01:30.318941"
-    },
-    {
       "url_key": "trans.info/en/modern-technology-makes-life-easier-but-not-safer-the-flip-side-of-logistics-digitalization-493190",
       "title_key": "modern technology makes life easier, but not safer. the flip side of logistics digitalization | trans.info",
       "url": "https://trans.info/en/modern-technology-makes-life-easier-but-not-safer-the-flip-side-of-logistics-digitalization-493190",
@@ -944,6 +923,27 @@
       "url": "https://www.instagram.com/reel/Dd6q-BZss4x",
       "title": "Souveraineté européenne ou illusion ? 🇪🇺🤖 Mistral a levé ...",
       "date": "2026-10-02T06:05:38.370584"
+    },
+    {
+      "url_key": "andela.com/publication/the-engine-room-of-maritime-ai-is-understaffed",
+      "title_key": "the engine room of maritime ai is understaffed",
+      "url": "https://www.andela.com/publication/the-engine-room-of-maritime-ai-is-understaffed",
+      "title": "The engine room of Maritime AI is understaffed",
+      "date": "2026-10-03T06:05:06.210590"
+    },
+    {
+      "url_key": "9to5google.com/2026/09/28/openai-cancels-gpt-6-1-astra-release-over-misbehavior-safety-concerns",
+      "title_key": "openai cancels gpt-6.1 astra over safety concerns",
+      "url": "https://9to5google.com/2026/09/28/openai-cancels-gpt-6-1-astra-release-over-misbehavior-safety-concerns",
+      "title": "OpenAI cancels GPT-6.1 Astra over safety concerns",
+      "date": "2026-10-03T06:05:06.210590"
+    },
+    {
+      "url_key": "app.dealroom.co/news/note/google-deepmind-unveils-gemini-4-argon-its-new-frontier-model",
+      "title_key": "dealroom.co | google deepmind unveils gemini 4 argon, its new frontier model",
+      "url": "https://app.dealroom.co/news/note/google-deepmind-unveils-gemini-4-argon-its-new-frontier-model",
+      "title": "Dealroom.co | Google DeepMind unveils Gemini 4 Argon, its new frontier model",
+      "date": "2026-10-03T06:05:06.210590"
     }
   ],
   "words": [
@@ -1066,6 +1066,10 @@
     {
       "word": "backpropagation",
       "date": "2026-10-02T06:05:38.370584"
+    },
+    {
+      "word": "observability",
+      "date": "2026-10-03T06:05:06.210590"
     }
   ],
   "quotes": [
@@ -1218,7 +1222,12 @@
       "text": "The Web is more a social medium than a technical one.",
       "author": "Tim Berners-Lee",
       "date": "2026-10-02T06:05:38.370584"
+    },
+    {
+      "text": "The computer is a bicycle for the mind.",
+      "author": "Steve Jobs",
+      "date": "2026-10-03T06:05:06.210590"
     }
   ],
-  "last_sent_date": "2026-10-02"
+  "last_sent_date": "2026-10-03"
 }
