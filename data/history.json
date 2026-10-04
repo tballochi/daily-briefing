@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "trans.info/en/modern-technology-makes-life-easier-but-not-safer-the-flip-side-of-logistics-digitalization-493190",
-      "title_key": "modern technology makes life easier, but not safer. the flip side of logistics digitalization | trans.info",
-      "url": "https://trans.info/en/modern-technology-makes-life-easier-but-not-safer-the-flip-side-of-logistics-digitalization-493190",
-      "title": "Modern technology makes life easier, but not safer. The flip side of logistics digitalization | trans.info",
-      "date": "2026-08-05T06:01:34.264170"
-    },
-    {
-      "url_key": "quiverquant.com/news/descartes+systems+group+helps+forefront+global+logistics+build+ai-powered+digital+freight+brokerage",
-      "title_key": "descartes systems group helps forefront global logistics build ai-powered digital freight brokerage | quiver quantitative",
-      "url": "https://www.quiverquant.com/news/Descartes+Systems+Group+Helps+Forefront+Global+Logistics+Build+AI-Powered+Digital+Freight+Brokerage",
-      "title": "Descartes Systems Group Helps Forefront Global Logistics Build AI-Powered Digital Freight Brokerage | Quiver Quantitative",
-      "date": "2026-08-05T06:01:34.264170"
-    },
-    {
-      "url_key": "builtin.com/articles/agentic-ai-platforms",
-      "title_key": "11 top agentic ai platforms and tools to know",
-      "url": "https://builtin.com/articles/agentic-ai-platforms",
-      "title": "11 Top Agentic AI Platforms and Tools to Know",
-      "date": "2026-08-05T06:01:34.264170"
-    },
-    {
       "url_key": "helpnetsecurity.com/2026/08/05/tenable-broadens-ai-visibility-across-major-llms-and-ai-tools",
       "title_key": "tenable broadens ai visibility across major llms and ai tools",
       "url": "https://www.helpnetsecurity.com/2026/08/05/tenable-broadens-ai-visibility-across-major-llms-and-ai-tools",
@@ -944,6 +923,27 @@
       "url": "https://app.dealroom.co/news/note/google-deepmind-unveils-gemini-4-argon-its-new-frontier-model",
       "title": "Dealroom.co | Google DeepMind unveils Gemini 4 Argon, its new frontier model",
       "date": "2026-10-03T06:05:06.210590"
+    },
+    {
+      "url_key": "facebook.com/groups/2125261617601525/posts/28098431366524528",
+      "title_key": "kestrel s ship details: liberia flagged, 2010 build, 177m long",
+      "url": "https://www.facebook.com/groups/2125261617601525/posts/28098431366524528",
+      "title": "Kestrel S ship details: Liberia flagged, 2010 build, 177m long",
+      "date": "2026-10-04T06:10:51.425683"
+    },
+    {
+      "url_key": "lemonde.fr/en/economy",
+      "title_key": "economy - world news, culture and opinion",
+      "url": "https://www.lemonde.fr/en/economy",
+      "title": "Economy - World news, culture and opinion",
+      "date": "2026-10-04T06:10:51.425683"
+    },
+    {
+      "url_key": "teamvismaleaseabike.com/race-report/news/jakobsen-makes-his-worldtour-team-debut-for-team-visma-lease-a-bike-at-munsterland-giro",
+      "title_key": "jakobsen makes his worldtour team debut…",
+      "url": "https://www.teamvismaleaseabike.com/race-report/news/jakobsen-makes-his-worldtour-team-debut-for-team-visma-lease-a-bike-at-munsterland-giro",
+      "title": "Jakobsen makes his WorldTour team debut…",
+      "date": "2026-10-04T06:10:51.425683"
     }
   ],
   "words": [
@@ -1070,6 +1070,10 @@
     {
       "word": "observability",
       "date": "2026-10-03T06:05:06.210590"
+    },
+    {
+      "word": "gradient descent",
+      "date": "2026-10-04T06:10:51.425683"
     }
   ],
   "quotes": [
@@ -1227,7 +1231,12 @@
       "text": "The computer is a bicycle for the mind.",
       "author": "Steve Jobs",
       "date": "2026-10-03T06:05:06.210590"
+    },
+    {
+      "text": "Stay hungry, stay foolish.",
+      "author": "Steve Jobs",
+      "date": "2026-10-04T06:10:51.425683"
     }
   ],
-  "last_sent_date": "2026-10-03"
+  "last_sent_date": "2026-10-04"
 }
