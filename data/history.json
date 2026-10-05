@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "helpnetsecurity.com/2026/08/05/tenable-broadens-ai-visibility-across-major-llms-and-ai-tools",
-      "title_key": "tenable broadens ai visibility across major llms and ai tools",
-      "url": "https://www.helpnetsecurity.com/2026/08/05/tenable-broadens-ai-visibility-across-major-llms-and-ai-tools",
-      "title": "Tenable broadens AI visibility across major LLMs and AI tools",
-      "date": "2026-08-06T06:01:13.138036"
-    },
-    {
-      "url_key": "inboundlogistics.com/articles/a-sustainable-partnership-provides-a-custom-solution-reusable-packaging",
-      "title_key": "md logistics: reusable packaging for cold chain shipping",
-      "url": "https://www.inboundlogistics.com/articles/a-sustainable-partnership-provides-a-custom-solution-reusable-packaging",
-      "title": "MD Logistics: Reusable Packaging for Cold Chain Shipping",
-      "date": "2026-08-06T06:01:13.138036"
-    },
-    {
-      "url_key": "newscientist.com/article/2580566-will-a-new-kind-of-ai-that-understands-physical-reality-change-the-world-again",
-      "title_key": "will a new kind of ai that understands physical reality change the world again?",
-      "url": "https://www.newscientist.com/article/2580566-will-a-new-kind-of-ai-that-understands-physical-reality-change-the-world-again",
-      "title": "Will a new kind of AI that understands physical reality change the world again?",
-      "date": "2026-08-06T06:01:13.138036"
-    },
-    {
       "url_key": "thenewstack.io/platform-engineering-ai-harness",
       "title_key": "every software company will become a dev tools company - the new stack",
       "url": "https://thenewstack.io/platform-engineering-ai-harness",
@@ -944,6 +923,27 @@
       "url": "https://www.teamvismaleaseabike.com/race-report/news/jakobsen-makes-his-worldtour-team-debut-for-team-visma-lease-a-bike-at-munsterland-giro",
       "title": "Jakobsen makes his WorldTour team debut…",
       "date": "2026-10-04T06:10:51.425683"
+    },
+    {
+      "url_key": "premai.io/blog/hippa-compliant-ai-tools",
+      "title_key": "5 best hipaa-compliant ai platforms & tools for healthcare in 2026",
+      "url": "https://www.premai.io/blog/hippa-compliant-ai-tools",
+      "title": "5 Best HIPAA-Compliant AI Platforms & Tools for Healthcare in 2026",
+      "date": "2026-10-05T06:06:15.430753"
+    },
+    {
+      "url_key": "worldairlinenews.com",
+      "title_key": "world airline news | your central hub for aviation press releases. photos powered by airlinersgallery.com images.",
+      "url": "https://worldairlinenews.com",
+      "title": "World Airline News | Your Central Hub for Aviation Press Releases. Photos powered by AirlinersGallery.com Images.",
+      "date": "2026-10-05T06:06:15.430753"
+    },
+    {
+      "url_key": "linkedin.com/posts/viktoriia-kobenko_maritime-ai-shipping-activity-7511103618020945921-h2ek",
+      "title_key": "viktoriia kobenko's post",
+      "url": "https://www.linkedin.com/posts/viktoriia-kobenko_maritime-ai-shipping-activity-7511103618020945921-H2ek",
+      "title": "Viktoriia Kobenko's Post",
+      "date": "2026-10-05T06:06:15.430753"
     }
   ],
   "words": [
@@ -1074,6 +1074,10 @@
     {
       "word": "gradient descent",
       "date": "2026-10-04T06:10:51.425683"
+    },
+    {
+      "word": "hyperthreading",
+      "date": "2026-10-05T06:06:15.430753"
     }
   ],
   "quotes": [
@@ -1236,7 +1240,12 @@
       "text": "Stay hungry, stay foolish.",
       "author": "Steve Jobs",
       "date": "2026-10-04T06:10:51.425683"
+    },
+    {
+      "text": "The real problem is not whether machines think but whether men do.",
+      "author": "B. F. Skinner",
+      "date": "2026-10-05T06:06:15.430753"
     }
   ],
-  "last_sent_date": "2026-10-04"
+  "last_sent_date": "2026-10-05"
 }
