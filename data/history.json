@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "thenewstack.io/platform-engineering-ai-harness",
-      "title_key": "every software company will become a dev tools company - the new stack",
-      "url": "https://thenewstack.io/platform-engineering-ai-harness",
-      "title": "Every software company will become a dev tools company - The New Stack",
-      "date": "2026-08-07T06:01:32.313326"
-    },
-    {
-      "url_key": "mistral.ai/news/shieldstral",
-      "title_key": "introducing shieldstral. | mistral ai",
-      "url": "https://mistral.ai/news/shieldstral",
-      "title": "Introducing Shieldstral. | Mistral AI",
-      "date": "2026-08-07T06:01:32.313326"
-    },
-    {
-      "url_key": "vivatech.com",
-      "title_key": "vivatech: 2027 edition",
-      "url": "https://vivatech.com",
-      "title": "VivaTech: 2027 Edition",
-      "date": "2026-08-07T06:01:32.313326"
-    },
-    {
       "url_key": "digitalapplied.com/blog/mistral-sovereign-ai-eu-compliance-stack-2026",
       "title_key": "mistral as the sovereign-ai play after august 2, 2026",
       "url": "https://www.digitalapplied.com/blog/mistral-sovereign-ai-eu-compliance-stack-2026",
@@ -944,6 +923,27 @@
       "url": "https://www.linkedin.com/posts/viktoriia-kobenko_maritime-ai-shipping-activity-7511103618020945921-H2ek",
       "title": "Viktoriia Kobenko's Post",
       "date": "2026-10-05T06:06:15.430753"
+    },
+    {
+      "url_key": "maritimeprofessional.com/news/zebox-advance-solutions-transportation-logistics-423350",
+      "title_key": "fpt, zebox to advance ai solutions in transportation, logistics",
+      "url": "https://www.maritimeprofessional.com/news/zebox-advance-solutions-transportation-logistics-423350",
+      "title": "FPT, ZEBOX to Advance AI Solutions in Transportation, Logistics",
+      "date": "2026-10-06T06:06:27.595059"
+    },
+    {
+      "url_key": "techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less",
+      "title_key": "openai launches gpt-6.1 sol, says it nearly matches gpt-6 astra and costs less",
+      "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less",
+      "title": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
+      "date": "2026-10-06T06:06:27.595059"
+    },
+    {
+      "url_key": "constellationr.com/insights/news/google-launches-gemini-4-argon",
+      "title_key": "google launches gemini 4 argon | constellation research",
+      "url": "https://www.constellationr.com/insights/news/google-launches-gemini-4-argon",
+      "title": "Google launches Gemini 4 Argon | Constellation Research",
+      "date": "2026-10-06T06:06:27.595059"
     }
   ],
   "words": [
@@ -1078,6 +1078,10 @@
     {
       "word": "hyperthreading",
       "date": "2026-10-05T06:06:15.430753"
+    },
+    {
+      "word": "zero‑shot learning",
+      "date": "2026-10-06T06:06:27.595059"
     }
   ],
   "quotes": [
@@ -1245,7 +1249,12 @@
       "text": "The real problem is not whether machines think but whether men do.",
       "author": "B. F. Skinner",
       "date": "2026-10-05T06:06:15.430753"
+    },
+    {
+      "text": "The Web as I envisaged it, has the power to change the world.",
+      "author": "Tim Berners‑Lee",
+      "date": "2026-10-06T06:06:27.595059"
     }
   ],
-  "last_sent_date": "2026-10-05"
+  "last_sent_date": "2026-10-06"
 }
