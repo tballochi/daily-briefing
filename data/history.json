@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "citybiz.co/article/885210/bluegrace-logistics-acquires-truk-tms-to-expand-managed-logistics-platform",
-      "title_key": "bluegrace logistics acquires truk tms to expand managed logistics platform | citybiz",
-      "url": "https://www.citybiz.co/article/885210/bluegrace-logistics-acquires-truk-tms-to-expand-managed-logistics-platform",
-      "title": "BlueGrace Logistics Acquires Truk TMS to Expand Managed Logistics Platform | citybiz",
-      "date": "2026-08-09T05:55:59.104724"
-    },
-    {
-      "url_key": "techxplore.com/news/2026-08-hardware-aware-framework-large-language.html",
-      "title_key": "hardware-aware framework accelerates large language models without additional training",
-      "url": "https://techxplore.com/news/2026-08-hardware-aware-framework-large-language.html",
-      "title": "Hardware-aware framework accelerates large language models without additional training",
-      "date": "2026-08-09T05:55:59.104724"
-    },
-    {
-      "url_key": "headline.com/blog-latest",
-      "title_key": "venture capital insights & founder stories | headline blog",
-      "url": "https://headline.com/blog-latest",
-      "title": "Venture Capital Insights & Founder Stories | Headline Blog",
-      "date": "2026-08-09T05:55:59.104724"
-    },
-    {
       "url_key": "composio.dev/toolkits/gemini/framework/langchain",
       "title_key": "gemini mcp integration with langchain | composio",
       "url": "https://composio.dev/toolkits/gemini/framework/langchain",
@@ -944,6 +923,27 @@
       "url": "https://www.ajot.com/news/cargoai-expands-its-collaboration-with-cma-cgm-air-cargo-through-digital-allotment-management",
       "title": "CargoAi expands its collaboration with CMA CGM AIR CARGO through digital allotment management",
       "date": "2026-10-07T06:04:21.842267"
+    },
+    {
+      "url_key": "mistral.ai/cloud/compute",
+      "title_key": "ai cloud for training and inference at scale | mistral",
+      "url": "https://mistral.ai/cloud/compute",
+      "title": "AI Cloud for training and inference at scale | Mistral",
+      "date": "2026-10-08T06:06:23.664079"
+    },
+    {
+      "url_key": "offshore-energy.biz/topic/it-software",
+      "title_key": "it & software - offshore energy",
+      "url": "https://www.offshore-energy.biz/topic/it-software?region=europe-eurasia&page=3",
+      "title": "IT & Software - Offshore Energy",
+      "date": "2026-10-08T06:06:23.664079"
+    },
+    {
+      "url_key": "instagram.com/p/dek0vkydb4v",
+      "title_key": "europe advances ai with mistral large 4, a trillion ...",
+      "url": "https://www.instagram.com/p/DeK0vkyDb4V",
+      "title": "Europe advances AI with Mistral Large 4, a trillion ...",
+      "date": "2026-10-08T06:06:23.664079"
     }
   ],
   "words": [
@@ -1086,6 +1086,10 @@
     {
       "word": "throttling",
       "date": "2026-10-07T06:04:21.842267"
+    },
+    {
+      "word": "fine‑tuning",
+      "date": "2026-10-08T06:06:23.664079"
     }
   ],
   "quotes": [
@@ -1263,7 +1267,12 @@
       "text": "Innovation is taking two things that already exist and putting them together in a new way.",
       "author": "Tom Freston",
       "date": "2026-10-07T06:04:21.842267"
+    },
+    {
+      "text": "Technology should be an enabler, not a barrier.",
+      "author": "Tim Cook",
+      "date": "2026-10-08T06:06:23.664079"
     }
   ],
-  "last_sent_date": "2026-10-07"
+  "last_sent_date": "2026-10-08"
 }
