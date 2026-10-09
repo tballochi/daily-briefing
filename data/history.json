@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "composio.dev/toolkits/gemini/framework/langchain",
-      "title_key": "gemini mcp integration with langchain | composio",
-      "url": "https://composio.dev/toolkits/gemini/framework/langchain",
-      "title": "Gemini MCP Integration with LangChain | Composio",
-      "date": "2026-08-10T06:01:18.613292"
-    },
-    {
-      "url_key": "linkedin.com/posts/simon-barna-11899125_digitaltwin-artificialintelligence-generativeai-activity-7490099140568395777-k_ez",
-      "title_key": "setting up a personal ai agent as a digital twin | simon barna posted on the topic | linkedin",
-      "url": "https://www.linkedin.com/posts/simon-barna-11899125_digitaltwin-artificialintelligence-generativeai-activity-7490099140568395777-k_Ez",
-      "title": "Setting Up a Personal AI Agent as a Digital Twin | Simon Barna posted on the topic | LinkedIn",
-      "date": "2026-08-10T06:01:18.613292"
-    },
-    {
-      "url_key": "finance.yahoo.com/technology/articles/echo-global-logistics-named-1-200200767.html",
-      "title_key": "echo global logistics named #1 3pl by inbound logistics for historic tenth year in a row",
-      "url": "https://finance.yahoo.com/technology/articles/echo-global-logistics-named-1-200200767.html",
-      "title": "Echo Global Logistics Named #1 3PL by Inbound Logistics for Historic Tenth Year in a Row",
-      "date": "2026-08-10T06:01:18.613292"
-    },
-    {
       "url_key": "techcrunch.com/2026/08/10/a-data-breach-at-shipping-giant-ceva-logistics-is-rippling-across-banks-retailers-steam-gamers-and-beyond",
       "title_key": "a data breach at shipping giant ceva logistics is rippling across banks, retailers, steam gamers, and beyond",
       "url": "https://techcrunch.com/2026/08/10/a-data-breach-at-shipping-giant-ceva-logistics-is-rippling-across-banks-retailers-steam-gamers-and-beyond",
@@ -944,6 +923,27 @@
       "url": "https://www.instagram.com/p/DeK0vkyDb4V",
       "title": "Europe advances AI with Mistral Large 4, a trillion ...",
       "date": "2026-10-08T06:06:23.664079"
+    },
+    {
+      "url_key": "logisticsmgmt.com/article/cma_cgm_groups_1.4_billion_acquisition_of_fedex_supply_chain_is_a_done_deal",
+      "title_key": "cma cgm group’s $1.4 billion acquisition of fedex supply chain is a done deal - logistics management",
+      "url": "https://www.logisticsmgmt.com/article/cma_cgm_groups_1.4_billion_acquisition_of_fedex_supply_chain_is_a_done_deal",
+      "title": "CMA CGM Group’s $1.4 billion acquisition of FedEx Supply Chain is a done deal - Logistics Management",
+      "date": "2026-10-09T06:04:16.640328"
+    },
+    {
+      "url_key": "reuters.com/business/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo-2026-10-07",
+      "title_key": "anthropic launches third claude 5.5 model, expanding ai lineup before planned ipo | reuters",
+      "url": "https://www.reuters.com/business/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo-2026-10-07",
+      "title": "Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO | Reuters",
+      "date": "2026-10-09T06:04:16.640328"
+    },
+    {
+      "url_key": "reuters.com/business/nvidia-backed-upscale-ai-launches-platform-connect-chips-rival-suppliers-2026-10-08",
+      "title_key": "nvidia-backed upscale ai launches platform to connect chips from rival suppliers",
+      "url": "https://www.reuters.com/business/nvidia-backed-upscale-ai-launches-platform-connect-chips-rival-suppliers-2026-10-08",
+      "title": "Nvidia-backed Upscale AI launches platform to connect chips from rival suppliers",
+      "date": "2026-10-09T06:04:16.640328"
     }
   ],
   "words": [
@@ -1090,6 +1090,10 @@
     {
       "word": "fine‑tuning",
       "date": "2026-10-08T06:06:23.664079"
+    },
+    {
+      "word": "telemetry",
+      "date": "2026-10-09T06:04:16.640328"
     }
   ],
   "quotes": [
@@ -1272,7 +1276,12 @@
       "text": "Technology should be an enabler, not a barrier.",
       "author": "Tim Cook",
       "date": "2026-10-08T06:06:23.664079"
+    },
+    {
+      "text": "Software is eating the world.",
+      "author": "Marc Andreessen",
+      "date": "2026-10-09T06:04:16.640328"
     }
   ],
-  "last_sent_date": "2026-10-08"
+  "last_sent_date": "2026-10-09"
 }
