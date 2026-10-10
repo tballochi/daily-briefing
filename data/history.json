@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "techcrunch.com/2026/08/10/a-data-breach-at-shipping-giant-ceva-logistics-is-rippling-across-banks-retailers-steam-gamers-and-beyond",
-      "title_key": "a data breach at shipping giant ceva logistics is rippling across banks, retailers, steam gamers, and beyond",
-      "url": "https://techcrunch.com/2026/08/10/a-data-breach-at-shipping-giant-ceva-logistics-is-rippling-across-banks-retailers-steam-gamers-and-beyond",
-      "title": "A data breach at shipping giant Ceva Logistics is rippling across banks, retailers, Steam gamers, and beyond",
-      "date": "2026-08-11T06:01:23.810562"
-    },
-    {
-      "url_key": "facebook.com/robban.assafina.magazine/posts/propel-launches-with-cargill-ultrabulk-and-cmbtech-as-its-first-partnerscargill-/1846711326305172",
-      "title_key": "robban assafina - propel launches with cargill, ultrabulk...",
-      "url": "https://www.facebook.com/Robban.Assafina.Magazine/posts/propel-launches-with-cargill-ultrabulk-and-cmbtech-as-its-first-partnerscargill-/1846711326305172",
-      "title": "Robban Assafina - Propel launches with Cargill, Ultrabulk...",
-      "date": "2026-08-11T06:01:23.810562"
-    },
-    {
-      "url_key": "teamvismaleaseabike.com/race-report/news/tulett-remains-in-top-ten-overall-after-tough-mountain-stage-at-vuelta-a-burgos",
-      "title_key": "team visma | lease a bike | tulett remains in top ten overall after…",
-      "url": "https://www.teamvismaleaseabike.com/race-report/news/tulett-remains-in-top-ten-overall-after-tough-mountain-stage-at-vuelta-a-burgos",
-      "title": "Team Visma | Lease a Bike | Tulett Remains in top ten overall after…",
-      "date": "2026-08-11T06:01:23.810562"
-    },
-    {
       "url_key": "mistral.ai/news/regional-inference-open-models-new-compute",
       "title_key": "in-region inference, open models, and new european ... - mistral",
       "url": "https://mistral.ai/news/regional-inference-open-models-new-compute",
@@ -944,6 +923,27 @@
       "url": "https://www.reuters.com/business/nvidia-backed-upscale-ai-launches-platform-connect-chips-rival-suppliers-2026-10-08",
       "title": "Nvidia-backed Upscale AI launches platform to connect chips from rival suppliers",
       "date": "2026-10-09T06:04:16.640328"
+    },
+    {
+      "url_key": "instagram.com/p/den6yrve82-",
+      "title_key": "mistralailabs new 1t-parameter multimodal open model ...",
+      "url": "https://www.instagram.com/p/DeN6yRvE82-",
+      "title": "mistralailabs new 1T-parameter multimodal open model ...",
+      "date": "2026-10-10T06:06:01.704668"
+    },
+    {
+      "url_key": "futuribles.com/ia-quelle-strategie-pour-mistral",
+      "title_key": "ia : quelle stratégie pour mistral ?",
+      "url": "https://www.futuribles.com/ia-quelle-strategie-pour-mistral",
+      "title": "IA : quelle stratégie pour Mistral ?",
+      "date": "2026-10-10T06:06:01.704668"
+    },
+    {
+      "url_key": "stateof.ai/state-of-ai-report-2026.pdf",
+      "title_key": "state of ai report 2026 - final",
+      "url": "https://www.stateof.ai/State-of-AI-Report-2026.pdf",
+      "title": "State of AI Report 2026 - FINAL",
+      "date": "2026-10-10T06:06:01.704668"
     }
   ],
   "words": [
@@ -1094,6 +1094,10 @@
     {
       "word": "telemetry",
       "date": "2026-10-09T06:04:16.640328"
+    },
+    {
+      "word": "tensor core",
+      "date": "2026-10-10T06:06:01.704668"
     }
   ],
   "quotes": [
@@ -1281,7 +1285,12 @@
       "text": "Software is eating the world.",
       "author": "Marc Andreessen",
       "date": "2026-10-09T06:04:16.640328"
+    },
+    {
+      "text": "The most powerful tool we have is curiosity.",
+      "author": "Satya Nadella",
+      "date": "2026-10-10T06:06:01.704668"
     }
   ],
-  "last_sent_date": "2026-10-09"
+  "last_sent_date": "2026-10-10"
 }
