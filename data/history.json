@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "kalkine.ca/news/technology/descartes-systems-group-stock-under-pressure-after-august-12-decline-valuation-risk-and-cautious-investor-sentiment",
-      "title_key": "descartes systems group stock under pressure after august 12 decline: valuation risk and cautious investor sentiment",
-      "url": "https://kalkine.ca/news/technology/descartes-systems-group-stock-under-pressure-after-august-12-decline-valuation-risk-and-cautious-investor-sentiment",
-      "title": "Descartes Systems Group Stock Under Pressure After August 12 Decline: Valuation Risk and Cautious Investor Sentiment",
-      "date": "2026-08-14T06:01:23.551609"
-    },
-    {
-      "url_key": "trendhunter.com/trends/aiflow",
-      "title_key": "no-code ai workflow platforms: ai-flow builds and connects ai workflows on one visual… | trend hunter",
-      "url": "https://www.trendhunter.com/trends/aiflow",
-      "title": "No-Code AI Workflow Platforms: AI-Flow Builds And Connects AI Workflows On One Visual… | Trend Hunter",
-      "date": "2026-08-14T06:01:23.551609"
-    },
-    {
-      "url_key": "facebook.com/marius.comper/posts/mistral-ai-is-asking-some-of-europes-largest-companies-to-make-five-year-commitm/10164778248089621",
-      "title_key": "mistral ai is asking some of europe's largest companies to ...",
-      "url": "https://www.facebook.com/marius.comper/posts/mistral-ai-is-asking-some-of-europes-largest-companies-to-make-five-year-commitm/10164778248089621",
-      "title": "Mistral AI is asking some of Europe's largest companies to ...",
-      "date": "2026-08-14T06:01:23.551609"
-    },
-    {
       "url_key": "thenewstack.io/mistral-third-party-open-models",
       "title_key": "five european companies just agreed to buy ai compute that doesn't exist yet - the new stack",
       "url": "https://thenewstack.io/mistral-third-party-open-models",
@@ -944,6 +923,27 @@
       "url": "https://www.facebook.com/Splash247/posts/ai-risks-hollowing-out-shippings-next-generation-of-expertise/1601158705389701",
       "title": "AI risks hollowing out shipping's next generation of expertise",
       "date": "2026-10-12T06:06:31.667733"
+    },
+    {
+      "url_key": "freightnews.co.za/article/cma-cgm-partners-with-startup-to-transform-maritime-operations",
+      "title_key": "cma cgm partners with startup to transform maritime ...",
+      "url": "https://www.freightnews.co.za/article/cma-cgm-partners-with-startup-to-transform-maritime-operations",
+      "title": "CMA CGM partners with startup to transform maritime ...",
+      "date": "2026-10-13T06:06:01.889379"
+    },
+    {
+      "url_key": "fr.linkedin.com/jobs/view/machine-learning-research-intern-4%e2%80%936-months-at-skypher-4475415798",
+      "title_key": "machine learning research intern (4–6 months)",
+      "url": "https://fr.linkedin.com/jobs/view/machine-learning-research-intern-4%E2%80%936-months-at-skypher-4475415798",
+      "title": "Machine Learning Research Intern (4–6 months)",
+      "date": "2026-10-13T06:06:01.889379"
+    },
+    {
+      "url_key": "tao.media/openai-rolls-out-gpt-6-with-intelligent-ui-to-chatgpt-users",
+      "title_key": "openai rolls out gpt-6 with intelligent ui to chatgpt users",
+      "url": "https://www.tao.media/openai-rolls-out-gpt-6-with-intelligent-ui-to-chatgpt-users",
+      "title": "OpenAI Rolls Out GPT-6 With Intelligent UI to ChatGPT Users",
+      "date": "2026-10-13T06:06:01.889379"
     }
   ],
   "words": [
@@ -1106,6 +1106,10 @@
     {
       "word": "load balancing",
       "date": "2026-10-12T06:06:31.667733"
+    },
+    {
+      "word": "B‑tree",
+      "date": "2026-10-13T06:06:01.889379"
     }
   ],
   "quotes": [
@@ -1308,7 +1312,12 @@
       "text": "Technology is best when it brings people together.",
       "author": "Matt Mullenweg",
       "date": "2026-10-12T06:06:31.667733"
+    },
+    {
+      "text": "Growth and comfort do not coexist.",
+      "author": "Ginni Rometty",
+      "date": "2026-10-13T06:06:01.889379"
     }
   ],
-  "last_sent_date": "2026-10-12"
+  "last_sent_date": "2026-10-13"
 }
