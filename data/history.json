@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "thenewstack.io/mistral-third-party-open-models",
-      "title_key": "five european companies just agreed to buy ai compute that doesn't exist yet - the new stack",
-      "url": "https://thenewstack.io/mistral-third-party-open-models",
-      "title": "Five European companies just agreed to buy AI compute that doesn't exist yet - The New Stack",
-      "date": "2026-08-15T05:36:58.775843"
-    },
-    {
-      "url_key": "devops.com/projectdiscovery-brings-open-source-ai-testing-to-vulnerability-discovery",
-      "title_key": "projectdiscovery brings open source ai testing to vulnerability discovery",
-      "url": "https://devops.com/projectdiscovery-brings-open-source-ai-testing-to-vulnerability-discovery",
-      "title": "ProjectDiscovery Brings Open Source AI Testing to Vulnerability Discovery",
-      "date": "2026-08-15T05:36:58.775843"
-    },
-    {
-      "url_key": "simplify.jobs/p/d641cd19-395a-4579-8b31-1ce37f511265/talent-acquisition-specialist",
-      "title_key": "talent acquisition specialist @ mistral ai | simplify jobs",
-      "url": "https://simplify.jobs/p/d641cd19-395a-4579-8b31-1ce37f511265/Talent-Acquisition-Specialist",
-      "title": "Talent Acquisition Specialist @ Mistral AI | Simplify Jobs",
-      "date": "2026-08-15T05:36:58.775843"
-    },
-    {
       "url_key": "startuphub.ai/ai-news/artificial-intelligence/2026/ai-boosts-open-source-security",
       "title_key": "ai boosts open source security",
       "url": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/ai-boosts-open-source-security",
@@ -944,17 +923,30 @@
       "url": "https://www.tao.media/openai-rolls-out-gpt-6-with-intelligent-ui-to-chatgpt-users",
       "title": "OpenAI Rolls Out GPT-6 With Intelligent UI to ChatGPT Users",
       "date": "2026-10-13T06:06:01.889379"
+    },
+    {
+      "url_key": "seanews.com.tr/article/cma-cgm-finalizes-14-billion-acquisition-of-fedex-supply-chain-to-enhance-logistics-network-mv00tkvr",
+      "title_key": "cma cgm finalizes $1.4 billion acquisition of fedex supply chain to enhance logistics network | seanews",
+      "url": "https://www.seanews.com.tr/article/cma-cgm-finalizes-14-billion-acquisition-of-fedex-supply-chain-to-enhance-logistics-network-mv00tkvr",
+      "title": "CMA CGM Finalizes $1.4 Billion Acquisition of FedEx Supply Chain to Enhance Logistics Network | SeaNews",
+      "date": "2026-10-14T06:04:15.602856"
+    },
+    {
+      "url_key": "unite.ai/anthropic-releases-claude-haiku-5-5-cutting-small-model-api-prices",
+      "title_key": "anthropic releases claude haiku 5.5, cutting small-model api prices – unite.ai",
+      "url": "https://www.unite.ai/anthropic-releases-claude-haiku-5-5-cutting-small-model-api-prices",
+      "title": "Anthropic Releases Claude Haiku 5.5, Cutting Small-Model API Prices – Unite.AI",
+      "date": "2026-10-14T06:04:15.602856"
+    },
+    {
+      "url_key": "ca.finance.yahoo.com/news/dxc-langchain-advance-agentic-ai-040100595.html",
+      "title_key": "dxc and langchain advance agentic ai harnesses for mission-critical it operations",
+      "url": "https://ca.finance.yahoo.com/news/dxc-langchain-advance-agentic-ai-040100595.html",
+      "title": "DXC and LangChain Advance Agentic AI Harnesses for Mission-Critical IT Operations",
+      "date": "2026-10-14T06:04:15.602856"
     }
   ],
   "words": [
-    {
-      "word": "sharding",
-      "date": "2026-08-29T07:52:48.457892"
-    },
-    {
-      "word": "memoization",
-      "date": "2026-08-30T06:03:58.552701"
-    },
     {
       "word": "garbage collection",
       "date": "2026-08-31T06:05:45.137881"
@@ -1110,19 +1102,13 @@
     {
       "word": "B‑tree",
       "date": "2026-10-13T06:06:01.889379"
+    },
+    {
+      "word": "sharding",
+      "date": "2026-10-14T06:04:15.602856"
     }
   ],
   "quotes": [
-    {
-      "text": "Your most unhappy customers are your greatest source of learning.",
-      "author": "Bill Gates",
-      "date": "2026-08-29T07:52:48.457892"
-    },
-    {
-      "text": "Innovation distinguishes between a leader and a follower.",
-      "author": "Steve Jobs",
-      "date": "2026-08-30T06:03:58.552701"
-    },
     {
       "text": "The only way to do great work is to love what you do.",
       "author": "Steve Jobs",
@@ -1317,7 +1303,12 @@
       "text": "Growth and comfort do not coexist.",
       "author": "Ginni Rometty",
       "date": "2026-10-13T06:06:01.889379"
+    },
+    {
+      "text": "Your most unhappy customers are your greatest source of learning.",
+      "author": "Bill Gates",
+      "date": "2026-10-14T06:04:15.602856"
     }
   ],
-  "last_sent_date": "2026-10-13"
+  "last_sent_date": "2026-10-14"
 }
