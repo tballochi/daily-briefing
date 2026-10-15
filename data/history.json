@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "startuphub.ai/ai-news/artificial-intelligence/2026/ai-boosts-open-source-security",
-      "title_key": "ai boosts open source security",
-      "url": "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/ai-boosts-open-source-security",
-      "title": "AI Boosts Open Source Security",
-      "date": "2026-08-16T05:39:21.112228"
-    },
-    {
-      "url_key": "tradingview.com/news/reuters.com,2026-08-10:newsml_acswqckba:0",
-      "title_key": "news by access newswire on tradingview, 2026-08-10 — tag:reuters.com,2026-08-10:newsml_acswqckba:0",
-      "url": "https://www.tradingview.com/news/reuters.com,2026-08-10:newsml_ACSwqCKBa:0",
-      "title": "News by ACCESS Newswire on TradingView, 2026-08-10 — tag:reuters.com,2026-08-10:newsml_ACSwqCKBa:0",
-      "date": "2026-08-16T05:39:21.112228"
-    },
-    {
-      "url_key": "aibusiness.com/generative-ai/mistral-aims-build-1gb-of-compute-capacity-2030",
-      "title_key": "mistral aims to build 1gb of compute capacity by 2030",
-      "url": "https://aibusiness.com/generative-ai/mistral-aims-build-1gb-of-compute-capacity-2030",
-      "title": "Mistral Aims to Build 1GB of Compute Capacity by 2030",
-      "date": "2026-08-16T05:39:21.112228"
-    },
-    {
       "url_key": "technologymagazine.com/articles/top-10-devops-tools",
       "title_key": "top 10 devops tools",
       "url": "https://technologymagazine.com/articles/top-10-devops-tools",
@@ -944,6 +923,27 @@
       "url": "https://ca.finance.yahoo.com/news/dxc-langchain-advance-agentic-ai-040100595.html",
       "title": "DXC and LangChain Advance Agentic AI Harnesses for Mission-Critical IT Operations",
       "date": "2026-10-14T06:04:15.602856"
+    },
+    {
+      "url_key": "dataportuaria.com/en/internacional/environment-and-energy/singapore-cma-cgm-and-slng-partner-to-develop-liquefied-bio-methane-fuel-034212",
+      "title_key": "singapore, cma cgm and slng partner to develop liquefied bio-methane fuel — dataportuaria",
+      "url": "https://dataportuaria.com/en/internacional/environment-and-energy/singapore-cma-cgm-and-slng-partner-to-develop-liquefied-bio-methane-fuel-034212",
+      "title": "Singapore, CMA CGM and SLNG partner to develop liquefied bio-methane fuel — DataPortuaria",
+      "date": "2026-10-15T06:02:51.709663"
+    },
+    {
+      "url_key": "deccanchronicle.com/technology/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo-1994077",
+      "title_key": "anthropic launches third claude 5.5 model, expanding ai lineup before planned ipo",
+      "url": "https://www.deccanchronicle.com/technology/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo-1994077",
+      "title": "Anthropic Launches Third Claude 5.5 Model, Expanding AI Lineup Before Planned IPO",
+      "date": "2026-10-15T06:02:51.709663"
+    },
+    {
+      "url_key": "tech-insider.org/anthropic-ipo-revenue-16-8-billion-2026",
+      "title_key": "anthropic q3 revenue hits $16.8b, 45% jump pre-ipo",
+      "url": "https://tech-insider.org/anthropic-ipo-revenue-16-8-billion-2026",
+      "title": "Anthropic Q3 Revenue Hits $16.8B, 45% Jump Pre-IPO",
+      "date": "2026-10-15T06:02:51.709663"
     }
   ],
   "words": [
@@ -1106,6 +1106,10 @@
     {
       "word": "sharding",
       "date": "2026-10-14T06:04:15.602856"
+    },
+    {
+      "word": "memoization",
+      "date": "2026-10-15T06:02:51.709663"
     }
   ],
   "quotes": [
@@ -1308,7 +1312,12 @@
       "text": "Your most unhappy customers are your greatest source of learning.",
       "author": "Bill Gates",
       "date": "2026-10-14T06:04:15.602856"
+    },
+    {
+      "text": "Innovation distinguishes between a leader and a follower.",
+      "author": "Steve Jobs",
+      "date": "2026-10-15T06:02:51.709663"
     }
   ],
-  "last_sent_date": "2026-10-14"
+  "last_sent_date": "2026-10-15"
 }
