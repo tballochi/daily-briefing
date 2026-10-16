@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "technologymagazine.com/articles/top-10-devops-tools",
-      "title_key": "top 10 devops tools",
-      "url": "https://technologymagazine.com/articles/top-10-devops-tools",
-      "title": "Top 10 DevOps Tools",
-      "date": "2026-08-17T05:47:23.097100"
-    },
-    {
-      "url_key": "heise.de/en/news/mistral-s-big-bet-on-europe-s-ai-infrastructure-11412228.html",
-      "title_key": "mistral's big bet on europe's ai infrastructure | heise online",
-      "url": "https://www.heise.de/en/news/Mistral-s-big-bet-on-Europe-s-AI-infrastructure-11412228.html",
-      "title": "Mistral's big bet on Europe's AI infrastructure | heise online",
-      "date": "2026-08-17T05:47:23.097100"
-    },
-    {
-      "url_key": "splash247.com/mg-ship-takes-logistics-intelligence-platform-into-europe",
-      "title_key": "mg ship takes logistics intelligence platform into europe - splash247",
-      "url": "https://splash247.com/mg-ship-takes-logistics-intelligence-platform-into-europe",
-      "title": "MG Ship takes logistics intelligence platform into Europe - Splash247",
-      "date": "2026-08-17T05:47:23.097100"
-    },
-    {
       "url_key": "findausecase.com/use-cases/cma-cgm-group-deploys-maia-an-agentic-ai-platform-co-developed-with-mistral-ai-across-shipping-logistics-and-media-operations",
       "title_key": "cma cgm group deploys maia, an agentic ai platform co ...",
       "url": "https://findausecase.com/use-cases/cma-cgm-group-deploys-maia-an-agentic-ai-platform-co-developed-with-mistral-ai-across-shipping-logistics-and-media-operations",
@@ -944,17 +923,30 @@
       "url": "https://tech-insider.org/anthropic-ipo-revenue-16-8-billion-2026",
       "title": "Anthropic Q3 Revenue Hits $16.8B, 45% Jump Pre-IPO",
       "date": "2026-10-15T06:02:51.709663"
+    },
+    {
+      "url_key": "instagram.com/reel/dera2w7sdv_",
+      "title_key": "👉🏻 follow to receive complete setup in dm",
+      "url": "https://www.instagram.com/reel/DeRa2w7sdV_",
+      "title": "👉🏻 Follow to receive complete setup in DM",
+      "date": "2026-10-16T06:06:58.172140"
+    },
+    {
+      "url_key": "admiralmarkets.com/education/articles/shares/mistral-ai-valuation",
+      "title_key": "mistral ai valuation: €21bn series d and asml's 11% stake",
+      "url": "https://admiralmarkets.com/education/articles/shares/mistral-ai-valuation",
+      "title": "Mistral AI Valuation: €21bn Series D and ASML's 11% Stake",
+      "date": "2026-10-16T06:06:58.172140"
+    },
+    {
+      "url_key": "einpresswire.com/article/949012586/china-merchants-energy-shipping-and-rina-partner-to-explore-ai-driven-ship-operations-and-next-gen-maritime-technologies",
+      "title_key": "china merchants energy shipping and rina partner to explore ai-driven ship operations and next-gen maritime technologies",
+      "url": "https://www.einpresswire.com/article/949012586/china-merchants-energy-shipping-and-rina-partner-to-explore-ai-driven-ship-operations-and-next-gen-maritime-technologies",
+      "title": "China Merchants Energy Shipping and RINA Partner to Explore AI-Driven Ship Operations and Next-Gen Maritime Technologies",
+      "date": "2026-10-16T06:06:58.172140"
     }
   ],
   "words": [
-    {
-      "word": "garbage collection",
-      "date": "2026-08-31T06:05:45.137881"
-    },
-    {
-      "word": "protobuf",
-      "date": "2026-09-01T06:04:30.773217"
-    },
     {
       "word": "embedding",
       "date": "2026-09-03T06:10:35.978339"
@@ -1110,19 +1102,13 @@
     {
       "word": "memoization",
       "date": "2026-10-15T06:02:51.709663"
+    },
+    {
+      "word": "garbage collection",
+      "date": "2026-10-16T06:06:58.172140"
     }
   ],
   "quotes": [
-    {
-      "text": "The only way to do great work is to love what you do.",
-      "author": "Steve Jobs",
-      "date": "2026-08-31T06:05:45.137881"
-    },
-    {
-      "text": "The only way to do great work is to love what you do.",
-      "author": "Steve Jobs",
-      "date": "2026-09-01T06:04:30.773217"
-    },
     {
       "text": "The best way to predict the future is to invent it.",
       "author": "Alan Kay",
@@ -1317,7 +1303,12 @@
       "text": "Innovation distinguishes between a leader and a follower.",
       "author": "Steve Jobs",
       "date": "2026-10-15T06:02:51.709663"
+    },
+    {
+      "text": "The most profound technologies are those that disappear.",
+      "author": "Kevin Kelly",
+      "date": "2026-10-16T06:06:58.172140"
     }
   ],
-  "last_sent_date": "2026-10-15"
+  "last_sent_date": "2026-10-16"
 }
