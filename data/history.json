@@ -965,6 +965,27 @@
       "url": "https://www.teamvismaleaseabike.com/race-report/news/van-belle-sprints-to-eighth-place-on-stage-four-of-tour-of-guangxi",
       "title": "Van Belle sprints to eighth place on stage four of Tour ...",
       "date": "2026-10-17T06:06:46.698901"
+    },
+    {
+      "url_key": "instagram.com/reel/dehdysstxro",
+      "title_key": "ai and blockchain are opening the door to new possibilities ...",
+      "url": "https://www.instagram.com/reel/DehdYSsTXrO",
+      "title": "AI and blockchain are opening the door to new possibilities ...",
+      "date": "2026-10-18T06:06:44.903160"
+    },
+    {
+      "url_key": "facebook.com/hostingjournalist/posts/hostingjournalist-cloudhosting-scaleway-adds-milan-availability-zones-and-announ/1739332071536052",
+      "title_key": "scaleway has expanded its milan cloud region to three ...",
+      "url": "https://www.facebook.com/HostingJournalist/posts/hostingjournalist-cloudhosting-scaleway-adds-milan-availability-zones-and-announ/1739332071536052",
+      "title": "Scaleway has expanded its Milan cloud region to three ...",
+      "date": "2026-10-18T06:06:44.903160"
+    },
+    {
+      "url_key": "directory.startupluxembourg.com/companies/mistral_ai",
+      "title_key": "mistral ai company information, funding & investors",
+      "url": "https://directory.startupluxembourg.com/companies/mistral_ai",
+      "title": "Mistral AI company information, funding & investors",
+      "date": "2026-10-18T06:06:44.903160"
     }
   ],
   "words": [
@@ -1131,6 +1152,10 @@
     {
       "word": "protobuf",
       "date": "2026-10-17T06:06:46.698901"
+    },
+    {
+      "word": "cold boot attack",
+      "date": "2026-10-18T06:06:44.903160"
     }
   ],
   "quotes": [
@@ -1338,7 +1363,12 @@
       "text": "The only way to do great work is to love what you do.",
       "author": "Steve Jobs",
       "date": "2026-10-17T06:06:46.698901"
+    },
+    {
+      "text": "Done is better than perfect.",
+      "author": "Sheryl Sandberg",
+      "date": "2026-10-18T06:06:44.903160"
     }
   ],
-  "last_sent_date": "2026-10-17"
+  "last_sent_date": "2026-10-18"
 }
