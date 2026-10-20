@@ -1007,13 +1007,30 @@
       "url": "https://www.reuters.com/world/us/anthropic-add-us-voting-information-claude-before-midterms-2026-10-14",
       "title": "Anthropic to add US voting information to Claude before midterms | Reuters",
       "date": "2026-10-19T06:02:48.834764"
+    },
+    {
+      "url_key": "dealroom.co/news/163766-flying-whales-raises-90m-to-build-its-giant-cargo-airship-factory",
+      "title_key": "flying whales raises €90m to build its giant cargo airship ...",
+      "url": "https://dealroom.co/news/163766-flying-whales-raises-90m-to-build-its-giant-cargo-airship-factory",
+      "title": "Flying Whales raises €90M to build its giant cargo airship ...",
+      "date": "2026-10-20T06:04:11.675280"
+    },
+    {
+      "url_key": "investing.com/news/stock-market-news/openai-races-to-raise-30-bln-ahead-of-anthropic-ipo-reuters-reports-4958611",
+      "title_key": "openai races to raise $30 bln ahead of anthropic ipo, reuters reports",
+      "url": "https://www.investing.com/news/stock-market-news/openai-races-to-raise-30-bln-ahead-of-anthropic-ipo-reuters-reports-4958611",
+      "title": "OpenAI races to raise $30 bln ahead of Anthropic IPO, Reuters reports",
+      "date": "2026-10-20T06:04:11.675280"
+    },
+    {
+      "url_key": "uptech-media.com/dxc-partners-with-langchain-to-bring-governed-ai-agents-to-mission-critical-it-operations",
+      "title_key": "dxc partners with langchain to bring governed ai agents to mission-critical it operations - uptech media",
+      "url": "https://uptech-media.com/dxc-partners-with-langchain-to-bring-governed-ai-agents-to-mission-critical-it-operations",
+      "title": "DXC partners with LangChain to bring governed AI agents to mission-critical IT operations - UpTech Media",
+      "date": "2026-10-20T06:04:11.675280"
     }
   ],
   "words": [
-    {
-      "word": "zero-knowledge proof",
-      "date": "2026-09-04T09:44:31.863977"
-    },
     {
       "word": "circuit breaker",
       "date": "2026-09-05T09:09:32.493919"
@@ -1177,14 +1194,13 @@
     {
       "word": "embedding",
       "date": "2026-10-19T06:02:48.834764"
+    },
+    {
+      "word": "zero‑knowledge proof",
+      "date": "2026-10-20T06:04:11.675280"
     }
   ],
   "quotes": [
-    {
-      "text": "Design is not just what it looks like and feels like. Design is how it works.",
-      "author": "Steve Jobs",
-      "date": "2026-09-04T09:44:31.863977"
-    },
     {
       "text": "Talk is cheap. Show me the code.",
       "author": "Linus Torvalds",
@@ -1389,7 +1405,12 @@
       "text": "The best way to predict the future is to invent it.",
       "author": "Alan Kay",
       "date": "2026-10-19T06:02:48.834764"
+    },
+    {
+      "text": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs",
+      "date": "2026-10-20T06:04:11.675280"
     }
   ],
-  "last_sent_date": "2026-10-19"
+  "last_sent_date": "2026-10-20"
 }
