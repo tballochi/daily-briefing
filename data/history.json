@@ -1028,13 +1028,30 @@
       "url": "https://uptech-media.com/dxc-partners-with-langchain-to-bring-governed-ai-agents-to-mission-critical-it-operations",
       "title": "DXC partners with LangChain to bring governed AI agents to mission-critical IT operations - UpTech Media",
       "date": "2026-10-20T06:04:11.675280"
+    },
+    {
+      "url_key": "splash247.com/euroafrica-rolls-out-syroco-voyage-optimisation-technology-fleetwide",
+      "title_key": "euroafrica rolls out syroco voyage optimisation technology fleetwide - splash247",
+      "url": "https://splash247.com/euroafrica-rolls-out-syroco-voyage-optimisation-technology-fleetwide",
+      "title": "EuroAfrica rolls out Syroco voyage optimisation technology fleetwide - Splash247",
+      "date": "2026-10-21T06:03:45.139037"
+    },
+    {
+      "url_key": "shattered.io/what-changed-in-october-2026-two-new-model-families-one-week-apart",
+      "title_key": "what changed in october 2026: two new model families, one week apart",
+      "url": "https://shattered.io/what-changed-in-october-2026-two-new-model-families-one-week-apart",
+      "title": "What Changed in October 2026: Two New Model Families, One Week Apart",
+      "date": "2026-10-21T06:03:45.139037"
+    },
+    {
+      "url_key": "siliconangle.com/2026/10/15/servicenow-adds-ai-agent-controls-and-employee-automation-tools",
+      "title_key": "servicenow adds ai agent controls and employee automation tools",
+      "url": "https://siliconangle.com/2026/10/15/servicenow-adds-ai-agent-controls-and-employee-automation-tools",
+      "title": "ServiceNow adds AI agent controls and employee automation tools",
+      "date": "2026-10-21T06:03:45.139037"
     }
   ],
   "words": [
-    {
-      "word": "circuit breaker",
-      "date": "2026-09-05T09:09:32.493919"
-    },
     {
       "word": "microservice",
       "date": "2026-09-06T06:11:37.266221"
@@ -1198,14 +1215,13 @@
     {
       "word": "zero‑knowledge proof",
       "date": "2026-10-20T06:04:11.675280"
+    },
+    {
+      "word": "capability-based security",
+      "date": "2026-10-21T06:03:45.139037"
     }
   ],
   "quotes": [
-    {
-      "text": "Talk is cheap. Show me the code.",
-      "author": "Linus Torvalds",
-      "date": "2026-09-05T09:09:32.493919"
-    },
     {
       "text": "Technology is best when it brings people together.",
       "author": "Matt Mullenweg",
@@ -1410,7 +1426,12 @@
       "text": "The only way to do great work is to love what you do.",
       "author": "Steve Jobs",
       "date": "2026-10-20T06:04:11.675280"
+    },
+    {
+      "text": "Design is not just what it looks like and feels like. Design is how it works.",
+      "author": "Steve Jobs",
+      "date": "2026-10-21T06:03:45.139037"
     }
   ],
-  "last_sent_date": "2026-10-20"
+  "last_sent_date": "2026-10-21"
 }
