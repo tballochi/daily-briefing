@@ -1049,13 +1049,30 @@
       "url": "https://siliconangle.com/2026/10/15/servicenow-adds-ai-agent-controls-and-employee-automation-tools",
       "title": "ServiceNow adds AI agent controls and employee automation tools",
       "date": "2026-10-21T06:03:45.139037"
+    },
+    {
+      "url_key": "splash247.com/cma-cgm-puts-ai-on-the-phone-with-customers",
+      "title_key": "cma cgm puts ai on the phone with customers - splash247",
+      "url": "https://splash247.com/cma-cgm-puts-ai-on-the-phone-with-customers",
+      "title": "CMA CGM puts AI on the phone with customers - Splash247",
+      "date": "2026-10-22T06:06:55.357694"
+    },
+    {
+      "url_key": "technology.org/2026/10/22/best-ai-workflow-automation-tools",
+      "title_key": "9 best ai workflow automation tools for 2026",
+      "url": "https://www.technology.org/2026/10/22/best-ai-workflow-automation-tools",
+      "title": "9 Best AI Workflow Automation Tools for 2026",
+      "date": "2026-10-22T06:06:55.357694"
+    },
+    {
+      "url_key": "aimagazine.com/news/mistral-ai-sovereign-ai-and-a-21bn-valuation-push",
+      "title_key": "mistral ai: sovereign ai and a €21bn valuation push | ai magazine",
+      "url": "https://aimagazine.com/news/mistral-ai-sovereign-ai-and-a-21bn-valuation-push",
+      "title": "Mistral AI: Sovereign AI and a €21bn Valuation Push | AI Magazine",
+      "date": "2026-10-22T06:06:55.357694"
     }
   ],
   "words": [
-    {
-      "word": "microservice",
-      "date": "2026-09-06T06:11:37.266221"
-    },
     {
       "word": "federated learning",
       "date": "2026-09-09T06:04:56.403605"
@@ -1219,14 +1236,13 @@
     {
       "word": "capability-based security",
       "date": "2026-10-21T06:03:45.139037"
+    },
+    {
+      "word": "microservice",
+      "date": "2026-10-22T06:06:55.357694"
     }
   ],
   "quotes": [
-    {
-      "text": "Technology is best when it brings people together.",
-      "author": "Matt Mullenweg",
-      "date": "2026-09-06T06:11:37.266221"
-    },
     {
       "text": "We always overestimate the change that will happen in the next two years and underestimate the change that will happen in the next ten.",
       "author": "Bill Gates",
@@ -1431,7 +1447,12 @@
       "text": "Design is not just what it looks like and feels like. Design is how it works.",
       "author": "Steve Jobs",
       "date": "2026-10-21T06:03:45.139037"
+    },
+    {
+      "text": "Technology is a word that describes something that doesn’t work yet.",
+      "author": "Douglas Adams",
+      "date": "2026-10-22T06:06:55.357694"
     }
   ],
-  "last_sent_date": "2026-10-21"
+  "last_sent_date": "2026-10-22"
 }
