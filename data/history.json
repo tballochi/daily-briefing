@@ -1070,6 +1070,27 @@
       "url": "https://aimagazine.com/news/mistral-ai-sovereign-ai-and-a-21bn-valuation-push",
       "title": "Mistral AI: Sovereign AI and a €21bn Valuation Push | AI Magazine",
       "date": "2026-10-22T06:06:55.357694"
+    },
+    {
+      "url_key": "facebook.com/hellenicshippingnews/posts/ports-are-scaling-ai-heres-how-to-make-it-deliver/1738077531654336",
+      "title_key": "ports are scaling ai. here's how to make it deliver https:// ...",
+      "url": "https://www.facebook.com/HELLENICSHIPPINGNEWS/posts/ports-are-scaling-ai-heres-how-to-make-it-deliver/1738077531654336",
+      "title": "Ports Are Scaling AI. Here's How to Make It Deliver https:// ...",
+      "date": "2026-10-23T06:06:16.176312"
+    },
+    {
+      "url_key": "thedigitalship.com/news/electronics-navigation/orbitmi-warns-digital-fatigue-is-undermining-maritime-ai-adoption",
+      "title_key": "orbitmi warns digital fatigue is undermining maritime ai adoption – digital ship",
+      "url": "https://thedigitalship.com/news/electronics-navigation/orbitmi-warns-digital-fatigue-is-undermining-maritime-ai-adoption",
+      "title": "OrbitMI warns digital fatigue is undermining maritime AI adoption – Digital Ship",
+      "date": "2026-10-23T06:06:16.176312"
+    },
+    {
+      "url_key": "capitalfordefense.com/deals",
+      "title_key": "defense investment activity - defense capital dashboard",
+      "url": "https://capitalfordefense.com/deals",
+      "title": "Defense Investment Activity - Defense Capital Dashboard",
+      "date": "2026-10-23T06:06:16.176312"
     }
   ],
   "words": [
@@ -1240,6 +1261,10 @@
     {
       "word": "microservice",
       "date": "2026-10-22T06:06:55.357694"
+    },
+    {
+      "word": "microkernel",
+      "date": "2026-10-23T06:06:16.176312"
     }
   ],
   "quotes": [
@@ -1452,7 +1477,12 @@
       "text": "Technology is a word that describes something that doesn’t work yet.",
       "author": "Douglas Adams",
       "date": "2026-10-22T06:06:55.357694"
+    },
+    {
+      "text": "The Web was designed to be a universal medium for sharing information, not a platform for profit.",
+      "author": "Tim Berners-Lee",
+      "date": "2026-10-23T06:06:16.176312"
     }
   ],
-  "last_sent_date": "2026-10-22"
+  "last_sent_date": "2026-10-23"
 }
