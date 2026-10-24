@@ -1091,13 +1091,30 @@
       "url": "https://capitalfordefense.com/deals",
       "title": "Defense Investment Activity - Defense Capital Dashboard",
       "date": "2026-10-23T06:06:16.176312"
+    },
+    {
+      "url_key": "thedigitalship.com/news/electronics-navigation/nor-shipping-2027-adds-dedicated-ai-and-smart-ports-programmes",
+      "title_key": "nor-shipping 2027 adds dedicated ai and smart ports programmes – digital ship",
+      "url": "https://thedigitalship.com/news/electronics-navigation/nor-shipping-2027-adds-dedicated-ai-and-smart-ports-programmes",
+      "title": "Nor-Shipping 2027 adds dedicated AI and smart ports programmes – Digital Ship",
+      "date": "2026-10-24T06:05:00.322426"
+    },
+    {
+      "url_key": "cloud.google.com/blog/products/ai-machine-learning/claude-opus-55-and-claude-sonnet-55-available-in-antigravity",
+      "title_key": "claude opus 5.5 and claude sonnet 5.5 available in antigravity | google cloud blog",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/claude-opus-55-and-claude-sonnet-55-available-in-antigravity",
+      "title": "Claude Opus 5.5 and Claude Sonnet 5.5 available in Antigravity | Google Cloud Blog",
+      "date": "2026-10-24T06:05:00.322426"
+    },
+    {
+      "url_key": "cyprusshippingnews.com/2026/10/19/zoominfo-launches-native-integration-with-n8n-through-gtm-ai",
+      "title_key": "zoominfo launches native integration with n8n through gtm.ai - cyprus shipping news",
+      "url": "https://cyprusshippingnews.com/2026/10/19/zoominfo-launches-native-integration-with-n8n-through-gtm-ai",
+      "title": "ZoomInfo launches Native Integration with n8n through GTM.AI - Cyprus Shipping News",
+      "date": "2026-10-24T06:05:00.322426"
     }
   ],
   "words": [
-    {
-      "word": "federated learning",
-      "date": "2026-09-09T06:04:56.403605"
-    },
     {
       "word": "latency",
       "date": "2026-09-10T06:05:46.390716"
@@ -1265,14 +1282,13 @@
     {
       "word": "microkernel",
       "date": "2026-10-23T06:06:16.176312"
+    },
+    {
+      "word": "circuit breaker",
+      "date": "2026-10-24T06:05:00.322426"
     }
   ],
   "quotes": [
-    {
-      "text": "We always overestimate the change that will happen in the next two years and underestimate the change that will happen in the next ten.",
-      "author": "Bill Gates",
-      "date": "2026-09-09T06:04:56.403605"
-    },
     {
       "text": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
       "author": "Steve Jobs",
@@ -1482,7 +1498,12 @@
       "text": "The Web was designed to be a universal medium for sharing information, not a platform for profit.",
       "author": "Tim Berners-Lee",
       "date": "2026-10-23T06:06:16.176312"
+    },
+    {
+      "text": "Talk is cheap. Show me the code.",
+      "author": "Linus Torvalds",
+      "date": "2026-10-24T06:05:00.322426"
     }
   ],
-  "last_sent_date": "2026-10-23"
+  "last_sent_date": "2026-10-24"
 }
