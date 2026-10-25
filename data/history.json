@@ -1112,13 +1112,30 @@
       "url": "https://cyprusshippingnews.com/2026/10/19/zoominfo-launches-native-integration-with-n8n-through-gtm-ai",
       "title": "ZoomInfo launches Native Integration with n8n through GTM.AI - Cyprus Shipping News",
       "date": "2026-10-24T06:05:00.322426"
+    },
+    {
+      "url_key": "cyclinguptodate.com/cycling/we-have-to-be-on-the-same-page-jorgenson-highlights-need-for-unity-after-riders-protest-amid-cycling-safety-concerns",
+      "title_key": "\"we have to be on the same page\" - jorgenson highlights need for unity after riders protest amid cycling safety concerns",
+      "url": "https://cyclinguptodate.com/cycling/we-have-to-be-on-the-same-page-jorgenson-highlights-need-for-unity-after-riders-protest-amid-cycling-safety-concerns",
+      "title": "\"We have to be on the same page\" - Jorgenson highlights need for unity after riders protest amid cycling safety concerns",
+      "date": "2026-10-25T07:05:34.968287"
+    },
+    {
+      "url_key": "facebook.com/jotdar/posts/introducing-jahaji-fleet-intelligenceai-powered-intelligence-is-coming-to-bangla/28719698284354913",
+      "title_key": "\"introducing jahaji fleet intelligence\" ai-powered ...",
+      "url": "https://www.facebook.com/jotdar/posts/introducing-jahaji-fleet-intelligenceai-powered-intelligence-is-coming-to-bangla/28719698284354913",
+      "title": "\"Introducing JAHAJI FLEET INTELLIGENCE\" AI-powered ...",
+      "date": "2026-10-25T07:05:34.968287"
+    },
+    {
+      "url_key": "fptsoftware.com/newsroom/news-and-press-releases/news/fpt-and-zebox-advance-open-innovation-through-challenge-for-impact-vietnam",
+      "title_key": "fpt and zebox advance open innovation through challenge for impact vietnam | fpt software",
+      "url": "https://fptsoftware.com/newsroom/news-and-press-releases/news/fpt-and-zebox-advance-open-innovation-through-challenge-for-impact-vietnam",
+      "title": "FPT and ZEBOX Advance Open Innovation Through Challenge For Impact Vietnam | FPT Software",
+      "date": "2026-10-25T07:05:34.968287"
     }
   ],
   "words": [
-    {
-      "word": "latency",
-      "date": "2026-09-10T06:05:46.390716"
-    },
     {
       "word": "vector database",
       "date": "2026-09-11T09:38:02.462408"
@@ -1286,14 +1303,13 @@
     {
       "word": "circuit breaker",
       "date": "2026-10-24T06:05:00.322426"
+    },
+    {
+      "word": "latency",
+      "date": "2026-10-25T07:05:34.968287"
     }
   ],
   "quotes": [
-    {
-      "text": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
-      "author": "Steve Jobs",
-      "date": "2026-09-10T06:05:46.390716"
-    },
     {
       "text": "When something is important enough, you do it even if the odds are against you.",
       "author": "Elon Musk",
@@ -1503,7 +1519,12 @@
       "text": "Talk is cheap. Show me the code.",
       "author": "Linus Torvalds",
       "date": "2026-10-24T06:05:00.322426"
+    },
+    {
+      "text": "The greatest danger of artificial intelligence is that people will stop thinking.",
+      "author": "Stephen Hawking",
+      "date": "2026-10-25T07:05:34.968287"
     }
   ],
-  "last_sent_date": "2026-10-24"
+  "last_sent_date": "2026-10-25"
 }
