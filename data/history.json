@@ -1133,6 +1133,27 @@
       "url": "https://fptsoftware.com/newsroom/news-and-press-releases/news/fpt-and-zebox-advance-open-innovation-through-challenge-for-impact-vietnam",
       "title": "FPT and ZEBOX Advance Open Innovation Through Challenge For Impact Vietnam | FPT Software",
       "date": "2026-10-25T07:05:34.968287"
+    },
+    {
+      "url_key": "airtrain.ai/business/mistral-ai-valuation-shifts-and-llama-4-benchmark-disputes",
+      "title_key": "mistral ai valuation shifts and llama 4 benchmark disputes",
+      "url": "https://airtrain.ai/business/mistral-ai-valuation-shifts-and-llama-4-benchmark-disputes",
+      "title": "Mistral AI valuation shifts and Llama 4 benchmark disputes",
+      "date": "2026-10-26T07:06:45.727529"
+    },
+    {
+      "url_key": "facebook.com/maritimereporter/posts/exciting-news-from-the-zebox-asia-pacific-challenge-for-impact-four-innovative-s/1812896477504997",
+      "title_key": "exciting news from the zebox asia-pacific challenge for ...",
+      "url": "https://www.facebook.com/MaritimeReporter/posts/exciting-news-from-the-zebox-asia-pacific-challenge-for-impact-four-innovative-s/1812896477504997",
+      "title": "Exciting news from the ZEBOX Asia-Pacific Challenge for ...",
+      "date": "2026-10-26T07:06:45.727529"
+    },
+    {
+      "url_key": "magazine.inboundlogistics.com/view/336316149",
+      "title_key": "inbound logistics | october 2026",
+      "url": "https://magazine.inboundlogistics.com/view/336316149",
+      "title": "Inbound Logistics | October 2026",
+      "date": "2026-10-26T07:06:45.727529"
     }
   ],
   "words": [
@@ -1307,6 +1328,10 @@
     {
       "word": "latency",
       "date": "2026-10-25T07:05:34.968287"
+    },
+    {
+      "word": "edge inference",
+      "date": "2026-10-26T07:06:45.727529"
     }
   ],
   "quotes": [
@@ -1524,7 +1549,12 @@
       "text": "The greatest danger of artificial intelligence is that people will stop thinking.",
       "author": "Stephen Hawking",
       "date": "2026-10-25T07:05:34.968287"
+    },
+    {
+      "text": "The computer is a tool for the mind.",
+      "author": "John McCarthy",
+      "date": "2026-10-26T07:06:45.727529"
     }
   ],
-  "last_sent_date": "2026-10-25"
+  "last_sent_date": "2026-10-26"
 }
