@@ -1154,13 +1154,30 @@
       "url": "https://magazine.inboundlogistics.com/view/336316149",
       "title": "Inbound Logistics | October 2026",
       "date": "2026-10-26T07:06:45.727529"
+    },
+    {
+      "url_key": "major-prepa.com/eco-droit/mistral-ai-veritable-concurrent-geants-americains",
+      "title_key": "mistral ai : quel poids face aux géants américains et chinois ?",
+      "url": "https://major-prepa.com/eco-droit/mistral-ai-veritable-concurrent-geants-americains",
+      "title": "Mistral AI : quel poids face aux géants américains et chinois ?",
+      "date": "2026-10-27T07:04:58.319135"
+    },
+    {
+      "url_key": "fr.jooble.org/jdp/1520687004060908520",
+      "title_key": "mdi deployment lead chez mccain – france",
+      "url": "https://fr.jooble.org/jdp/1520687004060908520",
+      "title": "MDI Deployment Lead chez McCain – France",
+      "date": "2026-10-27T07:04:58.319135"
+    },
+    {
+      "url_key": "marinelink.com/news/maritime-ai-logistics-startups-win-zebox-543789",
+      "title_key": "maritime ai and logistics startups win zebox",
+      "url": "https://www.marinelink.com/news/maritime-ai-logistics-startups-win-zebox-543789",
+      "title": "Maritime AI And Logistics Startups Win ZEBOX",
+      "date": "2026-10-27T07:04:58.319135"
     }
   ],
   "words": [
-    {
-      "word": "vector database",
-      "date": "2026-09-11T09:38:02.462408"
-    },
     {
       "word": "quantization",
       "date": "2026-09-14T06:05:58.906568"
@@ -1332,14 +1349,13 @@
     {
       "word": "edge inference",
       "date": "2026-10-26T07:06:45.727529"
+    },
+    {
+      "word": "vector database",
+      "date": "2026-10-27T07:04:58.319135"
     }
   ],
   "quotes": [
-    {
-      "text": "When something is important enough, you do it even if the odds are against you.",
-      "author": "Elon Musk",
-      "date": "2026-09-11T09:38:02.462408"
-    },
     {
       "text": "Innovation is saying no to 1,000 things.",
       "author": "Steve Jobs",
@@ -1554,7 +1570,12 @@
       "text": "The computer is a tool for the mind.",
       "author": "John McCarthy",
       "date": "2026-10-26T07:06:45.727529"
+    },
+    {
+      "text": "The only constant in technology is change.",
+      "author": "John Chambers",
+      "date": "2026-10-27T07:04:58.319135"
     }
   ],
-  "last_sent_date": "2026-10-26"
+  "last_sent_date": "2026-10-27"
 }
