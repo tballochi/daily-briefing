@@ -1175,6 +1175,27 @@
       "url": "https://www.marinelink.com/news/maritime-ai-logistics-startups-win-zebox-543789",
       "title": "Maritime AI And Logistics Startups Win ZEBOX",
       "date": "2026-10-27T07:04:58.319135"
+    },
+    {
+      "url_key": "facebook.com/aberdeenbusinessnews/posts/aberdeen-based-offshore-logistics-firm-asco-has-announced-an-183-million-investm/1795118479286305",
+      "title_key": "aberdeen-based offshore logistics firm asco has ...",
+      "url": "https://www.facebook.com/AberdeenBusinessNews/posts/aberdeen-based-offshore-logistics-firm-asco-has-announced-an-183-million-investm/1795118479286305",
+      "title": "Aberdeen-based offshore logistics firm Asco has ...",
+      "date": "2026-10-28T07:05:59.791663"
+    },
+    {
+      "url_key": "linkedin.com/pulse/cma-cgms-transformation-strategy-fix-process-before-yang-chen-%e9%99%88%e6%b4%8b--y6c3c",
+      "title_key": "cma cgm’s transformation strategy: fix the process before automating it",
+      "url": "https://www.linkedin.com/pulse/cma-cgms-transformation-strategy-fix-process-before-yang-chen-%E9%99%88%E6%B4%8B--y6c3c",
+      "title": "CMA CGM’s Transformation Strategy: Fix the Process Before Automating It",
+      "date": "2026-10-28T07:05:59.791663"
+    },
+    {
+      "url_key": "facebook.com/andrew.schwabe/posts/today-im-speaking-at-containerdays-in-singapore-if-you-are-in-town-stop-by-and-w/10245569431353932",
+      "title_key": "containerdays singapore 2026 ai governance talk",
+      "url": "https://www.facebook.com/andrew.schwabe/posts/today-im-speaking-at-containerdays-in-singapore-if-you-are-in-town-stop-by-and-w/10245569431353932",
+      "title": "Containerdays Singapore 2026 AI governance talk",
+      "date": "2026-10-28T07:05:59.791663"
     }
   ],
   "words": [
@@ -1353,6 +1374,10 @@
     {
       "word": "vector database",
       "date": "2026-10-27T07:04:58.319135"
+    },
+    {
+      "word": "vector search",
+      "date": "2026-10-28T07:05:59.791663"
     }
   ],
   "quotes": [
@@ -1575,7 +1600,12 @@
       "text": "The only constant in technology is change.",
       "author": "John Chambers",
       "date": "2026-10-27T07:04:58.319135"
+    },
+    {
+      "text": "When something is important enough, you do it even if the odds are against you.",
+      "author": "Elon Musk",
+      "date": "2026-10-28T07:05:59.791663"
     }
   ],
-  "last_sent_date": "2026-10-27"
+  "last_sent_date": "2026-10-28"
 }
