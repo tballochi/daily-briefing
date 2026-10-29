@@ -1,48 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "findausecase.com/use-cases/cma-cgm-group-deploys-maia-an-agentic-ai-platform-co-developed-with-mistral-ai-across-shipping-logistics-and-media-operations",
-      "title_key": "cma cgm group deploys maia, an agentic ai platform co ...",
-      "url": "https://findausecase.com/use-cases/cma-cgm-group-deploys-maia-an-agentic-ai-platform-co-developed-with-mistral-ai-across-shipping-logistics-and-media-operations",
-      "title": "CMA CGM Group deploys MAIA, an agentic AI platform co ...",
-      "date": "2026-08-29T07:52:48.457892"
-    },
-    {
-      "url_key": "tech-insider.org/tencent-hy3-open-source-ai-model-2026",
-      "title_key": "tencent hy3: new 770b open ai model for coding [2026]",
-      "url": "https://tech-insider.org/tencent-hy3-open-source-ai-model-2026",
-      "title": "Tencent Hy3: New 770B Open AI Model for Coding [2026]",
-      "date": "2026-08-29T07:52:48.457892"
-    },
-    {
-      "url_key": "openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "title_key": "our decision on cursor following its acquisition by spacex | openai",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "title": "Our decision on Cursor following its acquisition by SpaceX | OpenAI",
-      "date": "2026-08-29T07:52:48.457892"
-    },
-    {
-      "url_key": "marinelink.com/news/classnk-launches-survey-compass-ai-542431",
-      "title_key": "classnk launches survey compass ai assistant for ship",
-      "url": "https://www.marinelink.com/news/classnk-launches-survey-compass-ai-542431",
-      "title": "Classnk Launches Survey Compass AI Assistant For Ship",
-      "date": "2026-08-30T06:03:58.552701"
-    },
-    {
-      "url_key": "reuters.com/legal/legalindustry/wikihow-sues-openai-copyright-infringement-over-ai-training-2026-08-24",
-      "title_key": "wikihow sues openai for copyright infringement over ai ...",
-      "url": "https://www.reuters.com/legal/legalindustry/wikihow-sues-openai-copyright-infringement-over-ai-training-2026-08-24",
-      "title": "WikiHow sues OpenAI for copyright infringement over AI ...",
-      "date": "2026-08-30T06:03:58.552701"
-    },
-    {
-      "url_key": "releasebot.io/updates/n8n",
-      "title_key": "n8n release notes - august 2026 latest updates",
-      "url": "https://releasebot.io/updates/n8n",
-      "title": "n8n Release Notes - August 2026 Latest Updates",
-      "date": "2026-08-30T06:03:58.552701"
-    },
-    {
       "url_key": "caliber.az/en/post/saudi-arabia-france-sign-major-deals-on-defence-ai-and-investment",
       "title_key": "saudi arabia, france sign major deals on defence, ai and investment",
       "url": "https://caliber.az/en/post/saudi-arabia-france-sign-major-deals-on-defence-ai-and-investment",
@@ -1196,13 +1154,30 @@
       "url": "https://www.facebook.com/andrew.schwabe/posts/today-im-speaking-at-containerdays-in-singapore-if-you-are-in-town-stop-by-and-w/10245569431353932",
       "title": "Containerdays Singapore 2026 AI governance talk",
       "date": "2026-10-28T07:05:59.791663"
+    },
+    {
+      "url_key": "x.com/phillipm61/status/2114459861157302591",
+      "title_key": "phillip martindale on x: \"@vismaleaseabike @richardplugge @visma @cervelo @nike @skodaautonews @rabobank @mistralai @philips @asmlcompany @nvidia @bookingcom @orsted @adyen visma is stepping back as title sponsor for 2027 (remaining as a secondary partner), the team is provisionally registered wit… / x",
+      "url": "https://x.com/phillipm61/status/2114459861157302591",
+      "title": "Phillip Martindale on X: \"@vismaleaseabike @RichardPlugge @visma @cervelo @Nike @skodaautonews @Rabobank @MistralAI @Philips @ASMLcompany @nvidia @bookingcom @Orsted @Adyen Visma is stepping back as title sponsor for 2027 (remaining as a secondary partner), the team is provisionally registered wit… / X",
+      "date": "2026-10-29T07:04:05.213060"
+    },
+    {
+      "url_key": "thenextcloud.co/2026/10/26/who-holds-the-keys",
+      "title_key": "who holds the keys - the next cloud",
+      "url": "https://thenextcloud.co/2026/10/26/who-holds-the-keys",
+      "title": "Who Holds the Keys - The Next Cloud",
+      "date": "2026-10-29T07:04:05.213060"
+    },
+    {
+      "url_key": "tracxn.com/d/companies/mistral-ai/__slzq7rzxlyqqa97jtpwo09jldeb76rvjvb306ohciwu/funding-and-investors",
+      "title_key": "mistral ai - 2026 funding rounds & list of investors - tracxn",
+      "url": "https://tracxn.com/d/companies/mistral-ai/__SLZq7rzxLYqqA97jtPwO09jLDeb76RVJVb306OhciWU/funding-and-investors",
+      "title": "Mistral AI - 2026 Funding Rounds & List of Investors - Tracxn",
+      "date": "2026-10-29T07:04:05.213060"
     }
   ],
   "words": [
-    {
-      "word": "quantization",
-      "date": "2026-09-14T06:05:58.906568"
-    },
     {
       "word": "backpressure",
       "date": "2026-09-15T06:04:00.342674"
@@ -1378,14 +1353,13 @@
     {
       "word": "vector search",
       "date": "2026-10-28T07:05:59.791663"
+    },
+    {
+      "word": "quantization",
+      "date": "2026-10-29T07:04:05.213060"
     }
   ],
   "quotes": [
-    {
-      "text": "Innovation is saying no to 1,000 things.",
-      "author": "Steve Jobs",
-      "date": "2026-09-14T06:05:58.906568"
-    },
     {
       "text": "The purpose of technology is to enable people to do things they could not do before.",
       "author": "Tim O'Reilly",
@@ -1605,7 +1579,12 @@
       "text": "When something is important enough, you do it even if the odds are against you.",
       "author": "Elon Musk",
       "date": "2026-10-28T07:05:59.791663"
+    },
+    {
+      "text": "Technology is best when it brings people together.",
+      "author": "Matt Mullenweg",
+      "date": "2026-10-29T07:04:05.213060"
     }
   ],
-  "last_sent_date": "2026-10-28"
+  "last_sent_date": "2026-10-29"
 }
