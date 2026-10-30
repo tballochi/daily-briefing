@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "caliber.az/en/post/saudi-arabia-france-sign-major-deals-on-defence-ai-and-investment",
-      "title_key": "saudi arabia, france sign major deals on defence, ai and investment",
-      "url": "https://caliber.az/en/post/saudi-arabia-france-sign-major-deals-on-defence-ai-and-investment",
-      "title": "Saudi Arabia, France sign major deals on defence, AI and investment",
-      "date": "2026-08-31T06:05:45.137881"
-    },
-    {
-      "url_key": "unite.ai/openai-brings-gpt-5-6-model-family-to-awss-kiro",
-      "title_key": "openai brings gpt-5.6 model family to aws’s kiro – unite.ai",
-      "url": "https://www.unite.ai/openai-brings-gpt-5-6-model-family-to-awss-kiro",
-      "title": "OpenAI Brings GPT-5.6 Model Family to AWS’s Kiro – Unite.AI",
-      "date": "2026-08-31T06:05:45.137881"
-    },
-    {
-      "url_key": "facebook.com/groups/763037808641014/posts/1612372630374190",
-      "title_key": "saudi arabia's rsgt, france's cma cgm sign deal to ...",
-      "url": "https://www.facebook.com/groups/763037808641014/posts/1612372630374190",
-      "title": "Saudi Arabia's RSGT, France's CMA CGM sign deal to ...",
-      "date": "2026-08-31T06:05:45.137881"
-    },
-    {
       "url_key": "app.dealroom.co/news/note/cambridge-pixel-to-demonstrate-autonomous-vessel-sensor-software-at-smm-2026",
       "title_key": "cambridge pixel to demonstrate autonomous vessel sensor software at smm 2026 | dealroom.co",
       "url": "https://app.dealroom.co/news/note/cambridge-pixel-to-demonstrate-autonomous-vessel-sensor-software-at-smm-2026",
@@ -1175,13 +1154,30 @@
       "url": "https://tracxn.com/d/companies/mistral-ai/__SLZq7rzxLYqqA97jtPwO09jLDeb76RVJVb306OhciWU/funding-and-investors",
       "title": "Mistral AI - 2026 Funding Rounds & List of Investors - Tracxn",
       "date": "2026-10-29T07:04:05.213060"
+    },
+    {
+      "url_key": "marinelink.com/news/electric-container-barge-launched-vietnam-543992",
+      "title_key": "electric container barge launched in vietnam - marine news magazine",
+      "url": "https://www.marinelink.com/news/electric-container-barge-launched-vietnam-543992",
+      "title": "Electric Container Barge Launched In Vietnam - Marine News Magazine",
+      "date": "2026-10-30T07:02:35.745778"
+    },
+    {
+      "url_key": "tech-insider.org/au/openai-gpt-6-models-google-cloud-model-garden-2026",
+      "title_key": "openai models on google cloud: 3 gpt-6 previews [2026]",
+      "url": "https://tech-insider.org/au/openai-gpt-6-models-google-cloud-model-garden-2026",
+      "title": "OpenAI Models on Google Cloud: 3 GPT-6 Previews [2026]",
+      "date": "2026-10-30T07:02:35.745778"
+    },
+    {
+      "url_key": "reuters.com/technology/deepseek-moonshot-used-openais-gpt-6-astra-train-latest-models-information-2026-10-29",
+      "title_key": "deepseek, moonshot used openai's gpt-6 astra to train latest models, the information reports | reuters",
+      "url": "https://www.reuters.com/technology/deepseek-moonshot-used-openais-gpt-6-astra-train-latest-models-information-2026-10-29",
+      "title": "DeepSeek, Moonshot used OpenAI's GPT-6 Astra to train latest models, The Information reports | Reuters",
+      "date": "2026-10-30T07:02:35.745778"
     }
   ],
   "words": [
-    {
-      "word": "backpressure",
-      "date": "2026-09-15T06:04:00.342674"
-    },
     {
       "word": "idempotency",
       "date": "2026-09-16T06:05:53.295570"
@@ -1357,14 +1353,13 @@
     {
       "word": "quantization",
       "date": "2026-10-29T07:04:05.213060"
+    },
+    {
+      "word": "branch prediction",
+      "date": "2026-10-30T07:02:35.745778"
     }
   ],
   "quotes": [
-    {
-      "text": "The purpose of technology is to enable people to do things they could not do before.",
-      "author": "Tim O'Reilly",
-      "date": "2026-09-15T06:04:00.342674"
-    },
     {
       "text": "We are stubborn on vision but flexible on details.",
       "author": "Jeff Bezos",
@@ -1584,7 +1579,12 @@
       "text": "Technology is best when it brings people together.",
       "author": "Matt Mullenweg",
       "date": "2026-10-29T07:04:05.213060"
+    },
+    {
+      "text": "Innovation is saying no to 1,000 things.",
+      "author": "Steve Jobs",
+      "date": "2026-10-30T07:02:35.745778"
     }
   ],
-  "last_sent_date": "2026-10-29"
+  "last_sent_date": "2026-10-30"
 }
