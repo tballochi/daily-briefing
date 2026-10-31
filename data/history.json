@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "app.dealroom.co/news/note/cambridge-pixel-to-demonstrate-autonomous-vessel-sensor-software-at-smm-2026",
-      "title_key": "cambridge pixel to demonstrate autonomous vessel sensor software at smm 2026 | dealroom.co",
-      "url": "https://app.dealroom.co/news/note/cambridge-pixel-to-demonstrate-autonomous-vessel-sensor-software-at-smm-2026",
-      "title": "Cambridge Pixel to demonstrate autonomous vessel sensor software at SMM 2026 | Dealroom.co",
-      "date": "2026-09-01T06:04:30.773217"
-    },
-    {
-      "url_key": "geeky-gadgets.com/gpt-6-vs-gemini-4-leaks",
-      "title_key": "openai chatgpt 6 astra reportedly packs 10 trillion parameters",
-      "url": "https://www.geeky-gadgets.com/gpt-6-vs-gemini-4-leaks",
-      "title": "OpenAI ChatGPT 6 Astra Reportedly Packs 10 Trillion Parameters",
-      "date": "2026-09-01T06:04:30.773217"
-    },
-    {
-      "url_key": "tech-insider.org/meta-hatch-ai-agent-watermelon-model-2026",
-      "title_key": "meta hatch ai agents, watermelon model at $199.99 [2026]",
-      "url": "https://tech-insider.org/meta-hatch-ai-agent-watermelon-model-2026",
-      "title": "Meta Hatch AI Agents, Watermelon Model at $199.99 [2026]",
-      "date": "2026-09-01T06:04:30.773217"
-    },
-    {
       "url_key": "manifoldtimes.com/news/cma-cgm-group-and-shell-enter-biofuel-partnership-for-shipping-fleet",
       "title_key": "cma cgm group and shell enter biofuel partnership for shipping fleet",
       "url": "https://www.manifoldtimes.com/news/cma-cgm-group-and-shell-enter-biofuel-partnership-for-shipping-fleet",
@@ -1175,13 +1154,30 @@
       "url": "https://www.reuters.com/technology/deepseek-moonshot-used-openais-gpt-6-astra-train-latest-models-information-2026-10-29",
       "title": "DeepSeek, Moonshot used OpenAI's GPT-6 Astra to train latest models, The Information reports | Reuters",
       "date": "2026-10-30T07:02:35.745778"
+    },
+    {
+      "url_key": "jobs.cmacgm-group.com/cmacgm/job/ai-deployment-strategist-agent-builder/593209-en_gb",
+      "title_key": "ai deployment strategist - agent builder job details | cma cgm",
+      "url": "https://jobs.cmacgm-group.com/CMACGM/job/AI-Deployment-Strategist-Agent-Builder/593209-en_GB",
+      "title": "AI Deployment Strategist - Agent Builder Job Details | CMA CGM",
+      "date": "2026-10-31T07:05:59.941178"
+    },
+    {
+      "url_key": "desmoinesregister.com/press-release/story/145787/luggagetoship-com-wins-2026-inc-power-partner-award-for-ai-powered-travel-and-luggage-shipping-innovation",
+      "title_key": "luggagetoship.com wins 2026 inc. power partner award for ai-powered travel and luggage shipping innovation - the des moines register",
+      "url": "https://www.desmoinesregister.com/press-release/story/145787/luggagetoship-com-wins-2026-inc-power-partner-award-for-ai-powered-travel-and-luggage-shipping-innovation",
+      "title": "LuggageToShip.com Wins 2026 Inc. Power Partner Award for AI-Powered Travel and Luggage Shipping Innovation - The Des Moines Register",
+      "date": "2026-10-31T07:05:59.941178"
+    },
+    {
+      "url_key": "prologis.com/insights-news/press-releases/2027-supply-chain-outlook-fast-delivery-energy-define-logistics",
+      "title_key": "2027 supply chain outlook: fast delivery & energy define logistics networks | october 28, 2026 | prologis",
+      "url": "https://www.prologis.com/insights-news/press-releases/2027-supply-chain-outlook-fast-delivery-energy-define-logistics",
+      "title": "2027 Supply Chain Outlook: Fast Delivery & Energy Define Logistics Networks | October 28, 2026 | Prologis",
+      "date": "2026-10-31T07:05:59.941178"
     }
   ],
   "words": [
-    {
-      "word": "idempotency",
-      "date": "2026-09-16T06:05:53.295570"
-    },
     {
       "word": "webhook",
       "date": "2026-09-17T06:03:37.317982"
@@ -1357,14 +1353,13 @@
     {
       "word": "branch prediction",
       "date": "2026-10-30T07:02:35.745778"
+    },
+    {
+      "word": "idempotent",
+      "date": "2026-10-31T07:05:59.941178"
     }
   ],
   "quotes": [
-    {
-      "text": "We are stubborn on vision but flexible on details.",
-      "author": "Jeff Bezos",
-      "date": "2026-09-16T06:05:53.295570"
-    },
     {
       "text": "The computer was born to solve problems that did not exist before.",
       "author": "Bill Gates",
@@ -1584,7 +1579,12 @@
       "text": "Innovation is saying no to 1,000 things.",
       "author": "Steve Jobs",
       "date": "2026-10-30T07:02:35.745778"
+    },
+    {
+      "text": "The most dangerous phrase in the language is, “we’ve always done it this way.”",
+      "author": "Grace Hopper",
+      "date": "2026-10-31T07:05:59.941178"
     }
   ],
-  "last_sent_date": "2026-10-30"
+  "last_sent_date": "2026-10-31"
 }
