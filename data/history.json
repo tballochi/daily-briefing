@@ -1175,13 +1175,30 @@
       "url": "https://www.prologis.com/insights-news/press-releases/2027-supply-chain-outlook-fast-delivery-energy-define-logistics",
       "title": "2027 Supply Chain Outlook: Fast Delivery & Energy Define Logistics Networks | October 28, 2026 | Prologis",
       "date": "2026-10-31T07:05:59.941178"
+    },
+    {
+      "url_key": "fr.indeed.com/q-ml-consulting-emplois.html",
+      "title_key": "ml consulting : plus de 50 emplois (30 octobre 2026)",
+      "url": "https://fr.indeed.com/q-ml-consulting-emplois.html",
+      "title": "Ml Consulting : plus de 50 emplois (30 octobre 2026)",
+      "date": "2026-11-01T07:05:35.348956"
+    },
+    {
+      "url_key": "technologydig.com/receipts",
+      "title_key": "receipts · techdig",
+      "url": "https://technologydig.com/receipts",
+      "title": "Receipts · TechDig",
+      "date": "2026-11-01T07:05:35.348956"
+    },
+    {
+      "url_key": "cio.eletsonline.com/technology/global-ai-companies-turn-to-india-for-data-centre-capacity-as-power-crunch-bites-elsewhere/76397",
+      "title_key": "global ai companies turn to india for data centre capacity as power crunch bites elsewhere - elets cio",
+      "url": "https://cio.eletsonline.com/technology/global-ai-companies-turn-to-india-for-data-centre-capacity-as-power-crunch-bites-elsewhere/76397",
+      "title": "Global AI Companies Turn to India for Data Centre Capacity as Power Crunch Bites Elsewhere - Elets CIO",
+      "date": "2026-11-01T07:05:35.348956"
     }
   ],
   "words": [
-    {
-      "word": "webhook",
-      "date": "2026-09-17T06:03:37.317982"
-    },
     {
       "word": "rate limiting",
       "date": "2026-09-18T06:03:34.683066"
@@ -1357,14 +1374,13 @@
     {
       "word": "idempotent",
       "date": "2026-10-31T07:05:59.941178"
+    },
+    {
+      "word": "federated learning",
+      "date": "2026-11-01T07:05:35.348956"
     }
   ],
   "quotes": [
-    {
-      "text": "The computer was born to solve problems that did not exist before.",
-      "author": "Bill Gates",
-      "date": "2026-09-17T06:03:37.317982"
-    },
     {
       "text": "Our industry does not respect tradition—it respects innovation.",
       "author": "Satya Nadella",
@@ -1584,7 +1600,12 @@
       "text": "The most dangerous phrase in the language is, “we’ve always done it this way.”",
       "author": "Grace Hopper",
       "date": "2026-10-31T07:05:59.941178"
+    },
+    {
+      "text": "If you are not embarrassed by the first version of your product, you’ve launched too late.",
+      "author": "Reid Hoffman",
+      "date": "2026-11-01T07:05:35.348956"
     }
   ],
-  "last_sent_date": "2026-10-31"
+  "last_sent_date": "2026-11-01"
 }
