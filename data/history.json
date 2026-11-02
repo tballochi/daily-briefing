@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "manifoldtimes.com/news/cma-cgm-group-and-shell-enter-biofuel-partnership-for-shipping-fleet",
-      "title_key": "cma cgm group and shell enter biofuel partnership for shipping fleet",
-      "url": "https://www.manifoldtimes.com/news/cma-cgm-group-and-shell-enter-biofuel-partnership-for-shipping-fleet",
-      "title": "CMA CGM Group and Shell enter biofuel partnership for shipping fleet",
-      "date": "2026-09-03T06:10:35.978339"
-    },
-    {
-      "url_key": "tech-insider.org/gemini-3-8-flash-launch-pricing-2026",
-      "title_key": "gemini 3.8 flash launches at $0.75/1m input [2026]",
-      "url": "https://tech-insider.org/gemini-3-8-flash-launch-pricing-2026",
-      "title": "Gemini 3.8 Flash Launches at $0.75/1M Input [2026]",
-      "date": "2026-09-03T06:10:35.978339"
-    },
-    {
-      "url_key": "eu.36kr.com/en/p/3967133839498752",
-      "title_key": "openai’s new transformer goes viral: astra architecture unveiled for the first time",
-      "url": "https://eu.36kr.com/en/p/3967133839498752",
-      "title": "OpenAI’s New Transformer Goes Viral: Astra Architecture Unveiled for the First Time",
-      "date": "2026-09-03T06:10:35.978339"
-    },
-    {
       "url_key": "maritimeprofessional.com/amp/news/shipsy-launches-logistics-intelligence-layer-422603",
       "title_key": "shipsy launches logistics intelligence layer for",
       "url": "https://www.maritimeprofessional.com/amp/news/shipsy-launches-logistics-intelligence-layer-422603",
@@ -1196,13 +1175,30 @@
       "url": "https://cio.eletsonline.com/technology/global-ai-companies-turn-to-india-for-data-centre-capacity-as-power-crunch-bites-elsewhere/76397",
       "title": "Global AI Companies Turn to India for Data Centre Capacity as Power Crunch Bites Elsewhere - Elets CIO",
       "date": "2026-11-01T07:05:35.348956"
+    },
+    {
+      "url_key": "fr.indeed.com/q-field-operator-emplois.html",
+      "title_key": "field operator : plus de 200 emplois (29 octobre 2026)",
+      "url": "https://fr.indeed.com/q-field-operator-emplois.html?vjk=6c37db84db389acc",
+      "title": "Field Operator : plus de 200 emplois (29 octobre 2026)",
+      "date": "2026-11-02T07:05:46.987750"
+    },
+    {
+      "url_key": "usine-digitale.fr/intelligence-artificielle/mistral-ai/mistral-ai-va-donner-a-orange-cyberdefense-un-acces-anticipe-a-une-variante-de-mistral-large-4-optimisee-pour-la-cybersecurite.6yks4kt6nfbgfpfgacs6vxydiy.html",
+      "title_key": "mistral ai va donner à orange cyberdefense un accès anticipé à une variante de mistral large 4 optimisée pour la cybersécurité",
+      "url": "https://www.usine-digitale.fr/intelligence-artificielle/mistral-ai/mistral-ai-va-donner-a-orange-cyberdefense-un-acces-anticipe-a-une-variante-de-mistral-large-4-optimisee-pour-la-cybersecurite.6YKS4KT6NFBGFPFGACS6VXYDIY.html",
+      "title": "Mistral AI va donner à Orange Cyberdefense un accès anticipé à une variante de Mistral Large 4 optimisée pour la cybersécurité",
+      "date": "2026-11-02T07:05:46.987750"
+    },
+    {
+      "url_key": "container-mag.com/update/cma-cgm-launches-weekly-108-teu-block-train-from-mombasa-to--mvsulb99",
+      "title_key": "cma cgm launches weekly 108-teu block train from mombasa to nairobi-embakasi depot",
+      "url": "https://container-mag.com/update/cma-cgm-launches-weekly-108-teu-block-train-from-mombasa-to--mvsulb99",
+      "title": "CMA CGM launches weekly 108-teu block train from Mombasa to Nairobi-Embakasi depot",
+      "date": "2026-11-02T07:05:46.987750"
     }
   ],
   "words": [
-    {
-      "word": "rate limiting",
-      "date": "2026-09-18T06:03:34.683066"
-    },
     {
       "word": "caching",
       "date": "2026-09-19T06:05:04.672219"
@@ -1378,14 +1374,13 @@
     {
       "word": "federated learning",
       "date": "2026-11-01T07:05:35.348956"
+    },
+    {
+      "word": "backpressure",
+      "date": "2026-11-02T07:05:46.987750"
     }
   ],
   "quotes": [
-    {
-      "text": "Our industry does not respect tradition—it respects innovation.",
-      "author": "Satya Nadella",
-      "date": "2026-09-18T06:03:34.683066"
-    },
     {
       "text": "The Web does not just change what we do; it changes who we are.",
       "author": "Tim Berners-Lee",
@@ -1605,7 +1600,12 @@
       "text": "If you are not embarrassed by the first version of your product, you’ve launched too late.",
       "author": "Reid Hoffman",
       "date": "2026-11-01T07:05:35.348956"
+    },
+    {
+      "text": "If you can't measure it, you can't improve it.",
+      "author": "Peter Drucker",
+      "date": "2026-11-02T07:05:46.987750"
     }
   ],
-  "last_sent_date": "2026-11-01"
+  "last_sent_date": "2026-11-02"
 }
