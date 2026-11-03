@@ -1196,13 +1196,30 @@
       "url": "https://container-mag.com/update/cma-cgm-launches-weekly-108-teu-block-train-from-mombasa-to--mvsulb99",
       "title": "CMA CGM launches weekly 108-teu block train from Mombasa to Nairobi-Embakasi depot",
       "date": "2026-11-02T07:05:46.987750"
+    },
+    {
+      "url_key": "thetius.com/what-changes-when-ai-moves-from-assistant-to-agent",
+      "title_key": "what changes when ai moves from assistant to agent - thetius",
+      "url": "https://thetius.com/what-changes-when-ai-moves-from-assistant-to-agent",
+      "title": "What Changes When AI Moves From Assistant to Agent - Thetius",
+      "date": "2026-11-03T07:05:31.467040"
+    },
+    {
+      "url_key": "openai.com/index/helping-websites-express-ai-training-preferences",
+      "title_key": "making it easier for websites to express ai training preferences | openai",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "title": "Making it easier for websites to express AI training preferences | OpenAI",
+      "date": "2026-11-03T07:05:31.467040"
+    },
+    {
+      "url_key": "cnbc.com/2026/11/01/ai-investments-company-earnings.html",
+      "title_key": "ai investments start to pay off in company earnings",
+      "url": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
+      "title": "AI investments start to pay off in company earnings",
+      "date": "2026-11-03T07:05:31.467040"
     }
   ],
   "words": [
-    {
-      "word": "caching",
-      "date": "2026-09-19T06:05:04.672219"
-    },
     {
       "word": "event sourcing",
       "date": "2026-09-20T06:04:51.187888"
@@ -1378,14 +1395,13 @@
     {
       "word": "backpressure",
       "date": "2026-11-02T07:05:46.987750"
+    },
+    {
+      "word": "webhook",
+      "date": "2026-11-03T07:05:31.467040"
     }
   ],
   "quotes": [
-    {
-      "text": "The Web does not just change what we do; it changes who we are.",
-      "author": "Tim Berners-Lee",
-      "date": "2026-09-19T06:05:04.672219"
-    },
     {
       "text": "If you think good architecture is expensive, try bad architecture.",
       "author": "Brian Kernighan",
@@ -1605,7 +1621,12 @@
       "text": "If you can't measure it, you can't improve it.",
       "author": "Peter Drucker",
       "date": "2026-11-02T07:05:46.987750"
+    },
+    {
+      "text": "Our industry does not respect tradition—it respects innovation.",
+      "author": "Satya Nadella",
+      "date": "2026-11-03T07:05:31.467040"
     }
   ],
-  "last_sent_date": "2026-11-02"
+  "last_sent_date": "2026-11-03"
 }
