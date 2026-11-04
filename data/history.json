@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "maritimeprofessional.com/amp/news/shipsy-launches-logistics-intelligence-layer-422603",
-      "title_key": "shipsy launches logistics intelligence layer for",
-      "url": "https://www.maritimeprofessional.com/amp/news/shipsy-launches-logistics-intelligence-layer-422603",
-      "title": "Shipsy Launches Logistics Intelligence Layer for",
-      "date": "2026-09-04T09:44:31.863977"
-    },
-    {
-      "url_key": "thenewstack.io/openai-gpt6-astra-benchmarks",
-      "title_key": "openai launches gpt-6 astra and says welcome to the \"agi era\" - the new stack",
-      "url": "https://thenewstack.io/openai-gpt6-astra-benchmarks",
-      "title": "OpenAI launches GPT-6 Astra and says welcome to the \"AGI era\" - The New Stack",
-      "date": "2026-09-04T09:44:31.863977"
-    },
-    {
-      "url_key": "tech.yahoo.com/ai/meta-ai/articles/meta-releases-muse-spark-1-105243877.html",
-      "title_key": "meta releases muse spark 1.3 for coding and ai agents",
-      "url": "https://tech.yahoo.com/ai/meta-ai/articles/meta-releases-muse-spark-1-105243877.html",
-      "title": "Meta releases Muse Spark 1.3 for coding and AI agents",
-      "date": "2026-09-04T09:44:31.863977"
-    },
-    {
       "url_key": "thedigitalship.com/news/maritime-software/cma-cgm-bureau-veritas-and-sdari-develop-ai-assisted-container-ship-concept",
       "title_key": "cma cgm, bureau veritas and sdari develop ai-assisted container ship concept – digital ship",
       "url": "https://thedigitalship.com/news/maritime-software/cma-cgm-bureau-veritas-and-sdari-develop-ai-assisted-container-ship-concept",
@@ -1217,13 +1196,30 @@
       "url": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
       "title": "AI investments start to pay off in company earnings",
       "date": "2026-11-03T07:05:31.467040"
+    },
+    {
+      "url_key": "finance.yahoo.com/technology/ai/articles/windward-expands-maritime-visual-intelligence-065700488.html",
+      "title_key": "windward expands into maritime visual intelligence with acquisition of azimut.ai",
+      "url": "https://finance.yahoo.com/technology/ai/articles/windward-expands-maritime-visual-intelligence-065700488.html",
+      "title": "Windward Expands into Maritime Visual Intelligence with Acquisition of Azimut.ai",
+      "date": "2026-11-04T07:05:01.997674"
+    },
+    {
+      "url_key": "emergent.sh/news/openai-launches-gpt-6-rosalind-multimodal-ai",
+      "title_key": "openai launches gpt-6 rosalind multimodal ai model",
+      "url": "https://emergent.sh/news/openai-launches-gpt-6-rosalind-multimodal-ai",
+      "title": "OpenAI Launches GPT-6 Rosalind Multimodal AI Model",
+      "date": "2026-11-04T07:05:01.997674"
+    },
+    {
+      "url_key": "technode.global/2026/11/04/fujitsu-ai-packaging-damage-pilot-japan",
+      "title_key": "fujitsu tests ai packaging damage checks in japan",
+      "url": "https://technode.global/2026/11/04/fujitsu-ai-packaging-damage-pilot-japan",
+      "title": "Fujitsu tests AI packaging damage checks in Japan",
+      "date": "2026-11-04T07:05:01.997674"
     }
   ],
   "words": [
-    {
-      "word": "event sourcing",
-      "date": "2026-09-20T06:04:51.187888"
-    },
     {
       "word": "sandboxing",
       "date": "2026-09-21T06:05:04.604711"
@@ -1399,14 +1395,13 @@
     {
       "word": "webhook",
       "date": "2026-11-03T07:05:31.467040"
+    },
+    {
+      "word": "rate limiting",
+      "date": "2026-11-04T07:05:01.997674"
     }
   ],
   "quotes": [
-    {
-      "text": "If you think good architecture is expensive, try bad architecture.",
-      "author": "Brian Kernighan",
-      "date": "2026-09-20T06:04:51.187888"
-    },
     {
       "text": "The only way to win is to learn faster than the competition.",
       "author": "Eric Schmidt",
@@ -1626,7 +1621,12 @@
       "text": "Our industry does not respect tradition—it respects innovation.",
       "author": "Satya Nadella",
       "date": "2026-11-03T07:05:31.467040"
+    },
+    {
+      "text": "We are stubborn on vision but flexible on details.",
+      "author": "Jeff Bezos",
+      "date": "2026-11-04T07:05:01.997674"
     }
   ],
-  "last_sent_date": "2026-11-03"
+  "last_sent_date": "2026-11-04"
 }
