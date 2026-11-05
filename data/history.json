@@ -1,48 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "thedigitalship.com/news/maritime-software/cma-cgm-bureau-veritas-and-sdari-develop-ai-assisted-container-ship-concept",
-      "title_key": "cma cgm, bureau veritas and sdari develop ai-assisted container ship concept – digital ship",
-      "url": "https://thedigitalship.com/news/maritime-software/cma-cgm-bureau-veritas-and-sdari-develop-ai-assisted-container-ship-concept",
-      "title": "CMA CGM, Bureau Veritas and SDARI develop AI-assisted container ship concept – Digital Ship",
-      "date": "2026-09-05T09:09:32.493919"
-    },
-    {
-      "url_key": "koino.fr/articles/ia-logistique-supply-chain-12-exemples-reels-2026",
-      "title_key": "ia logistique et supply chain : 12 exemples réels (2026)",
-      "url": "https://www.koino.fr/articles/ia-logistique-supply-chain-12-exemples-reels-2026",
-      "title": "IA logistique et supply chain : 12 exemples réels (2026)",
-      "date": "2026-09-05T09:09:32.493919"
-    },
-    {
-      "url_key": "tech-insider.org/langchain-vs-langgraph-2026",
-      "title_key": "langchain vs langgraph 2026: full comparison - tech insider",
-      "url": "https://tech-insider.org/langchain-vs-langgraph-2026",
-      "title": "LangChain vs LangGraph 2026: Full Comparison - Tech Insider",
-      "date": "2026-09-05T09:09:32.493919"
-    },
-    {
-      "url_key": "reutersconnect.com/item/aug-26-2026-the-atlantic-endurance-an-82-foot-crew-transfer-vessel-owned-by-rhode-island-fast-ferry-is-being-used-to-test/dgfnonjldxrlcnmuy29tldiwmjy6bmv3c21sx01umvvtqvrprefzmjk3mdkxmte",
-      "title_key": "licensable picture: aug 26, 2026. the atlantic endurance, an 82-foot crew transfer vessel owned by rhode island fast ferry, is being used to test | reuters connect",
-      "url": "https://www.reutersconnect.com/item/aug-26-2026-the-atlantic-endurance-an-82-foot-crew-transfer-vessel-owned-by-rhode-island-fast-ferry-is-being-used-to-test/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVVTQVRPREFZMjk3MDkxMTE",
-      "title": "Licensable picture: Aug 26, 2026. The Atlantic Endurance, an 82-foot crew transfer vessel owned by Rhode Island Fast Ferry, is being used to test | Reuters Connect",
-      "date": "2026-09-06T06:11:37.266221"
-    },
-    {
-      "url_key": "yellow.com/news/gpt-6-astra-launch",
-      "title_key": "openai launches gpt-6 astra, its most capable model yet",
-      "url": "https://yellow.com/news/gpt-6-astra-launch",
-      "title": "OpenAI Launches GPT-6 Astra, Its Most Capable Model Yet",
-      "date": "2026-09-06T06:11:37.266221"
-    },
-    {
-      "url_key": "techradar.com/pro/launching-a-business-in-2026-use-these-7-ai-tools",
-      "title_key": "launching a business in 2026? use these 7 ai tools",
-      "url": "https://www.techradar.com/pro/launching-a-business-in-2026-use-these-7-ai-tools",
-      "title": "Launching a business in 2026? Use these 7 AI tools",
-      "date": "2026-09-06T06:11:37.266221"
-    },
-    {
       "url_key": "container-mag.com/article/cyberdockside-ai-and-hexashield-launch-continuous-ot-monitor-mtrm4uo0",
       "title_key": "cyberdockside.ai and hexashield launch continuous ot monitoring for ports and vessels",
       "url": "https://container-mag.com/article/cyberdockside-ai-and-hexashield-launch-continuous-ot-monitor-mtrm4uo0",
@@ -1217,13 +1175,30 @@
       "url": "https://technode.global/2026/11/04/fujitsu-ai-packaging-damage-pilot-japan",
       "title": "Fujitsu tests AI packaging damage checks in Japan",
       "date": "2026-11-04T07:05:01.997674"
+    },
+    {
+      "url_key": "linkedin.com/posts/thetius_marcura-thetius-insight-5pdf-activity-7522975950880497664-8xus",
+      "title_key": "marcura & thetius - insight 5.pdf",
+      "url": "https://www.linkedin.com/posts/thetius_marcura-thetius-insight-5pdf-activity-7522975950880497664-8XuS",
+      "title": "Marcura & Thetius - Insight 5.pdf",
+      "date": "2026-11-05T07:06:35.893872"
+    },
+    {
+      "url_key": "facebook.com/jameswardai/posts/-global-shipping-depends-on-thousands-of-small-decisionspredictive-software-can-/122154287007116823",
+      "title_key": "which part of global shipping is hardest to coordinate",
+      "url": "https://www.facebook.com/jameswardai/posts/-global-shipping-depends-on-thousands-of-small-decisionspredictive-software-can-/122154287007116823",
+      "title": "Which part of global shipping is hardest to coordinate",
+      "date": "2026-11-05T07:06:35.893872"
+    },
+    {
+      "url_key": "f6s.com/companies/infrastructure/france/co",
+      "title_key": "6 top infrastructure companies in france · november 2026",
+      "url": "https://www.f6s.com/companies/infrastructure/france/co",
+      "title": "6 Top Infrastructure Companies in France · November 2026",
+      "date": "2026-11-05T07:06:35.893872"
     }
   ],
   "words": [
-    {
-      "word": "sandboxing",
-      "date": "2026-09-21T06:05:04.604711"
-    },
     {
       "word": "gossip protocol",
       "date": "2026-09-22T06:05:34.799194"
@@ -1399,14 +1374,13 @@
     {
       "word": "rate limiting",
       "date": "2026-11-04T07:05:01.997674"
+    },
+    {
+      "word": "inference",
+      "date": "2026-11-05T07:06:35.893872"
     }
   ],
   "quotes": [
-    {
-      "text": "The only way to win is to learn faster than the competition.",
-      "author": "Eric Schmidt",
-      "date": "2026-09-21T06:05:04.604711"
-    },
     {
       "text": "The Internet is the most important single development in the history of human communication since the invention of the printing press.",
       "author": "Robert Kahn",
@@ -1626,7 +1600,12 @@
       "text": "We are stubborn on vision but flexible on details.",
       "author": "Jeff Bezos",
       "date": "2026-11-04T07:05:01.997674"
+    },
+    {
+      "text": "Technology is a useful servant but a dangerous master.",
+      "author": "Christian Lous Lange",
+      "date": "2026-11-05T07:06:35.893872"
     }
   ],
-  "last_sent_date": "2026-11-04"
+  "last_sent_date": "2026-11-05"
 }
