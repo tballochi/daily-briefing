@@ -1196,13 +1196,30 @@
       "url": "https://www.f6s.com/companies/infrastructure/france/co",
       "title": "6 Top Infrastructure Companies in France · November 2026",
       "date": "2026-11-05T07:06:35.893872"
+    },
+    {
+      "url_key": "logistics-manager.com/cma-cgm-completes-1-4-billion-acquisition-of-fedex-supply-chain-and-enters-strategic-freight-partnership",
+      "title_key": "cma cgm completes $1.4 billion acquisition of fedex supply chain and enters strategic freight partnership",
+      "url": "https://logistics-manager.com/cma-cgm-completes-1-4-billion-acquisition-of-fedex-supply-chain-and-enters-strategic-freight-partnership",
+      "title": "CMA CGM Completes $1.4 Billion Acquisition of FedEx Supply Chain and Enters Strategic Freight Partnership",
+      "date": "2026-11-06T07:05:00.606943"
+    },
+    {
+      "url_key": "wwd.com/sourcing-journal/logistics/nike-cma-cgm-vietnam-first-fully-electric-container-barge-emissions-1239401014",
+      "title_key": "nike unveils first electric barge in vietnam with cma cgm",
+      "url": "https://wwd.com/sourcing-journal/logistics/nike-cma-cgm-vietnam-first-fully-electric-container-barge-emissions-1239401014",
+      "title": "Nike Unveils First Electric Barge in Vietnam With CMA CGM",
+      "date": "2026-11-06T07:05:00.606943"
+    },
+    {
+      "url_key": "marineinsight.com/cma-cgm-launches-100-electric-barge-in-vietnam-to-support-nikes-decarbonisation-efforts",
+      "title_key": "cma cgm launches 100% electric barge in vietnam to support nike’s decarbonisation efforts",
+      "url": "https://www.marineinsight.com/cma-cgm-launches-100-electric-barge-in-vietnam-to-support-nikes-decarbonisation-efforts",
+      "title": "CMA CGM Launches 100% Electric Barge In Vietnam To Support Nike’s Decarbonisation Efforts",
+      "date": "2026-11-06T07:05:00.606943"
     }
   ],
   "words": [
-    {
-      "word": "gossip protocol",
-      "date": "2026-09-22T06:05:34.799194"
-    },
     {
       "word": "homomorphic encryption",
       "date": "2026-09-23T06:03:11.941164"
@@ -1378,14 +1395,13 @@
     {
       "word": "inference",
       "date": "2026-11-05T07:06:35.893872"
+    },
+    {
+      "word": "gossip protocol",
+      "date": "2026-11-06T07:05:00.606943"
     }
   ],
   "quotes": [
-    {
-      "text": "The Internet is the most important single development in the history of human communication since the invention of the printing press.",
-      "author": "Robert Kahn",
-      "date": "2026-09-22T06:05:34.799194"
-    },
     {
       "text": "Your brand is what other people say about you when you’re not in the room.",
       "author": "Jeff Bezos",
@@ -1605,7 +1621,12 @@
       "text": "Technology is a useful servant but a dangerous master.",
       "author": "Christian Lous Lange",
       "date": "2026-11-05T07:06:35.893872"
+    },
+    {
+      "text": "The internet is the most important single development in the history of human communication since the invention of the printing press.",
+      "author": "Tim Berners-Lee",
+      "date": "2026-11-06T07:05:00.606943"
     }
   ],
-  "last_sent_date": "2026-11-05"
+  "last_sent_date": "2026-11-06"
 }
