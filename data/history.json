@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "container-mag.com/article/cyberdockside-ai-and-hexashield-launch-continuous-ot-monitor-mtrm4uo0",
-      "title_key": "cyberdockside.ai and hexashield launch continuous ot monitoring for ports and vessels",
-      "url": "https://container-mag.com/article/cyberdockside-ai-and-hexashield-launch-continuous-ot-monitor-mtrm4uo0",
-      "title": "CyberDockside.ai and HexaShield launch continuous OT monitoring for ports and vessels",
-      "date": "2026-09-08T06:04:35.449061"
-    },
-    {
-      "url_key": "trendingtopics.eu/mistral-raises-e3-billion-at-a-e21-billion-valuation-to-become-worlds-biggest-neocloud",
-      "title_key": "mistral raises €3 billion at a €21 billion valuation after strategic pivot to neocloud",
-      "url": "https://www.trendingtopics.eu/mistral-raises-e3-billion-at-a-e21-billion-valuation-to-become-worlds-biggest-neocloud",
-      "title": "Mistral Raises €3 Billion at a €21 Billion Valuation After Strategic Pivot to Neocloud",
-      "date": "2026-09-08T06:04:35.449061"
-    },
-    {
-      "url_key": "247wallst.com/investing/2026/09/03/sundar-pichai-promised-a-gemini-flagship-in-june-and-alphabet-is-on-its-worst-streak-since-2015",
-      "title_key": "sundar pichai promised a gemini flagship in june, and alphabet is on its worst streak since 2015 - 24/7 wall st.",
-      "url": "https://247wallst.com/investing/2026/09/03/sundar-pichai-promised-a-gemini-flagship-in-june-and-alphabet-is-on-its-worst-streak-since-2015",
-      "title": "Sundar Pichai Promised a Gemini Flagship in June, and Alphabet Is on Its Worst Streak Since 2015 - 24/7 Wall St.",
-      "date": "2026-09-08T06:04:35.449061"
-    },
-    {
       "url_key": "ww.fashionnetwork.com/news/french-ai-firm-mistral-raises-3-billion-to-scale-up-business,1864347.html",
       "title_key": "french ai firm mistral raises €3 billion to scale up business",
       "url": "https://ww.fashionnetwork.com/news/French-ai-firm-mistral-raises-3-billion-to-scale-up-business,1864347.html",
@@ -1217,13 +1196,30 @@
       "url": "https://www.marineinsight.com/cma-cgm-launches-100-electric-barge-in-vietnam-to-support-nikes-decarbonisation-efforts",
       "title": "CMA CGM Launches 100% Electric Barge In Vietnam To Support Nike’s Decarbonisation Efforts",
       "date": "2026-11-06T07:05:00.606943"
+    },
+    {
+      "url_key": "forklog.com/en/how-ai-and-blockchain-are-changing-the-food-market-from-field-to-shelf",
+      "title_key": "how ai and blockchain are changing the food market — from field to shelf | forklog",
+      "url": "https://forklog.com/en/how-ai-and-blockchain-are-changing-the-food-market-from-field-to-shelf",
+      "title": "How AI and blockchain are changing the food market — from field to shelf | ForkLog",
+      "date": "2026-11-07T07:02:39.823315"
+    },
+    {
+      "url_key": "global.chinadaily.com.cn/a/202611/06/ws6aed3cc8e4b03ebf8519ac3d.html",
+      "title_key": "cma cgm sees china as key decarbonization partner at ciie - chinadaily.com.cn",
+      "url": "https://global.chinadaily.com.cn/a/202611/06/WS6aed3cc8e4b03ebf8519ac3d.html",
+      "title": "CMA CGM sees China as key decarbonization partner at CIIE - Chinadaily.com.cn",
+      "date": "2026-11-07T07:02:39.823315"
+    },
+    {
+      "url_key": "unite.ai/langchain-brings-langsmith-byoc-beta-to-azure-and-google-cloud",
+      "title_key": "langchain brings langsmith byoc beta to azure and google cloud – unite.ai",
+      "url": "https://www.unite.ai/langchain-brings-langsmith-byoc-beta-to-azure-and-google-cloud",
+      "title": "LangChain Brings LangSmith BYOC Beta to Azure and Google Cloud – Unite.AI",
+      "date": "2026-11-07T07:02:39.823315"
     }
   ],
   "words": [
-    {
-      "word": "homomorphic encryption",
-      "date": "2026-09-23T06:03:11.941164"
-    },
     {
       "word": "pipeline parallelism",
       "date": "2026-09-24T06:06:33.162754"
@@ -1399,14 +1395,13 @@
     {
       "word": "gossip protocol",
       "date": "2026-11-06T07:05:00.606943"
+    },
+    {
+      "word": "dry run",
+      "date": "2026-11-07T07:02:39.823315"
     }
   ],
   "quotes": [
-    {
-      "text": "Your brand is what other people say about you when you’re not in the room.",
-      "author": "Jeff Bezos",
-      "date": "2026-09-23T06:03:11.941164"
-    },
     {
       "text": "The biggest risk is not taking any risk.",
       "author": "Mark Zuckerberg",
@@ -1626,7 +1621,12 @@
       "text": "The internet is the most important single development in the history of human communication since the invention of the printing press.",
       "author": "Tim Berners-Lee",
       "date": "2026-11-06T07:05:00.606943"
+    },
+    {
+      "text": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
+      "author": "Steve Jobs",
+      "date": "2026-11-07T07:02:39.823315"
     }
   ],
-  "last_sent_date": "2026-11-06"
+  "last_sent_date": "2026-11-07"
 }
