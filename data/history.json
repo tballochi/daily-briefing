@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "ww.fashionnetwork.com/news/french-ai-firm-mistral-raises-3-billion-to-scale-up-business,1864347.html",
-      "title_key": "french ai firm mistral raises €3 billion to scale up business",
-      "url": "https://ww.fashionnetwork.com/news/French-ai-firm-mistral-raises-3-billion-to-scale-up-business,1864347.html",
-      "title": "French AI firm Mistral raises €3 billion to scale up business",
-      "date": "2026-09-09T06:04:56.403605"
-    },
-    {
-      "url_key": "aiidelist.com/blog/mistral-ai-2026",
-      "title_key": "mistral ai 2026: models, vibe, pricing & funding - ai ide list",
-      "url": "https://aiidelist.com/blog/mistral-ai-2026",
-      "title": "Mistral AI 2026: Models, Vibe, Pricing & Funding - AI IDE List",
-      "date": "2026-09-09T06:04:56.403605"
-    },
-    {
-      "url_key": "facebook.com/malaymaildotcom/posts/europe-cannot-rely-on-mistral-alone-for-ai-sovereignty-minister-warns/1525669562930726",
-      "title_key": "europe cannot rely on mistral alone for ai sovereignty, minister warns",
-      "url": "https://www.facebook.com/malaymaildotcom/posts/europe-cannot-rely-on-mistral-alone-for-ai-sovereignty-minister-warns/1525669562930726",
-      "title": "Europe cannot rely on Mistral alone for AI sovereignty, minister warns",
-      "date": "2026-09-09T06:04:56.403605"
-    },
-    {
       "url_key": "freightwaves.com/news/overroute-raises-5-5m-to-expand-ai-freight-execution-platform",
       "title_key": "overroute raises $5.5m to expand ai freight execution platform - freightwaves",
       "url": "https://www.freightwaves.com/news/overroute-raises-5-5m-to-expand-ai-freight-execution-platform",
@@ -1217,13 +1196,30 @@
       "url": "https://www.unite.ai/langchain-brings-langsmith-byoc-beta-to-azure-and-google-cloud",
       "title": "LangChain Brings LangSmith BYOC Beta to Azure and Google Cloud – Unite.AI",
       "date": "2026-11-07T07:02:39.823315"
+    },
+    {
+      "url_key": "pasqualepillitteri.it/en/news/30624/mistral-studio-managed-agents-on-premises-apps",
+      "title_key": "mistral studio launches managed agents and on-premises apps",
+      "url": "https://pasqualepillitteri.it/en/news/30624/mistral-studio-managed-agents-on-premises-apps",
+      "title": "Mistral Studio Launches Managed Agents and On-Premises Apps",
+      "date": "2026-11-08T07:04:10.982980"
+    },
+    {
+      "url_key": "cityam.com/orange-or-cma-cgm-who-could-replace-altrad-as-france-rugbys-shirt-partner",
+      "title_key": "orange or cma cgm: who could replace altrad as france rugby's shirt partner?",
+      "url": "https://www.cityam.com/orange-or-cma-cgm-who-could-replace-altrad-as-france-rugbys-shirt-partner",
+      "title": "Orange or CMA CGM: Who could replace Altrad as France Rugby's shirt partner?",
+      "date": "2026-11-08T07:04:10.982980"
+    },
+    {
+      "url_key": "explainx.ai/blog/mistral-studio-managed-agents-workflows-apps-le-chonk-enterprise-otel-sovereign-2026",
+      "title_key": "mistral studio: managed agents, workflows, apps explained | explainx.ai blog | explainx.ai",
+      "url": "https://explainx.ai/blog/mistral-studio-managed-agents-workflows-apps-le-chonk-enterprise-otel-sovereign-2026",
+      "title": "Mistral Studio: Managed Agents, Workflows, Apps Explained | explainx.ai Blog | explainx.ai",
+      "date": "2026-11-08T07:04:10.982980"
     }
   ],
   "words": [
-    {
-      "word": "pipeline parallelism",
-      "date": "2026-09-24T06:06:33.162754"
-    },
     {
       "word": "tensor decomposition",
       "date": "2026-09-25T06:03:08.301104"
@@ -1399,14 +1395,13 @@
     {
       "word": "dry run",
       "date": "2026-11-07T07:02:39.823315"
+    },
+    {
+      "word": "sandboxing",
+      "date": "2026-11-08T07:04:10.982980"
     }
   ],
   "quotes": [
-    {
-      "text": "The biggest risk is not taking any risk.",
-      "author": "Mark Zuckerberg",
-      "date": "2026-09-24T06:06:33.162754"
-    },
     {
       "text": "Any sufficiently advanced technology is indistinguishable from magic.",
       "author": "Arthur C. Clarke",
@@ -1626,7 +1621,12 @@
       "text": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
       "author": "Steve Jobs",
       "date": "2026-11-07T07:02:39.823315"
+    },
+    {
+      "text": "Every once in a while, a new technology, an old problem, and a big idea turn into an innovation.",
+      "author": "Dean Kamen",
+      "date": "2026-11-08T07:04:10.982980"
     }
   ],
-  "last_sent_date": "2026-11-07"
+  "last_sent_date": "2026-11-08"
 }
