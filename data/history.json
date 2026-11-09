@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "freightwaves.com/news/overroute-raises-5-5m-to-expand-ai-freight-execution-platform",
-      "title_key": "overroute raises $5.5m to expand ai freight execution platform - freightwaves",
-      "url": "https://www.freightwaves.com/news/overroute-raises-5-5m-to-expand-ai-freight-execution-platform",
-      "title": "Overroute raises $5.5M to expand AI freight execution platform - FreightWaves",
-      "date": "2026-09-10T06:05:46.390716"
-    },
-    {
-      "url_key": "marinevesseltraffic.com/container-lines-maps/cma%2520cgm",
-      "title_key": "cma cgm line container ships live fleet map with current positions",
-      "url": "https://www.marinevesseltraffic.com/container-lines-maps/CMA%2520CGM",
-      "title": "CMA CGM line container ships live fleet map with current positions",
-      "date": "2026-09-10T06:05:46.390716"
-    },
-    {
-      "url_key": "intelligentliving.co/gemini-3-8-flash-vs-glm-5-3-flash",
-      "title_key": "gemini 3.8 flash vs glm 5.3 flash: benchmarks, pricing & speed (2026)",
-      "url": "https://www.intelligentliving.co/gemini-3-8-flash-vs-glm-5-3-flash",
-      "title": "Gemini 3.8 Flash vs GLM 5.3 Flash: Benchmarks, Pricing & Speed (2026)",
-      "date": "2026-09-10T06:05:46.390716"
-    },
-    {
       "url_key": "container-news.com/cma-cgm-bureau-veritas-and-sdari-explore-ai-assisted-containership-concept",
       "title_key": "cma cgm, bureau veritas and sdari explore ai-assisted containership concept - container news",
       "url": "https://container-news.com/cma-cgm-bureau-veritas-and-sdari-explore-ai-assisted-containership-concept",
@@ -1217,13 +1196,30 @@
       "url": "https://explainx.ai/blog/mistral-studio-managed-agents-workflows-apps-le-chonk-enterprise-otel-sovereign-2026",
       "title": "Mistral Studio: Managed Agents, Workflows, Apps Explained | explainx.ai Blog | explainx.ai",
       "date": "2026-11-08T07:04:10.982980"
+    },
+    {
+      "url_key": "chemanalyst.com/newsanddeals/newsdetails/cma-cgm-introduces-war-risk-surcharge-on-black-sea-cargo-45372",
+      "title_key": "cma cgm introduces war risk surcharge on black sea cargo as regional security risks push up shipping costs",
+      "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/cma-cgm-introduces-war-risk-surcharge-on-black-sea-cargo-45372",
+      "title": "CMA CGM Introduces War Risk Surcharge on Black Sea Cargo as Regional Security Risks Push Up Shipping Costs",
+      "date": "2026-11-09T07:02:46.902792"
+    },
+    {
+      "url_key": "shattered.io/openai-gpt-6-cyber-rules-of-engagement-99-93-percent-scope-2026",
+      "title_key": "gpt-6 cyber: 99.93% scope score, critical rating [2026]",
+      "url": "https://shattered.io/openai-gpt-6-cyber-rules-of-engagement-99-93-percent-scope-2026",
+      "title": "GPT-6 Cyber: 99.93% Scope Score, Critical Rating [2026]",
+      "date": "2026-11-09T07:02:46.902792"
+    },
+    {
+      "url_key": "zapier.com/blog/ai-automation-examples-sidekick",
+      "title_key": "ai automation examples: 5 real things zapier sidekick has done",
+      "url": "https://zapier.com/blog/ai-automation-examples-sidekick",
+      "title": "AI Automation Examples: 5 Real Things Zapier Sidekick Has Done",
+      "date": "2026-11-09T07:02:46.902792"
     }
   ],
   "words": [
-    {
-      "word": "tensor decomposition",
-      "date": "2026-09-25T06:03:08.301104"
-    },
     {
       "word": "zero‑copy",
       "date": "2026-09-26T06:04:26.976512"
@@ -1399,14 +1395,13 @@
     {
       "word": "sandboxing",
       "date": "2026-11-08T07:04:10.982980"
+    },
+    {
+      "word": "payload",
+      "date": "2026-11-09T07:02:46.902792"
     }
   ],
   "quotes": [
-    {
-      "text": "Any sufficiently advanced technology is indistinguishable from magic.",
-      "author": "Arthur C. Clarke",
-      "date": "2026-09-25T06:03:08.301104"
-    },
     {
       "text": "Focus on the customer and all else will follow.",
       "author": "Jeff Bezos",
@@ -1626,7 +1621,12 @@
       "text": "Every once in a while, a new technology, an old problem, and a big idea turn into an innovation.",
       "author": "Dean Kamen",
       "date": "2026-11-08T07:04:10.982980"
+    },
+    {
+      "text": "The power of the Web is in its universality.",
+      "author": "Tim Berners‑Lee",
+      "date": "2026-11-09T07:02:46.902792"
     }
   ],
-  "last_sent_date": "2026-11-08"
+  "last_sent_date": "2026-11-09"
 }
