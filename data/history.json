@@ -1217,13 +1217,30 @@
       "url": "https://zapier.com/blog/ai-automation-examples-sidekick",
       "title": "AI Automation Examples: 5 Real Things Zapier Sidekick Has Done",
       "date": "2026-11-09T07:02:46.902792"
+    },
+    {
+      "url_key": "happyrobot.ai/customer-story/cma-cgm-and-happyrobot-deploying-ai-agents-across-sales-customer-care-and-finance",
+      "title_key": "cma cgm and happyrobot: ai agents across operations",
+      "url": "https://www.happyrobot.ai/customer-story/cma-cgm-and-happyrobot-deploying-ai-agents-across-sales-customer-care-and-finance",
+      "title": "CMA CGM and HappyRobot: AI Agents Across Operations",
+      "date": "2026-11-10T07:03:32.763565"
+    },
+    {
+      "url_key": "releasebot.io/updates/mistral",
+      "title_key": "mistral release notes - november 2026 latest updates - releasebot",
+      "url": "https://releasebot.io/updates/mistral",
+      "title": "Mistral Release Notes - November 2026 Latest Updates - Releasebot",
+      "date": "2026-11-10T07:03:32.763565"
+    },
+    {
+      "url_key": "zapier.com/blog/claude-duet",
+      "title_key": "what is claude duet? anthropic's always-on ai agent | zapier",
+      "url": "https://zapier.com/blog/claude-duet",
+      "title": "What Is Claude Duet? Anthropic's Always-On AI Agent | Zapier",
+      "date": "2026-11-10T07:03:32.763565"
     }
   ],
   "words": [
-    {
-      "word": "zero‑copy",
-      "date": "2026-09-26T06:04:26.976512"
-    },
     {
       "word": "edge computing",
       "date": "2026-09-27T06:06:43.685481"
@@ -1399,14 +1416,13 @@
     {
       "word": "payload",
       "date": "2026-11-09T07:02:46.902792"
+    },
+    {
+      "word": "vectorization",
+      "date": "2026-11-10T07:03:32.763565"
     }
   ],
   "quotes": [
-    {
-      "text": "Focus on the customer and all else will follow.",
-      "author": "Jeff Bezos",
-      "date": "2026-09-26T06:04:26.976512"
-    },
     {
       "text": "Software is a great combination of artistry and engineering.",
       "author": "Bill Gates",
@@ -1626,7 +1642,12 @@
       "text": "The power of the Web is in its universality.",
       "author": "Tim Berners‑Lee",
       "date": "2026-11-09T07:02:46.902792"
+    },
+    {
+      "text": "The biggest risk is not taking any risk.",
+      "author": "Mark Zuckerberg",
+      "date": "2026-11-10T07:03:32.763565"
     }
   ],
-  "last_sent_date": "2026-11-09"
+  "last_sent_date": "2026-11-10"
 }
