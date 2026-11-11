@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "container-news.com/cma-cgm-bureau-veritas-and-sdari-explore-ai-assisted-containership-concept",
-      "title_key": "cma cgm, bureau veritas and sdari explore ai-assisted containership concept - container news",
-      "url": "https://container-news.com/cma-cgm-bureau-veritas-and-sdari-explore-ai-assisted-containership-concept",
-      "title": "CMA CGM, Bureau Veritas and SDARI explore AI-assisted containership concept - Container News",
-      "date": "2026-09-11T09:38:02.462408"
-    },
-    {
-      "url_key": "luxtimes.lu/luxembourg/luxembourg-invests-10m-in-mistral-ai-to-support-european-champion/161191067.html",
-      "title_key": "luxembourg invests €10m in mistral ai to support ‘european champion’",
-      "url": "https://www.luxtimes.lu/luxembourg/luxembourg-invests-10m-in-mistral-ai-to-support-european-champion/161191067.html",
-      "title": "Luxembourg invests €10m in Mistral AI to support ‘European champion’",
-      "date": "2026-09-11T09:38:02.462408"
-    },
-    {
-      "url_key": "github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
-      "title_key": "gpt-6 astra is generally available in github copilot",
-      "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
-      "title": "GPT-6 Astra is generally available in GitHub Copilot",
-      "date": "2026-09-11T09:38:02.462408"
-    },
-    {
       "url_key": "mistral.ai/news/mistral-x-cloudera",
       "title_key": "cloudera and mistral partner to bring specialized, sovereign intelligence to enterprise data",
       "url": "https://mistral.ai/news/mistral-x-cloudera",
@@ -1238,13 +1217,30 @@
       "url": "https://zapier.com/blog/claude-duet",
       "title": "What Is Claude Duet? Anthropic's Always-On AI Agent | Zapier",
       "date": "2026-11-10T07:03:32.763565"
+    },
+    {
+      "url_key": "datastudios.org/post/mistral-studio-managed-agents-workflows-apps-public-preview",
+      "title_key": "mistral studio adds managed agents, workflow builder and apps in public preview",
+      "url": "https://www.datastudios.org/post/mistral-studio-managed-agents-workflows-apps-public-preview",
+      "title": "Mistral Studio adds managed agents, workflow builder and apps in public preview",
+      "date": "2026-11-11T07:04:13.584301"
+    },
+    {
+      "url_key": "aiintelglobal.com/news/2026-11-05-mistral-studio-agents",
+      "title_key": "mistral expands studio with managed agents, workflows and apps | aiintel",
+      "url": "https://aiintelglobal.com/news/2026-11-05-mistral-studio-agents",
+      "title": "Mistral expands Studio with managed agents, workflows and apps | AIIntel",
+      "date": "2026-11-11T07:04:13.584301"
+    },
+    {
+      "url_key": "thequantuminsider.com/guides/quantum-computing-use-cases/logistics",
+      "title_key": "quantum use cases in logistics, the quantum insider",
+      "url": "https://thequantuminsider.com/guides/quantum-computing-use-cases/logistics",
+      "title": "Quantum Use Cases in Logistics, The Quantum Insider",
+      "date": "2026-11-11T07:04:13.584301"
     }
   ],
   "words": [
-    {
-      "word": "edge computing",
-      "date": "2026-09-27T06:06:43.685481"
-    },
     {
       "word": "semantic versioning",
       "date": "2026-09-28T06:05:59.261421"
@@ -1420,14 +1416,13 @@
     {
       "word": "vectorization",
       "date": "2026-11-10T07:03:32.763565"
+    },
+    {
+      "word": "profiling",
+      "date": "2026-11-11T07:04:13.584301"
     }
   ],
   "quotes": [
-    {
-      "text": "Software is a great combination of artistry and engineering.",
-      "author": "Bill Gates",
-      "date": "2026-09-27T06:06:43.685481"
-    },
     {
       "text": "The greatest danger in times of turbulence is not the turbulence—it is to act with yesterday’s logic.",
       "author": "Peter Drucker",
@@ -1647,7 +1642,12 @@
       "text": "The biggest risk is not taking any risk.",
       "author": "Mark Zuckerberg",
       "date": "2026-11-10T07:03:32.763565"
+    },
+    {
+      "text": "If you think good architecture is expensive, try bad architecture.",
+      "author": "Brian Foote",
+      "date": "2026-11-11T07:04:13.584301"
     }
   ],
-  "last_sent_date": "2026-11-10"
+  "last_sent_date": "2026-11-11"
 }
