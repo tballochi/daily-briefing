@@ -1238,13 +1238,30 @@
       "url": "https://thequantuminsider.com/guides/quantum-computing-use-cases/logistics",
       "title": "Quantum Use Cases in Logistics, The Quantum Insider",
       "date": "2026-11-11T07:04:13.584301"
+    },
+    {
+      "url_key": "elestrechodigital.com/en/2026/11/10/cma-cgm-announces-new-surcharges-of-up-to-1600-dollars-per-container-on-routes-between-asia-and-the-mediterranean",
+      "title_key": "cma cgm announces new surcharges of up to $1,600 per container on routes between asia and the mediterranean | el estrecho digital",
+      "url": "https://www.elestrechodigital.com/en/2026/11/10/cma-cgm-announces-new-surcharges-of-up-to-1600-dollars-per-container-on-routes-between-asia-and-the-mediterranean",
+      "title": "CMA CGM announces new surcharges of up to $1,600 per container on routes between Asia and the Mediterranean | El Estrecho Digital",
+      "date": "2026-11-12T07:03:30.893654"
+    },
+    {
+      "url_key": "fourweekmba.com/ai-mistral-adds-managed-agents-and-apps-to-its-studio-platform",
+      "title_key": "mistral adds managed agents and apps to its studio platform - fourweekmba",
+      "url": "https://fourweekmba.com/ai-mistral-adds-managed-agents-and-apps-to-its-studio-platform",
+      "title": "Mistral Adds Managed Agents and Apps to Its Studio Platform - FourWeekMBA",
+      "date": "2026-11-12T07:03:30.893654"
+    },
+    {
+      "url_key": "carolinacleartech.com/ai-brief/2026-11-07",
+      "title_key": "ai business brief - november 7, 2026 - carolina clear tech",
+      "url": "https://carolinacleartech.com/ai-brief/2026-11-07",
+      "title": "AI Business Brief - November 7, 2026 - Carolina Clear Tech",
+      "date": "2026-11-12T07:03:30.893654"
     }
   ],
   "words": [
-    {
-      "word": "semantic versioning",
-      "date": "2026-09-28T06:05:59.261421"
-    },
     {
       "word": "feature flag",
       "date": "2026-09-29T06:05:55.639344"
@@ -1420,14 +1437,13 @@
     {
       "word": "profiling",
       "date": "2026-11-11T07:04:13.584301"
+    },
+    {
+      "word": "homomorphic encryption",
+      "date": "2026-11-12T07:03:30.893654"
     }
   ],
   "quotes": [
-    {
-      "text": "The greatest danger in times of turbulence is not the turbulence—it is to act with yesterday’s logic.",
-      "author": "Peter Drucker",
-      "date": "2026-09-28T06:05:59.261421"
-    },
     {
       "text": "Data is the new oil.",
       "author": "Clive Humby",
@@ -1647,7 +1663,12 @@
       "text": "If you think good architecture is expensive, try bad architecture.",
       "author": "Brian Foote",
       "date": "2026-11-11T07:04:13.584301"
+    },
+    {
+      "text": "Your brand is what other people say about you when you’re not in the room.",
+      "author": "Jeff Bezos",
+      "date": "2026-11-12T07:03:30.893654"
     }
   ],
-  "last_sent_date": "2026-11-11"
+  "last_sent_date": "2026-11-12"
 }
