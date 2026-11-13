@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "mistral.ai/news/mistral-x-cloudera",
-      "title_key": "cloudera and mistral partner to bring specialized, sovereign intelligence to enterprise data",
-      "url": "https://mistral.ai/news/mistral-x-cloudera",
-      "title": "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data",
-      "date": "2026-09-14T06:05:58.906568"
-    },
-    {
-      "url_key": "mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
-      "title_key": "making sovereign, open-weight ai the technology frontier",
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
-      "title": "Making sovereign, open-weight AI the technology frontier",
-      "date": "2026-09-14T06:05:58.906568"
-    },
-    {
-      "url_key": "lemonde.fr/en/economy/article/2026/09/08/mistral-ai-raises-3-billion-in-response-to-doubts-over-its-strategic-direction_6757278_19.html",
-      "title_key": "mistral ai raises €3 billion in response to doubts over its ...",
-      "url": "https://www.lemonde.fr/en/economy/article/2026/09/08/mistral-ai-raises-3-billion-in-response-to-doubts-over-its-strategic-direction_6757278_19.html",
-      "title": "Mistral AI raises €3 billion in response to doubts over its ...",
-      "date": "2026-09-14T06:05:58.906568"
-    },
-    {
       "url_key": "safety4sea.com/cm-jotun-hull-performance-is-the-lowest-hanging-fruit-for-lower-emissions",
       "title_key": "jotun: hull performance is the lowest-hanging fruit for lower emissions - safety4sea",
       "url": "https://safety4sea.com/cm-jotun-hull-performance-is-the-lowest-hanging-fruit-for-lower-emissions",
@@ -1259,13 +1238,30 @@
       "url": "https://carolinacleartech.com/ai-brief/2026-11-07",
       "title": "AI Business Brief - November 7, 2026 - Carolina Clear Tech",
       "date": "2026-11-12T07:03:30.893654"
+    },
+    {
+      "url_key": "container-news.com/cma-cgm-updates-surcharges-across-africa-and-canada-outbound-trades",
+      "title_key": "cma cgm updates surcharges across africa and canada outbound trades - container news",
+      "url": "https://container-news.com/cma-cgm-updates-surcharges-across-africa-and-canada-outbound-trades",
+      "title": "CMA CGM updates surcharges across Africa and Canada outbound trades - Container News",
+      "date": "2026-11-13T07:04:22.705962"
+    },
+    {
+      "url_key": "mistral.ai/news/build-with-studio",
+      "title_key": "build enterprise agents, workflows & apps in mistral studio",
+      "url": "https://mistral.ai/news/build-with-studio",
+      "title": "Build Enterprise Agents, Workflows & Apps in Mistral Studio",
+      "date": "2026-11-13T07:04:22.705962"
+    },
+    {
+      "url_key": "xenospectrum.com/en/gemini-hydrogen-benchmark-comparison",
+      "title_key": "google launches gemini 4 hydrogen in search and api, matching pricier model in zapier automation test at half the cost | xenospectrum",
+      "url": "https://xenospectrum.com/en/gemini-hydrogen-benchmark-comparison",
+      "title": "Google Launches Gemini 4 Hydrogen in Search and API, Matching Pricier Model in Zapier Automation Test at Half the Cost | XenoSpectrum",
+      "date": "2026-11-13T07:04:22.705962"
     }
   ],
   "words": [
-    {
-      "word": "feature flag",
-      "date": "2026-09-29T06:05:55.639344"
-    },
     {
       "word": "latent space",
       "date": "2026-09-30T06:05:33.625559"
@@ -1441,14 +1437,13 @@
     {
       "word": "homomorphic encryption",
       "date": "2026-11-12T07:03:30.893654"
+    },
+    {
+      "word": "event sourcing",
+      "date": "2026-11-13T07:04:22.705962"
     }
   ],
   "quotes": [
-    {
-      "text": "Data is the new oil.",
-      "author": "Clive Humby",
-      "date": "2026-09-29T06:05:55.639344"
-    },
     {
       "text": "The future is already here — it's just not evenly distributed.",
       "author": "William Gibson",
@@ -1668,7 +1663,12 @@
       "text": "Your brand is what other people say about you when you’re not in the room.",
       "author": "Jeff Bezos",
       "date": "2026-11-12T07:03:30.893654"
+    },
+    {
+      "text": "We always overestimate the change that will occur in the next two years and underestimate the change that will occur in the next ten.",
+      "author": "Bill Gates",
+      "date": "2026-11-13T07:04:22.705962"
     }
   ],
-  "last_sent_date": "2026-11-12"
+  "last_sent_date": "2026-11-13"
 }
