@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "safety4sea.com/cm-jotun-hull-performance-is-the-lowest-hanging-fruit-for-lower-emissions",
-      "title_key": "jotun: hull performance is the lowest-hanging fruit for lower emissions - safety4sea",
-      "url": "https://safety4sea.com/cm-jotun-hull-performance-is-the-lowest-hanging-fruit-for-lower-emissions",
-      "title": "Jotun: Hull performance is the lowest-hanging fruit for lower emissions - SAFETY4SEA",
-      "date": "2026-09-15T06:04:00.342674"
-    },
-    {
-      "url_key": "openai.com/index/navier-stokes-solution",
-      "title_key": "on the navier–stokes millennium prize problem | openai",
-      "url": "https://openai.com/index/navier-stokes-solution",
-      "title": "On the Navier–Stokes Millennium Prize Problem | OpenAI",
-      "date": "2026-09-15T06:04:00.342674"
-    },
-    {
-      "url_key": "stattimes.com/technology/ceva-logistics-pilots-autonomous-vehicles-at-singapore-blue-hub-1360617",
-      "title_key": "ceva logistics pilots autonomous vehicles at singapore blue hub",
-      "url": "https://www.stattimes.com/technology/ceva-logistics-pilots-autonomous-vehicles-at-singapore-blue-hub-1360617",
-      "title": "CEVA Logistics pilots autonomous vehicles at Singapore Blue Hub",
-      "date": "2026-09-15T06:04:00.342674"
-    },
-    {
       "url_key": "porttechnology.org/news/port-development/cma-cgm-invests-100m-to-expand-beirut-container-terminal",
       "title_key": "cma cgm invests $100m to expand beirut container terminal",
       "url": "https://www.porttechnology.org/news/port-development/cma-cgm-invests-100m-to-expand-beirut-container-terminal",
@@ -1259,13 +1238,30 @@
       "url": "https://xenospectrum.com/en/gemini-hydrogen-benchmark-comparison",
       "title": "Google Launches Gemini 4 Hydrogen in Search and API, Matching Pricier Model in Zapier Automation Test at Half the Cost | XenoSpectrum",
       "date": "2026-11-13T07:04:22.705962"
+    },
+    {
+      "url_key": "ajot.com/news/cma-cgm-q3-2026-results",
+      "title_key": "cma cgm q3 2026 results",
+      "url": "https://www.ajot.com/news/cma-cgm-q3-2026-results",
+      "title": "CMA CGM Q3 2026 Results",
+      "date": "2026-11-14T07:02:41.885594"
+    },
+    {
+      "url_key": "resultsense.com/news/2026-11-13-google-gemini-4-hydrogen-launch",
+      "title_key": "google launches gemini 4 hydrogen for fast agent workloads",
+      "url": "https://www.resultsense.com/news/2026-11-13-google-gemini-4-hydrogen-launch",
+      "title": "Google launches Gemini 4 Hydrogen for fast agent workloads",
+      "date": "2026-11-14T07:02:41.885594"
+    },
+    {
+      "url_key": "orcarouter.ai/blog/gpt-6-2-delay-three-reasons-leak",
+      "title_key": "gpt-6.2 is late for a date nobody set: grading the reasons",
+      "url": "https://www.orcarouter.ai/blog/gpt-6-2-delay-three-reasons-leak",
+      "title": "GPT-6.2 Is Late for a Date Nobody Set: Grading the Reasons",
+      "date": "2026-11-14T07:02:41.885594"
     }
   ],
   "words": [
-    {
-      "word": "latent space",
-      "date": "2026-09-30T06:05:33.625559"
-    },
     {
       "word": "containerization",
       "date": "2026-10-01T06:02:41.877376"
@@ -1441,14 +1437,13 @@
     {
       "word": "event sourcing",
       "date": "2026-11-13T07:04:22.705962"
+    },
+    {
+      "word": "hashing",
+      "date": "2026-11-14T07:02:41.885594"
     }
   ],
   "quotes": [
-    {
-      "text": "The future is already here — it's just not evenly distributed.",
-      "author": "William Gibson",
-      "date": "2026-09-30T06:05:33.625559"
-    },
     {
       "text": "The best way to predict the future is to create it.",
       "author": "Peter Drucker",
@@ -1668,7 +1663,12 @@
       "text": "We always overestimate the change that will occur in the next two years and underestimate the change that will occur in the next ten.",
       "author": "Bill Gates",
       "date": "2026-11-13T07:04:22.705962"
+    },
+    {
+      "text": "The biggest risk is not taking any risk.",
+      "author": "Mark Zuckerberg",
+      "date": "2026-11-14T07:02:41.885594"
     }
   ],
-  "last_sent_date": "2026-11-13"
+  "last_sent_date": "2026-11-14"
 }
