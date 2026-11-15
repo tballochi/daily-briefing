@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "porttechnology.org/news/port-development/cma-cgm-invests-100m-to-expand-beirut-container-terminal",
-      "title_key": "cma cgm invests $100m to expand beirut container terminal",
-      "url": "https://www.porttechnology.org/news/port-development/cma-cgm-invests-100m-to-expand-beirut-container-terminal",
-      "title": "CMA CGM invests $100m to expand Beirut container terminal",
-      "date": "2026-09-16T06:05:53.295570"
-    },
-    {
-      "url_key": "siliconangle.com/2026/09/15/googles-new-speech-model-gemini-3-8-live-supports-real-time-reasoning",
-      "title_key": "google's new speech model gemini 3.8 live supports real-time reasoning - siliconangle",
-      "url": "https://siliconangle.com/2026/09/15/googles-new-speech-model-gemini-3-8-live-supports-real-time-reasoning",
-      "title": "Google's new speech model Gemini 3.8 Live supports real-time reasoning - SiliconANGLE",
-      "date": "2026-09-16T06:05:53.295570"
-    },
-    {
-      "url_key": "tech-insider.org/mistral-ai-valuation-samsung-funding-2026",
-      "title_key": "mistral ai valuation tops €21b after samsung deal",
-      "url": "https://tech-insider.org/mistral-ai-valuation-samsung-funding-2026",
-      "title": "Mistral AI Valuation Tops €21B After Samsung Deal",
-      "date": "2026-09-16T06:05:53.295570"
-    },
-    {
       "url_key": "ua.news/en/world/frantsiia-i-saudivska-araviia-ogolosili-blizko-20-ugod-i-memorandumiv",
       "title_key": "france and saudi arabia announce around 20 agreements | ua.news",
       "url": "https://ua.news/en/world/frantsiia-i-saudivska-araviia-ogolosili-blizko-20-ugod-i-memorandumiv",
@@ -1259,13 +1238,30 @@
       "url": "https://www.orcarouter.ai/blog/gpt-6-2-delay-three-reasons-leak",
       "title": "GPT-6.2 Is Late for a Date Nobody Set: Grading the Reasons",
       "date": "2026-11-14T07:02:41.885594"
+    },
+    {
+      "url_key": "cmacgm-group.com/en/news-media/third-quarter-2026-financial-results",
+      "title_key": "third quarter 2026 financial results | cma cgm group",
+      "url": "https://www.cmacgm-group.com/en/news-media/third-quarter-2026-financial-results",
+      "title": "Third Quarter 2026 Financial Results | CMA CGM Group",
+      "date": "2026-11-15T07:06:51.293327"
+    },
+    {
+      "url_key": "indexbox.io/blog/cma-cgm-reports-311-revenue-growth-in-q3-2026-to-184-billion",
+      "title_key": "cma cgm q3 2026 results: revenue up 31.1%, ebitda rises 61.6% - news and statistics - indexbox",
+      "url": "https://www.indexbox.io/blog/cma-cgm-reports-311-revenue-growth-in-q3-2026-to-184-billion",
+      "title": "CMA CGM Q3 2026 Results: Revenue Up 31.1%, EBITDA Rises 61.6% - News and Statistics - IndexBox",
+      "date": "2026-11-15T07:06:51.293327"
+    },
+    {
+      "url_key": "marinelink.com/news/cma-cgm-demonstrates-relative-resilience-544352",
+      "title_key": "cma cgm demonstrates relative resilience in a volatile",
+      "url": "https://www.marinelink.com/news/cma-cgm-demonstrates-relative-resilience-544352",
+      "title": "CMA CGM Demonstrates Relative Resilience In A Volatile",
+      "date": "2026-11-15T07:06:51.293327"
     }
   ],
   "words": [
-    {
-      "word": "containerization",
-      "date": "2026-10-01T06:02:41.877376"
-    },
     {
       "word": "backpropagation",
       "date": "2026-10-02T06:05:38.370584"
@@ -1441,14 +1437,13 @@
     {
       "word": "hashing",
       "date": "2026-11-14T07:02:41.885594"
+    },
+    {
+      "word": "service mesh",
+      "date": "2026-11-15T07:06:51.293327"
     }
   ],
   "quotes": [
-    {
-      "text": "The best way to predict the future is to create it.",
-      "author": "Peter Drucker",
-      "date": "2026-10-01T06:02:41.877376"
-    },
     {
       "text": "The Web is more a social medium than a technical one.",
       "author": "Tim Berners-Lee",
@@ -1668,7 +1663,12 @@
       "text": "The biggest risk is not taking any risk.",
       "author": "Mark Zuckerberg",
       "date": "2026-11-14T07:02:41.885594"
+    },
+    {
+      "text": "Artificial intelligence is the new electricity.",
+      "author": "Andrew Ng",
+      "date": "2026-11-15T07:06:51.293327"
     }
   ],
-  "last_sent_date": "2026-11-14"
+  "last_sent_date": "2026-11-15"
 }
