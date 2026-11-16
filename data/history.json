@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "ua.news/en/world/frantsiia-i-saudivska-araviia-ogolosili-blizko-20-ugod-i-memorandumiv",
-      "title_key": "france and saudi arabia announce around 20 agreements | ua.news",
-      "url": "https://ua.news/en/world/frantsiia-i-saudivska-araviia-ogolosili-blizko-20-ugod-i-memorandumiv",
-      "title": "France and Saudi Arabia announce around 20 agreements | UA.NEWS",
-      "date": "2026-09-17T06:03:37.317982"
-    },
-    {
-      "url_key": "mistral.ai/news/mistral-x-mozilla",
-      "title_key": "mistral x mozilla: private, multilingual ai browsing",
-      "url": "https://mistral.ai/news/mistral-x-mozilla",
-      "title": "Mistral x Mozilla: Private, Multilingual AI Browsing",
-      "date": "2026-09-17T06:03:37.317982"
-    },
-    {
-      "url_key": "streamlinefeed.co.ke/news/american-university-of-beirut-partners-with-cma-cgm-to-launch-ai-institute",
-      "title_key": "american university of beirut partners with cma cgm to launch ai institute",
-      "url": "https://streamlinefeed.co.ke/news/american-university-of-beirut-partners-with-cma-cgm-to-launch-ai-institute",
-      "title": "American University of Beirut partners with CMA CGM to launch AI institute",
-      "date": "2026-09-17T06:03:37.317982"
-    },
-    {
       "url_key": "bizjournals.com/orlando/news/2026/09/17/onerail-omnistar-nvidia-last-mile-ai-decisioning.html",
       "title_key": "onerail unveils nvidia-powered delivery platform amid investor buzz",
       "url": "https://www.bizjournals.com/orlando/news/2026/09/17/onerail-omnistar-nvidia-last-mile-ai-decisioning.html",
@@ -1259,13 +1238,30 @@
       "url": "https://www.marinelink.com/news/cma-cgm-demonstrates-relative-resilience-544352",
       "title": "CMA CGM Demonstrates Relative Resilience In A Volatile",
       "date": "2026-11-15T07:06:51.293327"
+    },
+    {
+      "url_key": "theloadstar.com/cma-cgm-q3-26-update-out-ocean-outperforms-ceva-a-mixed-bag",
+      "title_key": "cma cgm q3 26 update out: ocean outperforms, ceva a mixed bag - the loadstar",
+      "url": "https://theloadstar.com/cma-cgm-q3-26-update-out-ocean-outperforms-ceva-a-mixed-bag",
+      "title": "CMA CGM Q3 26 update out: Ocean outperforms, Ceva a mixed bag - The Loadstar",
+      "date": "2026-11-16T07:06:42.113078"
+    },
+    {
+      "url_key": "reuters.com/markets/europe/shipping-firm-cma-cgm-buoyed-by-brisk-demand-high-freight-rates-2026-11-13",
+      "title_key": "shipping firm cma cgm buoyed by brisk demand and high freight rates",
+      "url": "https://www.reuters.com/markets/europe/shipping-firm-cma-cgm-buoyed-by-brisk-demand-high-freight-rates-2026-11-13",
+      "title": "Shipping firm CMA CGM buoyed by brisk demand and high freight rates",
+      "date": "2026-11-16T07:06:42.113078"
+    },
+    {
+      "url_key": "felloai.com/gpt-7",
+      "title_key": "gpt-7 release date: what we know so far",
+      "url": "https://felloai.com/gpt-7",
+      "title": "GPT-7 Release Date: What We Know So Far",
+      "date": "2026-11-16T07:06:42.113078"
     }
   ],
   "words": [
-    {
-      "word": "backpropagation",
-      "date": "2026-10-02T06:05:38.370584"
-    },
     {
       "word": "observability",
       "date": "2026-10-03T06:05:06.210590"
@@ -1441,14 +1437,13 @@
     {
       "word": "service mesh",
       "date": "2026-11-15T07:06:51.293327"
+    },
+    {
+      "word": "backpropagation",
+      "date": "2026-11-16T07:06:42.113078"
     }
   ],
   "quotes": [
-    {
-      "text": "The Web is more a social medium than a technical one.",
-      "author": "Tim Berners-Lee",
-      "date": "2026-10-02T06:05:38.370584"
-    },
     {
       "text": "The computer is a bicycle for the mind.",
       "author": "Steve Jobs",
@@ -1668,7 +1663,12 @@
       "text": "Artificial intelligence is the new electricity.",
       "author": "Andrew Ng",
       "date": "2026-11-15T07:06:51.293327"
+    },
+    {
+      "text": "The only way to predict the future is to create it.",
+      "author": "Peter Drucker",
+      "date": "2026-11-16T07:06:42.113078"
     }
   ],
-  "last_sent_date": "2026-11-15"
+  "last_sent_date": "2026-11-16"
 }
