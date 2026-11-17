@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "bizjournals.com/orlando/news/2026/09/17/onerail-omnistar-nvidia-last-mile-ai-decisioning.html",
-      "title_key": "onerail unveils nvidia-powered delivery platform amid investor buzz",
-      "url": "https://www.bizjournals.com/orlando/news/2026/09/17/onerail-omnistar-nvidia-last-mile-ai-decisioning.html",
-      "title": "OneRail unveils Nvidia-powered delivery platform amid investor buzz",
-      "date": "2026-09-18T06:03:34.683066"
-    },
-    {
-      "url_key": "3dvf.com/en/better-than-a-human-at-running-a-computer-openai-s-new-chatgpt-6-scored-100-on-a-hacking-benchmark",
-      "title_key": "better than a human at running a computer, openai's new chatgpt 6 scored 100% on a hacking benchmark",
-      "url": "https://3dvf.com/en/better-than-a-human-at-running-a-computer-openai-s-new-chatgpt-6-scored-100-on-a-hacking-benchmark",
-      "title": "Better than a human at running a computer, OpenAI's new ChatGPT 6 scored 100% on a hacking benchmark",
-      "date": "2026-09-18T06:03:34.683066"
-    },
-    {
-      "url_key": "ppc.land/openai-lets-advertisers-run-chatgpt-ads-from-hubspot-and-shopify",
-      "title_key": "openai lets advertisers run chatgpt ads from hubspot and shopify",
-      "url": "https://ppc.land/openai-lets-advertisers-run-chatgpt-ads-from-hubspot-and-shopify",
-      "title": "OpenAI lets advertisers run ChatGPT ads from HubSpot and Shopify",
-      "date": "2026-09-18T06:03:34.683066"
-    },
-    {
       "url_key": "briefia.fr/en/article/ce-qui-passionne-les-francais-dans-l-ia",
       "title_key": "mistral, math, and failures: what really excites the french about ai — brief ai",
       "url": "https://www.briefia.fr/en/article/ce-qui-passionne-les-francais-dans-l-ia",
@@ -1259,13 +1238,30 @@
       "url": "https://felloai.com/gpt-7",
       "title": "GPT-7 Release Date: What We Know So Far",
       "date": "2026-11-16T07:06:42.113078"
+    },
+    {
+      "url_key": "finimize.com/content/cma-cgms-ai-linked-trade-tailwind-lifted-q3-profits",
+      "title_key": "cma cgm’s ai-linked trade tailwind lifted q3 profits - finimize",
+      "url": "https://finimize.com/content/cma-cgms-ai-linked-trade-tailwind-lifted-q3-profits",
+      "title": "CMA CGM’s AI-Linked Trade Tailwind Lifted Q3 Profits - Finimize",
+      "date": "2026-11-17T07:03:55.659588"
+    },
+    {
+      "url_key": "safety4sea.com/shanghai-launches-ai-testing-base-for-shipping-and-logistics-operations",
+      "title_key": "shanghai launches ai testing base for shipping and logistics operations",
+      "url": "https://safety4sea.com/shanghai-launches-ai-testing-base-for-shipping-and-logistics-operations",
+      "title": "Shanghai launches AI testing base for shipping and logistics operations",
+      "date": "2026-11-17T07:03:55.659588"
+    },
+    {
+      "url_key": "freightwaves.com/news/sonar-launches-mcp-bringing-freight-market-intelligence-inside-your-ai-assistant",
+      "title_key": "sonar launches mcp, bringing freight market intelligence inside your ai assistant - freightwaves",
+      "url": "https://www.freightwaves.com/news/sonar-launches-mcp-bringing-freight-market-intelligence-inside-your-ai-assistant",
+      "title": "SONAR launches MCP, bringing freight market intelligence inside your AI assistant - FreightWaves",
+      "date": "2026-11-17T07:03:55.659588"
     }
   ],
   "words": [
-    {
-      "word": "observability",
-      "date": "2026-10-03T06:05:06.210590"
-    },
     {
       "word": "gradient descent",
       "date": "2026-10-04T06:10:51.425683"
@@ -1441,14 +1437,13 @@
     {
       "word": "backpropagation",
       "date": "2026-11-16T07:06:42.113078"
+    },
+    {
+      "word": "latent Dirichlet allocation",
+      "date": "2026-11-17T07:03:55.659588"
     }
   ],
   "quotes": [
-    {
-      "text": "The computer is a bicycle for the mind.",
-      "author": "Steve Jobs",
-      "date": "2026-10-03T06:05:06.210590"
-    },
     {
       "text": "Stay hungry, stay foolish.",
       "author": "Steve Jobs",
@@ -1668,7 +1663,12 @@
       "text": "The only way to predict the future is to create it.",
       "author": "Peter Drucker",
       "date": "2026-11-16T07:06:42.113078"
+    },
+    {
+      "text": "The computer was born to solve problems that people were too lazy to solve.",
+      "author": "Alan Perlis",
+      "date": "2026-11-17T07:03:55.659588"
     }
   ],
-  "last_sent_date": "2026-11-16"
+  "last_sent_date": "2026-11-17"
 }
