@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "briefia.fr/en/article/ce-qui-passionne-les-francais-dans-l-ia",
-      "title_key": "mistral, math, and failures: what really excites the french about ai — brief ai",
-      "url": "https://www.briefia.fr/en/article/ce-qui-passionne-les-francais-dans-l-ia",
-      "title": "Mistral, Math, and Failures: What Really Excites the French About AI — Brief AI",
-      "date": "2026-09-19T06:05:04.672219"
-    },
-    {
-      "url_key": "jobteaser.com/en/job-offers/9478cf2d-978d-4091-ad23-2f5c41394cdd-cma-cgm-internship-ai-for-knowledge-management-decision-support",
-      "title_key": "internship - ai for knowledge management & decision support | jobteaser",
-      "url": "https://www.jobteaser.com/en/job-offers/9478cf2d-978d-4091-ad23-2f5c41394cdd-cma-cgm-internship-ai-for-knowledge-management-decision-support",
-      "title": "Internship - AI for Knowledge Management & Decision Support | JobTeaser",
-      "date": "2026-09-19T06:05:04.672219"
-    },
-    {
-      "url_key": "arabnews.com/corporate-and-sponsored-content/american-university-of-beirut-and-cma-cgm-join-forces-to-advance-ai-data-science-3001760",
-      "title_key": "arab news | american university of beirut and cma cgm join forces to advance ai & data science",
-      "url": "https://www.arabnews.com/corporate-and-sponsored-content/american-university-of-beirut-and-cma-cgm-join-forces-to-advance-ai-data-science-3001760",
-      "title": "Arab News | American University of Beirut and CMA CGM join forces to advance AI & data science",
-      "date": "2026-09-19T06:05:04.672219"
-    },
-    {
       "url_key": "breakbulk.news/maersk-expands-north-american-e-commerce-delivery-reach-through-shipstore",
       "title_key": "maersk expands north american e commerce delivery reach ...",
       "url": "https://breakbulk.news/maersk-expands-north-american-e-commerce-delivery-reach-through-shipstore",
@@ -1259,13 +1238,30 @@
       "url": "https://www.freightwaves.com/news/sonar-launches-mcp-bringing-freight-market-intelligence-inside-your-ai-assistant",
       "title": "SONAR launches MCP, bringing freight market intelligence inside your AI assistant - FreightWaves",
       "date": "2026-11-17T07:03:55.659588"
+    },
+    {
+      "url_key": "aicontractstracker.com/cma-cgm-mistral-ai-shipping-logistics-and-media-agreement",
+      "title_key": "cma cgm — mistral ai shipping, logistics and media agreement",
+      "url": "https://aicontractstracker.com/cma-cgm-mistral-ai-shipping-logistics-and-media-agreement",
+      "title": "CMA CGM — Mistral AI shipping, logistics and media agreement",
+      "date": "2026-11-18T07:02:59.373158"
+    },
+    {
+      "url_key": "linkedin.com/pulse/ships-easier-build-than-ports-cma-cgm-executive-makes-yang-chen-%e9%99%88%e6%b4%8b--ufxyc",
+      "title_key": "ships are easier to build than ports: cma cgm executive makes the case for network resilience",
+      "url": "https://www.linkedin.com/pulse/ships-easier-build-than-ports-cma-cgm-executive-makes-yang-chen-%E9%99%88%E6%B4%8B--ufxyc",
+      "title": "Ships Are Easier to Build Than Ports: CMA CGM Executive Makes the Case for Network Resilience",
+      "date": "2026-11-18T07:02:59.373158"
+    },
+    {
+      "url_key": "9to5mac.com/2026/11/17/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-2-astra-and-sol-models",
+      "title_key": "openai upgrades chatgpt and codex with new gpt-6.2 astra and sol models - 9to5mac",
+      "url": "https://9to5mac.com/2026/11/17/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-2-astra-and-sol-models",
+      "title": "OpenAI upgrades ChatGPT and Codex with new GPT-6.2 Astra and Sol models - 9to5Mac",
+      "date": "2026-11-18T07:02:59.373158"
     }
   ],
   "words": [
-    {
-      "word": "gradient descent",
-      "date": "2026-10-04T06:10:51.425683"
-    },
     {
       "word": "hyperthreading",
       "date": "2026-10-05T06:06:15.430753"
@@ -1441,14 +1437,13 @@
     {
       "word": "latent Dirichlet allocation",
       "date": "2026-11-17T07:03:55.659588"
+    },
+    {
+      "word": "caching",
+      "date": "2026-11-18T07:02:59.373158"
     }
   ],
   "quotes": [
-    {
-      "text": "Stay hungry, stay foolish.",
-      "author": "Steve Jobs",
-      "date": "2026-10-04T06:10:51.425683"
-    },
     {
       "text": "The real problem is not whether machines think but whether men do.",
       "author": "B. F. Skinner",
@@ -1668,7 +1663,12 @@
       "text": "The computer was born to solve problems that people were too lazy to solve.",
       "author": "Alan Perlis",
       "date": "2026-11-17T07:03:55.659588"
+    },
+    {
+      "text": "Any sufficiently advanced technology is indistinguishable from magic.",
+      "author": "Arthur C. Clarke",
+      "date": "2026-11-18T07:02:59.373158"
     }
   ],
-  "last_sent_date": "2026-11-17"
+  "last_sent_date": "2026-11-18"
 }
