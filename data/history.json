@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "breakbulk.news/maersk-expands-north-american-e-commerce-delivery-reach-through-shipstore",
-      "title_key": "maersk expands north american e commerce delivery reach ...",
-      "url": "https://breakbulk.news/maersk-expands-north-american-e-commerce-delivery-reach-through-shipstore",
-      "title": "Maersk expands North American e commerce delivery reach ...",
-      "date": "2026-09-20T06:04:51.187888"
-    },
-    {
-      "url_key": "fortune.com/2026/09/14/openai-may-have-violated-californias-ai-safety-law-with-astra-model-releases-ai-watchdog-says",
-      "title_key": "openai may have violated california's ai safety law with ... - fortune",
-      "url": "https://fortune.com/2026/09/14/openai-may-have-violated-californias-ai-safety-law-with-astra-model-releases-ai-watchdog-says",
-      "title": "OpenAI may have violated California's AI safety law with ... - Fortune",
-      "date": "2026-09-20T06:04:51.187888"
-    },
-    {
-      "url_key": "theloadstar.com/container-shipping-health-check-more-room-to-manage-the-next-supply-wave",
-      "title_key": "container shipping health check – more room to manage the next supply wave - the loadstar",
-      "url": "https://theloadstar.com/container-shipping-health-check-more-room-to-manage-the-next-supply-wave",
-      "title": "Container shipping health check – more room to manage the next supply wave - The Loadstar",
-      "date": "2026-09-20T06:04:51.187888"
-    },
-    {
       "url_key": "inboundlogistics.com/articles/in-brief-new-services-and-solutions-0726",
       "title_key": "from ai to green fuel: developments in freight and logistics tech - inbound logistics",
       "url": "https://www.inboundlogistics.com/articles/in-brief-new-services-and-solutions-0726",
@@ -1259,13 +1238,30 @@
       "url": "https://9to5mac.com/2026/11/17/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-2-astra-and-sol-models",
       "title": "OpenAI upgrades ChatGPT and Codex with new GPT-6.2 Astra and Sol models - 9to5Mac",
       "date": "2026-11-18T07:02:59.373158"
+    },
+    {
+      "url_key": "freshplaza.com/north-america/article/9892957/cma-cgm-reports-5-5-growth-in-shipping-volumes",
+      "title_key": "cma cgm reports 5.5% growth in shipping volumes",
+      "url": "https://www.freshplaza.com/north-america/article/9892957/cma-cgm-reports-5-5-growth-in-shipping-volumes",
+      "title": "CMA CGM reports 5.5% growth in shipping volumes",
+      "date": "2026-11-19T07:04:24.056295"
+    },
+    {
+      "url_key": "magazine.inboundlogistics.com/view/240638039",
+      "title_key": "inbound logistics | november 2026",
+      "url": "https://magazine.inboundlogistics.com/view/240638039",
+      "title": "Inbound Logistics | November 2026",
+      "date": "2026-11-19T07:04:24.056295"
+    },
+    {
+      "url_key": "m.youtube.com/watch",
+      "title_key": "gpt-7 rumors sorted: real vs fake (2026)",
+      "url": "https://m.youtube.com/watch?v=P_WQh8IC3cg",
+      "title": "GPT-7 Rumors Sorted: Real vs Fake (2026)",
+      "date": "2026-11-19T07:04:24.056295"
     }
   ],
   "words": [
-    {
-      "word": "hyperthreading",
-      "date": "2026-10-05T06:06:15.430753"
-    },
     {
       "word": "zero‑shot learning",
       "date": "2026-10-06T06:06:27.595059"
@@ -1441,14 +1437,13 @@
     {
       "word": "caching",
       "date": "2026-11-18T07:02:59.373158"
+    },
+    {
+      "word": "pipeline",
+      "date": "2026-11-19T07:04:24.056295"
     }
   ],
   "quotes": [
-    {
-      "text": "The real problem is not whether machines think but whether men do.",
-      "author": "B. F. Skinner",
-      "date": "2026-10-05T06:06:15.430753"
-    },
     {
       "text": "The Web as I envisaged it, has the power to change the world.",
       "author": "Tim Berners‑Lee",
@@ -1668,7 +1663,12 @@
       "text": "Any sufficiently advanced technology is indistinguishable from magic.",
       "author": "Arthur C. Clarke",
       "date": "2026-11-18T07:02:59.373158"
+    },
+    {
+      "text": "Stay hungry, stay foolish.",
+      "author": "Steve Jobs",
+      "date": "2026-11-19T07:04:24.056295"
     }
   ],
-  "last_sent_date": "2026-11-18"
+  "last_sent_date": "2026-11-19"
 }
