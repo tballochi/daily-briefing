@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "breakbulk.news/cma-cgm-invests-100-million-to-more-than-double-beirut-terminal-capacity",
-      "title_key": "cma cgm invests $100 million to more than double beirut terminal capacity",
-      "url": "https://breakbulk.news/cma-cgm-invests-100-million-to-more-than-double-beirut-terminal-capacity",
-      "title": "CMA CGM invests $100 million to more than double Beirut terminal capacity",
-      "date": "2026-09-22T06:05:34.799194"
-    },
-    {
-      "url_key": "ventureatlas.org/industry/artificial-intelligence",
-      "title_key": "ai labs - venture atlas",
-      "url": "https://www.ventureatlas.org/industry/artificial-intelligence",
-      "title": "AI Labs - Venture Atlas",
-      "date": "2026-09-22T06:05:34.799194"
-    },
-    {
-      "url_key": "news.aibase.com/news/31092",
-      "title_key": "claude releases major update: 43 all-in-one workflows and deep integration with 27 leading applications",
-      "url": "https://news.aibase.com/news/31092",
-      "title": "Claude Releases Major Update: 43 All-in-One Workflows and Deep Integration with 27 Leading Applications",
-      "date": "2026-09-22T06:05:34.799194"
-    },
-    {
       "url_key": "theloadstar.com/hutchwatch-the-23bn-port-deal-that-nobody-can-close",
       "title_key": "premium comment hutchwatch: the $23bn port deal that nobody can close",
       "url": "https://theloadstar.com/hutchwatch-the-23bn-port-deal-that-nobody-can-close",
@@ -1259,13 +1238,30 @@
       "url": "https://www.facebook.com/UTCOverseas/posts/ai-is-changing-logistics-but-what-does-it-mean-for-project-cargojoin-marco-poisl/1730486145754104",
       "title": "Breakbulk Asia AI applications session with Marco Poisler 2026",
       "date": "2026-11-20T07:04:09.889716"
+    },
+    {
+      "url_key": "axevil.com/company/mistral-ai",
+      "title_key": "mistral ai stock price, valuation & ipo",
+      "url": "https://axevil.com/company/mistral-ai",
+      "title": "Mistral AI Stock Price, Valuation & IPO",
+      "date": "2026-11-21T07:07:29.406989"
+    },
+    {
+      "url_key": "theloadstar.com/cma-cgm-shipping-profit-boom-exposes-logistics-earnings-gap",
+      "title_key": "cma cgm shipping profit boom exposes logistics earnings gap - the loadstar",
+      "url": "https://theloadstar.com/cma-cgm-shipping-profit-boom-exposes-logistics-earnings-gap",
+      "title": "CMA CGM shipping profit boom exposes logistics earnings gap - The Loadstar",
+      "date": "2026-11-21T07:07:29.406989"
+    },
+    {
+      "url_key": "aitoolsrecap.com/blog/gpt-7-release-date",
+      "title_key": "gpt-7 release date: openai is still shipping 6.2 | aitoolsrecap",
+      "url": "https://aitoolsrecap.com/Blog/gpt-7-release-date",
+      "title": "GPT-7 Release Date: OpenAI Is Still Shipping 6.2 | AIToolsRecap",
+      "date": "2026-11-21T07:07:29.406989"
     }
   ],
   "words": [
-    {
-      "word": "throttling",
-      "date": "2026-10-07T06:04:21.842267"
-    },
     {
       "word": "fine‑tuning",
       "date": "2026-10-08T06:06:23.664079"
@@ -1441,14 +1437,13 @@
     {
       "word": "immutable infrastructure",
       "date": "2026-11-20T07:04:09.889716"
+    },
+    {
+      "word": "spectre mitigation",
+      "date": "2026-11-21T07:07:29.406989"
     }
   ],
   "quotes": [
-    {
-      "text": "Innovation is taking two things that already exist and putting them together in a new way.",
-      "author": "Tom Freston",
-      "date": "2026-10-07T06:04:21.842267"
-    },
     {
       "text": "Technology should be an enabler, not a barrier.",
       "author": "Tim Cook",
@@ -1668,7 +1663,12 @@
       "text": "The future is already here — it's just not evenly distributed.",
       "author": "William Gibson",
       "date": "2026-11-20T07:04:09.889716"
+    },
+    {
+      "text": "We need to build a web that protects privacy and gives users control.",
+      "author": "Tim Berners-Lee",
+      "date": "2026-11-21T07:07:29.406989"
     }
   ],
-  "last_sent_date": "2026-11-20"
+  "last_sent_date": "2026-11-21"
 }
