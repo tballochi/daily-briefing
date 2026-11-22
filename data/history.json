@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "theloadstar.com/hutchwatch-the-23bn-port-deal-that-nobody-can-close",
-      "title_key": "premium comment hutchwatch: the $23bn port deal that nobody can close",
-      "url": "https://theloadstar.com/hutchwatch-the-23bn-port-deal-that-nobody-can-close",
-      "title": "Premium Comment HutchWatch: The $23bn port deal that nobody can close",
-      "date": "2026-09-23T06:03:11.941164"
-    },
-    {
-      "url_key": "multiples.vc/private-comps/mistral-ai",
-      "title_key": "mistral ai revenue, valuation, funding & investors | multiples",
-      "url": "https://multiples.vc/private-comps/mistral-ai",
-      "title": "Mistral AI Revenue, Valuation, Funding & Investors | Multiples",
-      "date": "2026-09-23T06:03:11.941164"
-    },
-    {
-      "url_key": "width.ai/post/n8n-vs-langgraph-for-production-ai-workflows",
-      "title_key": "n8n vs langgraph for production ai workflows: which should you ...",
-      "url": "https://www.width.ai/post/n8n-vs-langgraph-for-production-ai-workflows",
-      "title": "n8n vs LangGraph for Production AI Workflows: Which Should You ...",
-      "date": "2026-09-23T06:03:11.941164"
-    },
-    {
       "url_key": "linkedin.com/posts/alexandre-pasquiou-0bb3b8b9_cmacgmstartupawards-predictiveai-ccsa-activity-7508435983374229506-x0bm",
       "title_key": "#cmacgmstartupawards #predictiveai #ccsa | alexandre pasquiou",
       "url": "https://www.linkedin.com/posts/alexandre-pasquiou-0bb3b8b9_cmacgmstartupawards-predictiveai-ccsa-activity-7508435983374229506-X0bm",
@@ -1259,13 +1238,30 @@
       "url": "https://aitoolsrecap.com/Blog/gpt-7-release-date",
       "title": "GPT-7 Release Date: OpenAI Is Still Shipping 6.2 | AIToolsRecap",
       "date": "2026-11-21T07:07:29.406989"
+    },
+    {
+      "url_key": "complexdiscovery.com/mistrals-cfo-tells-slush-companies-need-to-own-and-control-their-ai-as-anthropic-heads-to-nasdaq",
+      "title_key": "mistral's cfo tells slush companies need to own and control their ai as anthropic heads to nasdaq",
+      "url": "https://complexdiscovery.com/mistrals-cfo-tells-slush-companies-need-to-own-and-control-their-ai-as-anthropic-heads-to-nasdaq",
+      "title": "Mistral's CFO tells Slush companies need to own and control their AI as Anthropic heads to Nasdaq",
+      "date": "2026-11-22T07:06:52.338681"
+    },
+    {
+      "url_key": "fr.themedialeader.com/bfm-locales-hors-de-la-tnt-sport-international-ia-le-plan-de-camille-andrieu-pour-cma-media",
+      "title_key": "bfm locales hors de la tnt, sport, international, ia : le plan de camille ...",
+      "url": "https://fr.themedialeader.com/bfm-locales-hors-de-la-tnt-sport-international-ia-le-plan-de-camille-andrieu-pour-cma-media",
+      "title": "BFM locales hors de la TNT, sport, international, IA : le plan de Camille ...",
+      "date": "2026-11-22T07:06:52.338681"
+    },
+    {
+      "url_key": "fr.linkedin.com/in/clo%c3%a9-marche-de-cenival-68a792151",
+      "title_key": "cloé marche de cenival",
+      "url": "https://fr.linkedin.com/in/clo%C3%A9-marche-de-cenival-68a792151",
+      "title": "Cloé Marche de Cenival",
+      "date": "2026-11-22T07:06:52.338681"
     }
   ],
   "words": [
-    {
-      "word": "fine‑tuning",
-      "date": "2026-10-08T06:06:23.664079"
-    },
     {
       "word": "telemetry",
       "date": "2026-10-09T06:04:16.640328"
@@ -1441,14 +1437,13 @@
     {
       "word": "spectre mitigation",
       "date": "2026-11-21T07:07:29.406989"
+    },
+    {
+      "word": "throttling",
+      "date": "2026-11-22T07:06:52.338681"
     }
   ],
   "quotes": [
-    {
-      "text": "Technology should be an enabler, not a barrier.",
-      "author": "Tim Cook",
-      "date": "2026-10-08T06:06:23.664079"
-    },
     {
       "text": "Software is eating the world.",
       "author": "Marc Andreessen",
@@ -1668,7 +1663,12 @@
       "text": "We need to build a web that protects privacy and gives users control.",
       "author": "Tim Berners-Lee",
       "date": "2026-11-21T07:07:29.406989"
+    },
+    {
+      "text": "If you are born poor it's not your mistake, but if you die poor it's your mistake.",
+      "author": "Bill Gates",
+      "date": "2026-11-22T07:06:52.338681"
     }
   ],
-  "last_sent_date": "2026-11-21"
+  "last_sent_date": "2026-11-22"
 }
