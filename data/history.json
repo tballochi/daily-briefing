@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "linkedin.com/posts/alexandre-pasquiou-0bb3b8b9_cmacgmstartupawards-predictiveai-ccsa-activity-7508435983374229506-x0bm",
-      "title_key": "#cmacgmstartupawards #predictiveai #ccsa | alexandre pasquiou",
-      "url": "https://www.linkedin.com/posts/alexandre-pasquiou-0bb3b8b9_cmacgmstartupawards-predictiveai-ccsa-activity-7508435983374229506-X0bm",
-      "title": "#cmacgmstartupawards #predictiveai #ccsa | Alexandre Pasquiou",
-      "date": "2026-09-24T06:06:33.162754"
-    },
-    {
-      "url_key": "instagram.com/p/ddmq5ohjm7y",
-      "title_key": "l'europe vient de signer le plus gros tour de table de son histoire ...",
-      "url": "https://www.instagram.com/p/DdmQ5ohjm7Y",
-      "title": "L'Europe vient de signer le plus gros tour de table de son histoire ...",
-      "date": "2026-09-24T06:06:33.162754"
-    },
-    {
-      "url_key": "facebook.com/marius.comper/posts/mistral-ai-began-in-2023-with-an-explicit-ambition-to-build-state-of-the-art-gen/10164960057739621",
-      "title_key": "mistral ai began in 2023 with an explicit ambition to build state-of ...",
-      "url": "https://www.facebook.com/marius.comper/posts/mistral-ai-began-in-2023-with-an-explicit-ambition-to-build-state-of-the-art-gen/10164960057739621",
-      "title": "Mistral AI began in 2023 with an explicit ambition to build state-of ...",
-      "date": "2026-09-24T06:06:33.162754"
-    },
-    {
       "url_key": "gcaptain.com/shipping-magnate-worth-13-5-billion-rides-ai-boom-with-nvidia",
       "title_key": "shipping magnate worth $13.5 billion rides ai boom with nvidia",
       "url": "https://gcaptain.com/shipping-magnate-worth-13-5-billion-rides-ai-boom-with-nvidia",
@@ -1259,13 +1238,30 @@
       "url": "https://fr.linkedin.com/in/clo%C3%A9-marche-de-cenival-68a792151",
       "title": "Cloé Marche de Cenival",
       "date": "2026-11-22T07:06:52.338681"
+    },
+    {
+      "url_key": "tamtam.ai/c/bfmtv/account-plan",
+      "title_key": "bfmtv account plan: strategy, business units and priorities | tamtam",
+      "url": "https://www.tamtam.ai/c/bfmtv/account-plan",
+      "title": "BFMTV Account Plan: Strategy, Business Units and Priorities | Tamtam",
+      "date": "2026-11-23T07:07:19.564553"
+    },
+    {
+      "url_key": "analytiqa.com/weekly-logistics-bulletin",
+      "title_key": "analytiqa's weekly global logistics and supply chain bulletin",
+      "url": "https://www.analytiqa.com/weekly-logistics-bulletin",
+      "title": "Analytiqa's weekly global logistics and supply chain bulletin",
+      "date": "2026-11-23T07:07:19.564553"
+    },
+    {
+      "url_key": "efoplistesnews.gr/%ce%bd%ce%b1%cf%85%cf%84%ce%b9%ce%bb%ce%af%ce%b1/24564-cma-cgm-reports-third-quarter-2026-financial-results",
+      "title_key": "www.efoplistesnews.gr - cma cgm reports third quarter 2026 financial results",
+      "url": "https://www.efoplistesnews.gr/%CE%BD%CE%B1%CF%85%CF%84%CE%B9%CE%BB%CE%AF%CE%B1/24564-cma-cgm-reports-third-quarter-2026-financial-results",
+      "title": "www.efoplistesnews.gr - CMA CGM reports third quarter 2026 financial results",
+      "date": "2026-11-23T07:07:19.564553"
     }
   ],
   "words": [
-    {
-      "word": "telemetry",
-      "date": "2026-10-09T06:04:16.640328"
-    },
     {
       "word": "tensor core",
       "date": "2026-10-10T06:06:01.704668"
@@ -1441,14 +1437,13 @@
     {
       "word": "throttling",
       "date": "2026-11-22T07:06:52.338681"
+    },
+    {
+      "word": "Merkle tree",
+      "date": "2026-11-23T07:07:19.564553"
     }
   ],
   "quotes": [
-    {
-      "text": "Software is eating the world.",
-      "author": "Marc Andreessen",
-      "date": "2026-10-09T06:04:16.640328"
-    },
     {
       "text": "The most powerful tool we have is curiosity.",
       "author": "Satya Nadella",
@@ -1668,7 +1663,12 @@
       "text": "If you are born poor it's not your mistake, but if you die poor it's your mistake.",
       "author": "Bill Gates",
       "date": "2026-11-22T07:06:52.338681"
+    },
+    {
+      "text": "The computer is incredibly fast, accurate, reliable, and stupid. Man is incredibly slow, inaccurate, unreliable, and brilliant.",
+      "author": "Andy Grove",
+      "date": "2026-11-23T07:07:19.564553"
     }
   ],
-  "last_sent_date": "2026-11-22"
+  "last_sent_date": "2026-11-23"
 }
