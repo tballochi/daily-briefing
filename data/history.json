@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "gcaptain.com/shipping-magnate-worth-13-5-billion-rides-ai-boom-with-nvidia",
-      "title_key": "shipping magnate worth $13.5 billion rides ai boom with nvidia",
-      "url": "https://gcaptain.com/shipping-magnate-worth-13-5-billion-rides-ai-boom-with-nvidia",
-      "title": "Shipping Magnate Worth $13.5 Billion Rides AI Boom With Nvidia",
-      "date": "2026-09-25T06:03:08.301104"
-    },
-    {
-      "url_key": "thenewstack.io/openai-gpt-6-sol-luna-release",
-      "title_key": "openai releases gpt-6 sol and luna — and cuts token prices in half - the new stack",
-      "url": "https://thenewstack.io/openai-gpt-6-sol-luna-release",
-      "title": "OpenAI releases GPT-6 Sol and Luna — and cuts token prices in half - The New Stack",
-      "date": "2026-09-25T06:03:08.301104"
-    },
-    {
-      "url_key": "tech-insider.org/anthropic-new-ai-model-gpt-6-astra-2026",
-      "title_key": "anthropic weighs new ai model as gpt-6 astra gains",
-      "url": "https://tech-insider.org/anthropic-new-ai-model-gpt-6-astra-2026",
-      "title": "Anthropic Weighs New AI Model as GPT-6 Astra Gains",
-      "date": "2026-09-25T06:03:08.301104"
-    },
-    {
       "url_key": "northeasttimes.com/2026/09/24/google-deepmind-s-new-chief-signals-gemini-4-launch-is-close",
       "title_key": "google deepmind's new chief signals gemini 4 launch is close",
       "url": "https://northeasttimes.com/2026/09/24/google-deepmind-s-new-chief-signals-gemini-4-launch-is-close",
@@ -1259,13 +1238,30 @@
       "url": "https://www.efoplistesnews.gr/%CE%BD%CE%B1%CF%85%CF%84%CE%B9%CE%BB%CE%AF%CE%B1/24564-cma-cgm-reports-third-quarter-2026-financial-results",
       "title": "www.efoplistesnews.gr - CMA CGM reports third quarter 2026 financial results",
       "date": "2026-11-23T07:07:19.564553"
+    },
+    {
+      "url_key": "de.indeed.com/q-lobbying-l-berlin-jobs.html",
+      "title_key": "lobbying jobs in berlin - 17. november 2026",
+      "url": "https://de.indeed.com/q-lobbying-l-berlin-jobs.html",
+      "title": "Lobbying Jobs in Berlin - 17. November 2026",
+      "date": "2026-11-24T07:07:09.094491"
+    },
+    {
+      "url_key": "foodbusinessmea.com/cma-cgm-q3-revenue-hits-us18-4b-as-shipping-margins-rise",
+      "title_key": "cma cgm q3 revenue hits us$18.4b as shipping margins rise | food business middle east & africa - no.1 food & ...",
+      "url": "https://www.foodbusinessmea.com/cma-cgm-q3-revenue-hits-us18-4b-as-shipping-margins-rise",
+      "title": "CMA CGM Q3 revenue hits US$18.4B as shipping margins rise | Food Business Middle East & Africa - No.1 Food & ...",
+      "date": "2026-11-24T07:07:09.094491"
+    },
+    {
+      "url_key": "thewellnews.com/business/french-maritime-giant-cma-cgm-to-invest-20b-in-us-expansion",
+      "title_key": "french maritime giant cma cgm to invest $20b in us expansion | the well news | pragmatic, governance, fiscally responsible, news & analysis",
+      "url": "https://www.thewellnews.com/business/french-maritime-giant-cma-cgm-to-invest-20b-in-us-expansion",
+      "title": "French Maritime Giant CMA CGM to Invest $20B in US Expansion | The Well News | Pragmatic, Governance, Fiscally Responsible, News & Analysis",
+      "date": "2026-11-24T07:07:09.094491"
     }
   ],
   "words": [
-    {
-      "word": "tensor core",
-      "date": "2026-10-10T06:06:01.704668"
-    },
     {
       "word": "eventual consistency",
       "date": "2026-10-11T06:06:22.055312"
@@ -1441,14 +1437,13 @@
     {
       "word": "Merkle tree",
       "date": "2026-11-23T07:07:19.564553"
+    },
+    {
+      "word": "edge computing",
+      "date": "2026-11-24T07:07:09.094491"
     }
   ],
   "quotes": [
-    {
-      "text": "The most powerful tool we have is curiosity.",
-      "author": "Satya Nadella",
-      "date": "2026-10-10T06:06:01.704668"
-    },
     {
       "text": "Leadership is about making others better as a result of your presence and making sure that impact lasts in your absence.",
       "author": "Sheryl Sandberg",
@@ -1668,7 +1663,12 @@
       "text": "The computer is incredibly fast, accurate, reliable, and stupid. Man is incredibly slow, inaccurate, unreliable, and brilliant.",
       "author": "Andy Grove",
       "date": "2026-11-23T07:07:19.564553"
+    },
+    {
+      "text": "The Web, as I envisaged it, was a global public good.",
+      "author": "Tim Berners‑Lee",
+      "date": "2026-11-24T07:07:09.094491"
     }
   ],
-  "last_sent_date": "2026-11-23"
+  "last_sent_date": "2026-11-24"
 }
