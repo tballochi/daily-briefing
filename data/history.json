@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "northeasttimes.com/2026/09/24/google-deepmind-s-new-chief-signals-gemini-4-launch-is-close",
-      "title_key": "google deepmind's new chief signals gemini 4 launch is close",
-      "url": "https://northeasttimes.com/2026/09/24/google-deepmind-s-new-chief-signals-gemini-4-launch-is-close",
-      "title": "Google DeepMind's New Chief Signals Gemini 4 Launch Is Close",
-      "date": "2026-09-26T06:04:26.976512"
-    },
-    {
-      "url_key": "splash247.com/six-startups-win-cma-cgm-innovation-awards",
-      "title_key": "six startups win cma cgm innovation awards",
-      "url": "https://splash247.com/six-startups-win-cma-cgm-innovation-awards",
-      "title": "Six startups win CMA CGM innovation awards",
-      "date": "2026-09-26T06:04:26.976512"
-    },
-    {
-      "url_key": "cmacgm-group.com/en/news-media/cma-cgm-startup-awards-six-winning-startups-driving-innovation-shipping-logistics-media",
-      "title_key": "six winning startups driving innovation in shipping, logistics ...",
-      "url": "https://www.cmacgm-group.com/en/news-media/cma-cgm-startup-awards-six-winning-startups-driving-innovation-shipping-logistics-media",
-      "title": "six winning startups driving innovation in shipping, logistics ...",
-      "date": "2026-09-26T06:04:26.976512"
-    },
-    {
       "url_key": "porttechnology.org/news/green-technology/neoline-cma-cgm-add-zeebrugge-to-wind-powered-route",
       "title_key": "neoline, cma cgm add zeebrugge to wind-powered route",
       "url": "https://www.porttechnology.org/news/green-technology/neoline-cma-cgm-add-zeebrugge-to-wind-powered-route",
@@ -1259,13 +1238,30 @@
       "url": "https://www.thewellnews.com/business/french-maritime-giant-cma-cgm-to-invest-20b-in-us-expansion",
       "title": "French Maritime Giant CMA CGM to Invest $20B in US Expansion | The Well News | Pragmatic, Governance, Fiscally Responsible, News & Analysis",
       "date": "2026-11-24T07:07:09.094491"
+    },
+    {
+      "url_key": "wishnly.com/rodolphe-saade",
+      "title_key": "rodolphe saadé and greg hayes: age, biography, net worth & business journeys (2026)",
+      "url": "https://wishnly.com/rodolphe-saade",
+      "title": "Rodolphe Saadé and Greg Hayes: Age, Biography, Net Worth & Business Journeys (2026)",
+      "date": "2026-11-25T07:04:08.922123"
+    },
+    {
+      "url_key": "dev.to/happytodev/java4shell-deux-jours-de-panne-microsoft-qdnld-192-479c",
+      "title_key": "java4shell, deux jours de panne microsoft - qdnld #192 - dev community",
+      "url": "https://dev.to/happytodev/java4shell-deux-jours-de-panne-microsoft-qdnld-192-479c",
+      "title": "Java4Shell, deux jours de panne Microsoft - QDNLD #192 - DEV Community",
+      "date": "2026-11-25T07:04:08.922123"
+    },
+    {
+      "url_key": "siliconangle.com/2026/11/19/nodal-networks-raises-11-3m-to-solve-global-shipping-bottlenecks",
+      "title_key": "nodal networks raises $11.3m to solve global shipping bottlenecks",
+      "url": "https://siliconangle.com/2026/11/19/nodal-networks-raises-11-3m-to-solve-global-shipping-bottlenecks",
+      "title": "Nodal Networks raises $11.3M to solve global shipping bottlenecks",
+      "date": "2026-11-25T07:04:08.922123"
     }
   ],
   "words": [
-    {
-      "word": "eventual consistency",
-      "date": "2026-10-11T06:06:22.055312"
-    },
     {
       "word": "load balancing",
       "date": "2026-10-12T06:06:31.667733"
@@ -1441,14 +1437,13 @@
     {
       "word": "edge computing",
       "date": "2026-11-24T07:07:09.094491"
+    },
+    {
+      "word": "zero‑copy",
+      "date": "2026-11-25T07:04:08.922123"
     }
   ],
   "quotes": [
-    {
-      "text": "Leadership is about making others better as a result of your presence and making sure that impact lasts in your absence.",
-      "author": "Sheryl Sandberg",
-      "date": "2026-10-11T06:06:22.055312"
-    },
     {
       "text": "Technology is best when it brings people together.",
       "author": "Matt Mullenweg",
@@ -1668,7 +1663,12 @@
       "text": "The Web, as I envisaged it, was a global public good.",
       "author": "Tim Berners‑Lee",
       "date": "2026-11-24T07:07:09.094491"
+    },
+    {
+      "text": "Programs must be written for people to read, and only incidentally for machines to execute.",
+      "author": "Harold Abelson",
+      "date": "2026-11-25T07:04:08.922123"
     }
   ],
-  "last_sent_date": "2026-11-24"
+  "last_sent_date": "2026-11-25"
 }
