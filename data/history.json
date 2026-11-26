@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "porttechnology.org/news/green-technology/neoline-cma-cgm-add-zeebrugge-to-wind-powered-route",
-      "title_key": "neoline, cma cgm add zeebrugge to wind-powered route",
-      "url": "https://www.porttechnology.org/news/green-technology/neoline-cma-cgm-add-zeebrugge-to-wind-powered-route",
-      "title": "NEOLINE, CMA CGM add Zeebrugge to wind-powered route",
-      "date": "2026-09-27T06:06:43.685481"
-    },
-    {
-      "url_key": "medium.com/@strategycheatsheet/maersks-ai-transformation-can-ai-turn-the-world-s-largest-logistics-company-into-a-digital-supply-5db061b4247a",
-      "title_key": "maersk's ai transformation: can ai turn the world's ...",
-      "url": "https://medium.com/@strategycheatsheet/maersks-ai-transformation-can-ai-turn-the-world-s-largest-logistics-company-into-a-digital-supply-5db061b4247a",
-      "title": "Maersk's AI Transformation: Can AI Turn the World's ...",
-      "date": "2026-09-27T06:06:43.685481"
-    },
-    {
-      "url_key": "siliconangle.com/2026/09/22/anthropic-releases-claude-opus-5-5-and-openai-counters-with-two-cheaper-gpt-6-models",
-      "title_key": "anthropic releases claude opus 5.5 and openai counters ...",
-      "url": "https://siliconangle.com/2026/09/22/anthropic-releases-claude-opus-5-5-and-openai-counters-with-two-cheaper-gpt-6-models",
-      "title": "Anthropic releases Claude Opus 5.5 and OpenAI counters ...",
-      "date": "2026-09-27T06:06:43.685481"
-    },
-    {
       "url_key": "en.wikipedia.org/wiki/cma_cgm",
       "title_key": "cma cgm - wikipedia",
       "url": "https://en.wikipedia.org/wiki/CMA_CGM",
@@ -1259,13 +1238,30 @@
       "url": "https://siliconangle.com/2026/11/19/nodal-networks-raises-11-3m-to-solve-global-shipping-bottlenecks",
       "title": "Nodal Networks raises $11.3M to solve global shipping bottlenecks",
       "date": "2026-11-25T07:04:08.922123"
+    },
+    {
+      "url_key": "emerjable.com/ai-news-updates",
+      "title_key": "ai news updates today: latest ai news (nov 23, 2026)",
+      "url": "https://www.emerjable.com/ai-news-updates",
+      "title": "AI News Updates Today: Latest AI News (Nov 23, 2026)",
+      "date": "2026-11-26T07:07:10.037795"
+    },
+    {
+      "url_key": "instagram.com/reel/dghz35ctrbx",
+      "title_key": "ai prompt engineering • ai prompt geneer on instagram: \"not every ai lab is in silicon valley. mistral ai is a french company, founded in paris in 2023 and …\"",
+      "url": "https://www.instagram.com/reel/DgHZ35cTrBx",
+      "title": "AI Prompt Engineering • AI Prompt Geneer on Instagram: \"Not every AI lab is in Silicon Valley. Mistral AI is a French company, founded in Paris in 2023 and …\"",
+      "date": "2026-11-26T07:07:10.037795"
+    },
+    {
+      "url_key": "fr.linkedin.com/jobs/view/ai-deployment-strategist-agent-builder-at-cma-cgm-4494900366",
+      "title_key": "ai deployment strategist - agent builder chez cma cgm — marseille",
+      "url": "https://fr.linkedin.com/jobs/view/ai-deployment-strategist-agent-builder-at-cma-cgm-4494900366",
+      "title": "AI Deployment Strategist - Agent Builder chez CMA CGM — Marseille",
+      "date": "2026-11-26T07:07:10.037795"
     }
   ],
   "words": [
-    {
-      "word": "load balancing",
-      "date": "2026-10-12T06:06:31.667733"
-    },
     {
       "word": "B‑tree",
       "date": "2026-10-13T06:06:01.889379"
@@ -1441,14 +1437,13 @@
     {
       "word": "zero‑copy",
       "date": "2026-11-25T07:04:08.922123"
+    },
+    {
+      "word": "load balancing",
+      "date": "2026-11-26T07:07:10.037795"
     }
   ],
   "quotes": [
-    {
-      "text": "Technology is best when it brings people together.",
-      "author": "Matt Mullenweg",
-      "date": "2026-10-12T06:06:31.667733"
-    },
     {
       "text": "Growth and comfort do not coexist.",
       "author": "Ginni Rometty",
@@ -1668,7 +1663,12 @@
       "text": "Programs must be written for people to read, and only incidentally for machines to execute.",
       "author": "Harold Abelson",
       "date": "2026-11-25T07:04:08.922123"
+    },
+    {
+      "text": "The computer was invented to solve problems that people were too lazy to solve.",
+      "author": "Alan Perlis",
+      "date": "2026-11-26T07:07:10.037795"
     }
   ],
-  "last_sent_date": "2026-11-25"
+  "last_sent_date": "2026-11-26"
 }
