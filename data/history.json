@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "en.wikipedia.org/wiki/cma_cgm",
-      "title_key": "cma cgm - wikipedia",
-      "url": "https://en.wikipedia.org/wiki/CMA_CGM",
-      "title": "CMA CGM - Wikipedia",
-      "date": "2026-09-28T06:05:59.261421"
-    },
-    {
-      "url_key": "theloadstar.com/start-up-cherrys-logistics-ripe-for-growth-with-ai-and-a-human-touch",
-      "title_key": "start-up cherry’s logistics ripe for growth with ai - and a human touch - the loadstar",
-      "url": "https://theloadstar.com/start-up-cherrys-logistics-ripe-for-growth-with-ai-and-a-human-touch",
-      "title": "Start-up Cherry’s Logistics ripe for growth with AI - and a human touch - The Loadstar",
-      "date": "2026-09-28T06:05:59.261421"
-    },
-    {
-      "url_key": "practicalecommerce.com/new-ecommerce-tools-september-23-2026",
-      "title_key": "new ecommerce tools: september 23, 2026",
-      "url": "https://www.practicalecommerce.com/new-ecommerce-tools-september-23-2026",
-      "title": "New Ecommerce Tools: September 23, 2026",
-      "date": "2026-09-28T06:05:59.261421"
-    },
-    {
       "url_key": "facebook.com/comredilyas.isah/posts/so-emmanuelmacron-decided-to-deploy-french-troops-to-support-saudi-arabia-in-its/1959553955013396",
       "title_key": "france's objectives in deploying troops to saudi arabia",
       "url": "https://www.facebook.com/comredilyas.isah/posts/so-emmanuelmacron-decided-to-deploy-french-troops-to-support-saudi-arabia-in-its/1959553955013396",
@@ -1259,13 +1238,30 @@
       "url": "https://fr.linkedin.com/jobs/view/ai-deployment-strategist-agent-builder-at-cma-cgm-4494900366",
       "title": "AI Deployment Strategist - Agent Builder chez CMA CGM — Marseille",
       "date": "2026-11-26T07:07:10.037795"
+    },
+    {
+      "url_key": "instagram.com/p/dgl2gdjccah",
+      "title_key": "aiwithhowie on instagram: \"🤖 chatgpt isn’t the only ai player in town. have you heard of mistral ai? while everyone is talking …\"",
+      "url": "https://www.instagram.com/p/DgL2gDJCCAh",
+      "title": "AIwithHowie on Instagram: \"🤖 ChatGPT isn’t the only AI player in town. Have you heard of Mistral AI? While everyone is talking …\"",
+      "date": "2026-11-27T07:06:45.091809"
+    },
+    {
+      "url_key": "splash247.com/cma-cgm-targets-faster-port-clearance-in-singapore",
+      "title_key": "cma cgm targets faster port clearance in singapore - splash247",
+      "url": "https://splash247.com/cma-cgm-targets-faster-port-clearance-in-singapore",
+      "title": "CMA CGM targets faster port clearance in Singapore - Splash247",
+      "date": "2026-11-27T07:06:45.091809"
+    },
+    {
+      "url_key": "executive-magazine.com/cybersecurity/comment-cybersecurity/the-next-digital-revolution",
+      "title_key": "the next digital revolution - executive magazine",
+      "url": "https://www.executive-magazine.com/cybersecurity/comment-cybersecurity/the-next-digital-revolution",
+      "title": "The Next Digital Revolution - Executive Magazine",
+      "date": "2026-11-27T07:06:45.091809"
     }
   ],
   "words": [
-    {
-      "word": "B‑tree",
-      "date": "2026-10-13T06:06:01.889379"
-    },
     {
       "word": "sharding",
       "date": "2026-10-14T06:04:15.602856"
@@ -1441,14 +1437,13 @@
     {
       "word": "load balancing",
       "date": "2026-11-26T07:07:10.037795"
+    },
+    {
+      "word": "backpropagation",
+      "date": "2026-11-27T07:06:45.091809"
     }
   ],
   "quotes": [
-    {
-      "text": "Growth and comfort do not coexist.",
-      "author": "Ginni Rometty",
-      "date": "2026-10-13T06:06:01.889379"
-    },
     {
       "text": "Your most unhappy customers are your greatest source of learning.",
       "author": "Bill Gates",
@@ -1668,7 +1663,12 @@
       "text": "The computer was invented to solve problems that people were too lazy to solve.",
       "author": "Alan Perlis",
       "date": "2026-11-26T07:07:10.037795"
+    },
+    {
+      "text": "The Web, as I envisaged it, was a global public good.",
+      "author": "Tim Berners-Lee",
+      "date": "2026-11-27T07:06:45.091809"
     }
   ],
-  "last_sent_date": "2026-11-26"
+  "last_sent_date": "2026-11-27"
 }
