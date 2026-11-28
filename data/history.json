@@ -1,27 +1,6 @@
 {
   "seen": [
     {
-      "url_key": "facebook.com/comredilyas.isah/posts/so-emmanuelmacron-decided-to-deploy-french-troops-to-support-saudi-arabia-in-its/1959553955013396",
-      "title_key": "france's objectives in deploying troops to saudi arabia",
-      "url": "https://www.facebook.com/comredilyas.isah/posts/so-emmanuelmacron-decided-to-deploy-french-troops-to-support-saudi-arabia-in-its/1959553955013396",
-      "title": "France's objectives in deploying troops to Saudi Arabia",
-      "date": "2026-09-29T06:05:55.639344"
-    },
-    {
-      "url_key": "mistral.ai/news/hallo-deutschland",
-      "title_key": "mistral opens munich hub to advance industrial ai in germany",
-      "url": "https://mistral.ai/news/hallo-deutschland",
-      "title": "Mistral Opens Munich Hub to Advance Industrial AI in Germany",
-      "date": "2026-09-29T06:05:55.639344"
-    },
-    {
-      "url_key": "itln.in/amp/logistics/how-hyderabads-pharma-supply-chain-ecosystem-is-preparing-for-the-next-1360767",
-      "title_key": "how hyderabad's pharma logistics ecosystem is preparing for the next",
-      "url": "https://www.itln.in/amp/logistics/how-hyderabads-pharma-supply-chain-ecosystem-is-preparing-for-the-next-1360767",
-      "title": "How Hyderabad's pharma logistics ecosystem is preparing for the next",
-      "date": "2026-09-29T06:05:55.639344"
-    },
-    {
       "url_key": "shattered.io/meta-stock-779-82-high-muse-ai-2026",
       "title_key": "meta stock hits $779.82 high as muse ai ships",
       "url": "https://shattered.io/meta-stock-779-82-high-muse-ai-2026",
@@ -1259,13 +1238,30 @@
       "url": "https://www.executive-magazine.com/cybersecurity/comment-cybersecurity/the-next-digital-revolution",
       "title": "The Next Digital Revolution - Executive Magazine",
       "date": "2026-11-27T07:06:45.091809"
+    },
+    {
+      "url_key": "linkedin.com/pulse/why-flag-seven-cma-cgm-ships-matters-france-yang-chen-%e9%99%88%e6%b4%8b--ljohc",
+      "title_key": "why the flag on seven cma cgm ships matters to france",
+      "url": "https://www.linkedin.com/pulse/why-flag-seven-cma-cgm-ships-matters-france-yang-chen-%E9%99%88%E6%B4%8B--ljohc",
+      "title": "Why the Flag on Seven CMA CGM Ships Matters to France",
+      "date": "2026-11-28T07:04:09.789236"
+    },
+    {
+      "url_key": "cmacgm-group.com/en",
+      "title_key": "cma cgm group | shipping, logistics and innovation",
+      "url": "https://www.cmacgm-group.com/en",
+      "title": "CMA CGM Group | Shipping, logistics and innovation",
+      "date": "2026-11-28T07:04:09.789236"
+    },
+    {
+      "url_key": "facebook.com/groups/1115522112568801/posts/2379540052833661",
+      "title_key": "الفارس للإستيراد والتصدير والشحن والتخليص الجمركى on facebook: \"🚢 cma cgm introduces a $500 overweight surcharge on shipments from the gulf cma cgm has announced an…\"",
+      "url": "https://www.facebook.com/groups/1115522112568801/posts/2379540052833661",
+      "title": "الفارس للإستيراد والتصدير والشحن والتخليص الجمركى on Facebook: \"🚢 CMA CGM Introduces a $500 Overweight Surcharge on Shipments from the Gulf CMA CGM has announced an…\"",
+      "date": "2026-11-28T07:04:09.789236"
     }
   ],
   "words": [
-    {
-      "word": "sharding",
-      "date": "2026-10-14T06:04:15.602856"
-    },
     {
       "word": "memoization",
       "date": "2026-10-15T06:02:51.709663"
@@ -1441,14 +1437,13 @@
     {
       "word": "backpropagation",
       "date": "2026-11-27T07:06:45.091809"
+    },
+    {
+      "word": "sharding",
+      "date": "2026-11-28T07:04:09.789236"
     }
   ],
   "quotes": [
-    {
-      "text": "Your most unhappy customers are your greatest source of learning.",
-      "author": "Bill Gates",
-      "date": "2026-10-14T06:04:15.602856"
-    },
     {
       "text": "Innovation distinguishes between a leader and a follower.",
       "author": "Steve Jobs",
@@ -1668,7 +1663,12 @@
       "text": "The Web, as I envisaged it, was a global public good.",
       "author": "Tim Berners-Lee",
       "date": "2026-11-27T07:06:45.091809"
+    },
+    {
+      "text": "Software is a great combination of artistry and engineering.",
+      "author": "Bill Gates",
+      "date": "2026-11-28T07:04:09.789236"
     }
   ],
-  "last_sent_date": "2026-11-27"
+  "last_sent_date": "2026-11-28"
 }
